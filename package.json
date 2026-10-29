@@ -1,0 +1,12 @@
+{
+  "name": "ask-hawaii",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Ask Hawaiʻi: checked Hawaiʻi facts and live weather that AI assistants can look up.",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
