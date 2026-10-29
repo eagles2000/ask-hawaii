@@ -2,6 +2,7 @@
 // AI assistants such as Claude connect to https://<your-domain>/api/mcp and call these tools.
 const kb = require("../lib/kb");
 const wx = require("../lib/weather");
+const { logMissed } = require("../lib/log");
 
 const SERVER = { name: "ask-hawaii", title: "Ask Hawaiʻi", version: kb.DATA.version };
 const TYPES = ["place", "hike", "history", "guide", "safety", "rule", "culture", "transport", "contact", "tax"];
@@ -69,7 +70,9 @@ async function handle(msg) {
       const args = p.arguments || {};
       if (p.name === "search_hawaii") {
         if (!args.query) return result(msg.id, toolText({ error: "query is required" }, true));
-        return result(msg.id, toolText(kb.search(args)));
+        const found = kb.search(args);
+        if (!found.count) await logMissed(args.query, args.island, "ai");
+        return result(msg.id, toolText(found));
       }
       if (p.name === "get_hawaii_entry") {
         const e = kb.get(args.id);

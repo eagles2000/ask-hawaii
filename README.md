@@ -1,11 +1,11 @@
-# Ask Hawaiʻi (test version 0.3.0)
+# Ask Hawaiʻi (version 0.4.0)
 
 Checked Hawaiʻi facts that AI assistants can look up. Every entry has an official
 source link and a "last checked" date.
 
 ## What's inside
 
-- `data/hawaii.json`: the facts (29 entries in this test version). Add new entries here.
+- `data/hawaii.json`: the facts (34 entries so far). Add new entries here.
 - `lib/rank.js` and `lib/kb.js`: the search logic (handles ʻokina and kahakō, so "oahu" finds "Oʻahu").
 - `lib/weather.js`: live forecasts and alerts from the National Weather Service (free, no key).
 - `api/mcp.js`: the endpoint AI assistants connect to (MCP, the standard Claude and others use).
@@ -35,3 +35,14 @@ Then ask Claude something like "Do I need a reservation for Hanauma Bay?" or "Wh
 Copy an existing entry in `data/hawaii.json`, give it a new `id`, fill in the
 fields, and always include at least one source link and today's `last_checked` date.
 Only add facts you have checked against the source.
+
+## Unanswered-question log (free)
+
+Questions with no checked answer are saved so we know what to add next (question text only, nothing about who asked).
+
+1. In Vercel, open the ask-hawaii project and click **Storage**, then **Create** (or **Connect**) and choose the free **Redis** option (Upstash). Connect it to this project. Vercel adds the settings automatically.
+2. In **Settings > Environment Variables**, add `MISSED_KEY` with any private password you make up.
+3. Redeploy (Deployments > ... > Redeploy).
+4. View the list anytime at `https://www.askaihawaii.com/api/missed?key=YOUR_PASSWORD`.
+
+Without step 1, missed questions still appear in Vercel's **Logs** tab (search for MISSED_QUESTION).

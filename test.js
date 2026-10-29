@@ -37,6 +37,11 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
     ["can I hike the Stairway to Heaven", "", "rule-haiku-stairs"],
     ["can I bring my dog to Kaena Point", "", "hike-kaena-point"],
     ["Makapuu lighthouse whales", "", "hike-makapuu-lighthouse"],
+    ["which beaches have lifeguards", "maui", "beaches-lifeguarded-maui"],
+    ["lifeguard at Poipu beach", "", "beaches-lifeguarded-kauai"],
+    ["safe beach for kids big island", "Hawaii Island", "beaches-lifeguarded-hawaii-island"],
+    ["what time do lifeguards leave Waikiki", "", "beaches-lifeguarded-oahu"],
+    ["what does a red flag mean at the beach", "", "safety-beach-hazard-ratings"],
   ];
   for (const [q, isl, want] of cases) { const got = await search(q, isl); ok(got[0] === want, `"${q}" -> ${got.join(",")} (wanted ${want})`); }
   { const r = await search("I'm on the island of Oahu. What is one of the easiest spots to hike?"); ok(r.slice(0, 2).includes("hike-oahu-by-difficulty") && r.slice(0, 2).includes("hike-manoa-falls"), "easiest Oahu hike -> Manoa Falls + hikes guide: " + r); }

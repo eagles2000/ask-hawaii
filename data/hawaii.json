@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "last_updated": "2026-10-30",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -1115,6 +1115,241 @@
         {
           "name": "Washington Times / AP: Honolulu police arrest hikers at Haʻikū Stairs (April 2024)",
           "url": "https://www.washingtontimes.com/news/2024/apr/26/honolulu-police-arrest-seven-for-attempting-to-ill/"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "beaches-lifeguarded-oahu",
+      "type": "safety",
+      "title": "Lifeguarded beaches on Oʻahu",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Most Oʻahu lifeguard towers are staffed daily from 8 a.m. to 6:30 p.m., at beaches on every shore, from Ala Moana and Waikīkī to Waimea Bay and Mākaha. Bellows and Depot's are weekends only.",
+      "details": [
+        "South Shore: Ala Moana Beach Park, Magic Island lagoon, Waikīkī (Duke's, Kūhiō, Queen's and Kapiʻolani Park towers), Sans Souci, Hanauma Bay, Sandy Beach.",
+        "Windward: Makapuʻu Beach, Waimānalo Beach, Waimānalo Bay, Bellows Field Beach (weekends only), Kailua Beach, Kualoa Regional Park (daily Memorial Day to Labor Day; weekends and holidays the rest of the year).",
+        "North Shore: Sunset Beach, ʻEhukai Beach, Ke Waena Beach, Chun's Reef, Waimea Bay, Laniākea Beach, Haleʻiwa Aliʻi Beach Park.",
+        "Leeward (Waiʻanae): Keawaʻula Beach, Mākaha Beach, Māʻili Beach, Depot's Beach (weekends and holidays only), Nānākuli Beach, Pōkaʻī Bay.",
+        "Hours: daily 8:00 a.m. to 6:30 p.m. unless noted. If no lifeguard is in the tower, call 911 in an emergency.",
+        "Check current hazard ratings for any beach at Hawaii Beach Safety before you go in."
+      ],
+      "tags": [
+        "lifeguard",
+        "lifeguards",
+        "lifeguarded",
+        "swim",
+        "swimming",
+        "safe beaches",
+        "beach",
+        "beaches",
+        "waikiki",
+        "ala moana",
+        "waimea bay",
+        "sunset beach",
+        "kailua",
+        "makaha",
+        "north shore",
+        "hours",
+        "kids",
+        "family"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+          "url": "https://oceansafety.hawaii.gov/?p=175"
+        },
+        {
+          "name": "Hawaii Beach Safety: current conditions by beach",
+          "url": "https://hawaiibeachsafety.com/"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "beaches-lifeguarded-maui",
+      "type": "safety",
+      "title": "Lifeguarded beaches on Maui",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Maui's lifeguarded beaches are staffed daily from 8 a.m. to 4:45 p.m.: Hoʻokipa, Baldwin and Kanahā on the north shore; D.T. Fleming and Hanakaʻōʻō in West Maui; Kamaʻole I, II and III and Mākena (Big Beach) in South Maui; and Hāna Bay.",
+      "details": [
+        "North Shore: Hoʻokipa Beach Park, Baldwin Beach Park, Kanahā Beach Park.",
+        "West Maui: D.T. Fleming Beach Park, Hanakaʻōʻō Beach Park.",
+        "South Maui (Kīhei and Mākena): Kamaʻole Beach Parks I, II and III, Mākena State Park (Big Beach).",
+        "East Maui: Hāna Bay.",
+        "Hours: daily 8:00 a.m. to 4:45 p.m. If no lifeguard is in the tower, call 911 in an emergency."
+      ],
+      "tags": [
+        "lifeguard",
+        "lifeguards",
+        "lifeguarded",
+        "swim",
+        "swimming",
+        "safe beaches",
+        "beach",
+        "beaches",
+        "kamaole",
+        "kihei",
+        "makena",
+        "big beach",
+        "baldwin",
+        "hookipa",
+        "kanaha",
+        "hana",
+        "west maui",
+        "kaanapali",
+        "hours",
+        "kids",
+        "family"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+          "url": "https://oceansafety.hawaii.gov/?p=175"
+        },
+        {
+          "name": "Hawaii Beach Safety: current conditions by beach",
+          "url": "https://hawaiibeachsafety.com/"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "beaches-lifeguarded-kauai",
+      "type": "safety",
+      "title": "Lifeguarded beaches on Kauaʻi",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "Kauaʻi lifeguards work daily from 8 a.m. to 6 p.m. at Kekaha, Salt Pond and Poʻipū on the south shore; Lydgate, Kealia and Anahola on the east; and Hanalei Bay, Hāʻena and Keʻe on the north.",
+      "details": [
+        "South Shore: Kekaha Beach Park, Salt Pond Beach Park, Poʻipū Beach (Nukumoi and Poʻipū towers).",
+        "East Shore: Lydgate Beach and ponds, Kealia Beach Park, Anahola Beach Park.",
+        "North Shore: Hanalei Bay (Pavilion and Pine Trees towers), Hāʻena Beach Park, Keʻe Beach.",
+        "Hours: daily 8:00 a.m. to 6:00 p.m. If no lifeguard is in the tower, call 911 in an emergency.",
+        "Lydgate's rock-walled ponds are a common pick for families with young children."
+      ],
+      "tags": [
+        "lifeguard",
+        "lifeguards",
+        "lifeguarded",
+        "swim",
+        "swimming",
+        "safe beaches",
+        "beach",
+        "beaches",
+        "poipu",
+        "hanalei",
+        "lydgate",
+        "salt pond",
+        "kekaha",
+        "kealia",
+        "kee",
+        "haena",
+        "hours",
+        "kids",
+        "family"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+          "url": "https://oceansafety.hawaii.gov/?p=175"
+        },
+        {
+          "name": "Hawaii Beach Safety: current conditions by beach",
+          "url": "https://hawaiibeachsafety.com/"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "beaches-lifeguarded-hawaii-island",
+      "type": "safety",
+      "title": "Lifeguarded beaches on Hawaiʻi Island (Big Island)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Hawaiʻi Island lifeguards are on duty daily from 9:30 a.m. to 4:45 p.m.: in Hilo at Leleiwi, Carlsmith, Richardson Ocean Park, Onekahakaha and Honoliʻi, plus Punaluʻu; and on the Kona-Kohala side at Spencer, Hāpuna, Kahaluʻu and White Sands (Laʻaloa).",
+      "details": [
+        "East side (Hilo area): Leleiwi Beach Park, Carlsmith Beach Park, Richardson Ocean Park, Onekahakaha Beach Park, Honoliʻi Beach Park, plus Punaluʻu Beach Park (black sand) to the south.",
+        "West side (Kona and Kohala): Spencer Beach Park, Hāpuna Beach State Recreation Area, Kahaluʻu Beach Park, White Sands (Laʻaloa) Beach Park, also called Magic Sands.",
+        "Hours: daily 9:30 a.m. to 4:45 p.m. If no lifeguard is in the tower, call 911 in an emergency.",
+        "Hāpuna and Kua Bay charge non-resident entry and parking fees ($5 per person, $10 per vehicle)."
+      ],
+      "tags": [
+        "lifeguard",
+        "lifeguards",
+        "lifeguarded",
+        "swim",
+        "swimming",
+        "safe beaches",
+        "beach",
+        "beaches",
+        "big island",
+        "hapuna",
+        "kahaluu",
+        "magic sands",
+        "white sands",
+        "richardson",
+        "hilo",
+        "kona",
+        "kohala",
+        "punaluu",
+        "black sand",
+        "hours",
+        "kids",
+        "family"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+          "url": "https://oceansafety.hawaii.gov/?p=175"
+        },
+        {
+          "name": "Hawaii Beach Safety: current conditions by beach",
+          "url": "https://hawaiibeachsafety.com/"
+        },
+        {
+          "name": "Hawaii's Best Travel: reservations and fees 2026",
+          "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "safety-beach-hazard-ratings",
+      "type": "safety",
+      "title": "Beach hazard ratings: yellow, red, black and closed",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi's ocean safety agencies rate each lifeguarded beach's conditions: Yellow means caution, Red means high hazard, Black means extreme hazard, and Closed means stay out. Current ratings for each beach are posted on Hawaii Beach Safety.",
+      "details": [
+        "Yellow: caution. Red: high hazard. Black: extreme hazard. Closed: the beach or water is closed.",
+        "Ratings change through the day with surf, wind and currents; check right before you go.",
+        "Ask the lifeguard about conditions before swimming, and call 911 if someone is in trouble and no lifeguard is on duty."
+      ],
+      "tags": [
+        "flags",
+        "warning",
+        "hazard",
+        "rating",
+        "red flag",
+        "yellow",
+        "black",
+        "closed",
+        "conditions",
+        "surf report",
+        "ocean safety",
+        "beach",
+        "swimming"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+          "url": "https://oceansafety.hawaii.gov/?p=175"
+        },
+        {
+          "name": "Hawaii Beach Safety: current conditions by beach",
+          "url": "https://hawaiibeachsafety.com/"
         }
       ],
       "last_checked": "2026-10-30"
