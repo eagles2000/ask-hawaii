@@ -4,7 +4,7 @@ const kb = require("../lib/kb");
 const wx = require("../lib/weather");
 
 const SERVER = { name: "ask-hawaii", title: "Ask Hawaiʻi", version: kb.DATA.version };
-const TYPES = ["place", "history", "guide", "safety", "rule", "culture", "transport", "contact", "tax"];
+const TYPES = ["place", "hike", "history", "guide", "safety", "rule", "culture", "transport", "contact", "tax"];
 
 const TOOLS = [
   {

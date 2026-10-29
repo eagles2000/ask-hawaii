@@ -31,8 +31,15 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
     ["sunscreen lanai", "lanai", "rule-sunscreen-maui-county"],
     ["is kalakaua in waikiki and whats the history about it", "", "history-kalakaua-avenue"],
     ["why is it called Kalakaua Avenue", "", "history-kalakaua-avenue"],
+    ["Manoa Falls", "", "hike-manoa-falls"],
+    ["Koko Head stairs how many steps", "", "hike-koko-crater-stairs"],
+    ["where do I park for Lanikai pillbox", "", "hike-lanikai-pillbox"],
+    ["can I hike the Stairway to Heaven", "", "rule-haiku-stairs"],
+    ["can I bring my dog to Kaena Point", "", "hike-kaena-point"],
+    ["Makapuu lighthouse whales", "", "hike-makapuu-lighthouse"],
   ];
   for (const [q, isl, want] of cases) { const got = await search(q, isl); ok(got[0] === want, `"${q}" -> ${got.join(",")} (wanted ${want})`); }
+  { const r = await search("I'm on the island of Oahu. What is one of the easiest spots to hike?"); ok(r.slice(0, 2).includes("hike-oahu-by-difficulty") && r.slice(0, 2).includes("hike-manoa-falls"), "easiest Oahu hike -> Manoa Falls + hikes guide: " + r); }
   ok((await search("best ramen in kona", "Hawaii Island")).length === 0, "no fake match for ramen");
   ok((await search("history of the Bishop Museum")).length === 0, "no fake match for an uncovered place");
   ok((await search("what is the history of Kuhio Avenue in Waikiki")).indexOf("place-pearl-harbor") === -1, "no Pearl Harbor for street history");

@@ -1,7 +1,7 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.2.0",
-  "last_updated": "2026-10-29",
+  "version": "0.3.0",
+  "last_updated": "2026-10-30",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
     {
@@ -365,7 +365,11 @@
         "parking",
         "waikiki",
         "honolulu",
-        "state park"
+        "state park",
+        "easy",
+        "moderate",
+        "oahu hikes",
+        "views"
       ],
       "sources": [
         {
@@ -817,6 +821,303 @@
         }
       ],
       "last_checked": "2026-10-29"
+    },
+    {
+      "id": "hike-oahu-by-difficulty",
+      "type": "guide",
+      "title": "Oʻahu hikes from easiest to hardest",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Easiest: Mānoa Falls (1.6 miles round trip through rainforest). Easy to moderate: Lanikai Pillbox (1 mile, steep start), Diamond Head (reservation needed for visitors) and Makapuʻu Lighthouse (2 miles, 500 feet). Longer but flat: Kaʻena Point. Hardest: Koko Crater Stairs (1,048 steps, about 1,200 feet straight up). Haʻikū Stairs is illegal and being removed.",
+      "details": [
+        "Easy: Mānoa Falls Trail, 1.6 miles round trip, about an hour, rainforest to a 150-foot waterfall. Muddy and slippery.",
+        "Moderate, short: Lanikai Pillbox (Kaʻiwa Ridge), 1 mile round trip, steep and gravelly at the start, no shade, ocean views of the Mokulua islands.",
+        "Moderate: Diamond Head State Monument, Honolulu's classic crater hike. Non-residents must reserve ahead.",
+        "Moderate: Makapuʻu Point Lighthouse Trail, 2 miles round trip, 500 feet of gain, hot and exposed, whale watching November to May.",
+        "Moderate, long and flat: Kaʻena Point, 2.5 miles each way along the coast; check road access closures first.",
+        "Strenuous: Koko Crater Stairs, 1,048 old railway ties, about 1,200 feet of gain in under a mile, no shade.",
+        "Off-limits: Haʻikū Stairs (Stairway to Heaven) has been illegal to climb since 1987 and the city began removing it in 2024. Trespassers are cited and arrested.",
+        "For every trail: start early, carry plenty of water, wear sun protection, stay on the trail, and pack out your trash."
+      ],
+      "tags": [
+        "hike",
+        "hiking",
+        "trail",
+        "easy",
+        "easiest",
+        "beginner",
+        "difficulty",
+        "hardest",
+        "moderate",
+        "strenuous",
+        "family",
+        "oahu hikes",
+        "best hikes",
+        "waterfall",
+        "views",
+        "list"
+      ],
+      "sources": [
+        {
+          "name": "DLNR: Makapuʻu Point Lighthouse Trail",
+          "url": "https://dlnr.hawaii.gov/dsp/hiking/makapuu-point-lighthouse-trail"
+        },
+        {
+          "name": "DLNR: Kaʻena Point Trail",
+          "url": "https://dlnr.hawaii.gov/dsp/hiking/oahu/kaena-point-trail/"
+        },
+        {
+          "name": "Honolulu Magazine: Mānoa Falls Trail",
+          "url": "https://www.honolulumagazine.com/?p=37561"
+        },
+        {
+          "name": "Honolulu Magazine: Lanikai Pillbox Trail",
+          "url": "https://www.honolulumagazine.com/?p=40906"
+        },
+        {
+          "name": "Hawaii.com: Koko Crater Stairs (June 2026)",
+          "url": "https://hawaii.com/blog/hiking-koko-crater-stairs"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "hike-manoa-falls",
+      "type": "hike",
+      "title": "Mānoa Falls Trail",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "One of Oʻahu's easiest hikes: 1.6 miles round trip (about an hour) through Mānoa Valley rainforest to a roughly 150-foot waterfall, near Lyon Arboretum above Honolulu. Expect mud and slippery rocks; don't swim in the pool.",
+      "details": [
+        "Difficulty: easy, good for beginners.",
+        "Length: 1.6 miles round trip, about 1 hour.",
+        "Trail is rocky and often muddy and slippery; wear sturdy shoes, not slippers.",
+        "Don't swim or wade: the Hawaiʻi Department of Health discourages it because of leptospirosis, and signs warn of landslides and flash floods.",
+        "Parking: a paid private lot at the end of Mānoa Road (fees have been reported between $5 and $7), or free street parking lower in the neighborhood. Confirm current rates on arrival."
+      ],
+      "tags": [
+        "manoa falls",
+        "manoa",
+        "waterfall",
+        "hike",
+        "hiking",
+        "trail",
+        "easy",
+        "easiest",
+        "beginner",
+        "rainforest",
+        "lyon arboretum",
+        "honolulu",
+        "family",
+        "mud",
+        "leptospirosis"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Magazine: Mānoa Falls Trail",
+          "url": "https://www.honolulumagazine.com/?p=37561"
+        },
+        {
+          "name": "Wikipedia: Mānoa Falls Trail",
+          "url": "https://en.wikipedia.org/wiki/Manoa_Falls_Trail"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "hike-makapuu-lighthouse",
+      "type": "hike",
+      "title": "Makapuʻu Point Lighthouse Trail",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "A 2-mile round-trip trail (about 500 feet of climbing) on Oʻahu's southeast tip with views of the lighthouse and the windward coast. Rated moderate by the state; hot, sunny and exposed. Best for whale watching November through May.",
+      "details": [
+        "Length: 2.0 miles round trip; allow about 2 hours.",
+        "Elevation gain: 500 feet. State rating: moderate.",
+        "Hot, dry and exposed with no shade; very windy at the top. Bring a hat, sunscreen and plenty of water.",
+        "Humpback whale season: November through May; binoculars help.",
+        "Parking lot off Kalanianaʻole Highway (Route 72) in Kaiwi State Scenic Shoreline.",
+        "The lighthouse itself is off-limits. Stay on the trail and pack out trash."
+      ],
+      "tags": [
+        "makapuu",
+        "lighthouse",
+        "hike",
+        "hiking",
+        "trail",
+        "easy",
+        "moderate",
+        "whales",
+        "whale watching",
+        "views",
+        "east oahu",
+        "kaiwi",
+        "family",
+        "sunrise"
+      ],
+      "sources": [
+        {
+          "name": "DLNR Division of State Parks: Makapuʻu Point Lighthouse Trail",
+          "url": "https://dlnr.hawaii.gov/dsp/hiking/makapuu-point-lighthouse-trail"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "hike-lanikai-pillbox",
+      "type": "hike",
+      "title": "Lanikai Pillbox Trail (Kaʻiwa Ridge)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "A short but steep 1-mile round-trip ridge hike in Kailua to old military pillboxes with famous views over Lanikai and the Mokulua islands. Free, no shade, and parking in Lanikai is very limited, so park at Kailua Beach Park and walk.",
+      "details": [
+        "Difficulty: moderate. Length: about 1 mile round trip.",
+        "Trailhead: Kaelepulu Drive in Lanikai, across from Mid-Pacific Country Club; a narrow signed path between two fences.",
+        "Parking: very limited in the neighborhood and cars get towed; park at Kailua Beach Park and walk.",
+        "No shade; go early. Gravel sections are slippery, especially going down and after rain.",
+        "Free."
+      ],
+      "tags": [
+        "lanikai",
+        "pillbox",
+        "kaiwa",
+        "kaiwa ridge",
+        "kailua",
+        "hike",
+        "hiking",
+        "trail",
+        "moderate",
+        "short",
+        "views",
+        "sunrise",
+        "mokulua",
+        "windward",
+        "parking"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Magazine: Lanikai Pillbox Trail",
+          "url": "https://www.honolulumagazine.com/?p=40906"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "hike-koko-crater-stairs",
+      "type": "hike",
+      "title": "Koko Crater Stairs (Koko Head)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Oʻahu's famous stair workout: 1,048 old railway ties straight up Koko Crater, about 1,200 feet of climbing in roughly 1.6 miles round trip. Strenuous, with no shade. Free parking at Koko Head District Park in Hawaiʻi Kai.",
+      "details": [
+        "Difficulty: strenuous, nearly vertical with no switchbacks.",
+        "1,048 steps (ties from a World War II military tramway); summit at about 1,208 feet.",
+        "Time: 45 to 60 minutes round trip for first-timers.",
+        "Halfway up, a narrow section crosses a gap like a bridge; a bypass path on the right rejoins the trail.",
+        "No shade at all; go early or late and carry water.",
+        "Parking: free lot at Koko Head District Park, 423 Portlock Road (lot open 4 a.m. to 11 p.m.).",
+        "Free."
+      ],
+      "tags": [
+        "koko head",
+        "koko crater",
+        "stairs",
+        "hike",
+        "hiking",
+        "trail",
+        "strenuous",
+        "hard",
+        "hardest",
+        "workout",
+        "hawaii kai",
+        "east oahu",
+        "sunrise",
+        "views"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii.com: Hiking Koko Crater Stairs (June 2026)",
+          "url": "https://hawaii.com/blog/hiking-koko-crater-stairs"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "hike-kaena-point",
+      "type": "hike",
+      "title": "Kaʻena Point Trail",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "A flat coastal walk, 2.5 miles each way, to Oʻahu's wild western tip, a protected Natural Area Reserve with nesting seabirds. Rated moderate for heat, wind and eroded sections. Check closures first: storm damage has restricted vehicle access.",
+      "details": [
+        "Length: 2.5 miles one way from either the Waiʻanae (Keawaʻula) or Mokulēʻia side; return the same way. Allow 1 to 3 hours.",
+        "Mostly flat on an old railroad bed and dirt road that has fully eroded in places.",
+        "Sunny, hot and windy; bring sun protection and plenty of water.",
+        "Natural Area Reserve rules: no dogs (service animals only), no drones or fires, stay on paths and watch for nesting seabirds.",
+        "Stay away from the wave-exposed coast unless you know hazardous ocean conditions. Whales pass offshore in winter.",
+        "Recent DLNR notice: vehicle access in Kaʻena Point State Park was restricted because of storm damage, and the Keawaʻula Trail was closed. Check park notices before going."
+      ],
+      "tags": [
+        "kaena",
+        "kaena point",
+        "hike",
+        "hiking",
+        "trail",
+        "flat",
+        "coast",
+        "coastal",
+        "seabirds",
+        "albatross",
+        "natural area reserve",
+        "waianae",
+        "mokuleia",
+        "north shore",
+        "dogs",
+        "closure"
+      ],
+      "sources": [
+        {
+          "name": "DLNR Division of State Parks: Kaʻena Point Trail",
+          "url": "https://dlnr.hawaii.gov/dsp/hiking/oahu/kaena-point-trail/"
+        },
+        {
+          "name": "DLNR Division of State Parks: park notices",
+          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "rule-haiku-stairs",
+      "type": "rule",
+      "title": "Haʻikū Stairs (Stairway to Heaven) is illegal and being removed",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Climbing Oʻahu's Haʻikū Stairs has been illegal since 1987. The city voted in 2021 to remove them and began removal in 2024. Police cite and arrest trespassers. Choose a legal trail instead.",
+      "details": [
+        "The area is a closed, dangerous construction and natural area; officials cite safety, trespassing, neighborhood impacts and city liability.",
+        "In April 2024 alone, police issued dozens of citations and several arrests for trespassing at the stairs.",
+        "Legal alternatives with big views: Lanikai Pillbox, Makapuʻu Lighthouse, Koko Crater Stairs or Diamond Head."
+      ],
+      "tags": [
+        "haiku stairs",
+        "stairway to heaven",
+        "haiku",
+        "kaneohe",
+        "illegal",
+        "trespassing",
+        "closed",
+        "hike",
+        "what not to do",
+        "arrest"
+      ],
+      "sources": [
+        {
+          "name": "Washington Times / AP: Honolulu police arrest hikers at Haʻikū Stairs (April 2024)",
+          "url": "https://www.washingtontimes.com/news/2024/apr/26/honolulu-police-arrest-seven-for-attempting-to-ill/"
+        }
+      ],
+      "last_checked": "2026-10-30"
     }
   ]
 }
