@@ -26,20 +26,20 @@
   --shadow:0 1px 2px rgba(20,33,42,.05),0 8px 24px rgba(20,33,42,.06);
   --display:"Fraunces",Georgia,"Times New Roman",serif;
   --body:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
-  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D;
+  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D; --d-food:#A23E48;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3;
   color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -390,9 +390,10 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   var TYPE = {
     place: ["Place", "--d-place"], hike: ["Hike", "--d-hike"], guide: ["Guide", "--d-guide"], safety: ["Safety", "--d-safety"],
     rule: ["Rule", "--d-rule"], culture: ["Culture", "--d-culture"], transport: ["Getting around", "--d-transport"],
-    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"]
+    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"], food: ["Food", "--d-food"]
   };
   var ICON = {
+    food: '<path d="M4 10h16l-1.5 9h-13z"/><path d="M8 10a4 4 0 0 1 8 0M12 3v3"/>',
     car: '<path d="M5 16h14M6 16l1.5-5h9L18 16M6 16v3M18 16v3"/><circle cx="8" cy="16" r="1"/><circle cx="16" cy="16" r="1"/>',
     pin: '<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
     shield: '<path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16h.01"/>',
@@ -488,7 +489,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     ["Park closures", "Current status", "park closures hurricane status", "closed"],
     ["Getting around", "TheBus and Skyline fares", "bus fare honolulu", "bus"],
     ["Taking things home", "Airport agriculture inspection", "take fruit flowers home airport inspection", "plane"],
-    ["Taxes", "Hotel and general excise tax", "tax 4.712 hotel tax", "receipt"],
+    ["Lunch wagons", "Food trucks on every island", "cat:food", "food"],
     ["Who to call", "Emergencies and injured wildlife", "who to call emergency injured wildlife", "phone"],
     ["Driving routes", "Waikīkī to anywhere on Oʻahu", "cat:route", "car"],
     ["Events calendar", "Festivals, surf contests, races", "cat:event", "calendar"]
@@ -576,8 +577,8 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   })();
 
   // Categories: every entry grouped by type, with counts
-  var CATORDER = ["event", "place", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
-  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar" };
+  var CATORDER = ["event", "food", "place", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
+  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Lunch wagons & food" };
   var curCat = "";
   function markCats() { $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === curCat)); }); }
   function loadCats() {

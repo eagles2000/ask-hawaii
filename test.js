@@ -103,6 +103,13 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("what time do lifeguards leave Waikiki") === "beaches-lifeguarded-oahu", "events don't crowd out");
   ok(kb.list({ type: "event" }).items[0].months[0] === 1, "events sorted by month");
 
+  // Lunch wagons (v0.9)
+  ok(top("garlic shrimp kahuku") === "food-kahuku-shrimp-trucks", "kahuku shrimp");
+  ok(top("maui food trucks") === "food-maui-food-trucks", "maui trucks (island named in question)");
+  ok(top("kona food trucks") === "food-big-island-food-trucks", "kona trucks");
+  ok(top("malasadas") === "food-leonards-malasadamobile", "malasadas");
+  ok(top("lifeguarded beaches on maui") === "beaches-lifeguarded-maui", "island named boosts");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

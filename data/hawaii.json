@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.8.0",
+ "version": "0.9.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -2942,6 +2942,470 @@
     {
      "name": "PGA TOUR: Sony moves to PGA TOUR Champions",
      "url": "https://www.pgatour.com/pgatour-champions/article/news/latest/2026/07/01/sony-open-in-hawaii-pga-tour-champions-waialae-country-club-in-honolulu-hawaii"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-lunch-wagon-basics",
+   "type": "food",
+   "title": "Lunch wagons and plate lunch: how they work",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Lunch wagons (food trucks) are a big part of eating in Hawaiʻi. The classic order is a plate lunch: a main dish with two scoops of rice and a scoop of macaroni salad. Many trucks open around late morning, close in the afternoon or when they sell out, and some take cash only.",
+   "details": [
+    "Plate lunch: a main (garlic shrimp, huli chicken, kalua pig, teriyaki beef, chicken katsu, fish) with two scoops of white rice and mac salad.",
+    "Lines are longest around the noon hour; going a little before or after helps.",
+    "Many trucks take cards now, but some are cash only. Carry some cash.",
+    "Many trucks park in the same lot every day; some move around and post their spot online each morning.",
+    "Clusters of trucks: Kahuku and Haleʻiwa on Oʻahu's North Shore, Kewalo Basin in Kakaʻako, Kahului and Kīhei on Maui, Kapaʻa on Kauaʻi, and Kailua-Kona on Hawaiʻi Island.",
+    "Eat where you're allowed and take your trash with you; many beach parks have no trash service after hours.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "how do lunch wagons work",
+    "two scoop rice",
+    "mac salad",
+    "cash",
+    "tips",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    },
+    {
+     "name": "Hawaiʻi Guide: Best food trucks on Oʻahu (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/oahu/best-food-trucks-oahu"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-kahuku-shrimp-trucks",
+   "type": "food",
+   "title": "Kahuku shrimp trucks (Giovanni's, Romy's, Fumi's and more)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Kahuku on Oʻahu's North Shore is famous for garlic shrimp plates from trucks and stands next to the local shrimp farms. The best-known are Giovanni's (56-505 Kamehameha Highway), Romy's and Fumi's, plus Mike's Huli-Huli Chicken nearby.",
+   "details": [
+    "Giovanni's Shrimp Truck: 56-505 Kamehameha Highway, Kahuku (also a Haleʻiwa truck at 66-472 Kamehameha Highway). Known for shrimp scampi, lemon butter and hot and spicy shrimp.",
+    "Romy's Kahuku Prawns and Shrimp and Fumi's Kahuku Shrimp sit next to their own shrimp ponds.",
+    "Seven Brothers and Kahuku Superette are also popular Kahuku stops.",
+    "Mike's Huli-Huli Chicken: 56-565 Kamehameha Highway, Kahuku, listed daily 11 a.m. to 7 p.m. (March 2026).",
+    "A typical shrimp plate comes with rice; plan on a wait at peak times.",
+    "From Waikīkī, Kahuku is about an hour's drive; see the North Shore driving route.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "kahuku",
+    "shrimp",
+    "garlic shrimp",
+    "giovannis",
+    "giovanni's",
+    "romys",
+    "romy's",
+    "fumis",
+    "fumi's",
+    "shrimp truck",
+    "north shore",
+    "huli huli",
+    "mikes huli chicken",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Best food trucks on Oʻahu (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/oahu/best-food-trucks-oahu"
+    },
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-north-shore-food-trucks",
+   "type": "food",
+   "title": "Haleʻiwa and North Shore food trucks",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Haleʻiwa town and the stretch toward Sunset Beach have Oʻahu's best-known cluster of food trucks. Look for Giovanni's Haleʻiwa truck, Raised by the Waves, Elephant Shack, Surf N Salsa in Waialua and Impossibles Pizza near Sunset Beach.",
+   "details": [
+    "Giovanni's Shrimp Truck, Haleʻiwa: 66-472 Kamehameha Highway.",
+    "Raised by the Waves and Elephant Shack: Haleʻiwa.",
+    "Surf N Salsa: Waialua.",
+    "Impossibles Pizza (wood-fired): 59-719 Kamehameha Highway, listed Thursday to Saturday, 3 to 8 p.m. (March 2026).",
+    "Trucks gather in lots along Kamehameha Highway in Haleʻiwa; parking fills quickly on weekends and big-surf days.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "haleiwa",
+    "north shore",
+    "waialua",
+    "sunset beach",
+    "pizza",
+    "tacos",
+    "shrimp",
+    "food truck lot",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    },
+    {
+     "name": "Hawaiʻi Guide: Best food trucks on Oʻahu (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/oahu/best-food-trucks-oahu"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-honolulu-food-trucks",
+   "type": "food",
+   "title": "Honolulu food trucks: Kakaʻako, Ala Moana and Waikele",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "In town, the main food truck spot is the Kewalo Basin Food Truck Park in Kakaʻako, near Ala Moana. Other regulars include Zucchi Pizza at the Central YMCA across from Ala Moana Center and trucks at Waikele Premium Outlets.",
+   "details": [
+    "Kewalo Basin Food Truck Park, Kakaʻako, with trucks such as Miguel's Cocina.",
+    "Zucchi Pizza: Central YMCA, across from Ala Moana Center.",
+    "Waikele Premium Outlets (West Oʻahu): Rainbow Stream and Yellow Kitchen.",
+    "Flyin' Ahi: Mililani and Kāneʻohe.",
+    "Kakaʻako and Ala Moana Beach Park are close together, so it's easy to grab a plate and head to the beach.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "honolulu",
+    "kakaako",
+    "kewalo basin",
+    "ala moana",
+    "waikele",
+    "mililani",
+    "kaneohe",
+    "town",
+    "food truck park",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-leonards-malasadamobile",
+   "type": "food",
+   "title": "Leonard's Malasadamobile (malasada trucks)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Leonard's Bakery, famous for Portuguese malasadas, runs pink-and-white Malasadamobile trucks around Oʻahu. One is at 540 Lagoon Drive near the airport, open daily 7 a.m. to 6 p.m., with travel packs for flights.",
+   "details": [
+    "Airport-area truck: 540 Lagoon Drive, Honolulu, daily 7 a.m. to 6 p.m. (opened March 2026). Ask for a travel pack before a flight.",
+    "Prices (March 2026): 6 for $13.20, 12 for $26.40; filled malasadas $2.70 each.",
+    "Sugar: original, cinnamon or li hing. Fillings: custard, dobash (chocolate) or haupia (coconut).",
+    "Other Malasadamobile trucks park at different spots around Oʻahu; Leonard's website lists them.",
+    "The original Leonard's Bakery is on Kapahulu Avenue near Waikīkī.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "leonards",
+    "leonard's",
+    "malasada",
+    "malasadas",
+    "malasadamobile",
+    "dessert",
+    "bakery",
+    "airport",
+    "li hing",
+    "haupia",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Aloha State Daily: Leonard's new Malasadamobile location",
+     "url": "https://alohastatedaily.com/2026/03/03/leonards-bakery-has-a-new-malasada-mobile-location/"
+    },
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-kcc-farmers-market",
+   "type": "food",
+   "title": "KCC Farmers Market (Saturday mornings by Diamond Head)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Oʻahu's best-known farmers market runs Saturdays 7:30 to 11 a.m. at Kapiʻolani Community College, 4303 Diamond Head Road. Besides fruit and produce, it's packed with hot food vendors and local snacks. Bring cash; many vendors don't take cards.",
+   "details": [
+    "Saturdays, 7:30 to 11 a.m. (7 a.m. early entry with a paid annual pass).",
+    "4303 Diamond Head Road, Honolulu, at Kapiʻolani Community College.",
+    "Hot food and treats: lobster rolls, burgers, coffee, taro bread, açaí bowls, local honey and candies.",
+    "Many vendors are cash only.",
+    "From Waikīkī, the Waikīkī Trolley's Diamond Head (Green) Line stops at KCC; about 30 minutes from Waikīkī.",
+    "Run by the Hawaiʻi Farm Bureau; current vendors at hfbf.org.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "farmers market",
+    "kcc",
+    "kapiolani community college",
+    "saturday",
+    "diamond head",
+    "breakfast",
+    "market",
+    "vendors",
+    "produce",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Waikīkī Trolley: KCC Farmers Market info (2026)",
+     "url": "https://waikikitrolley.com/en-kcc-farmers-market-info/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-maui-food-trucks",
+   "type": "food",
+   "title": "Maui food trucks (Kahului, Kīhei, Lāhainā)",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Maui's biggest food truck spots are the Kahului Food Truck Park across from Costco and Kīhei (Azeka Plaza and South Maui Gardens). Favorites include Geste Shrimp in Kahului and Kalei's Lunchbox in Pukalani.",
+   "details": [
+    "Kahului Food Truck Park: across from Costco, Kahului.",
+    "Geste Shrimp Truck: usually on Kahului Beach Road near the Maui Arts and Cultural Center; shrimp plates with crab mac salad.",
+    "Also in Kahului: Thai Mee Up, Aloha ʻĀina BBQ, Maui Fresh Streatery, Kraken Coffee.",
+    "Kīhei: Azeka Plaza food trucks and South Maui Gardens.",
+    "Kalei's Lunchbox (Pukalani, Upcountry); Havens food truck at Māʻalaea Harbor; Coconut Glen's on the Hāna Highway; Front Street Fresh in Lāhainā; Kāʻanapali food trucks.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "maui",
+    "kahului",
+    "kihei",
+    "costco",
+    "geste",
+    "shrimp",
+    "lahaina",
+    "kaanapali",
+    "pukalani",
+    "hana",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    },
+    {
+     "name": "MauiHawaii.org: Geste Shrimp Truck",
+     "url": "https://www.mauihawaii.org/restaurants/geste-shrimp-food-truck"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-kauai-food-trucks",
+   "type": "food",
+   "title": "Kauaʻi food trucks (Kapaʻa, Hanalei, Kōloa)",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Kauaʻi's food trucks cluster in Kapaʻa (including the Kauaʻi Food Truck Park), Kōloa and Hanalei. Hawaiʻi Magazine's 2026 picks: The Musubi Truck, Fresh Bite in Hanalei, Al Pastor Tacos and Tony's Catch in Kapaʻa, and Baja Chalupa's in Kōloa.",
+   "details": [
+    "Kauaʻi Food Truck Park: Kapaʻa.",
+    "The Musubi Truck: Kapaʻa, Hanapēpē and Kōloa (ʻahi katsu and Spam musubi, poke bowls, bentos).",
+    "Fresh Bite Farm to Beach: Hanalei (bowls and sandwiches on poi buns).",
+    "Tony's Catch (mahimahi tacos) and Al Pastor Tacos: Kapaʻa.",
+    "Baja Chalupa's (white-and-red truck) and Taco Libre: Kōloa.",
+    "Porky's Kauaʻi has several locations; Nom Kauaʻi is in Hanalei; Mama Bear's Kitchen is on the West Side.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "kauai",
+    "kapaa",
+    "hanalei",
+    "koloa",
+    "hanapepe",
+    "musubi",
+    "tacos",
+    "fresh bite",
+    "food truck park",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: The 5 best food trucks on Kauaʻi (May 2026)",
+     "url": "https://www.hawaiimagazine.com/?p=139885"
+    },
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-big-island-food-trucks",
+   "type": "food",
+   "title": "Hawaiʻi Island food trucks (Kona, Waimea, Hilo)",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "On Hawaiʻi Island, Kailua-Kona's Aliʻi Drive has a lively food truck scene, Waimea has several favorites, and Island Style Grindz rotates between Waimea, Hāwī, Kona and Hilo. Look for huli chicken stands in Kealakekua and Waimea too.",
+   "details": [
+    "Kailua-Kona: the Aliʻi Drive food truck scene, Shaka Tacoz, Pine Tree Café, Da Braddahz Grindz.",
+    "Waimea: Red Barn, GJ's Huli Chicken, On Top of Mauna Kea, Big Island Brewhaus Kitchen; Manuela Malasada for malasadas.",
+    "Island Style Grindz: rotates among Waimea, Hāwī, Kona and Hilo, usually midweek; known for fish plates like miso butterfish. Lines are long.",
+    "South Kona: Randy's Huli Chicken and Ribs (Kealakekua), Super J's (Captain Cook).",
+    "Volcano: Tuk Tuk Thai. Honokaʻa: Waipiʻo Good Eats. Nāʻālehu: Aloha Mix. Pāhoa: Panchos Tacos.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "big island",
+    "hawaii island",
+    "kona",
+    "kailua kona",
+    "waimea",
+    "hilo",
+    "volcano",
+    "huli chicken",
+    "alii drive",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    },
+    {
+     "name": "Hawaiʻi Guide: Big Island food trucks (Jan. 2025)",
+     "url": "https://www.hawaii-guide.com/big-island/best-food-trucks-big-island"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-huli-huli-chicken",
+   "type": "food",
+   "title": "Huli huli chicken stands",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Huli huli chicken is chicken grilled over kiawe wood and turned (huli means turn in Hawaiian) while basted with a sweet sauce. Roadside stands and trucks sell it all over the islands; on Oʻahu, Mike's Huli-Huli Chicken in Kahuku is a favorite.",
+   "details": [
+    "Oʻahu: Mike's Huli-Huli Chicken, 56-565 Kamehameha Highway, Kahuku, listed daily 11 a.m. to 7 p.m. (March 2026).",
+    "Hawaiʻi Island: Randy's Huli Chicken and Ribs in Kealakekua; GJ's Huli Chicken in Waimea.",
+    "Weekend roadside fundraiser stands often sell huli chicken too; they usually sell out by early afternoon.",
+    "Order a half or whole chicken, or a plate with rice and mac salad.",
+    "Hours and parking spots change often, and trucks can close early when they sell out. Check the truck's Instagram, Facebook or Google listing the day you go."
+   ],
+   "tags": [
+    "huli huli",
+    "huli chicken",
+    "chicken",
+    "bbq",
+    "kiawe",
+    "rotisserie",
+    "fundraiser",
+    "lunch wagon",
+    "lunch wagons",
+    "food truck",
+    "food trucks",
+    "where to eat",
+    "food",
+    "eat",
+    "plate lunch",
+    "local food"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Best food trucks on Oʻahu (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/oahu/best-food-trucks-oahu"
+    },
+    {
+     "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
+     "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
     }
    ],
    "last_checked": "2026-10-29"
