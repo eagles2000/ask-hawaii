@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ask Hawaiʻi · Checked facts for visitors and locals</title>
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="https://images.unsplash.com/photo-1580193747522-61116809ccef?rect=525,666,907,907&amp;fit=crop&amp;auto=format&amp;q=80&amp;w=64&amp;h=64">
+<link rel="apple-touch-icon" href="https://images.unsplash.com/photo-1580193747522-61116809ccef?rect=525,666,907,907&amp;fit=crop&amp;auto=format&amp;q=80&amp;w=180&amp;h=180">
 <meta property="og:title" content="Ask Hawaiʻi">
 <meta property="og:description" content="Checked Hawaiʻi facts with official sources, plus live weather and alerts.">
-<meta property="og:image" content="https://www.askaihawaii.com/icon-512.png">
+<meta property="og:image" content="https://images.unsplash.com/photo-1580193747522-61116809ccef?rect=525,666,907,907&amp;fit=crop&amp;auto=format&amp;q=80&amp;w=512&amp;h=512">
 <meta name="description" content="Checked Hawaiʻi facts with official sources: park reservations, hikes, beaches and ocean safety, wildlife rules, culture, getting around, taxes, plus live weather and alerts. Ask by typing or by voice.">
 <script>
   // Apply a saved light/dark choice before the page paints.
@@ -210,7 +210,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
 
 <header class="nav" id="nav">
   <div class="wrap row">
-    <a class="logo" href="/" aria-label="Ask Hawaiʻi home"><img src="/logo.jpg" width="36" height="36" alt="">Ask Hawaiʻi</a>
+    <a class="logo" href="/" aria-label="Ask Hawaiʻi home"><img src="https://images.unsplash.com/photo-1580193747522-61116809ccef?rect=525,666,907,907&amp;fit=crop&amp;auto=format&amp;q=80&amp;w=96&amp;h=96" width="36" height="36" alt="" title="Hawaiian monk seal, ʻīlio holo i ka uaua">Ask Hawaiʻi</a>
     <nav class="links" aria-label="Main">
       <a href="#explore" class="hide-sm">Explore</a>
       <a href="#conditions" class="hide-sm">Live conditions</a>
@@ -477,8 +477,24 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   }
   loadCats();
 
-  // Read aloud, with a working Stop
-  var speakingBtn = null;
+  // Read aloud, with a working Stop, in a pleasant female voice when the device has one
+  var speakingBtn = null, VOICES = [];
+  var FEMALE = ["aria", "jenny", "michelle", "ava", "emma", "samantha", "allison", "susan", "zira", "google us english", "karen", "moira", "tessa", "serena", "victoria", "joanna", "salli", "kendra", "kimberly", "libby", "sonia", "natasha", "female"];
+  function loadVoices() { if ("speechSynthesis" in window) VOICES = speechSynthesis.getVoices() || []; }
+  if ("speechSynthesis" in window) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+  function pickVoice() {
+    if (!VOICES.length) loadVoices();
+    var en = VOICES.filter(function (v) { return /^en/i.test(v.lang); });
+    var best = null, score = -1;
+    en.forEach(function (v) {
+      var n = v.name.toLowerCase(), i = -1;
+      FEMALE.forEach(function (f, k) { if (i < 0 && n.indexOf(f) >= 0) i = k; });
+      if (i < 0) return;
+      var sc = 100 - i + (/natural|online|neural|premium|enhanced/.test(n) ? 50 : 0) + (/en-us/i.test(v.lang) ? 5 : 0);
+      if (sc > score) { score = sc; best = v; }
+    });
+    return best;
+  }
   function stopSpeech() {
     if ("speechSynthesis" in window) speechSynthesis.cancel();
     if (speakingBtn) { speakingBtn.classList.remove("speaking"); speakingBtn.lastChild.textContent = "Read aloud"; speakingBtn = null; }
@@ -533,8 +549,11 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
         // Speak one sentence at a time (some browsers cut off long readings).
         var parts = (e.title + ". " + e.summary + " " + (e.details || []).join(" ")).match(/[^.!?]+[.!?]*/g) || [];
         speakingBtn = b; b.classList.add("speaking"); b.lastChild.textContent = "Stop";
+        var v = pickVoice();
         parts.forEach(function (t, j) {
           var u = new SpeechSynthesisUtterance(t.trim());
+          if (v) u.voice = v;
+          u.lang = v ? v.lang : "en-US"; u.rate = 0.95; u.pitch = 1.05;
           if (j === parts.length - 1) u.onend = function () { if (speakingBtn === b) stopSpeech(); };
           u.onerror = function () { if (speakingBtn === b) stopSpeech(); };
           speechSynthesis.speak(u);
