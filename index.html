@@ -590,15 +590,48 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   // Voice
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition, rec = null;
   if (!SR) { $("mic").title = "Voice isn't supported in this browser. Try Chrome, Edge or Safari, or your keyboard's mic."; $("mic").onclick = function () { $("hint").textContent = $("mic").title; }; }
-  else $("mic").onclick = function () {
-    if (rec) { rec.stop(); return; }
-    rec = new SR(); rec.lang = "en-US"; rec.interimResults = true; rec.maxAlternatives = 1;
-    $("mic").classList.add("listening"); $("hint").textContent = "Listening... ask your question.";
-    rec.onresult = function (ev) { var t = ""; for (var i = 0; i < ev.results.length; i++) t += ev.results[i][0].transcript; $("q").value = t; if (ev.results[ev.results.length - 1].isFinal) { rec.stop(); run(false); } };
-    rec.onerror = function (ev) { $("hint").textContent = ev.error === "not-allowed" ? "Allow microphone access in your browser to ask by voice." : "Didn't catch that. Try again or type your question."; };
-    rec.onend = function () { $("mic").classList.remove("listening"); if ($("hint").textContent.indexOf("Listening") === 0) $("hint").textContent = ""; rec = null; };
-    try { rec.start(); } catch (x) { rec = null; $("mic").classList.remove("listening"); }
-  };
+  else {
+    // Keeps listening through short pauses (up to about 20 seconds), then asks the question.
+    var heard = "", prior = "", stopAt = 0, wantStop = false, sendTimer = null;
+    var stopListening = function (send) {
+      wantStop = true; clearTimeout(sendTimer);
+      if (rec) try { rec.stop(); } catch (x) {}
+      if (send && heard.trim()) run(false);
+    };
+    var startRec = function () {
+      rec = new SR(); rec.lang = "en-US"; rec.interimResults = true; rec.continuous = true; rec.maxAlternatives = 1;
+      rec.onresult = function (ev) {
+        var fin = "", interim = "";
+        for (var i = 0; i < ev.results.length; i++) { if (ev.results[i].isFinal) fin += ev.results[i][0].transcript; else interim += ev.results[i][0].transcript; }
+        heard = (prior + " " + fin + interim).trim(); $("q").value = heard;
+        $("hint").textContent = "Listening... tap the mic again when you're done, or just pause.";
+        clearTimeout(sendTimer);
+        if (fin && !interim) sendTimer = setTimeout(function () { stopListening(true); }, 1500);
+      };
+      rec.onerror = function (ev) {
+        var m = {
+          "not-allowed": "Your browser blocked the microphone. Click the lock or mic icon in the address bar, allow the microphone for this site, then reload.",
+          "service-not-allowed": "Your browser blocked the microphone. Click the lock or mic icon in the address bar, allow the microphone for this site, then reload.",
+          "audio-capture": "No microphone was found. Check that your mic is plugged in and selected in your computer's sound settings.",
+          "network": "Voice needs an internet connection to your browser's speech service. Try again, or try Chrome."
+        }[ev.error];
+        if (m) { wantStop = true; $("hint").textContent = m; }
+      };
+      rec.onend = function () {
+        // Browsers stop listening after a few silent seconds; quietly restart until the time limit.
+        if (!wantStop && Date.now() < stopAt) { prior = heard; try { startRec(); return; } catch (x) {} }
+        $("mic").classList.remove("listening"); rec = null;
+        if ($("hint").textContent.indexOf("Listening") === 0) $("hint").textContent = heard ? "" : "Didn't hear anything. Tap the mic and try again, or type your question.";
+      };
+      rec.start();
+    };
+    $("mic").onclick = function () {
+      if (rec) { stopListening(true); return; }
+      heard = ""; prior = ""; wantStop = false; stopAt = Date.now() + 20000;
+      $("mic").classList.add("listening"); $("hint").textContent = "Listening... ask your question.";
+      try { startRec(); } catch (x) { rec = null; $("mic").classList.remove("listening"); $("hint").textContent = "Couldn't start the microphone. Reload the page and try again."; }
+    };
+  }
 
   // Live alerts
   fetch("/api/weather?alerts=1").then(function (r) { return r.json(); }).then(function (a) {
