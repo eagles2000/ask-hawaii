@@ -26,20 +26,20 @@
   --shadow:0 1px 2px rgba(20,33,42,.05),0 8px 24px rgba(20,33,42,.06);
   --display:"Fraunces",Georgia,"Times New Roman",serif;
   --body:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
-  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F;
+  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC;
   color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -63,6 +63,8 @@ button{cursor:pointer}
 .links{display:flex;align-items:center;gap:4px}
 .links a{color:inherit;text-decoration:none;font-size:14px;font-weight:500;padding:8px 12px;border-radius:8px;opacity:.92}
 .links a:hover{opacity:1;background:rgba(127,127,127,.14)}
+.links a.report{border:1px solid currentColor;opacity:1;margin-left:4px}
+@media (max-width:520px){.links a.report{font-size:13px;padding:6px 9px}}
 .iconbtn{width:40px;height:40px;border-radius:10px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.08);color:inherit;display:grid;place-items:center}
 .nav.solid .iconbtn{border-color:var(--line);background:var(--surface)}
 @media (max-width:760px){.links a.hide-sm{display:none}}
@@ -175,6 +177,9 @@ button{cursor:pointer}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
 .btn{border:1px solid var(--line);background:var(--surface);border-radius:9px;padding:8px 14px;font-size:14px;font-weight:600;min-height:40px;display:inline-flex;align-items:center;gap:7px}
 .btn:hover{background:var(--sunk)}
+a.btn{text-decoration:none;color:var(--ink)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.primary:hover{background:var(--accent);filter:brightness(1.08)}
 .btn.speaking{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .src{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:2px}
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:22px}
@@ -218,6 +223,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
       <a href="#explore" class="hide-sm">Explore</a>
       <a href="#conditions" class="hide-sm">Live conditions</a>
       <a href="#add-ai" class="hide-sm">For AI assistants</a>
+      <a href="https://safehonolulu.com" target="_blank" rel="noopener" class="report">Report an incident</a>
       <button class="iconbtn" id="theme" type="button" aria-label="Switch to dark mode" title="Light or dark"></button>
     </nav>
   </div>
@@ -312,6 +318,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
       <p><a href="#explore">Categories</a></p>
       <p><a href="#conditions">Live alerts and weather</a></p>
       <p><a href="#add-ai">Use it in your AI assistant</a></p>
+      <p><a href="https://safehonolulu.com" target="_blank" rel="noopener">Report or check incidents on SafeHonolulu</a></p>
     </div>
   </div>
   <div class="wrap legal">Weather and alerts: National Weather Service. Photos: Unsplash.</div>
@@ -327,9 +334,12 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   var TYPE = {
     place: ["Place", "--d-place"], hike: ["Hike", "--d-hike"], guide: ["Guide", "--d-guide"], safety: ["Safety", "--d-safety"],
     rule: ["Rule", "--d-rule"], culture: ["Culture", "--d-culture"], transport: ["Getting around", "--d-transport"],
-    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"]
+    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"]
   };
   var ICON = {
+    car: '<path d="M5 16h14M6 16l1.5-5h9L18 16M6 16v3M18 16v3"/><circle cx="8" cy="16" r="1"/><circle cx="16" cy="16" r="1"/>',
+    pin: '<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+    shield: '<path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16h.01"/>',
     calendar: '<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/>',
     wave: '<path d="M2 15c3 0 3-3 6-3s3 3 6 3 3-3 6-3M2 20c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/>',
     turtle: '<ellipse cx="12" cy="13" rx="6" ry="4.5"/><path d="M18 12h3M5 16l-2 2M19 16l2 2M5 10 3 8"/>',
@@ -420,7 +430,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     ["Taking things home", "Airport agriculture inspection", "take fruit flowers home airport inspection", "plane"],
     ["Taxes", "Hotel and general excise tax", "tax 4.712 hotel tax", "receipt"],
     ["Who to call", "Emergencies and injured wildlife", "who to call emergency injured wildlife", "phone"],
-    ["Reservations by island", "Every island at a glance", "reservations by island", "calendar"]
+    ["Driving routes", "Waikīkī to anywhere on Oʻahu", "driving directions route from waikiki", "car"]
   ];
   var FW = innerWidth < 700 ? 700 : 800;
   $("feature").innerHTML = FEATURE.map(function (t, i) {
@@ -433,8 +443,8 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   $("mini").querySelectorAll("[data-m]").forEach(function (b) { b.onclick = function () { $("q").value = MINI[b.dataset.m][2]; run(true); }; });
 
   // Categories: every entry grouped by type, with counts
-  var CATORDER = ["place", "hike", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
-  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call" };
+  var CATORDER = ["place", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
+  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving" };
   var curCat = "";
   function markCats() { $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === curCat)); }); }
   function loadCats() {
@@ -481,11 +491,12 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   loadCats();
 
   // Read aloud, with a working Stop, in a pleasant female voice when the device has one
-  var speakingBtn = null, VOICES = [];
+  var speakingBtn = null, VOICES = [], ALLV = [];
   var FEMALE = ["aria", "jenny", "michelle", "ava", "emma", "samantha", "allison", "susan", "zira", "google us english", "karen", "moira", "tessa", "serena", "victoria", "joanna", "salli", "kendra", "kimberly", "libby", "sonia", "natasha", "female"];
   function loadVoices() {
     if (!("speechSynthesis" in window)) return;
-    VOICES = (speechSynthesis.getVoices() || []).filter(function (v) { return /^en/i.test(v.lang); });
+    ALLV = speechSynthesis.getVoices() || [];
+    VOICES = ALLV.filter(function (v) { return /^en/i.test(v.lang); });
     var sel = $("voice"); if (!sel || !VOICES.length) return;
     var saved = ""; try { saved = localStorage.getItem("ah-voice") || ""; } catch (e) {}
     var auto = autoVoice();
@@ -542,6 +553,12 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
       toAnswers(true);
     }).catch(function () { $("status").textContent = "Couldn't reach Ask Hawaiʻi. Check your connection and try again."; });
   }
+  function mapsLink(from, to) { return "https://www.google.com/maps/dir/?api=1" + (from ? "&origin=" + encodeURIComponent(from) : "") + "&destination=" + encodeURIComponent(to) + "&travelmode=driving"; }
+  function mapBtns(e) {
+    var d = e.directions; if (!d) return "";
+    return '<a class="btn primary" href="' + esc(mapsLink(d.from, d.to)) + '" target="_blank" rel="noopener">' + svg("pin", 16) + 'Map from ' + esc(d.from_label || "start") + '</a>' +
+      '<a class="btn" href="' + esc(mapsLink("", d.to)) + '" target="_blank" rel="noopener">' + svg("car", 16) + 'From where I am</a>';
+  }
   function render(q, items) {
     var out = $("results");
     if (!items.length) {
@@ -557,7 +574,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
         '<h3>' + esc(e.title) + '</h3><p>' + esc(e.summary) + '</p>' +
         '<ul class="details" id="d' + i + '" hidden>' + (e.details || []).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + '</ul>' +
         '<div class="actions"><button class="btn" type="button" data-more="' + i + '" aria-expanded="false" aria-controls="d' + i + '">More details</button>' +
-        '<button class="btn" type="button" data-say="' + i + '">' + svg("wave", 16) + '<span>Read aloud</span></button></div>' +
+        '<button class="btn" type="button" data-say="' + i + '">' + svg("wave", 16) + '<span>Read aloud</span></button>' + mapBtns(e) + '</div>' +
         '<div class="src">Source: ' + (e.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>"; }).join(" · ") + '</div>' +
         "</article>";
     }).join("");
@@ -571,13 +588,22 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
         stopSpeech();
         var e = items[b.dataset.say];
         // Speak one sentence at a time (some browsers cut off long readings).
-        var parts = speakable(e.title + ". " + e.summary + " " + (e.details || []).join(" ")).match(/[^.!?]+[.!?]*/g) || [];
+        // If the visitor used the browser's "Translate this page", read the translated words in a matching voice.
+        var lang = (document.documentElement.lang || "en").toLowerCase().split("-")[0];
+        var translated = lang !== "en" || /translated-/.test(document.documentElement.className);
+        var text, v;
+        if (translated) {
+          var card = b.closest(".card");
+          text = [card.querySelector("h3"), card.querySelector("p")].map(function (x) { return x.textContent; }).join(". ") + " " +
+            Array.prototype.map.call(card.querySelectorAll(".details li"), function (x) { return x.textContent; }).join(" ");
+          v = (ALLV.filter(function (x) { return x.lang.toLowerCase().split(/[-_]/)[0] === lang; })[0]) || null;
+        } else { text = speakable(e.title + ". " + e.summary + " " + (e.details || []).join(" ")); v = pickVoice(); }
+        var parts = text.match(/[^.!?。！？]+[.!?。！？]*/g) || [];
         speakingBtn = b; b.classList.add("speaking"); b.lastChild.textContent = "Stop";
-        var v = pickVoice();
         parts.forEach(function (t, j) {
           var u = new SpeechSynthesisUtterance(t.trim());
           if (v) u.voice = v;
-          u.lang = v ? v.lang : "en-US"; u.rate = 1.05; u.pitch = 1;
+          u.lang = v ? v.lang : (translated ? lang : "en-US"); u.rate = 1.05; u.pitch = 1;
           if (j === parts.length - 1) u.onend = function () { if (speakingBtn === b) stopSpeech(); };
           u.onerror = function () { if (speakingBtn === b) stopSpeech(); };
           speechSynthesis.speak(u);

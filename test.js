@@ -86,6 +86,15 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(kb.list({ type: "hike" }).items.every((e) => e.type === "hike"), "list by type");
   ok(kb.list({ type: "safety", island: "Kauai" }).items.every((e) => e.island !== "Oʻahu"), "list island filter");
 
+  // Routes (v0.7)
+  ok(top("best route from waikiki to waianae") === "route-waikiki-waianae-coast", "route waianae");
+  ok(top("how do I get to nanakuli") === "route-waikiki-waianae-coast", "route nanakuli");
+  ok(top("how to drive to the north shore") === "route-waikiki-north-shore", "route north shore");
+  ok(top("directions to kaneohe") === "route-waikiki-kaneohe", "route kaneohe");
+  ok(top("drive to the airport") === "route-waikiki-airport", "route airport");
+  ok(/google\.com\/maps\/dir/.test(kb.get("route-waikiki-mililani").google_maps), "maps link");
+  ok(kb.DATA.entries.filter((e) => e.type === "route").every((e) => e.island === "Oʻahu"), "routes on Oahu");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

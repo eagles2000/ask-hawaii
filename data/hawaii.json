@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.6.0",
+ "version": "0.7.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -1990,6 +1990,497 @@
     {
      "name": "NIST / time.gov: Official U.S. time",
      "url": "https://www.time.gov/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-waianae-coast",
+   "type": "route",
+   "title": "Waikīkī to Nānākuli, Waiʻanae and Mākaha (West Side)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Take H-1 West all the way to its end in Kapolei, where it becomes Farrington Highway (Route 93). Stay on Farrington Highway along the coast through Nānākuli, Māʻili, Waiʻanae and Mākaha.",
+   "details": [
+    "From Waikīkī, get on H-1 West (via Kapahulu Avenue or McCully Street on-ramps).",
+    "Stay on H-1 West past the H-2 split and Kapolei. The freeway ends and continues as Farrington Highway (Route 93).",
+    "Farrington Highway runs along the coast: Nānākuli, then Māʻili, Waiʻanae and Mākaha.",
+    "Farrington Highway is the main road on this coast, so a crash or roadwork can back it up. Check traffic before you go.",
+    "Weekday afternoons are slowest heading west. H-1 West has an HOV lane (2 or more people) 3 to 7 p.m., and Farrington Highway has a westbound contraflow lane 3:30 to 6:30 p.m. depending on traffic.",
+    "Plan on roughly an hour or more from Waikīkī, longer at rush hour."
+   ],
+   "tags": [
+    "waianae",
+    "nanakuli",
+    "makaha",
+    "maili",
+    "west side",
+    "leeward",
+    "farrington highway",
+    "kapolei",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Waianae, HI",
+    "to_label": "Waiʻanae"
+   },
+   "sources": [
+    {
+     "name": "Interstate H-1 route and exits (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Interstate_H-1"
+    },
+    {
+     "name": "Hawaiʻi DOT: Special use lanes (HOV, zipper, contraflow)",
+     "url": "https://hidot.hawaii.gov/highways/?p=12585"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-ko-olina",
+   "type": "route",
+   "title": "Waikīkī to Ko Olina",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Take H-1 West toward Kapolei. As the freeway becomes Farrington Highway, take the Ko Olina exit and continue onto Aliʻinui Drive into the resort area. It is about 20 miles from Honolulu.",
+   "details": [
+    "Get on H-1 West from Waikīkī.",
+    "Near the end of H-1, where it continues as Farrington Highway (Route 93), take the exit for Ko Olina.",
+    "Continue straight onto Aliʻinui Drive, the main road through Ko Olina's resorts and lagoons.",
+    "About 20 miles from Honolulu. Weekday afternoons (3 to 7 p.m.) are the slowest heading west."
+   ],
+   "tags": [
+    "ko olina",
+    "aulani",
+    "kapolei",
+    "lagoons",
+    "west side",
+    "resort",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Ko Olina, Kapolei, HI",
+    "to_label": "Ko Olina"
+   },
+   "sources": [
+    {
+     "name": "Aulani: Parking and transportation (archived)",
+     "url": "https://webcf.waybackmachine.org/web/20230212144948/https://www.disneyaulani.com/map/parking-transportation"
+    },
+    {
+     "name": "Interstate H-1 route and exits (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Interstate_H-1"
+    },
+    {
+     "name": "Hawaiʻi DOT: Special use lanes (HOV, zipper, contraflow)",
+     "url": "https://hidot.hawaii.gov/highways/?p=12585"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-north-shore",
+   "type": "route",
+   "title": "Waikīkī to the North Shore (Haleʻiwa, Waimea, Pipeline, Sunset)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Take H-1 West to H-2 North (exit 8B). H-2 ends at Wahiawā and becomes Kamehameha Highway (Route 99, then Route 83) down to Haleʻiwa. Stay on Route 83 past Haleʻiwa for Waimea Bay, Pipeline and Sunset Beach. About 32 miles.",
+   "details": [
+    "H-1 West, then exit 8B for H-2 North toward Mililani and Wahiawā.",
+    "H-2 ends and becomes Kamehameha Highway (Route 99) through Wahiawā and the central plateau, down to Haleʻiwa.",
+    "For Waimea Bay, Pipeline and Sunset Beach, continue on Kamehameha Highway (Route 83) past Haleʻiwa.",
+    "About 32 miles. Roughly 45 minutes with no traffic, about 70 minutes typical, up to 90 minutes at rush hour or on big-surf days.",
+    "The two-lane road along the North Shore slows badly on big-surf days and summer weekends.",
+    "Scenic option: go around the east and windward side on Route 72 and Route 83. Much longer, but a beautiful drive."
+   ],
+   "tags": [
+    "north shore",
+    "haleiwa",
+    "waimea",
+    "pipeline",
+    "sunset beach",
+    "wahiawa",
+    "h-2",
+    "turtle bay",
+    "kahuku",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Haleiwa, HI",
+    "to_label": "Haleʻiwa"
+   },
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Oʻahu driving times",
+     "url": "https://www.hawaii-guide.com/oahu/oahu-driving-times"
+    },
+    {
+     "name": "Interstate H-1 route and exits (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Interstate_H-1"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-kailua",
+   "type": "route",
+   "title": "Waikīkī to Kailua and Lanikai",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Take H-1 West briefly to the Pali Highway (Route 61) and head over the mountains to Kailua. The road becomes Kailua Road in town. About 14 miles and 30 to 35 minutes outside rush hour.",
+   "details": [
+    "From Waikīkī, take H-1 West to the Pali Highway exit (Route 61).",
+    "Pali Highway climbs through Nuʻuanu and tunnels through the Koʻolau mountains. The Nuʻuanu Pali Lookout is a signed turnoff on the right.",
+    "Coming down the other side, Pali Highway becomes Kailua Road into Kailua town.",
+    "For Lanikai, continue through Kailua toward the beach; parking in Lanikai is very limited.",
+    "If the Pali is closed, use Likelike Highway (Route 63) instead.",
+    "About 14 miles, 30 to 35 minutes without traffic."
+   ],
+   "tags": [
+    "kailua",
+    "lanikai",
+    "pali highway",
+    "windward",
+    "pali lookout",
+    "nuuanu",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Kailua, HI",
+    "to_label": "Kailua"
+   },
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Oʻahu driving times",
+     "url": "https://www.hawaii-guide.com/oahu/oahu-driving-times"
+    },
+    {
+     "name": "Interstate H-1 route and exits (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Interstate_H-1"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-kaneohe",
+   "type": "route",
+   "title": "Waikīkī to Kāneʻohe",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Three ways over the mountains: Likelike Highway (Route 63, H-1 exit 20A) is usually most direct; H-3 from the Hālawa Interchange is the scenic freeway through the Tetsuo Harano Tunnels; or the Pali Highway, then Kamehameha Highway.",
+   "details": [
+    "Likelike Highway: H-1 West to exit 20A (Route 63), through the Wilson Tunnel, straight down into Kāneʻohe.",
+    "H-3: H-1 West to the Hālawa Interchange near Aloha Stadium, then H-3 East through the Tetsuo Harano Tunnels. Exit 9 for Likelike Highway, exit 11 for Kamehameha Highway (Route 83).",
+    "Pali Highway: H-1 West to Route 61 over the Pali, then turn left onto Kamehameha Highway toward Kāneʻohe.",
+    "Morning tip: Kahekili Highway (Route 83) has a southbound contraflow lane on weekdays, 4:30 to 8:30 a.m., for traffic heading toward town."
+   ],
+   "tags": [
+    "kaneohe",
+    "likelike",
+    "h-3",
+    "h3",
+    "windward",
+    "kahekili",
+    "tunnel",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Kaneohe, HI",
+    "to_label": "Kāneʻohe"
+   },
+   "sources": [
+    {
+     "name": "Interstate H-3 route and exits (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Interstate_H-3"
+    },
+    {
+     "name": "Interstate H-1 route and exits (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Interstate_H-1"
+    },
+    {
+     "name": "Hawaiʻi DOT: Special use lanes (HOV, zipper, contraflow)",
+     "url": "https://hidot.hawaii.gov/highways/?p=12585"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-waimanalo",
+   "type": "route",
+   "title": "Waikīkī to Waimānalo (via the southeast coast)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Take H-1 East to its end at Kāhala, then continue on Kalanianaʻole Highway (Route 72) past Hawaiʻi Kai, Hanauma Bay, Sandy Beach and Makapuʻu to Waimānalo. It is one of the island's most scenic drives.",
+   "details": [
+    "From Waikīkī, take Kapahulu Avenue to H-1 East.",
+    "H-1 ends at Kāhala; continue on Kalanianaʻole Highway (Route 72).",
+    "Route 72 passes Hawaiʻi Kai, Hanauma Bay, the Hālona Blowhole, Sandy Beach and Makapuʻu Point, then drops into Waimānalo.",
+    "Hanauma Bay is about 11 miles and 25 to 40 minutes from Waikīkī.",
+    "Other way: take the Pali Highway to Kailua, then Route 72 south to Waimānalo.",
+    "Weekday mornings, Route 72 has a westbound (toward town) contraflow lane 5 to 8 a.m. near ʻĀina Haina."
+   ],
+   "tags": [
+    "waimanalo",
+    "hawaii kai",
+    "hanauma bay",
+    "sandy beach",
+    "makapuu",
+    "kalanianaole",
+    "east side",
+    "southeast",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Waimanalo, HI",
+    "to_label": "Waimānalo"
+   },
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Oʻahu driving times",
+     "url": "https://www.hawaii-guide.com/oahu/oahu-driving-times"
+    },
+    {
+     "name": "Interstate H-1 route and exits (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Interstate_H-1"
+    },
+    {
+     "name": "Hawaiʻi DOT: Special use lanes (HOV, zipper, contraflow)",
+     "url": "https://hidot.hawaii.gov/highways/?p=12585"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-mililani",
+   "type": "route",
+   "title": "Waikīkī to Mililani and Wahiawā",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Take H-1 West to H-2 North (exit 8B). Mililani exits come up a few miles after the split, and H-2 continues to Wahiawā.",
+   "details": [
+    "H-1 West from Waikīkī.",
+    "Exit 8B for H-2 North toward Mililani and Wahiawā.",
+    "Mililani has its own exits off H-2; Wahiawā is where H-2 ends and becomes Kamehameha Highway.",
+    "Weekday afternoons, H-2 northbound has an HOV lane (2 or more people) 3:30 to 6 p.m. from the Waiawa Interchange to Mililani.",
+    "Mornings toward town, H-2 southbound has an HOV lane 5:30 to 9 a.m."
+   ],
+   "tags": [
+    "mililani",
+    "wahiawa",
+    "h-2",
+    "h2",
+    "central oahu",
+    "schofield",
+    "waipio",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Mililani, HI",
+    "to_label": "Mililani"
+   },
+   "sources": [
+    {
+     "name": "Interstate H-1 route and exits (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Interstate_H-1"
+    },
+    {
+     "name": "Hawaiʻi DOT: Special use lanes (HOV, zipper, contraflow)",
+     "url": "https://hidot.hawaii.gov/highways/?p=12585"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-pearl-harbor",
+   "type": "route",
+   "title": "Waikīkī to Pearl Harbor (USS Arizona Memorial visitor center)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Take H-1 West to exit 15A marked Arizona Mem./Stadium (not the Hickam/Pearl Harbor exit). Follow Kamehameha Highway (Route 99), turn left on Arizona Memorial Place at the 4th traffic light, then right at the bottom of the hill to park. Parking is $7 a day.",
+   "details": [
+    "H-1 West from Waikīkī, or Ala Moana Boulevard and Nimitz Highway.",
+    "Take exit 15A, Arizona Mem./Stadium. Avoid the Hickam AFB/Pearl Harbor exit.",
+    "Continue on Kamehameha Highway (Route 99). At the 4th traffic light, turn left onto Arizona Memorial Place.",
+    "At the base of the hill, turn right into parking. Park before unloading.",
+    "Parking: $7 per day, paid on the day by scanning QR codes in the lot. It cannot be paid in advance.",
+    "Allow about 45 minutes in traffic."
+   ],
+   "tags": [
+    "pearl harbor",
+    "arizona memorial",
+    "uss arizona",
+    "ww2",
+    "parking",
+    "aiea",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Pearl Harbor National Memorial, Honolulu, HI",
+    "to_label": "Pearl Harbor"
+   },
+   "sources": [
+    {
+     "name": "National Park Service: Pearl Harbor directions",
+     "url": "https://www.nps.gov/perl/planyourvisit/directions.htm"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "route-waikiki-airport",
+   "type": "route",
+   "title": "Waikīkī to the airport (Daniel K. Inouye International, HNL)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Take H-1 West. After the Likelike off-ramp, stay right for the H-1 cut-off, keep in the right lane about a mile, and take the Airport off-ramp. Then follow the lanes for your terminal. Nimitz Highway is the backup route.",
+   "details": [
+    "H-1 West from Waikīkī.",
+    "After the Likelike off-ramp, stay in the right lanes and take the H-1 cut-off. Stay right about 1 mile and take the Airport off-ramp.",
+    "Terminals 1 and 2 departures: keep left, second level, follow signs to ticket lobbies.",
+    "Terminals 1 and 2 arrivals: keep right, ground level.",
+    "Terminal 3: keep right, ground level, follow signs for drop-off, pick-up and parking.",
+    "Backup: Nimitz Highway westbound, left on Rodgers Boulevard, then follow terminal signs."
+   ],
+   "tags": [
+    "airport",
+    "hnl",
+    "flight",
+    "daniel k inouye",
+    "honolulu airport",
+    "nimitz",
+    "rental car return",
+    "route",
+    "directions",
+    "drive",
+    "driving",
+    "how to get to",
+    "best way",
+    "waikiki",
+    "car"
+   ],
+   "directions": {
+    "from": "Waikiki, Honolulu, HI",
+    "from_label": "Waikīkī",
+    "to": "Daniel K. Inouye International Airport, Honolulu, HI",
+    "to_label": "the airport"
+   },
+   "sources": [
+    {
+     "name": "Hawaiʻi Airports: Driving directions to HNL",
+     "url": "https://airports.hawaii.gov/hnl/?p=43"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "guide-oahu-rush-hour-hov",
+   "type": "route",
+   "title": "Oʻahu rush hour, HOV and zipper lanes",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Weekday rush hours run about 6 to 8:30 a.m. toward town and 3 to 6:30 p.m. heading west. H-1 has HOV lanes (2 or more people) eastbound 5:30 to 9 a.m. and westbound 3 to 7 p.m., plus the morning Zipper Lane eastbound.",
+   "details": [
+    "Rush hour: roughly 6 to 8:30 a.m. and 3 to 6:30 p.m. on weekdays. Add 30 to 60 minutes to trips on H-1.",
+    "H-1 eastbound (toward town) HOV, 2 or more people: weekdays 5:30 to 9 a.m.",
+    "H-1 Zipper Lane eastbound, 2 or more people: weekdays 5:30 to 9 a.m., from Managers Drive (Waipahu) to the Keʻehi Interchange.",
+    "H-1 westbound HOV, 2 or more people: weekdays 3 to 7 p.m.",
+    "H-2 HOV: southbound 5:30 to 9 a.m., northbound 3:30 to 6 p.m.",
+    "Contraflow lanes: Kalanianaʻole Highway westbound 5 to 8 a.m.; Kahekili Highway southbound 4:30 to 8:30 a.m.; Farrington Highway westbound 3:30 to 6:30 p.m.",
+    "Lanes don't run on most holidays; HDOT posts exceptions."
+   ],
+   "tags": [
+    "traffic",
+    "rush hour",
+    "hov",
+    "zipper lane",
+    "zip lane",
+    "contraflow",
+    "commute",
+    "carpool",
+    "h-1",
+    "h1",
+    "driving"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi DOT: Special use lanes (HOV, zipper, contraflow)",
+     "url": "https://hidot.hawaii.gov/highways/?p=12585"
+    },
+    {
+     "name": "Hawaiʻi Guide: Oʻahu driving times",
+     "url": "https://www.hawaii-guide.com/oahu/oahu-driving-times"
     }
    ],
    "last_checked": "2026-10-29"
