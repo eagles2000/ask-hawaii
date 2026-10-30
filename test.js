@@ -193,6 +193,21 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("awaawapuhi trail") === "hike-kokee-awaawapuhi", "awaawapuhi");
   ok(top("mahaulepu") === "hike-mahaulepu-heritage", "mahaulepu");
 
+  // Neighbor island museums (v0.21)
+  ok(top("imiloa") === "museum-imiloa", "imiloa");
+  ok(top("planetarium in hilo") === "museum-imiloa", "planetarium");
+  ok(top("tsunami museum") === "museum-pacific-tsunami", "tsunami museum");
+  ok(top("lyman museum") === "museum-lyman", "lyman");
+  ok(top("hulihee palace") === "museum-hulihee-palace", "hulihee");
+  ok(top("kona coffee farm museum") === "museum-kona-coffee-farm", "coffee farm");
+  ok(top("bailey house") === "museum-bailey-house", "bailey");
+  ok(top("sugar museum") === "museum-sugar-maui", "sugar museum");
+  ok(top("kauai museum") === "museum-kauai", "kauai museum");
+  ok(top("grove farm") === "museum-grove-farm", "grove farm");
+  ok(top("molokai museum") === "museum-molokai", "molokai museum");
+  ok(top("lanai museum") === "museum-lanai-heritage", "lanai museum");
+  ok(top("bishop museum") === "place-bishop-museum", "bishop still");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

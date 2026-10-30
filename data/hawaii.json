@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "last_updated": "2026-10-29",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -1542,7 +1542,7 @@
     },
     {
       "id": "place-iolani-palace",
-      "type": "history",
+      "type": "museum",
       "title": "ʻIolani Palace",
       "island": "Oʻahu",
       "county": "City and County of Honolulu",
@@ -1580,7 +1580,7 @@
     },
     {
       "id": "place-bishop-museum",
-      "type": "history",
+      "type": "museum",
       "title": "Bishop Museum",
       "island": "Oʻahu",
       "county": "City and County of Honolulu",
@@ -9070,6 +9070,548 @@
         "from_label": "Līhuʻe airport (LIH)",
         "to": "Shipwreck Beach, Koloa, HI",
         "to_label": "Shipwreck Beach"
+      }
+    },
+    {
+      "id": "museum-imiloa",
+      "type": "museum",
+      "title": "ʻImiloa Astronomy Center (Hilo)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "A science and culture center at UH Hilo that pairs Maunakea astronomy with Polynesian voyaging and Hawaiian star knowledge, plus Hawaiʻi Island's only planetarium. Open Tuesday to Sunday, 9 a.m. to 4:30 p.m.; adult admission is $19 ($14 kamaʻāina).",
+      "details": [
+        "Hours: Tuesday to Sunday, 9 a.m. to 4:30 p.m.; closed Mondays.",
+        "Admission: $19 adults, $17 seniors (65+), $12 children 5 to 12, free 4 and under. Kamaʻāina: $14 adults, $12 seniors, $9 children.",
+        "Planetarium shows run on a set schedule; check showtimes on the website when you plan your visit.",
+        "Address: 600 ʻImiloa Place, on the UH Hilo campus. Phone 808-932-8901.",
+        "Good rainy-day stop and a great pairing with a Maunakea visit."
+      ],
+      "tags": [
+        "imiloa",
+        "imiloa astronomy center",
+        "astronomy",
+        "planetarium",
+        "stars",
+        "stargazing",
+        "maunakea",
+        "mauna kea",
+        "voyaging",
+        "uh hilo",
+        "hilo",
+        "science",
+        "kids",
+        "family",
+        "rainy day",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Love Big Island: Big Island museums (verified Oct. 2026)",
+          "url": "https://lovebigisland.com/museums-on-the-big-island"
+        },
+        {
+          "name": "ʻImiloa Astronomy Center",
+          "url": "https://imiloahawaii.org"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Hilo International Airport, Hilo, HI",
+        "from_label": "Hilo airport (ITO)",
+        "to": "Imiloa Astronomy Center, Hilo, HI",
+        "to_label": "ʻImiloa"
+      }
+    },
+    {
+      "id": "museum-pacific-tsunami",
+      "type": "museum",
+      "title": "Pacific Tsunami Museum (Hilo)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Downtown Hilo museum telling the story of the 1946 and 1960 tsunamis that devastated the bayfront, with survivor accounts and tsunami science. Open daily 10 a.m. to 4 p.m.; $15 general, $5 kamaʻāina. It closed briefly in December 2024 over finances, so call ahead.",
+      "details": [
+        "Hours: daily, 10 a.m. to 4 p.m.",
+        "Admission: $15 general; $10 seniors (65+) and military; $5 youth 6 to 17; $5 kamaʻāina; kamaʻāina youth 17 and under free. Kamaʻāina adults are free on the first Saturday of each month.",
+        "Address: 130 Kamehameha Avenue, Hilo bayfront. Phone 808-935-0926.",
+        "The downtown site closed in December 2024 because of money problems; current listings show it open again. Call before you go.",
+        "Learn what to do when sirens sound or the ground shakes near the coast: go to high ground right away."
+      ],
+      "tags": [
+        "tsunami",
+        "tsunami museum",
+        "pacific tsunami museum",
+        "1946 tsunami",
+        "1960 tsunami",
+        "hilo",
+        "downtown hilo",
+        "bayfront",
+        "history",
+        "science",
+        "rainy day",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Love Big Island: Big Island museums (verified Oct. 2026)",
+          "url": "https://lovebigisland.com/museums-on-the-big-island"
+        },
+        {
+          "name": "Pacific Tsunami Museum",
+          "url": "https://tsunami.org/?p=13512"
+        },
+        {
+          "name": "Hawaii Tribune-Herald: museum closes over finances (Dec. 18, 2024)",
+          "url": "https://www.hawaiitribune-herald.com/2024/12/18/hawaii-news/tsunami-museum-in-trouble-downtown-hilo-site-closes-due-to-financial-woes-staff-laid-off/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Hilo International Airport, Hilo, HI",
+        "from_label": "Hilo airport (ITO)",
+        "to": "Pacific Tsunami Museum, 130 Kamehameha Ave, Hilo, HI",
+        "to_label": "Pacific Tsunami Museum"
+      }
+    },
+    {
+      "id": "museum-lyman",
+      "type": "museum",
+      "title": "Lyman Museum and Mission House (Hilo)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Hilo's natural and cultural history museum, with a strong volcano and mineral collection, next to the 1839 Lyman Mission House, the island's oldest wood-frame building. Open weekdays by timed session; reserve ahead. Adult admission is $7 ($5 kamaʻāina).",
+      "details": [
+        "Days: Monday to Friday. Museum sessions start at 10 a.m., 12:15 p.m. and 2:30 p.m.; Mission House tours at 10:05 a.m., 12:20 p.m. and 2:35 p.m.",
+        "Entry is by capped timed session, so reserve ahead; walk-ins depend on space.",
+        "Museum admission: out-of-state $7 adults, $5 seniors, $2 children 6 to 17. Kamaʻāina $5 adults, $3 seniors, $2 children. Mission House tour: $3 adults, $1 children.",
+        "Address: 276 Haili Street, Hilo.",
+        "The Mission House has steep stairs and no elevator.",
+        "Free admission for military personnel and families has been offered in summer 2026."
+      ],
+      "tags": [
+        "lyman",
+        "lyman museum",
+        "lyman mission house",
+        "mission house",
+        "hilo",
+        "volcano",
+        "minerals",
+        "natural history",
+        "history",
+        "missionary",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Love Big Island: Big Island museums (verified Oct. 2026)",
+          "url": "https://lovebigisland.com/museums-on-the-big-island"
+        },
+        {
+          "name": "Hawaii Tribune-Herald: Lyman Museum free admission for military (June 3, 2026)",
+          "url": "https://www.hawaiitribune-herald.com/2026/06/03/community/lyman-museum-offer-free-admission-to-military-personnel-and-their-families/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Hilo International Airport, Hilo, HI",
+        "from_label": "Hilo airport (ITO)",
+        "to": "Lyman Museum, 276 Haili St, Hilo, HI",
+        "to_label": "Lyman Museum"
+      }
+    },
+    {
+      "id": "museum-hulihee-palace",
+      "type": "museum",
+      "title": "Huliheʻe Palace (Kailua-Kona)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "A royal summer home on Aliʻi Drive in Kailua-Kona, built in 1838 and later used by King Kalākaua, now a museum run by the Daughters of Hawaiʻi. Open Wednesday to Saturday, 10 a.m. to 3 p.m.; self-guided entry $16 for adults ($12 kamaʻāina, seniors and military).",
+      "details": [
+        "Hours: Wednesday to Saturday, 10 a.m. to 3 p.m.; last entry 2:30 p.m. Reservations encouraged.",
+        "Admission: self-guided $16 adults, $14 youth 6 to 17, $12 kamaʻāina, seniors and military; keiki 5 and under free. Guided Moʻolelo tour $20.",
+        "Address: 75-5718 Aliʻi Drive, across from Mokuʻaikaua Church in historic Kailua Village.",
+        "Inside: koa furniture, royal portraits and artifacts of the Hawaiian aliʻi.",
+        "Easy to combine with a walk along Aliʻi Drive and the seawall."
+      ],
+      "tags": [
+        "hulihee",
+        "hulihee palace",
+        "palace",
+        "kailua-kona",
+        "kona",
+        "alii drive",
+        "kalakaua",
+        "royal",
+        "daughters of hawaii",
+        "history",
+        "kailua village",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Love Big Island: Big Island museums (verified Oct. 2026)",
+          "url": "https://lovebigisland.com/museums-on-the-big-island"
+        },
+        {
+          "name": "Hawaiʻi DLNR State Parks: Huliheʻe Palace",
+          "url": "https://dlnr.hawaii.gov/dsp/parks/hawaii/hulihee-palace"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kona International Airport, Kailua-Kona, HI",
+        "from_label": "Kona airport (KOA)",
+        "to": "Hulihee Palace, 75-5718 Alii Dr, Kailua-Kona, HI",
+        "to_label": "Huliheʻe Palace"
+      }
+    },
+    {
+      "id": "museum-kona-coffee-farm",
+      "type": "museum",
+      "title": "Kona Coffee Living History Farm (Captain Cook)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "A restored 1920s Japanese coffee farm in South Kona where costumed interpreters show family life and coffee growing during the plantation era. Open only Tuesday and Friday, 10 a.m. to 2 p.m.; $20 adults ($15 Hawaiʻi residents).",
+      "details": [
+        "Hours: Tuesday and Friday, 10 a.m. to 2 p.m. It's run by the Kona Historical Society.",
+        "Admission: $20 adults, $10 students 7 to 17; Hawaiʻi residents $15 adults, $5 students; under 7 free. Museums for All: $3 with an EBT, SNAP or WIC card.",
+        "Address: 82-6199 Māmalahoa Highway, Captain Cook.",
+        "The Society's H.N. Greenwell Store museum in Kealakekua opens on Thursdays only (10 a.m. to 2 p.m., $5 suggested donation), so you can't see both on the same day.",
+        "Reservations needed only for groups over 20."
+      ],
+      "tags": [
+        "kona coffee",
+        "coffee",
+        "coffee farm",
+        "living history farm",
+        "uchida",
+        "kona historical society",
+        "captain cook",
+        "south kona",
+        "kona",
+        "greenwell store",
+        "plantation",
+        "japanese",
+        "history",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Love Big Island: Big Island museums (verified Oct. 2026)",
+          "url": "https://lovebigisland.com/museums-on-the-big-island"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kona International Airport, Kailua-Kona, HI",
+        "from_label": "Kona airport (KOA)",
+        "to": "Kona Coffee Living History Farm, Captain Cook, HI",
+        "to_label": "Kona Coffee Living History Farm"
+      }
+    },
+    {
+      "id": "museum-big-island-small",
+      "type": "museum",
+      "title": "Smaller Hawaiʻi Island stops: Mokupāpapa, Paniolo Heritage, Honokaʻa, Laupāhoehoe Train",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Smaller Hawaiʻi Island museums worth a stop, several of them free: Mokupāpapa Discovery Center in Hilo (Northwestern Hawaiian Islands ocean life), the Paniolo Heritage Center in Waimea, the Honokaʻa Heritage Center and the volunteer-run Laupāhoehoe Train Museum.",
+      "details": [
+        "Mokupāpapa Discovery Center: 76 Kamehameha Ave, Hilo. Tuesday to Saturday, 9 a.m. to 4 p.m. Free. Papahānaumokuākea marine life and an aquarium.",
+        "Paniolo Heritage Center at Pukalani Stables: 67-139 Pukalani Rd, Waimea (Kamuela). Monday to Saturday, 10 a.m. to 2 p.m. Free. Hawaiian cowboy history.",
+        "Honokaʻa Heritage Center: 45-3490 Māmane St, Honokaʻa. Tuesday to Saturday, 9 a.m. to 4 p.m. Free (donations welcome).",
+        "Laupāhoehoe Train Museum: 36-2377 Māmalahoa Hwy, Laupāhoehoe. Usually Monday to Saturday, 10 a.m. to 2 p.m.; $10 adults. Volunteer-run, so call ahead.",
+        "Kīlauea Visitor Center in Hawaiʻi Volcanoes National Park is closed for renovation; a temporary welcome center is at Kīlauea Military Camp."
+      ],
+      "tags": [
+        "mokupapapa",
+        "discovery center",
+        "paniolo",
+        "paniolo heritage center",
+        "waimea",
+        "kamuela",
+        "honokaa",
+        "honokaa heritage center",
+        "laupahoehoe",
+        "train museum",
+        "hilo",
+        "hamakua",
+        "free",
+        "free museum",
+        "cowboy",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Love Big Island: Big Island museums (verified Oct. 2026)",
+          "url": "https://lovebigisland.com/museums-on-the-big-island"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Hilo International Airport, Hilo, HI",
+        "from_label": "Hilo airport (ITO)",
+        "to": "Mokupapapa Discovery Center, 76 Kamehameha Ave, Hilo, HI",
+        "to_label": "Mokupāpapa Discovery Center"
+      }
+    },
+    {
+      "id": "museum-bailey-house",
+      "type": "museum",
+      "title": "Bailey House Museum (Hale Hōʻikeʻike), Wailuku",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Maui's history museum, run by the Maui Historical Society in an 1830s mission house in Wailuku on the way to ʻĪao Valley. It holds Hawaiian artifacts, a koa canoe and paintings of early Maui. Open Tuesday to Friday, 10 a.m. to 2 p.m.",
+      "details": [
+        "Hours: Tuesday to Friday, 10 a.m. to 2 p.m.",
+        "Address: 2375A Main Street, Wailuku. Phone 808-244-3326.",
+        "Check admission prices on the Maui Historical Society website or by phone before you go.",
+        "Collections include Hawaiian tools and artifacts, a koa canoe and Edward Bailey's landscape paintings of early Maui.",
+        "Pair it with ʻĪao Valley State Monument (reservations needed for visitors) just up the road."
+      ],
+      "tags": [
+        "bailey house",
+        "bailey house museum",
+        "hale hoikeike",
+        "maui historical society",
+        "maui museum",
+        "wailuku",
+        "iao",
+        "central maui",
+        "history",
+        "missionary",
+        "canoe",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Maui Historical Society: contact and hours",
+          "url": "https://mauimuseum.org/contact-us"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Bailey House Museum, 2375 Main St, Wailuku, HI",
+        "to_label": "Bailey House Museum"
+      }
+    },
+    {
+      "id": "museum-sugar-maui",
+      "type": "museum",
+      "title": "Alexander & Baldwin Sugar Museum (Puʻunēnē)",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Small museum beside the shuttered Puʻunēnē sugar mill in Central Maui telling the story of Hawaiʻi's sugar era and the plantation camps where workers from many countries lived. Open Monday to Thursday, 10 a.m. to 2 p.m.; $12 adults, free for kamaʻāina.",
+      "details": [
+        "Hours: Monday to Thursday, 10 a.m. to 2 p.m.; last admission 1 p.m. Closed July 4, Thanksgiving, Christmas and New Year's Day.",
+        "Admission: $12 adults, $9 seniors and military, $5 children; 5 and under free; Hawaiʻi residents free.",
+        "Address: 3957 Hansen Road, Puʻunēnē (near Kahului). Phone 808-871-8058.",
+        "Maui's last sugar plantation (HC&S) closed in 2016, ending about 140 years of sugar on the island.",
+        "A quick stop on the way to or from Kahului Airport."
+      ],
+      "tags": [
+        "sugar museum",
+        "alexander and baldwin",
+        "alexander & baldwin",
+        "a&b",
+        "puunene",
+        "sugar",
+        "plantation",
+        "plantation camps",
+        "hcs",
+        "kahului",
+        "central maui",
+        "history",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Alexander & Baldwin Sugar Museum: visit",
+          "url": "https://sugarmuseum.com/visit"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Alexander & Baldwin Sugar Museum, 3957 Hansen Rd, Puunene, HI",
+        "to_label": "A&B Sugar Museum"
+      }
+    },
+    {
+      "id": "museum-kauai",
+      "type": "museum",
+      "title": "Kauaʻi Museum (Līhuʻe)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "The main museum of Kauaʻi and Niʻihau history and culture, in downtown Līhuʻe, with hands-on cultural demonstrations and free guided tours three mornings a week. Open Monday to Friday 9 a.m. to 4 p.m. and Saturday 9 a.m. to 2 p.m.; $15 general.",
+      "details": [
+        "Hours: Monday to Friday, 9 a.m. to 4 p.m.; Saturday, 9 a.m. to 2 p.m.; closed Sunday.",
+        "Admission: $15 ages 18 to 64, $12 seniors, $10 students 8 to 17, keiki 7 and under free, Kauaʻi kamaʻāina $10. Saturdays are free for Kauaʻi and Niʻihau residents.",
+        "Guided tours: Monday, Wednesday and Friday at 10 a.m.; no reservation needed.",
+        "Address: 4428 Rice Street, Līhuʻe. Phone 808-245-6931.",
+        "Good rainy-day stop, and Kauaʻi's state parks are mostly still closed after Hurricane Lowell."
+      ],
+      "tags": [
+        "kauai museum",
+        "lihue",
+        "rice street",
+        "niihau",
+        "history",
+        "culture",
+        "hawaiian",
+        "rainy day",
+        "museum kauai",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Kauaʻi Museum",
+          "url": "https://www.kauaimuseum.org/home"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Kauai Museum, 4428 Rice St, Lihue, HI",
+        "to_label": "Kauaʻi Museum"
+      }
+    },
+    {
+      "id": "museum-grove-farm",
+      "type": "museum",
+      "title": "Grove Farm Museum (Līhuʻe)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "A preserved sugar plantation homestead in Līhuʻe, with the Wilcox family home, gardens and workers' cottages, seen only on guided tours. Tours run Monday, Wednesday and Thursday at 10 a.m. and 1 p.m.; reservations are required.",
+      "details": [
+        "Tours: Monday, Wednesday and Thursday at 10 a.m. and 1 p.m. Advance reservations required; call 808-245-3202.",
+        "Requested donation: $20 adults, $10 children 5 to 12; kamaʻāina (Hawaiʻi ID) $10 adults, $5 children.",
+        "Address: 4050 Nāwiliwili Road, Līhuʻe. Check in at the historic plantation office, the first building on the right.",
+        "Kauaʻi's plantation history in a real home, not behind glass. Wear comfortable shoes for the walking tour."
+      ],
+      "tags": [
+        "grove farm",
+        "grove farm museum",
+        "grove farm homestead",
+        "wilcox",
+        "plantation",
+        "sugar",
+        "lihue",
+        "nawiliwili",
+        "history",
+        "homestead",
+        "tour",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Grove Farm Museum: visit",
+          "url": "https://grovefarm.org/visit"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Grove Farm Museum, 4050 Nawiliwili Rd, Lihue, HI",
+        "to_label": "Grove Farm Museum"
+      }
+    },
+    {
+      "id": "museum-molokai",
+      "type": "museum",
+      "title": "Molokaʻi Museum and Cultural Center (Kalaʻe)",
+      "island": "Molokaʻi",
+      "county": "Maui County",
+      "summary": "Molokaʻi's history museum, beside the restored R.W. Meyer Sugar Mill in upland Kalaʻe on the road to the Kalaupapa Lookout. Exhibits cover the last 150 years of island life. Admission is $5, cash only; hours are limited, so call ahead.",
+      "details": [
+        "Location: 1795 Kalaʻe Highway, about 10 minutes up from Kaunakakai, on the way to Pālāʻau State Park and the Kalaupapa Lookout.",
+        "Admission: $5, cash only. Hours aren't published widely; call or check before you go.",
+        "The 1870s R.W. Meyer Sugar Mill has a mule-driven cane crusher and a steam engine.",
+        "Exhibits: photos, newspapers, short videos and local stories, plus petroglyph and plantation-era displays. The gift shop sells local crafts and a detailed island map.",
+        "Kalaupapa tours are paused, so this and the lookout are the closest most visitors get to the peninsula's story."
+      ],
+      "tags": [
+        "molokai museum",
+        "molokai museum and cultural center",
+        "meyer sugar mill",
+        "rw meyer",
+        "sugar mill",
+        "kalae",
+        "kualapuu",
+        "kalaupapa lookout",
+        "molokai",
+        "history",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "GoHawaii: Molokaʻi Museum",
+          "url": "https://www.gohawaii.com/islands/molokai/things-to-do/land-activities/molokai-museum"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Molokai Airport, Hoolehua, HI",
+        "from_label": "Molokaʻi airport (MKK)",
+        "to": "Molokai Museum and Cultural Center, Kalae Hwy, Kualapuu, HI",
+        "to_label": "Molokaʻi Museum"
+      }
+    },
+    {
+      "id": "museum-lanai-heritage",
+      "type": "museum",
+      "title": "Lānaʻi Culture & Heritage Center (Lānaʻi City)",
+      "island": "Lānaʻi",
+      "county": "Maui County",
+      "summary": "Lānaʻi's community museum, in the old Dole administration building in Lānaʻi City, covering island life from before Western contact through ranching, the pineapple plantation era and tourism. Open Monday to Friday, 11 a.m. to 3 p.m.",
+      "details": [
+        "Hours: Monday to Friday, 11 a.m. to 3 p.m.",
+        "Address: Old Dole Administration Building, 730 Lānaʻi Avenue, Suite 118, Lānaʻi City. Phone 808-565-7177.",
+        "Admission isn't listed; call to confirm (donations support the center).",
+        "Exhibits include artifacts, photos and stories from the Dole pineapple years, when Lānaʻi was 'the Pineapple Island.'",
+        "The center also leads stewardship days at Kānepuʻu Preserve, one of Hawaiʻi's last native dryland forests."
+      ],
+      "tags": [
+        "lanai culture and heritage center",
+        "lanai heritage center",
+        "lanai museum",
+        "lanai city",
+        "dole",
+        "pineapple",
+        "pineapple island",
+        "kanepuu",
+        "lanai",
+        "history",
+        "museum",
+        "museums"
+      ],
+      "sources": [
+        {
+          "name": "Lānaʻi Culture & Heritage Center",
+          "url": "https://lanaichc.org"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lanai Airport, Lanai City, HI",
+        "from_label": "Lānaʻi airport (LNY)",
+        "to": "Lanai Culture & Heritage Center, 730 Lanai Ave, Lanai City, HI",
+        "to_label": "Lānaʻi Culture & Heritage Center"
       }
     }
   ]
