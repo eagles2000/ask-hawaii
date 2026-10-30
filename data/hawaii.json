@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.11.0",
+ "version": "0.12.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -4285,6 +4285,432 @@
     {
      "name": "Hawaiʻi Public Radio: Mongoose caught on Kauaʻi",
      "url": "https://www.hawaiipublicradio.org/local-news/2021-12-29/mongoose-caught-on-kauai-where-invasive-pest-not-established"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-ala-moana-center",
+   "type": "shop",
+   "title": "Ala Moana Center, Hawaiʻi's biggest mall (Honolulu)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "The world's largest open-air shopping center, with about 350 stores and restaurants, just outside Waikīkī at 1450 Ala Moana Boulevard. Anchors include Nordstrom, Bloomingdale's, Macy's and Target, plus a big food court and free hula shows on the center stage.",
+   "details": [
+    "Address: 1450 Ala Moana Blvd., Honolulu, across from Ala Moana Beach Park.",
+    "About 350 stores; opened in 1959. Anchors: Nordstrom, Bloomingdale's, Macy's, Target; also Marshalls and Ross.",
+    "About 11,000 parking spaces; parking gets tight on weekends and holidays.",
+    "From Waikīkī: a short bus ride on TheBus, trolley or a 20 to 30 minute walk.",
+    "Foodland Farms supermarket inside is handy for groceries and poke.",
+    "Check alamoanacenter.com for store hours and events."
+   ],
+   "tags": [
+    "ala moana",
+    "ala moana center",
+    "honolulu",
+    "nordstrom",
+    "bloomingdales",
+    "macys",
+    "target",
+    "food court",
+    "biggest mall",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs",
+    "largest mall",
+    "biggest",
+    "largest",
+    "largest shopping center"
+   ],
+   "sources": [
+    {
+     "name": "Ala Moana Center (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Ala_Moana_Center"
+    },
+    {
+     "name": "GoHawaii: Ala Moana Center",
+     "url": "https://www.gohawaii.com/listing/ala-moana-center/533"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-waikiki-shopping",
+   "type": "shop",
+   "title": "Waikīkī shopping: Royal Hawaiian Center and International Market Place",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "The two big shopping centers on Kalākaua Avenue. Royal Hawaiian Center (2201 Kalākaua) has 100+ shops and restaurants and free cultural classes like hula, ukulele and lauhala weaving. International Market Place (2330 Kalākaua) has luxury stores and dining around its famous banyan tree, open 10 a.m. to 9 p.m.",
+   "details": [
+    "Royal Hawaiian Center: 2201 Kalākaua Ave. Most stores 10 a.m. to 10 p.m. Free cultural classes; schedule at royalhawaiiancenter.com. Parking validation with purchase.",
+    "International Market Place: 2330 Kalākaua Ave. 10 a.m. to 9 p.m. (restaurants may stay open later). Luxury brands, Kūhiō Ave. Food Hall, Liliha Bakery and more, built around a historic banyan tree.",
+    "Kalākaua Avenue's Luxury Row and many ABC Stores line the street between them.",
+    "Both host free hula and music; check each center's events calendar."
+   ],
+   "tags": [
+    "waikiki",
+    "royal hawaiian center",
+    "international market place",
+    "kalakaua",
+    "luxury row",
+    "banyan tree",
+    "free hula",
+    "ukulele class",
+    "lei",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Royal Hawaiian Center",
+     "url": "https://www.hawaii-guide.com/oahu/royal-hawaiian-center"
+    },
+    {
+     "name": "Hawaiʻi Guide: International Market Place (updated Oct. 2026)",
+     "url": "https://www.hawaii-guide.com/oahu/international-market-place"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-waikele-premium-outlets",
+   "type": "shop",
+   "title": "Waikele Premium Outlets (Waipahu)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Hawaiʻi's only outlet mall, in Waipahu about 25 minutes west of Honolulu, with discount stores for brands like Coach, Michael Kors, Kate Spade, Tommy Bahama and Tumi. Open 10 a.m. to 7 p.m. Food trucks often park nearby.",
+   "details": [
+    "Lumiaina Street, Waipahu, off H-1 West (Waikele exit area).",
+    "Hours: 10 a.m. to 7 p.m. (per the center's site; holiday hours vary).",
+    "Busy on weekends, holidays and Black Friday; go early on a weekday.",
+    "Waikele Center next door has big-box stores.",
+    "Food trucks such as Rainbow Stream and Yellow Kitchen are listed at Waikele."
+   ],
+   "tags": [
+    "waikele",
+    "outlets",
+    "outlet mall",
+    "premium outlets",
+    "waipahu",
+    "discount",
+    "coach",
+    "michael kors",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Waikele Premium Outlets (Simon)",
+     "url": "https://www.premiumoutlets.com/outlet/waikele/stores/print"
+    },
+    {
+     "name": "Wanderlustyle: Oʻahu shopping guide (updated Aug. 2026)",
+     "url": "https://wanderlustyle.com/shopping-guide-oahu"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-oahu-neighborhood-malls",
+   "type": "shop",
+   "title": "Other Oʻahu malls: Pearlridge, Kahala, Windward and Ka Makana Aliʻi",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Away from the tourist areas, locals shop at Pearlridge Center in ʻAiea (Oʻahu's largest enclosed mall, with a monorail between its two halves), Kahala Mall near Diamond Head, Windward Mall in Kāneʻohe and Ka Makana Aliʻi in Kapolei, the newest.",
+   "details": [
+    "Pearlridge Center: 98-1005 Moanalua Rd., ʻAiea. Uptown and Downtown halves linked by a short monorail; movie theater.",
+    "Kahala Mall: 4211 Waiʻalae Ave., Honolulu. Smaller, more upscale; Whole Foods and a theater.",
+    "Windward Mall: 46-056 Kamehameha Hwy., Kāneʻohe.",
+    "Ka Makana Aliʻi: 91-5431 Kapolei Pkwy., Kapolei. Open-air with lots of restaurants.",
+    "Ward Village in Kakaʻako, next to Ala Moana, has newer shops and dining.",
+    "Check each mall's website for hours."
+   ],
+   "tags": [
+    "pearlridge",
+    "kahala mall",
+    "windward mall",
+    "ka makana alii",
+    "kapolei",
+    "aiea",
+    "kaneohe",
+    "ward village",
+    "kakaako",
+    "local malls",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Wanderlustyle: Oʻahu shopping guide (updated Aug. 2026)",
+     "url": "https://wanderlustyle.com/shopping-guide-oahu"
+    },
+    {
+     "name": "Hawaii News Now: Which Hawaiʻi malls have the most stores (2014)",
+     "url": "https://www.hawaiinewsnow.com/story/27442355/business-report-which-hawaii-malls-have-the-most-stores/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-aloha-stadium-swap-meet",
+   "type": "shop",
+   "title": "Aloha Stadium Swap Meet & Marketplace",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Oʻahu's big outdoor swap meet for cheap souvenirs, aloha shirts, crafts and local snacks. It moved to the lower parking lot at the Aloha Stadium site in Hālawa in October 2025. Open Wednesdays and Saturdays 8 a.m. to 3 p.m. and Sundays 6:30 a.m. to 3 p.m.; $2 admission (12 and up).",
+   "details": [
+    "Where: lower parking lot of the Aloha Stadium property, Hālawa (near Pearl Harbor and the airport).",
+    "Days and hours: Wednesday and Saturday 8 a.m. to 3 p.m.; Sunday 6:30 a.m. to 3 p.m.",
+    "Admission: $2 for ages 12+, with discounts for kamaʻāina and active-duty military.",
+    "The old stadium is being torn down for a planned new stadium district, which is why the swap meet moved.",
+    "Bring cash, a hat and water; it's hot and mostly unshaded.",
+    "Good for bargain souvenirs and gifts; compare prices between booths."
+   ],
+   "tags": [
+    "swap meet",
+    "aloha stadium",
+    "flea market",
+    "cheap souvenirs",
+    "halawa",
+    "bargains",
+    "marketplace",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii News Now: Swap meet vendors adjust to new location (Oct. 2026)",
+     "url": "https://www.hawaiinewsnow.com/2026/10/08/aloha-stadium-swap-meet-vendors-adjust-new-location/"
+    },
+    {
+     "name": "Aloha Stadium: Swap Meet & Marketplace",
+     "url": "https://alohastadium.hawaii.gov/aloha-stadium-swap-meet-marketplace"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-queen-kaahumanu-center",
+   "type": "shop",
+   "title": "Queen Kaʻahumanu Center and Maui malls (Kahului)",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Maui's main mall, in central Kahului near the airport, with Macy's, local shops, a food court and a movie theater. Hours: Monday to Thursday 10 a.m. to 8 p.m., Friday and Saturday 10 to 9, Sunday 10 to 6.",
+   "details": [
+    "On Kaʻahumanu Avenue in Kahului, about 10 minutes from Kahului Airport (OGG).",
+    "Hours: Mon. to Thu. 10 a.m. to 8 p.m.; Fri. and Sat. 10 a.m. to 9 p.m.; Sun. 10 a.m. to 6 p.m.",
+    "Stores include Macy's and Foodland; good for supplies on arrival day.",
+    "Maui Mall is nearby on Kaʻahumanu Avenue, and the Kahului Food Truck Park is across from Costco.",
+    "Check queenkaahumanucenter.com for current hours."
+   ],
+   "tags": [
+    "queen kaahumanu center",
+    "kaahumanu",
+    "kahului",
+    "maui mall",
+    "macys",
+    "maui",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Queen Kaʻahumanu Center",
+     "url": "https://www.hawaii-guide.com/maui/queen-kaahumanu-center"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-maui-resort-shopping",
+   "type": "shop",
+   "title": "Maui resort shopping: Whalers Village (Kāʻanapali) and The Shops at Wailea",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Whalers Village is the beachfront shopping center in Kāʻanapali on West Maui, where several Lāhainā businesses lost in the 2023 fire have reopened. The Shops at Wailea in South Maui has 70+ shops and restaurants, open daily 10 a.m. to 9 p.m., with free parking.",
+   "details": [
+    "Whalers Village: on Kāʻanapali Beach, West Maui. Returning Lāhainā businesses in 2026 include Banyan Tree Tattoo, CocoNene, Cool Cat Express, Honolulu Cookie Company and Via! by Sale Pepe. New: Maui Jim, Reyn Spooner, KoaWood Ranch.",
+    "Whalers Village hours: see whalersvillage.com.",
+    "The Shops at Wailea: 3750 Wailea Alanui Dr., Wailea. Daily 10 a.m. to 9 p.m.; 70+ shops, luxury brands, local galleries; free parking.",
+    "Lāhainā town is still rebuilding after the August 2023 fire; follow posted signs and respect closed areas."
+   ],
+   "tags": [
+    "whalers village",
+    "kaanapali",
+    "lahaina",
+    "west maui",
+    "shops at wailea",
+    "wailea",
+    "south maui",
+    "maui shopping",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Maui Now: Whalers Village welcomes returning Lāhainā businesses (Mar. 2026)",
+     "url": "https://mauinow.com/2026/03/26/whalers-village-welcomes-new-beginnings-return-of-beloved-lahaina-businesses"
+    },
+    {
+     "name": "The Shops at Wailea",
+     "url": "https://www.theshopsatwailea.com/information"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-kauai-shopping",
+   "type": "shop",
+   "title": "Kauaʻi shopping: Kukui Grove, Coconut Marketplace and Kukuiʻula",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Kauaʻi's largest mall is Kukui Grove Center in Līhuʻe. On the east side, Coconut Marketplace in Kapaʻa has local boutiques, ukulele shops and shave ice. In Poʻipū, The Shops at Kukuiʻula is an upscale village with galleries, restaurants and a weekly farmers market.",
+   "details": [
+    "Kukui Grove Center, Līhuʻe: the island's largest mall, with national chains and local shops.",
+    "Coconut Marketplace, Kapaʻa: open-air; aloha wear, handmade ukuleles, souvenirs, shave ice.",
+    "The Shops at Kukuiʻula, Poʻipū: boutiques, art galleries, restaurants; weekly culinary market with local farmers.",
+    "Kong Lung Market Center, Kīlauea: plantation-era buildings with galleries and gifts.",
+    "Also: Princeville Center, Hanalei Center and Poʻipū Shopping Village.",
+    "Small-town shops may close early; check before driving across the island."
+   ],
+   "tags": [
+    "kauai",
+    "kukui grove",
+    "lihue",
+    "coconut marketplace",
+    "kapaa",
+    "kukuiula",
+    "poipu",
+    "kilauea",
+    "princeville",
+    "hanalei",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Kauaʻi shopping (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/kauai/shopping"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-hawaii-island-shopping",
+   "type": "shop",
+   "title": "Hawaiʻi Island shopping: Waikoloa, Kona and Hilo",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "On the Kohala Coast, Kings' Shops and Queens' MarketPlace at Waikoloa Beach Resort have boutiques, dining and entertainment. In Kona, the Kona Inn Shopping Village sits on Aliʻi Drive. In Hilo, Prince Kūhiō Plaza is the main mall, and the Hilo Farmers Market runs daily busiest on Wednesday and Saturday.",
+   "details": [
+    "Kings' Shops and Queens' MarketPlace: Waikoloa Beach Resort, Kohala Coast. Upscale shops, restaurants, free entertainment.",
+    "Kona Inn Shopping Village: oceanfront on Aliʻi Drive, Kailua-Kona.",
+    "Prince Kūhiō Plaza: Hilo's main mall.",
+    "Hilo Farmers Market: downtown Hilo, open daily; busiest on Wednesdays and Saturdays. Produce, flowers, crafts, macadamia nuts, local honey.",
+    "Big Island Candies in Hilo is a popular stop for shortbread and gifts."
+   ],
+   "tags": [
+    "big island",
+    "hawaii island",
+    "kings shops",
+    "queens marketplace",
+    "waikoloa",
+    "kona",
+    "kona inn",
+    "prince kuhio plaza",
+    "hilo",
+    "hilo farmers market",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Big Island shopping",
+     "url": "https://www.hawaii-guide.com/big-island/shopping"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "shop-shopping-tips",
+   "type": "shop",
+   "title": "Shopping tips: tax, kamaʻāina discounts and Hawaiian-made gifts",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Prices in Hawaiʻi don't include tax: the general excise tax is added at the register, usually 4.712% on every island. Many stores give kamaʻāina (resident) and military discounts with ID. For real Hawaiian-made gifts, look for local makers at farmers markets and the Made in Hawaiʻi Festival.",
+   "details": [
+    "Tax: the general excise tax is 4.5% in all four counties, and businesses may pass on up to 4.712%, which is why receipts often show that number.",
+    "Kamaʻāina and military discounts: ask; ID required.",
+    "Hawaiian-made: look for local makers' labels, farmers markets (KCC, Hilo), craft fairs and the Made in Hawaiʻi Festival each August.",
+    "Going home: fresh fruit, plants and flowers must pass airport agriculture inspection; pineapple and most lei are fine.",
+    "Taking sand, rocks or coral from beaches is restricted by state law.",
+    "Parking validation: most malls validate with a purchase; keep your ticket."
+   ],
+   "tags": [
+    "tax",
+    "kamaaina discount",
+    "military discount",
+    "hawaiian made",
+    "gifts",
+    "souvenirs",
+    "tips",
+    "what to buy",
+    "shopping",
+    "shop",
+    "mall",
+    "malls",
+    "shopping center",
+    "stores",
+    "souvenirs"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Department of Taxation",
+     "url": "https://tax.hawaii.gov/"
     }
    ],
    "last_checked": "2026-10-29"
