@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.15.0",
+ "version": "0.16.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -6479,6 +6479,656 @@
     {
      "name": "Hawaiʻi Magazine: 2026 Readers' Choice, Molokaʻi and Lānaʻi",
      "url": "https://www.hawaiimagazine.com/2026-readers-choice-awards-molokai-and-lanai/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-hawaii-basics",
+   "type": "golf",
+   "title": "Golf in Hawaiʻi: how tee times, rates and resident discounts work",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi golf ranges from about $40 to $100 for visitors at county and public courses to $200 to $400+ at top resort courses. Residents (kamaʻāina) pay far less with a Hawaiʻi ID. Book online; visitor windows at county courses are short (often 3 to 7 days), while resorts let you book weeks or months ahead.",
+   "details": [
+    "Visitor rates at county and public-access courses: roughly $40 to $100; resort courses $150 to $400+.",
+    "Kamaʻāina rates need a Hawaiʻi driver's license or state ID; some courses require newer IDs with the gold star.",
+    "Twilight rates (usually after 1 to 3 p.m.) can be a third to half cheaper.",
+    "Many resorts offer kids-play-free deals after 3 p.m. with a paying adult.",
+    "Rental clubs: about $30 to $50 at municipal courses, $80+ at resorts.",
+    "Expect wind, quick rain showers and slow greens near the ocean; bring sunscreen and water.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "golf in hawaii",
+    "how much is golf",
+    "cheap golf",
+    "kamaaina rate",
+    "twilight",
+    "rental clubs",
+    "golf tips",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Hawaiʻi's public and municipal golf courses (June 2026)",
+     "url": "https://www.hawaii-guide.com/blog/hawaii-public-municipal-golf-courses-affordable"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-oahu-municipal",
+   "type": "golf",
+   "title": "Oʻahu's six city golf courses (Ala Wai, West Loch, Pali and more)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "The City and County of Honolulu runs six public courses: Ala Wai (next to Waikīkī, famously the world's busiest), ʻEwa Villages, Kahuku (9 holes on the North Shore), Pali (Kāneʻohe), Ted Makalena (Waipahu) and West Loch (ʻEwa Beach). Visitors can book online up to 3 days ahead; Golf ID cardholders get 7 days.",
+   "details": [
+    "Book online after filling out the City's Online Access Form, or call the course. Booking opens at 6:30 a.m.; non-cardholders up to 3 days ahead, Golf ID holders up to 7.",
+    "Cancel at least 10 hours before your tee time. Help line: 808-733-7386 (weekdays 8 a.m. to 3 p.m.).",
+    "Ala Wai (808-207-6856): walkable from the Diamond Head end of Waikīkī; about 500 rounds a day.",
+    "West Loch (808-207-6720): partly links-style; often the best conditioned.",
+    "Pali (808-207-7099): Koʻolau mountain views; walking required on weekdays.",
+    "Kahuku (808-207-7076): 9 oceanfront holes, walk only, no carts or range.",
+    "ʻEwa Villages (808-207-6741) and Ted Makalena (808-207-6735): flatter, easier to get on.",
+    "Fees are among the lowest on the island; residents pay much less with a Golf ID.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "ala wai",
+    "municipal",
+    "city courses",
+    "west loch",
+    "ewa villages",
+    "pali golf",
+    "ted makalena",
+    "kahuku golf",
+    "cheap golf oahu",
+    "public golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "City and County of Honolulu: Tee time reservations",
+     "url": "https://www.honolulu.gov/des/golf-courses/tee-time-reservations/"
+    },
+    {
+     "name": "Hawaiʻi Guide: Hawaiʻi's public and municipal golf courses (June 2026)",
+     "url": "https://www.hawaii-guide.com/blog/hawaii-public-municipal-golf-courses-affordable"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-ko-olina",
+   "type": "golf",
+   "title": "Ko Olina Golf Club (West Oʻahu)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Resort course at Ko Olina, 92-1220 Aliʻinui Dr., Kapolei. 2026 rates: $275 for off-resort visitors, $245 for Ko Olina resort guests, $210 twilight after 1 p.m., and $100 to $105 for kamaʻāina. Book up to 90 days ahead; open daily 6 a.m. to 7 p.m.",
+   "details": [
+    "Phone 808-676-5300. Open every day including holidays, 6 a.m. to 7 p.m. (weather permitting).",
+    "2026 18-hole rates: off-resort and Four Seasons guests $275; Ko Olina resort guests $245; twilight after 1 p.m. $210; 9 holes $125 to $140. Holiday rates (Dec. 14 to 31) are $20 higher.",
+    "Kamaʻāina: $100 weekday, $105 weekend; twilight $85 to $90; 9 holes $55 weekdays.",
+    "2027 rates rise to $295 off-resort and $265 resort guests.",
+    "Kids play free after 3 p.m. with a paying adult.",
+    "Rates include a cart and a warm-up bucket. Smart casual dress, soft spikes. Cancel 24 hours ahead or pay full fee.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "ko olina",
+    "koolina",
+    "kapolei",
+    "west oahu",
+    "resort golf",
+    "four seasons",
+    "aulani",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Ko Olina Golf Club: Tee times and rates",
+     "url": "https://www.koolinagolf.com/tee-times-and-rates/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-turtle-bay",
+   "type": "golf",
+   "title": "Turtle Bay golf: Arnold Palmer and George Fazio courses (North Shore)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Turtle Bay Resort at Kahuku has two courses: the Arnold Palmer Course (visitor rate from about $250 before 1 p.m.) and the shorter George Fazio Course (from about $180). Same-day replays and 9-hole rounds are about $140. The Fazio course was listed as temporarily closed on Turtle Bay's rate page, so check before you go.",
+   "details": [
+    "Arnold Palmer Course: visitor rate from about $250 (before 1 p.m.); replay and 9 holes $140.",
+    "George Fazio Course: from about $180; shown as temporarily closed on the rates page in 2026.",
+    "Resort guest and kamaʻāina rates are listed separately on Turtle Bay's site.",
+    "About an hour or more from Waikīkī; pair with the Kahuku shrimp trucks.",
+    "Windy and exposed; the Palmer course winds through wetlands.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "turtle bay",
+    "arnold palmer",
+    "palmer course",
+    "fazio",
+    "north shore",
+    "kahuku",
+    "resort golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Turtle Bay Resort: Golf rates for Oʻahu visitors",
+     "url": "https://turtlebayresort.com/things-to-do/golf/rates/oahu-visitor"
+    },
+    {
+     "name": "Green Fee Tracker: Honolulu golf green fees 2026",
+     "url": "https://www.greenfeetracker.com/blog/golf-green-fees-honolulu-2026"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-oahu-other-public",
+   "type": "golf",
+   "title": "Other Oʻahu courses: Kapolei, Hawaiʻi Kai, Olomana and more",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "More public-access courses on Oʻahu: Kapolei Golf Club (about $155 to $210 visitors, $65 to $75 kamaʻāina), Hawaiʻi Kai Golf Course (about $65 to $100), Olomana Golf Links in Waimānalo (about $95 weekday, $105 weekend) and Coral Creek in ʻEwa Beach (about $50 weekdays). Waiʻalae Country Club, home of the January pro tournament, is private.",
+   "details": [
+    "Kapolei Golf Club: 808-674-2227; visitor rate listed $155 (normally $210) in May 2026, twilight $120; kamaʻāina $65 weekday, $75 weekend.",
+    "Hawaiʻi Kai Golf Course (East Oʻahu): about $65 to $100; has a championship course and a shorter executive course.",
+    "Olomana Golf Links (Waimānalo): about $95 weekday, $105 weekend; mountain views.",
+    "Coral Creek (ʻEwa Beach): about $50 weekdays.",
+    "Military courses (Leilehua, Mamala Bay, Kāneʻohe Klipper) have lower rates for eligible military and guests.",
+    "Waiʻalae Country Club (Kāhala) is private; it hosts the Sony Championship Hawaii (PGA TOUR Champions) each January.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "kapolei golf club",
+    "hawaii kai golf",
+    "olomana",
+    "coral creek",
+    "waialae",
+    "waialae country club",
+    "military golf",
+    "public golf oahu",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Green Fee Tracker: Honolulu golf green fees 2026",
+     "url": "https://www.greenfeetracker.com/blog/golf-green-fees-honolulu-2026"
+    },
+    {
+     "name": "Green Fee Tracker: Kapolei Golf Club (May 2026)",
+     "url": "https://www.greenfeetracker.com/hi/honolulu/kapolei-golf-club"
+    },
+    {
+     "name": "Hawaii News Now: Sony Championship Hawaii at Waiʻalae",
+     "url": "https://www.hawaiinewsnow.com/2026/07/02/new-sony-championship-hawaii-golf-tournament-debut-waialae-2027/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-kapalua",
+   "type": "golf",
+   "title": "Kapalua golf: the Plantation and Bay courses (West Maui)",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Kapalua's Plantation Course, longtime home of the PGA Tour's season opener, reopened Nov. 10, 2025, after drought and water problems; the 2026 tournament (The Sentry) was canceled. Expect about $250 to $350+ on the Plantation and $180 to $250 on the Bay Course.",
+   "details": [
+    "Plantation Course: dramatic, hilly, very windy; about $250 to $350+.",
+    "Bay Course: gentler, oceanfront; about $180 to $250.",
+    "The PGA Tour canceled The Sentry for 2026 because of Maui's drought and a water dispute; the course reopened to the public Nov. 10, 2025.",
+    "Kapalua is at the north end of West Maui; about an hour from Kahului Airport.",
+    "Book on the Kapalua Golf website; twilight rates are lower.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "kapalua",
+    "plantation course",
+    "bay course",
+    "sentry",
+    "pga tour",
+    "west maui",
+    "resort golf",
+    "maui golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "The Golf News Net: Sentry canceled, Plantation Course reopening (Oct. 2025)",
+     "url": "https://thegolfnewsnet.com/golfnewsnetteam/2025/10/23/pga-tour-cancels-the-sentry-for-2026-as-kapalua-resort-announces-plantation-course-re-opening-date-139099/"
+    },
+    {
+     "name": "Green Fee Tracker: Maui golf green fees 2026",
+     "url": "https://www.greenfeetracker.com/blog/golf-green-fees-maui-2026"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-wailea",
+   "type": "golf",
+   "title": "Wailea Golf Club: Gold, Emerald and Blue (South Maui)",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Three courses in Wailea: Gold and Emerald from about $285 for Maui resort guests, and the Blue course from about $255, with twilight rates of about $200 and $175. Kids play free after 3 p.m. with a paying adult. Call 888-328-6284 for current rates.",
+   "details": [
+    "Gold and Emerald: from about $285 (Maui resort guests); Wailea resort guests slightly less.",
+    "Blue: from about $255; twilight $175; 9-hole twilight about $90.",
+    "Gold/Emerald twilight about $200; 9-hole twilight about $100.",
+    "Kids play free after 3 p.m. with one paying adult; extra juniors $90 to $100.",
+    "Most recent published rates on the club's site date from 2024 to 2025; call 888-328-MAUI (6284) to confirm.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "wailea",
+    "wailea golf",
+    "gold course",
+    "emerald course",
+    "blue course",
+    "south maui",
+    "kihei",
+    "resort golf",
+    "maui golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Wailea Golf Club: Rates and offers",
+     "url": "https://waileagolf.com/Golf/Rates-Offers"
+    },
+    {
+     "name": "Green Fee Tracker: Maui golf green fees 2026",
+     "url": "https://www.greenfeetracker.com/blog/golf-green-fees-maui-2026"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-kaanapali",
+   "type": "golf",
+   "title": "Kāʻanapali golf: Royal and Kai courses (West Maui)",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Two 18-hole courses in Kāʻanapali: the challenging Royal Kāʻanapali and the more forgiving Kai. Voted Best Golf Course on Maui in the 2026 KITV Best of Maui awards. About 45 minutes from Kahului Airport; book at kaanapaligolfcourses.com.",
+   "details": [
+    "Royal Kāʻanapali: oceanfront, strategic, tougher.",
+    "Kai: friendlier for beginners and casual golfers.",
+    "Named 2026 Best Golf Course on Maui (KITV viewers) and on GolfPass's list of Hawaiʻi's best public courses.",
+    "About 45 minutes from Kahului Airport; 10 minutes from Kapalua Airport.",
+    "Rates and specials on the course website.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "kaanapali",
+    "royal kaanapali",
+    "kai course",
+    "west maui",
+    "lahaina",
+    "resort golf",
+    "maui golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Maui Now: Kāʻanapali voted 2026 best golf course on Maui",
+     "url": "https://mauinow.com/2026/09/27/kaanapali-voted-2026-best-golf-course-on-maui/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-maui-value",
+   "type": "golf",
+   "title": "Value golf on Maui: Waiehu, Dunes at Maui Lani and Pukalani",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "For lower-cost golf on Maui: Waiehu Golf Course, the County's own course near Wailuku with an oceanfront front nine (one of the state's oldest 18-hole courses); The Dunes at Maui Lani, a links-style public course in Kahului; and Pukalani Country Club, Upcountry at about 1,100 feet.",
+   "details": [
+    "Waiehu Golf Course (County of Maui): early-1930s course; front nine runs along the ocean. Among Maui's cheapest rounds; visitor rates on the County site.",
+    "The Dunes at Maui Lani (Kahului): links-style on old sand dunes; priced below resort courses.",
+    "Pukalani Country Club (Upcountry): cooler air and valley views at about 1,100 feet.",
+    "All are close to Kahului Airport, handy for arrival or departure days.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "waiehu",
+    "dunes at maui lani",
+    "maui lani",
+    "pukalani",
+    "cheap golf maui",
+    "municipal",
+    "wailuku",
+    "kahului",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Hawaiʻi's public and municipal golf courses (June 2026)",
+     "url": "https://www.hawaii-guide.com/blog/hawaii-public-municipal-golf-courses-affordable"
+    },
+    {
+     "name": "Green Fee Tracker: Maui golf green fees 2026",
+     "url": "https://www.greenfeetracker.com/blog/golf-green-fees-maui-2026"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-kauai-resort",
+   "type": "golf",
+   "title": "Kauaʻi resort golf: Princeville Makai, Poʻipū Bay and Hōkūala",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Kauaʻi's big three resort courses all reopened after Hurricane Lowell: Princeville Makai on the North Shore (reopened Sept. 29, 2026), Poʻipū Bay next to the Grand Hyatt on the South Shore, and the Jack Nicklaus Ocean Course at Hōkūala in Līhuʻe. Check each course's site for rates; book ahead.",
+   "details": [
+    "Princeville Makai Golf Club: North Shore cliffs and ocean views; reopened Sept. 29, 2026.",
+    "Poʻipū Bay Golf Course: South Shore, beside the Grand Hyatt Kauaʻi; open.",
+    "Ocean Course at Hōkūala (Līhuʻe/Kalapakī): Jack Nicklaus signature design; open; book in advance.",
+    "After the hurricane, courses may have temporary cart-path-only rules or closed ranges.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "princeville",
+    "princeville makai",
+    "poipu bay",
+    "hokuala",
+    "kauai lagoons",
+    "nicklaus",
+    "kauai golf",
+    "resort golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "First Call Golf: Kauaʻi courses reopen after Hurricane Lowell (Oct. 2026)",
+     "url": "https://www.firstcallgolf.com/industry-news/release/2026-10-19/go-golf-kauai-courses-reopen-following-hurricane-lowell"
+    },
+    {
+     "name": "Hawaiʻi Guide: Golf courses on Kauaʻi",
+     "url": "https://www.hawaii-guide.com/kauai/activities/golf-packages"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-kauai-value",
+   "type": "golf",
+   "title": "Value golf on Kauaʻi: Wailua, Puakea and Kukuiolono",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Wailua Golf Course, the County's oceanside course, is one of Hawaiʻi's best values: $80 weekday and $100 weekend for visitors ($40 to $50 twilight after 2 p.m.), plus $24 for a cart. Reservations are required all day; call 808-241-6666. Puakea in Līhuʻe reopened Sept. 12, 2026, and Kukuiolono in Kalāheo is a scenic 9-hole course.",
+   "details": [
+    "Wailua: non-resident $80 weekday, $100 weekend/holiday; twilight (from 2 p.m.) $40 / $50. Kauaʻi residents $18 / $23.",
+    "Wailua cart $24 (18 holes); club rental $40. Reservations required, no walk-ons. All 18 holes reopened Oct. 5, 2026; driving range closed.",
+    "Wailua was GolfPass's top-rated course in Hawaiʻi in its 2023 Golfers' Choice list; three holes sit on the ocean.",
+    "Puakea Golf Course (Līhuʻe): reopened Sept. 12, 2026.",
+    "Kukuiolono (Kalāheo): 9 holes, walking only, modest fee, gardens and South Shore views.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "wailua golf",
+    "wailua",
+    "puakea",
+    "kukuiolono",
+    "kalaheo",
+    "cheap golf kauai",
+    "municipal",
+    "kauai golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "County of Kauaʻi: Wailua Golf Course",
+     "url": "https://www.kauai.gov/Golf"
+    },
+    {
+     "name": "First Call Golf: Kauaʻi courses reopen (Oct. 2026)",
+     "url": "https://www.firstcallgolf.com/industry-news/release/2026-10-19/go-golf-kauai-courses-reopen-following-hurricane-lowell"
+    },
+    {
+     "name": "Hawaiʻi Guide: Hawaiʻi's public and municipal golf courses (June 2026)",
+     "url": "https://www.hawaii-guide.com/blog/hawaii-public-municipal-golf-courses-affordable"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-mauna-kea-hapuna",
+   "type": "golf",
+   "title": "Mauna Kea and Hāpuna golf (Kohala Coast, Hawaiʻi Island)",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "Two famous Kohala Coast courses: Mauna Kea (Robert Trent Jones Sr., 1964), with its ocean-crossing 3rd hole, about $345 mornings and $270 after noon; and Hāpuna (Arnold Palmer and Ed Seay, 1992), a links-style course with ocean views from every hole, about $245 mornings and $185 afternoons.",
+   "details": [
+    "Mauna Kea Golf Course: 62-100 Mauna Kea Beach Dr.; par 72; $345 morning, $270 from noon, $225 for 9 holes (visitor, before tax, checked Aug. 2026).",
+    "Hāpuna Golf Course: $245 morning, $185 afternoon.",
+    "Public tee times open 60 days ahead; the earliest morning times go to resort guests and members.",
+    "About 35 to 40 minutes north of Kona Airport.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "mauna kea golf",
+    "hapuna",
+    "kohala coast",
+    "robert trent jones",
+    "arnold palmer",
+    "big island golf",
+    "resort golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Love Big Island: Big Island golf courses and costs (updated Oct. 2026)",
+     "url": "https://www.lovebigisland.com/big-island-golfing/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-waikoloa-mauna-lani",
+   "type": "golf",
+   "title": "Waikoloa, Mauna Lani and Hualālai golf (Hawaiʻi Island)",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "Waikoloa Beach Resort Golf has 27 holes (Beach, Lakes and Kings' nines) from about $215 mornings down to $119 after 1 p.m., and $89 for kamaʻāina. Mauna Lani has two courses built on old lava flows (North and South), with public tee times 14 days ahead. Hualālai, home of a PGA TOUR Champions event each January, is private.",
+   "details": [
+    "Waikoloa Beach Resort Golf: 600 Waikoloa Beach Dr.; $215 morning, $150 from 11 a.m. to 1 p.m., $119 after 1 p.m.; kamaʻāina $89. Every golfer needs their own set of at least eight clubs.",
+    "Mauna Lani North (inland, across lava) and South (seaside, whale views in winter); rates quoted at booking; public tee times 14 days ahead.",
+    "Hualālai (Jack Nicklaus): members, their guests and Four Seasons Hualālai guests only; hosts the Mitsubishi Electric Championship each January through 2030.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "waikoloa",
+    "kings course",
+    "beach course",
+    "mauna lani",
+    "hualalai",
+    "kohala coast",
+    "big island golf",
+    "resort golf",
+    "lava",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Love Big Island: Big Island golf courses and costs (updated Oct. 2026)",
+     "url": "https://www.lovebigisland.com/big-island-golfing/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-hilo-volcano",
+   "type": "golf",
+   "title": "Value golf on Hawaiʻi Island: Hilo Municipal and Volcano",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "On the east side, Hilo Municipal Golf Course is the island's only County-owned course and one of its cheapest rounds (about $44, confirm by phone), open 7 a.m. to 6 p.m. Volcano Golf and Country Club sits at about 4,000 feet near the national park: $100 for visitors with a half cart, $75 for 9 holes or after 2 p.m.",
+   "details": [
+    "Hilo Municipal: 340 Haihai St., Hilo; par 71, 6,325 yards; open 7 a.m. to 6 p.m.",
+    "Volcano Golf and Country Club: 99-1621 Piʻimauna Dr., Volcano; par 72; $100 non-resident with half cart, $75 for 9 holes or after 2 p.m.; residents $58 weekday with cart.",
+    "Volcano is cool and often misty; pair it with Hawaiʻi Volcanoes National Park.",
+    "Naniloa Golf Course (Hilo): 9 holes at the Grand Naniloa Hotel.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "hilo municipal",
+    "hilo golf",
+    "volcano golf",
+    "naniloa",
+    "cheap golf big island",
+    "municipal",
+    "big island golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Love Big Island: Big Island golf courses and costs (updated Oct. 2026)",
+     "url": "https://www.lovebigisland.com/big-island-golfing/"
+    },
+    {
+     "name": "Hawaiʻi Guide: Hawaiʻi's public and municipal golf courses (June 2026)",
+     "url": "https://www.hawaii-guide.com/blog/hawaii-public-municipal-golf-courses-affordable"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "golf-lanai-molokai",
+   "type": "golf",
+   "title": "Golf on Lānaʻi and Molokaʻi",
+   "island": [
+    "Lānaʻi",
+    "Molokaʻi"
+   ],
+   "county": "Maui County",
+   "summary": "On Lānaʻi, Manele Golf Course is a Jack Nicklaus signature course along the sea cliffs, often called one of Hawaiʻi's best resort courses; it's for Four Seasons Lānaʻi guests (call 808-565-2000). Lānaʻi City also has the free 9-hole Cavendish Golf Course. Molokaʻi's only golf is 9-hole Ironwood Hills.",
+   "details": [
+    "Manele Golf Course (Lānaʻi): Jack Nicklaus signature; 18 holes on oceanfront cliffs. Course access isn't offered to day visitors; book through the Four Seasons Resort Lānaʻi.",
+    "Rental clubs at Manele: $105 plus tax with a sleeve of balls.",
+    "Kōʻele, Lānaʻi's other resort course, closed and won't return.",
+    "Cavendish Golf Course: free 9 holes near Lānaʻi City.",
+    "Ironwood Hills (Molokaʻi): 9 holes, Molokaʻi's only course.",
+    "Golf rates change often and add Hawaiʻi tax; confirm on the course's website before you book."
+   ],
+   "tags": [
+    "lanai",
+    "manele",
+    "nicklaus",
+    "four seasons lanai",
+    "cavendish",
+    "molokai",
+    "ironwood hills",
+    "lanai golf",
+    "molokai golf",
+    "golf",
+    "golf course",
+    "golf courses",
+    "tee time",
+    "tee times",
+    "green fees",
+    "play golf"
+   ],
+   "sources": [
+    {
+     "name": "Four Seasons Resort Lānaʻi: Golf, 18 holes",
+     "url": "https://www.fourseasons.com/lanai/experiences/land-pursuits/golf-18-holes/"
+    },
+    {
+     "name": "GolfPass: Best tropical islands with one golf course",
+     "url": "https://www.golfpass.com/travel-advisor/articles/one-hit-wonders-ranking-the-best-tropical-islands-with-only-one-regulation-golf-course"
     }
    ],
    "last_checked": "2026-10-29"
