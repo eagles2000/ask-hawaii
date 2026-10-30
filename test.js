@@ -169,6 +169,18 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("garden of the gods") === "place-lanai-garden-of-gods", "garden of the gods");
   ok((top("things to do on molokai") || "").includes("molokai"), "things to do molokai");
 
+  // Hawaii Island beaches and hikes (v0.19)
+  ok(top("hapuna beach") === "beach-hapuna", "hapuna");
+  ok(top("green sand beach") === "hike-papakolea-green-sand", "green sand");
+  ok(top("black sand beach turtles") === "beach-punaluu-black-sand", "punaluu");
+  ok(top("pololu valley") === "hike-pololu-valley", "pololu");
+  ok(top("waipio valley") === "place-waipio-valley", "waipio");
+  ok(top("mauna kea summit") === "place-mauna-kea-summit", "mauna kea");
+  ok(top("kahaluu snorkeling") === "beach-kahaluu-snorkel", "kahaluu");
+  ok(top("two step snorkeling") === "beach-two-step-honaunau", "two step");
+  ok(top("kilauea iki trail") === "hike-kilauea-iki", "kilauea iki");
+  ok(top("hilo snorkeling") === "beach-richardson-hilo", "richardson");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);
