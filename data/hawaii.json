@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.10.0",
+ "version": "0.11.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -3837,6 +3837,454 @@
     {
      "name": "GoHawaii: Liliʻuokalani Gardens",
      "url": "https://www.gohawaii.com/islands/hawaii-big-island/regions/hilo/liliuokalani-gardens"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "animal-nene",
+   "type": "animal",
+   "title": "Nēnē, the Hawaiian goose (state bird)",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "The nēnē is Hawaiʻi's state bird and is found nowhere else on Earth. It nearly vanished, down to about 30 wild birds around 1950, and has recovered to roughly 3,000 thanks to protection. Never feed nēnē, and drive slowly where signs warn of them.",
+   "details": [
+    "Only in Hawaiʻi; descended from geese that arrived long ago and adapted to land, with less webbing on their feet for walking on lava.",
+    "Down to about 30 in the wild around 1950; about 3,000 statewide today. Protected under the Endangered Species Act since 1967 and later reclassified from endangered to threatened.",
+    "Where to see them: Hawaiʻi Volcanoes National Park (about 250 there), Haleakalā, and Kauaʻi, including golf courses and grassy areas.",
+    "Don't feed them. Fed birds come to roads and parking lots, and many are killed by cars.",
+    "Drive slowly in nēnē crossing zones, especially in national parks.",
+    "Named Hawaiʻi's state bird in 1957."
+   ],
+   "tags": [
+    "nene",
+    "hawaiian goose",
+    "state bird",
+    "goose",
+    "birds",
+    "haleakala",
+    "volcanoes national park",
+    "do not feed",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "National Park Service: Nēnē",
+     "url": "https://www.nps.gov/articles/nene.htm"
+    },
+    {
+     "name": "DLNR: Nēnē",
+     "url": "https://dlnr.hawaii.gov/wildlife/hcp/nene/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "animal-pueo",
+   "type": "animal",
+   "title": "Pueo, the Hawaiian owl",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "The pueo is Hawaiʻi's native short-eared owl, a subspecies found only here. Unlike most owls it hunts by day, hovering over grasslands and fields. It lives on all the main islands and is listed as endangered on Oʻahu.",
+   "details": [
+    "Hawaiian short-eared owl (Asio flammeus sandwichensis), an endemic subspecies.",
+    "Active in daylight: watch for it hovering or gliding low over open fields, pastures and grasslands, from sea level to about 8,000 feet.",
+    "State-listed as endangered on Oʻahu, where habitat loss is a big threat.",
+    "Threats: ground nests eaten by rats, cats and mongoose; vehicle strikes; pesticides in prey.",
+    "In Hawaiian tradition, the pueo is an ʻaumakua (family guardian) for some families.",
+    "If you find an injured pueo, contact the state DLNR Division of Forestry and Wildlife on your island."
+   ],
+   "tags": [
+    "pueo",
+    "owl",
+    "owls",
+    "hawaiian owl",
+    "short-eared owl",
+    "birds",
+    "aumakua",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of Forestry and Wildlife: Pueo",
+     "url": "https://dlnr.hawaii.gov/wildlife/birds/pueo/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "animal-honeycreepers",
+   "type": "animal",
+   "title": "Hawaiian honeycreepers (ʻiʻiwi, ʻapapane, ʻakikiki) and the mosquito problem",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiian honeycreepers are colorful native forest birds, like the red ʻiʻiwi and ʻapapane, that evolved from a single finch ancestor into dozens of species. Many are now extinct or endangered, mostly because mosquitoes spread avian malaria. Kauaʻi's ʻakikiki was declared functionally extinct in the wild in 2024.",
+   "details": [
+    "Where to see them: high-elevation native forests such as Hawaiʻi Volcanoes National Park, Haleakalā (Hosmer Grove) and Kōkeʻe on Kauaʻi. Kula Botanical Garden on Maui reports ʻapapane and ʻamakihi.",
+    "Mosquitoes arrived in Hawaiʻi in the 1800s; the birds have no defense against the avian malaria they carry.",
+    "Warming lets mosquitoes reach higher, cooler forests that used to be safe for the birds.",
+    "ʻAkikiki (Kauaʻi): a few birds left in the wild by 2024; the species is considered functionally extinct in the wild.",
+    "Agencies are releasing male mosquitoes carrying Wolbachia, which keeps eggs from hatching, to shrink mosquito numbers.",
+    "Help: clean boots and gear between forests, and support native forest groups."
+   ],
+   "tags": [
+    "honeycreeper",
+    "honeycreepers",
+    "iiwi",
+    "apapane",
+    "akikiki",
+    "amakihi",
+    "forest birds",
+    "birds",
+    "avian malaria",
+    "mosquitoes",
+    "extinct",
+    "endangered",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Spectrum News: ʻAkikiki functionally extinct in the wild",
+     "url": "https://spectrumlocalnews.com/hi/hawaii/news/2024/07/02/akikiki-functionally-extinct-in-the-wild"
+    },
+    {
+     "name": "Birds, Not Mosquitoes",
+     "url": "https://www.birdsnotmosquitoes.org/akikiki"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "animal-monk-seal",
+   "type": "animal",
+   "title": "Hawaiian monk seal (ʻīlio holo i ka uaua)",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "One of the most endangered seals in the world, found only in Hawaiʻi. There are about 1,600, most in the remote Northwestern Hawaiian Islands, but more now haul out on main-island beaches. Its Hawaiian name means dog that runs in rough water. Stay at least 50 feet away (150 feet from a mom and pup).",
+   "details": [
+    "About 1,600 range-wide (NOAA, 2024), up from about 1,400 a decade earlier. 34 pups were born in the main Hawaiian Islands in 2024.",
+    "Endangered under the Endangered Species Act; harassing one is a crime. It is Hawaiʻi's official state mammal.",
+    "Seals sleep on beaches for hours; that's normal. Volunteers often put up a rope or signs around them.",
+    "Keep dogs leashed; seals and dogs can pass diseases to each other.",
+    "To report a seal on the beach or an injured or entangled one, use NOAA's reporting line: 888-256-9840.",
+    "Ask Hawaiʻi's logo is a Hawaiian monk seal."
+   ],
+   "tags": [
+    "monk seal",
+    "seal",
+    "seals",
+    "ilio holo i ka uaua",
+    "state mammal",
+    "endangered",
+    "beach",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Maui News: Monk seal counts (NOAA, 2024)",
+     "url": "https://www.mauinews.com/news/local-news/2025/05/monk-seal-counts-up-as-scientists-do-annual-survey/"
+    },
+    {
+     "name": "NOAA Fisheries: Monk seal population",
+     "url": "https://www.fisheries.noaa.gov/feature-story/hawaiian-monk-seal-population-surpasses-1500"
+    },
+    {
+     "name": "NOAA Marine Wildlife Hotline (report injured or stranded animals)",
+     "url": "https://www.fisheries.noaa.gov/report"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "animal-honu",
+   "type": "animal",
+   "title": "Honu, the Hawaiian green sea turtle",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Honu are the sea turtles you'll see snorkeling and resting on beaches. Hawaiʻi is one of only four places in the world where green turtles haul out on land to rest. They're protected by law: stay at least 10 feet away, never touch or feed them, and report injured turtles to 888-256-9840.",
+   "details": [
+    "Protected under the Endangered Species Act (the Hawaiʻi population is listed as threatened).",
+    "Basking: turtles come ashore to rest, warm up and avoid tiger sharks. A resting turtle can look dead; look for slow breathing.",
+    "Distance: at least 10 feet, on land and in the water.",
+    "Most nest in the remote Northwestern Hawaiian Islands, then return to the main islands to feed on seaweed.",
+    "Good places to see them from a respectful distance: Laniākea on Oʻahu's North Shore, Hoʻokipa on Maui and Punaluʻu black sand beach on Hawaiʻi Island.",
+    "Injured or tangled turtle: NOAA Marine Wildlife Hotline 888-256-9840."
+   ],
+   "tags": [
+    "honu",
+    "sea turtle",
+    "sea turtles",
+    "green sea turtle",
+    "turtle",
+    "turtles",
+    "basking",
+    "snorkeling",
+    "laniakea",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "NOAA Fisheries: Sea turtles in the Pacific Islands, FAQ",
+     "url": "https://www.fisheries.noaa.gov/pacific-islands/endangered-species-conservation/frequent-questions-sea-turtles-pacific-islands-region"
+    },
+    {
+     "name": "DLNR Division of Aquatic Resources: Green sea turtle",
+     "url": "https://dar.hawaii.gov/?p=14064"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "animal-humpback-whales",
+   "type": "animal",
+   "title": "Humpback whales and whale season",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Thousands of humpback whales come to Hawaiʻi each winter to mate and give birth. They can arrive as early as September and stay into May, with the peak in January and February. The best viewing is between Maui, Lānaʻi and Molokaʻi; stay at least 100 yards away.",
+   "details": [
+    "Season: as early as September through May; peak January and February.",
+    "Best areas: the shallow channels between Maui, Lānaʻi and Molokaʻi; Kauaʻi's north coast; the Kohala coast of Hawaiʻi Island. Oʻahu sees fewer, but they're spotted off the south and west shores.",
+    "Shore viewing: look for blows and breaches from high lookouts in the morning when the water is calm.",
+    "Federal law: stay at least 100 yards away by boat, kayak, board or drone.",
+    "They feed in Alaska in summer and fast while in Hawaiʻi.",
+    "The waters are protected as the Hawaiian Islands Humpback Whale National Marine Sanctuary."
+   ],
+   "tags": [
+    "whales",
+    "whale",
+    "humpback",
+    "humpback whales",
+    "whale watching",
+    "whale season",
+    "koholā",
+    "kohola",
+    "maui",
+    "breaching",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi DLNR: Best time and place for whale watching",
+     "url": "https://dlnr.hawaii.gov/dsp/faqs/when-is-the-best-time-for-whale-watching-and-off-of-which-island"
+    },
+    {
+     "name": "NOAA: Hawaiian Islands Humpback Whale National Marine Sanctuary",
+     "url": "https://hawaiihumpbackwhale.noaa.gov/about/about.html"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "months": [
+    12,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "animal-hoary-bat",
+   "type": "animal",
+   "title": "ʻŌpeʻapeʻa, the Hawaiian hoary bat",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi's only native land mammal is a small, endangered bat, the ʻōpeʻapeʻa. Its ancestors flew here from North America. It roosts alone in trees by day and comes out around sunset to hunt insects. It became the official state land mammal in 2015.",
+   "details": [
+    "The only native land mammal in Hawaiʻi; everything else, from pigs to mongoose, was brought by people.",
+    "Endangered under federal and state law.",
+    "Found on all the main islands except Niʻihau; roosts in trees like ʻōhiʻa, kukui and coconut palms.",
+    "Wingspan about one foot; females are a bit larger than males.",
+    "Look for it at dusk over open areas, streams and forest edges.",
+    "Its ancestors may have first arrived about 1.35 million years ago."
+   ],
+   "tags": [
+    "bat",
+    "bats",
+    "hoary bat",
+    "opeapea",
+    "state land mammal",
+    "mammal",
+    "native mammal",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "DLNR: ʻŌpeʻapeʻa, the Hawaiian hoary bat",
+     "url": "https://dlnr.hawaii.gov/wildlife/opeapea/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "animal-albatross",
+   "type": "animal",
+   "title": "Mōlī, the Laysan albatross",
+   "island": [
+    "Oʻahu",
+    "Kauaʻi"
+   ],
+   "county": "All counties",
+   "summary": "Huge seabirds with nearly 7-foot wingspans nest in Hawaiʻi from about November through summer. You can see them at Kaʻena Point on Oʻahu (free, about a 5-mile round-trip hike) and Kīlauea Point National Wildlife Refuge on Kauaʻi. July and August are best for chicks.",
+   "details": [
+    "Arrive and start nesting around November; the season lasts about nine months.",
+    "Oʻahu: Kaʻena Point Natural Area Reserve, protected by a predator-proof fence. Free; about 5.4 miles round trip on an exposed, hot trail.",
+    "Kauaʻi: Kīlauea Point National Wildlife Refuge on the north shore; small entry fee, check current days and hours.",
+    "They can live into their 60s and return to the colony where they hatched.",
+    "Most of the world's Laysan albatross nest in the remote Northwestern Hawaiian Islands.",
+    "Stay on the trail and well back from nests; don't touch the birds."
+   ],
+   "tags": [
+    "albatross",
+    "moli",
+    "laysan albatross",
+    "seabirds",
+    "birds",
+    "kaena point",
+    "kilauea point",
+    "nesting",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: Where to see nesting albatross",
+     "url": "https://www.hawaiimagazine.com/where-to-go-to-spot-nesting-albatross-in-hawaii"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "animal-humuhumu",
+   "type": "animal",
+   "title": "Humuhumunukunukuāpuaʻa, the state fish",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "The reef triggerfish with the famous long name is Hawaiʻi's state fish. The name roughly means triggerfish with a pig-like snout. It's common on shallow reefs on every island, so snorkelers spot it at places like Hanauma Bay, Kahaluʻu Beach Park and Poʻipū.",
+   "details": [
+    "Name: humuhumu (triggerfish) + nukunuku (snout) + a (like) + puaʻa (pig). Locals often just say humuhumu.",
+    "Named the state fish in 1985 on a temporary basis; made permanent in 2006.",
+    "6 to 10 inches long, with tan, yellow and blue bands and a yellow stripe behind the eye.",
+    "Territorial: it will chase much bigger fish away from its patch of reef.",
+    "Snorkel spots: Hanauma Bay (Oʻahu), Molokini (Maui), Kahaluʻu Beach Park (Hawaiʻi Island), Poʻipū Beach (Kauaʻi).",
+    "Don't touch or stand on coral, and use mineral, reef-safe sunscreen."
+   ],
+   "tags": [
+    "humuhumunukunukuapuaa",
+    "humuhumu",
+    "state fish",
+    "triggerfish",
+    "reef fish",
+    "fish",
+    "snorkeling",
+    "hanauma bay",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Hawaiʻi state fish",
+     "url": "https://www.hawaii-guide.com/hawaii-state-fish"
+    },
+    {
+     "name": "Hawaiʻi Session Laws 2006, Act 67",
+     "url": "https://data.capitol.hawaii.gov/sessions/sessionlaws/Years/SLH2006/SLH2006_Act67.pdf"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "animal-invasive-mongoose-snakes",
+   "type": "animal",
+   "title": "Mongoose, snakes and other animals that don't belong",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Many animals you see in Hawaiʻi were brought by people. The mongoose was imported in 1883 to fight rats in sugar fields and now preys on native birds and turtle eggs; it lives on Oʻahu, Maui, Molokaʻi and Hawaiʻi Island but not Kauaʻi or Lānaʻi. Snakes are illegal in Hawaiʻi; report any sighting to 808-643-7378.",
+   "details": [
+    "Mongoose: brought from India in 1883 for rat control; it hunts by day while rats are active at night, so it barely helped. It eats eggs of ground-nesting birds and sea turtles.",
+    "Kauaʻi and Lānaʻi have no known mongoose populations; stray ones caught at Kauaʻi's harbor and airport are trapped quickly.",
+    "Snakes, large reptiles and many other animals are illegal to own or bring in. Penalties can reach a $200,000 fine and three years in prison.",
+    "Amnesty: hand over an illegal animal before an investigation begins and there's no penalty; drop-offs at humane societies, the zoo or state agriculture offices.",
+    "Report snakes or illegal animals to the state Pest Hotline: 808-643-PEST (7378).",
+    "Other well-known arrivals: feral chickens (common on Kauaʻi), wild pigs, and coquí frogs on Hawaiʻi Island."
+   ],
+   "tags": [
+    "mongoose",
+    "snake",
+    "snakes",
+    "invasive",
+    "illegal animals",
+    "pest hotline",
+    "chickens",
+    "wild pigs",
+    "coqui",
+    "why no snakes",
+    "animal",
+    "animals",
+    "wildlife",
+    "native",
+    "species",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Department of Agriculture: Amnesty program",
+     "url": "https://dab.hawaii.gov/pi/pq/amnesty-program-2/"
+    },
+    {
+     "name": "Hawaiʻi Public Radio: Mongoose caught on Kauaʻi",
+     "url": "https://www.hawaiipublicradio.org/local-news/2021-12-29/mongoose-caught-on-kauai-where-invasive-pest-not-established"
     }
    ],
    "last_checked": "2026-10-29"
