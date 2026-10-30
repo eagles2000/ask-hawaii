@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.12.0",
+ "version": "0.13.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -4224,7 +4224,6 @@
     "reef fish",
     "fish",
     "snorkeling",
-    "hanauma bay",
     "animal",
     "animals",
     "wildlife",
@@ -4711,6 +4710,475 @@
     {
      "name": "Hawaiʻi Department of Taxation",
      "url": "https://tax.hawaii.gov/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-oahu-luau",
+   "type": "tour",
+   "title": "Lūʻau on Oʻahu: which shows, where and what they cost",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Oʻahu's lūʻau range from about $119 to $230 per adult. In or near Waikīkī: Waikīkī Starlight (Hilton Hawaiian Village rooftop) and Ka Moana (Aloha Tower). West side: Chief's Lūʻau, Ka Waʻa at Aulani, Germaine's and the new Kaula Lūʻau in Ko Olina. North and windward: the Polynesian Cultural Center and Toa Lūʻau at Waimea Valley. Paradise Cove closed at the end of 2025.",
+   "details": [
+    "Waikīkī Starlight Lūʻau: Hilton Hawaiian Village rooftop, Waikīkī; from about $119; walkable from Waikīkī hotels.",
+    "Ka Moana Lūʻau: Aloha Tower Marketplace, Honolulu; about $129 to $199.",
+    "Chief's Lūʻau: Wet'n'Wild Hawaiʻi, Kapolei; from about $144; most nights except Saturday; famous fire knife finale.",
+    "Kaula Lūʻau: Ocean's Edge at Ko Olina; opened Feb. 27, 2026, run by the nonprofit Hawaiian Council with former Paradise Cove performers; adult tickets from $119 (VIP $249), with resident, military and senior discounts.",
+    "Ka Waʻa Lūʻau at Aulani, Ko Olina: about $175 adult, $104 child; open to non-guests. Germaine's (Kapolei) is among the cheaper choices; closed Monday and Wednesday.",
+    "Toa Lūʻau at Waimea Valley (Haleʻiwa): from about $140, includes valley admission.",
+    "Polynesian Cultural Center (Lāʻie): see its own entry.",
+    "Paradise Cove in Ko Olina closed Dec. 31, 2025, after 47 years; older guides still list it.",
+    "West side and North Shore shows are 45 to 60+ minutes from Waikīkī; many sell shuttle add-ons.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "luau",
+    "lu'au",
+    "luaus",
+    "oahu luau",
+    "waikiki luau",
+    "chiefs luau",
+    "kaula luau",
+    "aulani",
+    "ka waa",
+    "germaines",
+    "toa luau",
+    "paradise cove",
+    "dinner show",
+    "fire knife",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Wanderlustyle: Best lūʻau on Oʻahu (Aug. 2026)",
+     "url": "https://wanderlustyle.com/best-luaus-oahu/"
+    },
+    {
+     "name": "Aloha State Daily: Kaula Lūʻau opens in Ko Olina (Feb. 2026)",
+     "url": "https://alohastatedaily.com/2026/02/23/new-luau-in-koolina-set-to-open-this-week"
+    },
+    {
+     "name": "Hawaii News Now: Paradise Cove closes (Dec. 2025)",
+     "url": "https://www.hawaiinewsnow.com/2025/12/31/paradise-cove-luau-honored-cultural-legacy-it-prepares-close"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-polynesian-cultural-center",
+   "type": "tour",
+   "title": "Polynesian Cultural Center (Lāʻie)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A full-day attraction on Oʻahu's North Shore with island villages from across Polynesia, canoe rides, cultural demonstrations, the Aliʻi Lūʻau and the evening show HĀ: Breath of Life. Packages run roughly $155 to $230 per adult. Closed Wednesdays and Sundays; no alcohol on the property.",
+   "details": [
+    "55-370 Kamehameha Hwy., Lāʻie, about an hour or more from Waikīkī.",
+    "Closed Wednesdays and Sundays.",
+    "Packages: roughly $155 to $230 per adult, depending on tier (village access, lūʻau, show seating).",
+    "Plan the whole afternoon and evening; villages open midday and the night show ends late.",
+    "No alcohol is served or allowed on the property.",
+    "Pair it with Kahuku shrimp trucks on the drive up.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "polynesian cultural center",
+    "pcc",
+    "laie",
+    "ha breath of life",
+    "alii luau",
+    "north shore",
+    "samoa",
+    "tonga",
+    "fiji",
+    "tahiti",
+    "villages",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Wanderlustyle: Best lūʻau on Oʻahu (Aug. 2026)",
+     "url": "https://wanderlustyle.com/best-luaus-oahu/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-maui-luau",
+   "type": "tour",
+   "title": "Lūʻau on Maui",
+   "island": [
+    "Maui"
+   ],
+   "county": "Maui County",
+   "summary": "Maui's best-known lūʻau run about $200 to $360 per adult. In Lāhainā and Kāʻanapali: Old Lāhainā Lūʻau (about $230), Drums of the Pacific at the Hyatt Regency (about $202 to $250) and Myths of Maui at the Royal Lahaina (about $209 to $265). In Wailea: Te Au Moana (about $286 to $325) and The Feast at Mōkapu at Andaz (about $280 to $360).",
+   "details": [
+    "Old Lāhainā Lūʻau: 1251 Front St., Lāhainā; about $230; oceanfront, traditional, tableside meal, unlimited drinks; books up weeks ahead. Phone 808-667-1998.",
+    "Drums of the Pacific: Hyatt Regency Maui, Kāʻanapali; about $202 standard, $250 VIP; pan-Polynesian show with fire knife dance.",
+    "Myths of Maui: Royal Lahaina Resort, Kāʻanapali Beach; about $209 to $265; running since the 1970s; keiki buffet.",
+    "Te Au Moana: Wailea Beach Resort; about $286 to $325; family-style dinner, imu ceremony.",
+    "The Feast at Mōkapu: Andaz Maui, Wailea; about $280 to $360; upscale multicourse.",
+    "Lāhainā is still rebuilding after the 2023 fire; follow posted road and area closures.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "luau",
+    "maui luau",
+    "old lahaina luau",
+    "drums of the pacific",
+    "myths of maui",
+    "te au moana",
+    "feast at mokapu",
+    "kaanapali",
+    "wailea",
+    "lahaina",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: The best lūʻau on Maui",
+     "url": "https://www.hawaiimagazine.com/the-best-luau-on-maui/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-kauai-luau",
+   "type": "tour",
+   "title": "Lūʻau on Kauaʻi",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Kauaʻi's main lūʻau: Smith's Garden Lūʻau on the Wailua River (a family-run classic, about $105 to $150), Luau Kalamaku at Kilohana Plantation in Līhuʻe (about $189 to $274; confirm it's running), Luau Ka Hikina at Sheraton Kauaʻi Coconut Beach in Kapaʻa (from $189) and Aulii Lūʻau at Sheraton Kauaʻi in Poʻipū.",
+   "details": [
+    "Smith's Garden Lūʻau: Wailua River, Kapaʻa area; listed Monday, Wednesday and Friday at 5 p.m.; about $105 to $150 per adult; garden grounds included.",
+    "Luau Kalamaku: Kilohana Plantation, Līhuʻe; about $189 to $274. One tour partner reported its Kilohana operation closed until further notice in 2026; confirm your date directly.",
+    "Luau Ka Hikina: Sheraton Kauaʻi Coconut Beach, Kapaʻa; from $189 general seating, plus fees.",
+    "Aulii Lūʻau: Sheraton Kauaʻi, Poʻipū; check its booking calendar.",
+    "Others taking bookings: Grand Hyatt Kauaʻi (Poʻipū) and Wailua Nui Lūʻau.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "luau",
+    "kauai luau",
+    "smiths luau",
+    "smith's",
+    "luau kalamaku",
+    "kilohana",
+    "ka hikina",
+    "aulii",
+    "poipu",
+    "kapaa",
+    "wailua",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Kauaʻi lūʻau ranked (updated Oct. 2026)",
+     "url": "https://www.hawaii-guide.com/kauai/activities/luaus"
+    },
+    {
+     "name": "Wanderlustyle: Best lūʻau in Hawaiʻi (Aug. 2026)",
+     "url": "https://wanderlustyle.com/best-luaus-hawaii"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-waikiki-cruises-submarine",
+   "type": "tour",
+   "title": "Waikīkī boat trips: sunset sails, booze cruises and the Atlantis submarine",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Sunset sails leave Waikīkī and Kewalo Basin most evenings around 5 to 5:30 p.m.: BYOB cruises from about $56, catamaran sails about $70 to $123, and dinner-show cruises about $132 to $149. For something different, the Atlantis Submarine dives about 100 feet off Waikīkī (about $168 adults, $75 kids).",
+   "details": [
+    "BYOB sunset cruise: about 90 minutes, from about $56; guests 21+ may bring their own drinks.",
+    "Catamaran sails: about 1.5 to 2 hours, about $70 to $123; some include a couple of drinks, others sell drinks on board. Some catamarans board right off Waikīkī Beach.",
+    "Dinner and show cruise (Star of Honolulu): 2 to 3 hours, about $132 to $149, with dinner and Hawaiian entertainment.",
+    "Most leave Kewalo Basin Harbor or Waikīkī piers; check your confirmation for the exact meeting spot.",
+    "Atlantis Submarine: check in at the Hilton Hawaiian Village, ferry out, then about a 40-minute dive to about 100 feet with wrecks and reef. About $168 adults, $75 children; minimum height 36 inches; must climb a ladder.",
+    "Winter cruises often spot humpback whales.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "sunset cruise",
+    "booze cruise",
+    "catamaran",
+    "sail",
+    "boat tour",
+    "waikiki",
+    "kewalo basin",
+    "star of honolulu",
+    "atlantis submarine",
+    "submarine",
+    "byob",
+    "dinner cruise",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "The Better Vacation: Waikīkī sunset cruises (June 2026)",
+     "url": "https://thebettervacation.com/hawaii/sunset-cruise-waikiki/amp/"
+    },
+    {
+     "name": "HawaiiActivities: Atlantis Submarine Waikīkī",
+     "url": "https://www.hawaiiactivities.com/en/hawaii/oahu/a/15613"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-waikiki-surf-lessons",
+   "type": "tour",
+   "title": "Surf lessons in Waikīkī",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Waikīkī's gentle, rolling waves are the classic place to learn to surf. Beach schools set up right on the sand by the big hotels and offer group, semi-private and private lessons. Everyone must be able to swim, and kids often need private lessons.",
+   "details": [
+    "Where: lessons start on Waikīkī Beach near the Royal Hawaiian, Sheraton Waikiki and Outrigger Waikiki/Duke's, and at the Diamond Head end of the beach.",
+    "Formats: group (4 to 5 per instructor), semi-private (2 to 3) and private (1 on 1).",
+    "Age rules vary: some schools require private lessons for kids under 12; some group lessons are 13 and up.",
+    "All students must be able to swim without help.",
+    "Ask what's included: board, leash, rash guard, reef shoes, locker, photos.",
+    "On the North Shore, lessons are given in Haleʻiwa when the surf is small (usually summer).",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "surf lesson",
+    "surf lessons",
+    "learn to surf",
+    "surfing",
+    "waikiki",
+    "beach boys",
+    "canoes",
+    "kids surf",
+    "haleiwa",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Oʻahu surf lessons (Aug. 2026)",
+     "url": "https://www.hawaii-guide.com/oahu/activities/surf-lessons"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-parasailing",
+   "type": "tour",
+   "title": "Parasailing in Hawaiʻi (seasonal on Maui)",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Parasailing runs year-round off Honolulu (from Kewalo Basin and nearby harbors) and in Kona. On Maui it's seasonal: state law bans parasailing off West and South Maui from Dec. 15 to May 15 to protect humpback whales. Most operators let kids 5 and up fly, often tandem.",
+   "details": [
+    "Oʻahu: boats leave Kewalo Basin and nearby slips on Ala Moana Blvd.; arrive 30 minutes early. Typical flights 5 to 8 minutes on 800 to 1,000 feet of line.",
+    "Maui: allowed only May 16 to Dec. 14 in West and South Maui waters (Hawaiʻi law, whale protection). Kāʻanapali departures in season.",
+    "Hawaiʻi Island: Kona flights run year-round.",
+    "Weight rules: solo fliers often need about 160 lb minimum; tandem or triple flights have a combined maximum.",
+    "Pregnant guests and people with recent injuries usually can't fly.",
+    "Line length isn't the same as height; flights depend on wind and sea conditions.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "parasailing",
+    "parasail",
+    "pulled behind boat",
+    "kewalo basin",
+    "waikiki",
+    "maui",
+    "kona",
+    "thrill",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Parasailing in Hawaiʻi (Sept. 2026)",
+     "url": "https://hawaii-guide-com.pages.dev/blog/hawaii-parasailing-tours-summer-2026"
+    },
+    {
+     "name": "Hawaiʻi rule 13-256-112: Maui humpback whale protected waters",
+     "url": "https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-256-112"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-molokini-snorkel",
+   "type": "tour",
+   "title": "Molokini Crater snorkel trips (Maui)",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Molokini is a sunken volcanic crater about three miles off South Maui and a protected Marine Life Conservation District with clear water and lots of reef fish. You can only get there by boat; tours leave from Māʻalaea Harbor or by beach-loading boats in South Maui (Kīhei, Wailea), and often add a second stop at Turtle Town.",
+   "details": [
+    "Departures: Māʻalaea Harbor (handy from West and Central Maui) or South Maui beach-loading boats (handy from Kīhei and Wailea).",
+    "Protected area: no fishing or taking marine life, no feeding fish; boats use day-use moorings.",
+    "Mornings are usually calmer; trips can be rerouted or canceled for wind and swell.",
+    "Many tours include gear, breakfast and lunch; compare total time in the water, not just trip length.",
+    "Use mineral, reef-safe sunscreen (required by Maui County).",
+    "Don't touch coral or turtles; stay 10 feet from honu.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "molokini",
+    "snorkel",
+    "snorkeling",
+    "snorkel tour",
+    "maalaea",
+    "kihei",
+    "wailea",
+    "turtle town",
+    "maui",
+    "crater",
+    "boat tour",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Molokini snorkel tours (Sept. 2026)",
+     "url": "https://www.hawaii-guide.com/blog/molokini-crater-snorkel-tours-summer-2026"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-kona-manta-night-snorkel",
+   "type": "tour",
+   "title": "Manta ray night snorkel (Kona, Hawaiʻi Island)",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "One of Hawaiʻi's most famous experiences: boats leave Keauhou Bay or Honokōhau Harbor near sunset, and you float holding a lit board that draws plankton, and the giant manta rays that come to eat it. Trips take about 2 to 2.5 hours and usually cost about $130 to $180.",
+   "details": [
+    "Sites: Manta Village off Keauhou (south of Kailua-Kona) and Manta Heaven/Garden Eel Cove near the Kona airport.",
+    "Boats leave about an hour before sunset; 30 to 45 minutes in the water.",
+    "About $130 to $180 per person; wetsuit and gear usually included.",
+    "Mantas are wild and don't show every night; some operators offer a free return trip, so check the policy and leave a spare day.",
+    "Rules: stay at the surface, don't dive down, chase or touch the mantas; keep fins up near the surface.",
+    "Not ideal for people prone to seasickness or nervous in dark open water.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "manta ray",
+    "manta rays",
+    "night snorkel",
+    "kona",
+    "keauhou",
+    "honokohau",
+    "big island",
+    "snorkel",
+    "night dive",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Manta ray night snorkel (June 2026)",
+     "url": "https://www.hawaii-guide.com/big-island/activities/manta-ray-night-snorkel"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tour-kauai-helicopter",
+   "type": "tour",
+   "title": "Helicopter tours of Kauaʻi",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Much of Kauaʻi, including the Nā Pali cliffs, Waimea Canyon's interior, Mount Waiʻaleʻale and Manawaiopuna (\"Jurassic\") Falls, can only really be seen from the air. Most tours leave Līhuʻe Airport and last about 50 to 65 minutes; doors-off and landing tours are available.",
+   "details": [
+    "Standard tour: about 50 minutes around the island; full-island tours 60 to 65 minutes.",
+    "Doors-off: same routes with doors removed; closed-toe shoes, no loose items, stricter weight limits.",
+    "Landing tour: about 90 minutes with a stop at a private site.",
+    "Most depart Līhuʻe Airport (LIH); some leave from Princeville.",
+    "Weather often forces reschedules; book 2 to 4 weeks ahead in peak seasons (December to March, June to August) and leave flexibility.",
+    "Safety: check the operator's record and recent reviews; a tour helicopter crashed fatally near Kalalau Beach in March 2026, and the NTSB investigation was ongoing.",
+    "Prices are approximate as listed in 2026 and change often; confirm and book directly with the operator."
+   ],
+   "tags": [
+    "helicopter",
+    "helicopter tour",
+    "kauai",
+    "na pali",
+    "waimea canyon",
+    "waialeale",
+    "jurassic falls",
+    "manawaiopuna",
+    "doors off",
+    "lihue",
+    "tour",
+    "tours",
+    "activity",
+    "activities",
+    "things to do",
+    "visitor",
+    "book",
+    "booking"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Kauaʻi helicopter tours (July 2026)",
+     "url": "https://hawaii-guide-com.pages.dev/kauai/activities/helicopter-tours"
     }
    ],
    "last_checked": "2026-10-29"

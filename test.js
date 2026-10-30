@@ -127,6 +127,13 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("swap meet") === "shop-aloha-stadium-swap-meet", "swap meet");
   ok(top("outlet mall") === "shop-waikele-premium-outlets", "outlets");
 
+  // Tours (v0.13)
+  ok(top("best luau on oahu") === "tour-oahu-luau", "oahu luau");
+  ok(top("maui luau") === "tour-maui-luau", "maui luau");
+  ok(top("booze cruise") === "tour-waikiki-cruises-submarine", "cruise");
+  ok(top("manta rays") === "tour-kona-manta-night-snorkel", "manta");
+  ok(top("hanauma bay") === "place-hanauma-bay", "hanauma stays first");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);
