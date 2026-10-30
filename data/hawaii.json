@@ -1,7 +1,7 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.24.0",
-  "last_updated": "2026-10-29",
+  "version": "0.25.0",
+  "last_updated": "2026-10-30",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
     {
@@ -12010,6 +12010,112 @@
         "from_label": "Molokaʻi airport (MKK)",
         "to": "Hotel Molokai, 1300 Kamehameha V Hwy, Kaunakakai, HI",
         "to_label": "Hotel Molokaʻi"
+      }
+    },
+    {
+      "id": "guide-best-time-to-visit",
+      "type": "guide",
+      "title": "Best time to visit Hawaiʻi (seasons month by month)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi is warm all year (highs in the low to high 80s °F), so the best time depends on crowds, prices and what you want to do. The sweet spots are late April through May and mid-September through October: dry weather, fewer people and lower rates. Winter (November to April) brings whales and big North Shore surf, and the holidays are the most expensive weeks of the year.",
+      "details": [
+        "Best overall: late April, May, and mid-September through October. May is often the top pick for weather, demand and rates.",
+        "Busiest and priciest: Christmas through New Year's, Thanksgiving week, Presidents' Day weekend, spring break and Easter, and July (especially around the Fourth).",
+        "Dry season: roughly May to October. Wet season: roughly October to April. Windward and mountain areas (Hilo, Hāna, the North Shore of Kauaʻi) are wetter all year than leeward resort coasts (Waikīkī, Kona, Wailea, Poʻipū).",
+        "Whale season: humpbacks are around November through April, with the peak January through March.",
+        "Surf: big, dangerous north-shore waves mostly December through February; summer calms the north shores, while south swells hit south-facing beaches.",
+        "Hurricane season: June 1 to November 30, with the peak July to September. Storms rarely hit, but watch forecasts and consider travel insurance.",
+        "Temperatures (average highs and lows): Honolulu about 81 to 89 °F and 67 to 76 °F; Hilo cooler and much rainier than Kona.",
+        "Taxes: the state hotel room tax rose to 11% on Jan. 1, 2026, on top of general excise and county taxes."
+      ],
+      "tags": [
+        "best time to visit",
+        "best time to go",
+        "when to visit",
+        "when to go",
+        "seasons",
+        "season",
+        "best season",
+        "best seasons",
+        "best months",
+        "weather by month",
+        "shoulder season",
+        "peak season",
+        "rainy season",
+        "dry season",
+        "wet season",
+        "cheapest time",
+        "crowds",
+        "winter",
+        "summer",
+        "spring",
+        "fall",
+        "whale season",
+        "what month",
+        "come to hawaii",
+        "visit hawaii",
+        "throughout the year"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii-Guide: best time to visit Hawaiʻi (updated Oct. 27, 2026)",
+          "url": "https://www.hawaii-guide.com/best-time-to-visit-hawaii"
+        }
+      ],
+      "last_checked": "2026-10-30"
+    },
+    {
+      "id": "food-kona-ramen",
+      "type": "food",
+      "title": "Ramen in Kailua-Kona",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Kona's two go-to ramen shops are Ikkyu Ramen in the Lanihau Center (rated about 4.6 on Google, known for black garlic and curry ramen and big portions) and Daiichi Ramen in Kona Commons (known for its spicy kara and tantanmen ramen, plus katsu and gyoza). Both are open daily for lunch and dinner.",
+      "details": [
+        "Ikkyu Ramen: 75-5595 Palani Road (Lanihau Center), Kailua-Kona. Open daily about 10 a.m. to 9:30 p.m. Phone 808-329-8640. Try the black garlic oil ramen or curry chicken ramen; there's a vegan miso option and katsu plates.",
+        "Daiichi Ramen: 74-5452 Makala Boulevard (Kona Commons), Kailua-Kona. Open daily from about 10:30 a.m. into the evening. Known for spicy kara ramen, tantanmen, tonkotsu and black garlic ramen; family-friendly with combo meals and takeout.",
+        "Both are a few minutes from Aliʻi Drive and about 15 minutes from the Kona airport.",
+        "Hours change; check the shop's listing before you go."
+      ],
+      "tags": [
+        "ramen",
+        "kona ramen",
+        "best ramen",
+        "noodles",
+        "noodle soup",
+        "japanese food",
+        "ikkyu",
+        "ikkyu ramen",
+        "daiichi",
+        "daiichi ramen",
+        "kona commons",
+        "lanihau",
+        "kailua-kona",
+        "kona",
+        "big island food",
+        "restaurant"
+      ],
+      "sources": [
+        {
+          "name": "Total Ramen: best ramen in Kailua-Kona (Aug. 2026)",
+          "url": "https://totalramen.com/hawaii/kailua-kona"
+        },
+        {
+          "name": "Wanderlog: Ikkyu Ramen",
+          "url": "https://wanderlog.com/place/details/10329685/ikkyu-ramen"
+        },
+        {
+          "name": "Daiichi Ramen Kailua-Kona",
+          "url": "https://ramenkailuakona.com/"
+        }
+      ],
+      "last_checked": "2026-10-30",
+      "directions": {
+        "from": "Kona International Airport, Kailua-Kona, HI",
+        "from_label": "Kona airport (KOA)",
+        "to": "Ikkyu Ramen, 75-5595 Palani Rd, Kailua-Kona, HI",
+        "to_label": "Ikkyu Ramen"
       }
     }
   ]

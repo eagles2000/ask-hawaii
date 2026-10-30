@@ -51,7 +51,7 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ];
   for (const [q, isl, want] of cases) { const got = await search(q, isl); ok(got[0] === want, `"${q}" -> ${got.join(",")} (wanted ${want})`); }
   { const r = await search("I'm on the island of Oahu. What is one of the easiest spots to hike?"); ok(r.slice(0, 2).includes("hike-oahu-by-difficulty") && r.slice(0, 2).includes("hike-manoa-falls"), "easiest Oahu hike -> Manoa Falls + hikes guide: " + r); }
-  ok((await search("best ramen in kona", "Hawaii Island")).length === 0, "no fake match for ramen");
+  ok((await search("tattoo parlor in kona", "Hawaii Island")).length === 0, "no fake match for unknown topic");
   ok((await search("history of the Shangri La museum")).length === 0, "no fake match for an uncovered place");
   ok((await search("what is the history of Kuhio Avenue in Waikiki")).indexOf("place-pearl-harbor") === -1, "no Pearl Harbor for street history");
   ok((await search("Diamond Head", "maui")).indexOf("place-diamond-head") === -1, "island filter excludes Oahu place on Maui");
@@ -246,6 +246,13 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("hotel molokai") === "hotel-molokai", "hotel molokai");
   ok(kb.search({ query: "hotels on kauai", limit: 5 }).results.every((r) => r.id.startsWith("hotel-")), "kauai hotels list");
   ok(top("hanauma bay") === "place-hanauma-bay", "hanauma still");
+
+  // Unanswered questions resolved (v0.25)
+  ok(top("and what are the best seasons to come to hawaii theyre throughout the year") === "guide-best-time-to-visit", "best seasons");
+  ok(top("best time to visit hawaii") === "guide-best-time-to-visit", "best time");
+  ok(top("best ramen in kona") === "food-kona-ramen", "kona ramen");
+  ok(top("how many botanical gardens are there on the island of oahu") === "guide-oahu-botanical-gardens", "how many gardens");
+  ok(top("hello hello whats the fastest way to get from waikiki to the west side west coast town call waianae") === "route-waikiki-waianae-coast", "waianae long");
 
   // Headlines (twice daily)
   const news = require("./lib/news");
