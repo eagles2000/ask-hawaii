@@ -208,6 +208,19 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("lanai museum") === "museum-lanai-heritage", "lanai museum");
   ok(top("bishop museum") === "place-bishop-museum", "bishop still");
 
+  // Moving to Hawaii (v0.22)
+  ok(top("moving to hawaii checklist") === "living-checklist", "checklist");
+  ok(top("transfer drivers license") === "living-drivers-license", "license");
+  ok(top("out of state plates") === "living-car-registration", "plates");
+  ok(top("ship my car to hawaii") === "living-ship-car", "ship car");
+  ok(top("bring my dog to hawaii") === "living-pets", "pets");
+  ok(top("security deposit") === "living-renting", "deposit");
+  ok(top("oahu home prices") === "living-home-prices", "home prices");
+  ok(top("electric bill") === "living-utilities", "electric");
+  ok(top("health insurance") === "living-health-insurance", "insurance");
+  ok(top("enroll kids in school") === "living-schools", "schools");
+  ok(top("hurricane kit") === "living-hurricane-prep", "hurricane");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

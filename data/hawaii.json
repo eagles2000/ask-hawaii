@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "last_updated": "2026-10-29",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -9613,6 +9613,527 @@
         "to": "Lanai Culture & Heritage Center, 730 Lanai Ave, Lanai City, HI",
         "to_label": "Lānaʻi Culture & Heritage Center"
       }
+    },
+    {
+      "id": "living-checklist",
+      "type": "living",
+      "title": "Moving to Hawaiʻi: first 30 days checklist",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "The key tasks for new residents in roughly the order they come up: transfer your driver's license within 30 days of becoming a resident, register or permit your car within 30 days of its arrival, sign up for emergency alerts, set up utilities, enroll keiki in school and register to vote. Each county runs its own DMV, so book appointments early.",
+      "details": [
+        "Driver's license: transfer within 30 days of establishing residency (renting a home, taking a job here, enrolling kids or registering to vote all count). You'll take the written test, not a road test. See the driver's license entry.",
+        "Car: within 30 days of the car's arrival, register it in Hawaiʻi or get an out-of-state permit; either needs a Hawaiʻi safety check first.",
+        "Pets: start the rabies paperwork at least 4 months before you fly, or your pet may face up to 120 days of quarantine.",
+        "Emergency: sign up for your county's alerts (for example HNL.INFO on Oʻahu) and build a 14-day supply kit.",
+        "Utilities: electricity is the big bill here; ask about solar, ceiling fans and time-of-use rates.",
+        "School: enroll at the home school for your address; kids need a Hawaiʻi TB clearance and a recent physical.",
+        "Kamaʻāina rates: many attractions, parks and shops give resident discounts once you have a Hawaiʻi ID.",
+        "Register to vote: Hawaiʻi votes entirely by mail; register online with the Office of Elections once you have a Hawaiʻi ID."
+      ],
+      "tags": [
+        "checklist",
+        "first steps",
+        "new to hawaii",
+        "what to do when you move",
+        "moving checklist",
+        "kamaaina",
+        "resident",
+        "dmv",
+        "to do list",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate",
+        "cost of living"
+      ],
+      "sources": [
+        {
+          "name": "How to Live in Hawaiʻi: Hawaiʻi driver license and state ID",
+          "url": "https://howtoliveinhawaii.com/getting-a-hawaii-driver-license-or-state-id/"
+        },
+        {
+          "name": "City and County of Honolulu: out-of-state vehicle permits",
+          "url": "https://www.honolulu.gov/csd/?p=13584"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-drivers-license",
+      "type": "living",
+      "title": "Transferring your driver's license to Hawaiʻi",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "New residents must switch to a Hawaiʻi license within 30 days of establishing residency. With a valid U.S. license you skip the road test but must pass the written knowledge test, apply in person at your county DMV, and bring original documents. An 8-year license for ages 25 to 71 is $40.",
+      "details": [
+        "Deadline: 30 days after you become a resident (renting or buying a home, taking a Hawaiʻi job, enrolling kids in school, registering to vote or registering a car).",
+        "Test: written knowledge test only for valid U.S. license holders ($2 online). Study the Hawaiʻi Driver's Manual.",
+        "Bring originals or certified copies (no notarized copies): proof of name and birth date, legal U.S. presence, Social Security number (recommended) and two proofs of Hawaiʻi address. If your name changed, bring the marriage certificate or court order.",
+        "Fees: $40 for an 8-year license (ages 25 to 71). Card payments carry a small convenience fee.",
+        "Each county runs its own DMV (Honolulu, Maui, Hawaiʻi and Kauaʻi). Book an appointment; on Oʻahu use alohaq.org.",
+        "You get a 60-day paper temporary; the card arrives by mail in about 6 to 8 weeks. Hawaiʻi cards are REAL ID compliant (gold star) by default.",
+        "Non-drivers can get a Hawaiʻi State ID with similar documents."
+      ],
+      "tags": [
+        "drivers license",
+        "driver license",
+        "license transfer",
+        "transfer license",
+        "dmv",
+        "state id",
+        "real id",
+        "knowledge test",
+        "written test",
+        "satellite city hall",
+        "alohaq",
+        "license",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "How to Live in Hawaiʻi: Hawaiʻi driver license and state ID",
+          "url": "https://howtoliveinhawaii.com/getting-a-hawaii-driver-license-or-state-id/"
+        },
+        {
+          "name": "Maui County: out-of-state license transfer",
+          "url": "https://www.mauicounty.gov/1517/Out-of-State-Transfer"
+        },
+        {
+          "name": "Hawaiʻi County: out-of-state transfers",
+          "url": "https://www.vrl.hawaiicounty.gov/driver-s-licensing/out-of-state-transfers"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-car-registration",
+      "type": "living",
+      "title": "Registering a car you bring to Hawaiʻi",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "You have 30 days after your car arrives to either register it in Hawaiʻi or get an out-of-state permit, which keeps your mainland plates valid until they expire. Either way, the car must pass a Hawaiʻi safety inspection first. On Oʻahu the permit is $5 at a satellite city hall, by appointment.",
+      "details": [
+        "Timeline: 30 days from the vehicle's arrival.",
+        "Step 1: get a Hawaiʻi safety inspection at a certified station (many gas stations and repair shops). Bring your registration and proof of insurance.",
+        "Step 2 (option A): get an out-of-state permit ($5 on Oʻahu) that lets you keep your mainland plates until their registration expires.",
+        "Step 2 (option B): register the car in Hawaiʻi and get local plates. Bring the shipping bill of lading, title or lienholder info, out-of-state registration, safety check and Hawaiʻi insurance. Registration fees are based partly on vehicle weight.",
+        "On Oʻahu, book at alohaq.org; neighbor islands use their county DMV offices.",
+        "Safety checks are required every year for most cars (new cars get a longer first period)."
+      ],
+      "tags": [
+        "car registration",
+        "register car",
+        "vehicle registration",
+        "out of state plates",
+        "out-of-state permit",
+        "safety check",
+        "safety inspection",
+        "bringing a car",
+        "plates",
+        "license plates",
+        "dmv",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "City and County of Honolulu: out-of-state vehicle permits (May 23, 2023)",
+          "url": "https://www.honolulu.gov/csd/?p=13584"
+        },
+        {
+          "name": "Hawaiʻi County: out-of-state permit",
+          "url": "https://www.vrl.hawaiicounty.gov/motor-vehicle-registration/out-of-state-permit"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-ship-car",
+      "type": "living",
+      "title": "Shipping a car to Hawaiʻi (Matson rates)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Matson charges $1,790 to ship a car from Long Beach or Oakland to Honolulu and $2,600 to Hilo, Kahului or Nāwiliwili (rates effective June 7, 2026). Matson has suspended new bookings for electric and plug-in hybrid vehicles, so EV owners need another carrier such as Pasha or should sell and buy here.",
+      "details": [
+        "Rates (Matson, effective June 7, 2026): Long Beach or Oakland to Honolulu $1,790; to Hilo, Kahului or Nāwiliwili $2,600. Honolulu back to the West Coast $1,020.",
+        "Matson has suspended acceptance of new and used electric and plug-in hybrid vehicles. Ask Pasha Hawaiʻi or a broker about EVs.",
+        "Size limits apply (no RVs or vehicles with cooking or sleeping setups). Pay before drop-off; active-duty military get $100 off.",
+        "Shipping often runs about the same as selling and buying here, especially for older cars; compare before you book.",
+        "After it arrives, you have 30 days to register it or get an out-of-state permit (see the car registration entry)."
+      ],
+      "tags": [
+        "ship car",
+        "shipping a car",
+        "car shipping",
+        "matson",
+        "pasha",
+        "ship vehicle",
+        "bring car to hawaii",
+        "ev",
+        "electric vehicle",
+        "cost",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "Matson: car shipping cost and payment",
+          "url": "https://www.matson.com/car-shipping-rates-and-payment.html"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-pets",
+      "type": "living",
+      "title": "Bringing a dog or cat to Hawaiʻi (avoiding quarantine)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi is rabies-free, so dogs and cats must meet strict rules or face up to 120 days of quarantine. To qualify for same-day Direct Airport Release in Honolulu, start at least four months ahead: microchip, two rabies shots, a FAVN blood test, then a 120-day wait from the blood draw. Paperwork is due 10 days before arrival with a $185 fee.",
+      "details": [
+        "Order matters: microchip first (ISO 11784/11785), then two rabies vaccines at least 30 days apart, then the FAVN blood test (result 0.5 IU/mL or higher).",
+        "Wait: 120 days counted from the date the blood was drawn. It can't be shortened.",
+        "Within 14 days of arrival: a USDA-accredited vet's health certificate and a tick treatment.",
+        "Send documents to the Animal Quarantine Station at least 10 business days before arrival. Direct Airport Release fee: $185 per pet.",
+        "Miss a step and your pet goes to the Animal Quarantine Station in Hālawa Valley, Oʻahu, for up to 120 days (about $30 a day).",
+        "Budget roughly $835 to $1,370 per pet for tests, vet visits, fees and airline charges.",
+        "Banned pets include snakes, ferrets, gerbils and hamsters; most reptiles need permits."
+      ],
+      "tags": [
+        "pets",
+        "pet",
+        "dog",
+        "dogs",
+        "cat",
+        "cats",
+        "quarantine",
+        "rabies",
+        "animal quarantine",
+        "direct airport release",
+        "5 day or less",
+        "favn",
+        "bringing pets",
+        "moving with pets",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii-Guide: moving pets to Hawaiʻi (2026)",
+          "url": "https://www.hawaii-guide.com/moving-to-hawaii/moving-pets-to-hawaii"
+        },
+        {
+          "name": "Hawaiʻi Department of Agriculture: Animal Quarantine information",
+          "url": "https://dab.hawaii.gov/ai/?p=1962"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-renting",
+      "type": "living",
+      "title": "Renting in Hawaiʻi: tenant rights basics",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi's landlord-tenant code caps the security deposit at one month's rent (plus up to one more month as a pet deposit). The landlord must return it within 14 days after you move out, give 2 days' notice before entering, and give 45 days' notice to raise rent or end a month-to-month rental.",
+      "details": [
+        "Security deposit: up to one month's rent; a separate pet deposit of up to one month is allowed.",
+        "Return: within 14 days after the tenancy ends, with a written list of any deductions and repair costs.",
+        "Entry: at least 2 days' notice for non-emergencies, at reasonable hours.",
+        "Month-to-month: the landlord needs 45 days' written notice to end it or to raise rent. Rent can't go up during a fixed lease unless the lease allows it.",
+        "Late fees are capped at 8% of the rent due and must be in the lease.",
+        "Scams are common: never wire money or pay a deposit before seeing the place and confirming the owner.",
+        "Questions: the state Office of Consumer Protection runs a landlord-tenant information line."
+      ],
+      "tags": [
+        "renting",
+        "rent",
+        "rental",
+        "renters",
+        "tenant",
+        "tenants",
+        "landlord",
+        "lease",
+        "security deposit",
+        "deposit",
+        "apartment",
+        "housing",
+        "eviction",
+        "rental scam",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "Nolo: Hawaiʻi landlord-tenant law overview",
+          "url": "https://www.nolo.com/legal-encyclopedia/overview-landlord-tenant-laws-hawaii.html"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-home-prices",
+      "type": "living",
+      "title": "Home prices on Oʻahu (latest)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Oʻahu's median single-family home price was $1,110,000 in September 2026, down 3.9% from a year earlier and the lowest monthly median of 2026. The median condo sold for $523,000, up 2.8%. Neighbor island prices vary widely by island and area.",
+      "details": [
+        "September 2026 (Honolulu Board of Realtors): single-family median $1,110,000 (down 3.9%), 293 sales (up 6.2%).",
+        "Condos: median $523,000 (up 2.8%), 375 sales (down 8.1%).",
+        "The single-family median hit a record $1,242,500 in June 2026.",
+        "Condos often carry high monthly association (AOAO) fees; ask for the fee history and any special assessments.",
+        "Leasehold vs. fee simple: some Hawaiʻi properties sit on leased land. Know which you're buying."
+      ],
+      "tags": [
+        "home prices",
+        "house prices",
+        "median price",
+        "real estate",
+        "buy a house",
+        "buying a home",
+        "condo",
+        "condos",
+        "housing market",
+        "cost of housing",
+        "oahu real estate",
+        "leasehold",
+        "fee simple",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate",
+        "cost of living"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Star-Advertiser: Oʻahu single-family price weakened in September (Oct. 7, 2026)",
+          "url": "https://www.staradvertiser.com/2026/10/07/hawaii-news/oahu-single-family-home-price-weakened-in-september/"
+        },
+        {
+          "name": "Honolulu Star-Advertiser: median hit record $1,242,500 in June (July 7, 2026)",
+          "url": "https://www.staradvertiser.com/2026/07/07/hawaii-news/oahu-home-sales-median-price-hit-record-1242500-in-june/"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-utilities",
+      "type": "living",
+      "title": "Utility bills in Hawaiʻi: electric, water, internet",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Electricity is Hawaiʻi's biggest surprise for newcomers: about 40 cents per kWh on Kauaʻi, 42 on Oʻahu, 46 on Hawaiʻi Island and 47 on Maui, and higher on Molokaʻi and Lānaʻi. A 3-bedroom house with air conditioning can run $400 to $580 a month for power alone.",
+      "details": [
+        "Electric rates (late 2026, all-in averages): Kauaʻi about 40¢/kWh, Oʻahu about 42¢, Hawaiʻi Island about 46¢, Maui about 47¢, Molokaʻi about 56¢, Lānaʻi about 58¢. They change monthly with fuel costs.",
+        "Typical electric bills: a 1-bedroom condo without AC about $110 to $160; a 3-bedroom house with AC about $400 to $580.",
+        "Water and sewer for a house: Honolulu about $165 to $220 a month (sewer is often the bigger part); other counties lower. Condos usually include these in association fees.",
+        "Internet: Spectrum about $50 to $90, Hawaiian Telcom fiber about $55 to $90 where available, 5G home internet about $50 to $70, Starlink about $80 to $120 plus equipment.",
+        "Propane runs about $5.50 to $7.50 a gallon. Solar panels and fans cut bills sharply."
+      ],
+      "tags": [
+        "utilities",
+        "electric bill",
+        "electricity",
+        "power bill",
+        "hawaiian electric",
+        "heco",
+        "kiuc",
+        "kwh",
+        "water bill",
+        "sewer",
+        "internet",
+        "spectrum",
+        "hawaiian telcom",
+        "starlink",
+        "cost of living",
+        "solar",
+        "propane",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "How to Live in Hawaiʻi: utility bills by island (updated Oct. 28, 2026)",
+          "url": "https://howtoliveinhawaii.com/hawaii-electric-and-utility-bills-by-island/"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-health-insurance",
+      "type": "living",
+      "title": "Health insurance through work (Prepaid Health Care Act)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi is the only state that requires most employers to provide health insurance. Once you work at least 20 hours a week for four weeks in a row (and earn at least a set minimum monthly wage), your employer must offer coverage, and your share of the premium can't exceed 1.5% of your wages.",
+      "details": [
+        "Eligibility: 20 or more hours a week, after 4 consecutive weeks, with monthly wages of at least 86.67 times the state minimum hourly wage.",
+        "Your cost: no more than 1.5% of your monthly wages for your own coverage; the employer pays at least half the premium and covers the rest.",
+        "It covers the employee; family coverage is often offered but isn't required by this law.",
+        "Run by the state Disability Compensation Division (Department of Labor and Industrial Relations), under Chapter 393, HRS.",
+        "Self-employed or between jobs: look at HealthCare.gov marketplace plans or Med-QUEST (Medicaid)."
+      ],
+      "tags": [
+        "health insurance",
+        "prepaid health care",
+        "prepaid health care act",
+        "employer insurance",
+        "medical insurance",
+        "benefits",
+        "hmsa",
+        "kaiser",
+        "jobs",
+        "work",
+        "employment",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi DLIR: highlights of the Prepaid Health Care Law (rev. June 2026)",
+          "url": "https://labor.hawaii.gov/dcd/files/2023/05/Highlights-of-the-Hawaii-Prepaid-Health-Care-Law-rev-2026.06.pdf"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-schools",
+      "type": "living",
+      "title": "Enrolling kids in Hawaiʻi public schools",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi has one statewide school district (HIDOE). Children attend the home school for the address where they live, and new arrivals need a Hawaiʻi TB clearance, a physical exam done within the past year, immunization records, and proof of address. Students can sometimes start provisionally while health papers are finished.",
+      "details": [
+        "Home school: assigned by your legal address. To attend a different public school you must request a geographic exception.",
+        "Proof of address: lease, mortgage or property tax record, or a utility bill in the parent's name. A notarized statement works if you live with family or friends.",
+        "Health: a physical exam within one year before first attending a Hawaiʻi school, a TB clearance done in Hawaiʻi, and immunizations by grade. Only medical or religious exemptions are allowed.",
+        "Also bring: the child's birth certificate, a parent photo ID, the last report card or transcript, and withdrawal papers from the previous school.",
+        "Provisional entry may be allowed with proof of an upcoming medical appointment.",
+        "Families in unstable housing can enroll right away; contact the homeless education program at 808-723-4192."
+      ],
+      "tags": [
+        "school",
+        "schools",
+        "enroll",
+        "enrollment",
+        "register for school",
+        "public school",
+        "hidoe",
+        "doe",
+        "kids",
+        "keiki",
+        "kindergarten",
+        "tb clearance",
+        "tb test",
+        "immunizations",
+        "geographic exception",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi DOE: student health and immunization requirements",
+          "url": "https://hawaiipublicschools.org/enrolling-in-school/student-health-immunization-requirements/"
+        },
+        {
+          "name": "Hawaiʻi DOE: geographic exceptions",
+          "url": "https://hawaiipublicschools.org/enrolling-in-school/geographic-exceptions"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "living-hurricane-prep",
+      "type": "living",
+      "title": "Hurricane season prep for new residents",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hurricane season runs June 1 to November 30. Because nearly everything arrives by ship, Hawaiʻi emergency officials ask households to keep at least 14 days of food and water, plus medicine and supplies, and to sign up for county alerts.",
+      "details": [
+        "Season: June 1 to November 30.",
+        "Kit: at least 14 days of water (about a gallon per person per day) and food, medications, a battery or crank radio, flashlights, batteries, a first-aid kit, cash, and pet supplies.",
+        "Alerts: sign up for your county's alerts (HNL.INFO on Oʻahu; Maui, Hawaiʻi and Kauaʻi counties run their own).",
+        "Know if you're in a tsunami evacuation zone (check your county's maps) and where your nearest shelter is.",
+        "Before a storm: fill gas tanks, secure lanai furniture, charge phones and power banks.",
+        "Renters: get renter's insurance; standard policies may exclude hurricane or flood damage, so ask."
+      ],
+      "tags": [
+        "hurricane",
+        "hurricanes",
+        "hurricane season",
+        "emergency kit",
+        "14 days",
+        "disaster",
+        "preparedness",
+        "tsunami zone",
+        "alerts",
+        "hnl info",
+        "emergency supplies",
+        "storm",
+        "moving to hawaii",
+        "move to hawaii",
+        "new resident",
+        "new residents",
+        "living in hawaii",
+        "relocating",
+        "relocate"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Emergency Management Agency: prepare for hurricane season",
+          "url": "https://governorige.hawaii.gov/?p=28734"
+        }
+      ],
+      "last_checked": "2026-10-29"
     }
   ]
 }

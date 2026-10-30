@@ -26,20 +26,20 @@
   --shadow:0 1px 2px rgba(20,33,42,.05),0 8px 24px rgba(20,33,42,.06);
   --display:"Fraunces",Georgia,"Times New Roman",serif;
   --body:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
-  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D; --d-food:#A23E48; --d-garden:#4F7A2E; --d-animal:#6B5B95; --d-shop:#9C4F86; --d-tour:#C0392B; --d-trip:#1F7A6D; --d-golf:#2E7D32; --d-sport:#00695C; --d-museum:#6D4C41;
+  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D; --d-food:#A23E48; --d-garden:#4F7A2E; --d-animal:#6B5B95; --d-shop:#9C4F86; --d-tour:#C0392B; --d-trip:#1F7A6D; --d-golf:#2E7D32; --d-sport:#00695C; --d-museum:#6D4C41; --d-living:#00838F;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4; --d-living:#80DEEA;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4; --d-living:#80DEEA;
   color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -393,11 +393,12 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   var TYPE = {
     place: ["Place", "--d-place"], hike: ["Hike", "--d-hike"], guide: ["Guide", "--d-guide"], safety: ["Safety", "--d-safety"],
     rule: ["Rule", "--d-rule"], culture: ["Culture", "--d-culture"], transport: ["Getting around", "--d-transport"],
-    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"], food: ["Food", "--d-food"], garden: ["Garden", "--d-garden"], animal: ["Wildlife", "--d-animal"], shop: ["Shopping", "--d-shop"], tour: ["Tour", "--d-tour"], trip: ["Day trip", "--d-trip"], golf: ["Golf", "--d-golf"], sport: ["UH sports", "--d-sport"], museum: ["Museum", "--d-museum"]
+    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"], food: ["Food", "--d-food"], garden: ["Garden", "--d-garden"], animal: ["Wildlife", "--d-animal"], shop: ["Shopping", "--d-shop"], tour: ["Tour", "--d-tour"], trip: ["Day trip", "--d-trip"], golf: ["Golf", "--d-golf"], sport: ["UH sports", "--d-sport"], museum: ["Museum", "--d-museum"], living: ["Moving here", "--d-living"]
   };
   var ICON = {
     bag: '<path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/>',
     museum: '<path d="M3 21h18M4 10h16M12 3l9 5H3z"/><path d="M6 10v8M10 10v8M14 10v8M18 10v8"/>',
+    home: '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>',
     flag: '<path d="M6 21V4M6 4l11 4-11 4"/><path d="M4 21h6"/>',
     leaf: '<path d="M5 19c0-8 6-14 15-14 0 9-6 15-14 15"/><path d="M5 19 13 11"/>',
     food: '<path d="M4 10h16l-1.5 9h-13z"/><path d="M8 10a4 4 0 0 1 8 0M12 3v3"/>',
@@ -499,6 +500,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     ["Hawaiian food & lunch wagons", "Laulau, poi, saimin, food trucks", "cat:food", "food"],
     ["Golf courses", "Every island, rates and tee times", "cat:golf", "flag"],
     ["Museums", "Palaces, plantations, tsunami and stars", "cat:museum", "museum"],
+    ["Moving to Hawaiʻi", "License, car, pets, rent, schools", "cat:living", "home"],
     ["Driving routes", "Waikīkī to anywhere on Oʻahu", "cat:route", "car"],
     ["Events calendar", "Festivals, surf contests, races", "cat:event", "calendar"]
   ];
@@ -585,8 +587,8 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   })();
 
   // Categories: every entry grouped by type, with counts
-  var CATORDER = ["trip", "tour", "event", "food", "place", "garden", "golf", "sport", "museum", "animal", "shop", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
-  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Hawaiian food & lunch wagons", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities", trip: "Island day trips", golf: "Golf courses", sport: "UH sports", museum: "Museums" };
+  var CATORDER = ["trip", "tour", "event", "food", "place", "garden", "golf", "sport", "museum", "living", "animal", "shop", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
+  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Hawaiian food & lunch wagons", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities", trip: "Island day trips", golf: "Golf courses", sport: "UH sports", museum: "Museums", living: "Moving to Hawaiʻi" };
   var curCat = "";
   function markCats() { $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === curCat)); }); }
   function loadCats() {
