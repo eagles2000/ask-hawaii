@@ -26,20 +26,20 @@
   --shadow:0 1px 2px rgba(20,33,42,.05),0 8px 24px rgba(20,33,42,.06);
   --display:"Fraunces",Georgia,"Times New Roman",serif;
   --body:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
-  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D; --d-food:#A23E48; --d-garden:#4F7A2E; --d-animal:#6B5B95; --d-shop:#9C4F86; --d-tour:#C0392B;
+  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D; --d-food:#A23E48; --d-garden:#4F7A2E; --d-animal:#6B5B95; --d-shop:#9C4F86; --d-tour:#C0392B; --d-trip:#1F7A6D;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3;
   color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -173,6 +173,9 @@ footer .shlink img{border-radius:6px}
 .meta{display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
 .tag{display:inline-flex;align-items:center;gap:7px;font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
 .meta .when{display:inline-flex;align-items:center;gap:5px;color:var(--d-event);font-weight:600}
+.stops{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 0;font-size:13px;color:var(--muted)}
+.stops li{display:inline-flex;align-items:center}
+.stops li+li::before{content:"→";margin:0 8px;color:var(--d-trip)}
 .tag i{width:8px;height:8px;border-radius:50%;display:inline-block}
 .card h3{font-size:24px}
 .card p{margin:0;font-size:16px}
@@ -390,7 +393,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   var TYPE = {
     place: ["Place", "--d-place"], hike: ["Hike", "--d-hike"], guide: ["Guide", "--d-guide"], safety: ["Safety", "--d-safety"],
     rule: ["Rule", "--d-rule"], culture: ["Culture", "--d-culture"], transport: ["Getting around", "--d-transport"],
-    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"], food: ["Food", "--d-food"], garden: ["Garden", "--d-garden"], animal: ["Wildlife", "--d-animal"], shop: ["Shopping", "--d-shop"], tour: ["Tour", "--d-tour"]
+    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"], food: ["Food", "--d-food"], garden: ["Garden", "--d-garden"], animal: ["Wildlife", "--d-animal"], shop: ["Shopping", "--d-shop"], tour: ["Tour", "--d-tour"], trip: ["Day trip", "--d-trip"]
   };
   var ICON = {
     bag: '<path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/>',
@@ -487,7 +490,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   ];
   var MINI = [
     ["Hawaiʻi's animals", "Nēnē, pueo, monk seals, whales", "cat:animal", "turtle"],
-    ["Streams & flash floods", "Waterfalls, floods, leptospirosis", "flash flood stream waterfall", "wave"],
+    ["Island day trips", "Planned drives with every stop", "cat:trip", "pin"],
     ["Botanical gardens", "Every island's best gardens", "cat:garden", "leaf"],
     ["Shopping centers", "Malls and markets, every island", "cat:shop", "bag"],
     ["Tours & lūʻau", "Lūʻau, cruises, snorkel, surf", "cat:tour", "wave"],
@@ -579,8 +582,8 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   })();
 
   // Categories: every entry grouped by type, with counts
-  var CATORDER = ["tour", "event", "food", "place", "garden", "animal", "shop", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
-  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Lunch wagons & food", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities" };
+  var CATORDER = ["trip", "tour", "event", "food", "place", "garden", "animal", "shop", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
+  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Lunch wagons & food", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities", trip: "Island day trips" };
   var curCat = "";
   function markCats() { $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === curCat)); }); }
   function loadCats() {
@@ -690,7 +693,13 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     }).catch(function () { $("status").textContent = "Couldn't reach Ask Hawaiʻi. Check your connection and try again."; });
   }
   function mapsLink(from, to) { return "https://www.google.com/maps/dir/?api=1" + (from ? "&origin=" + encodeURIComponent(from) : "") + "&destination=" + encodeURIComponent(to) + "&travelmode=driving"; }
+  function tripLink(stops) {
+    var q = function (x) { return encodeURIComponent(x.q); };
+    var mid = stops.slice(1, -1).slice(0, 9).map(q).join("%7C");
+    return "https://www.google.com/maps/dir/?api=1&origin=" + q(stops[0]) + "&destination=" + q(stops[stops.length - 1]) + (mid ? "&waypoints=" + mid : "") + "&travelmode=driving";
+  }
   function mapBtns(e) {
+    if (e.stops && e.stops.length > 1) return '<a class="btn primary" href="' + esc(tripLink(e.stops)) + '" target="_blank" rel="noopener">' + svg("pin", 16) + 'Open all stops in Google Maps</a>';
     var d = e.directions; if (!d) return "";
     return '<a class="btn primary" href="' + esc(mapsLink(d.from, d.to)) + '" target="_blank" rel="noopener">' + svg("pin", 16) + 'Map from ' + esc(d.from_label || "start") + '</a>' +
       '<a class="btn" href="' + esc(mapsLink("", d.to)) + '" target="_blank" rel="noopener">' + svg("car", 16) + 'From where I am</a>';
@@ -708,6 +717,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
       return '<article class="card">' +
         '<div class="meta"><span class="tag"><i style="background:var(' + t[1] + ')"></i>' + esc(t[0]) + '</span><span>' + esc(islandText(e)) + '</span>' + (e.months ? '<span class="when">' + svg("calendar", 14) + 'Usually ' + esc(monthText(e.months)) + '</span>' : '') + '<span>Checked ' + esc(fmtDate(e.last_checked)) + '</span></div>' +
         '<h3>' + esc(e.title) + '</h3><p>' + esc(e.summary) + '</p>' +
+        (e.stops ? '<ol class="stops">' + e.stops.map(function (x) { return "<li>" + esc(x.name) + "</li>"; }).join("") + "</ol>" : "") +
         '<ul class="details" id="d' + i + '" hidden>' + (e.details || []).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + '</ul>' +
         '<div class="actions"><button class="btn" type="button" data-more="' + i + '" aria-expanded="false" aria-controls="d' + i + '">More details</button>' +
         '<button class="btn" type="button" data-say="' + i + '">' + svg("wave", 16) + '<span>Read aloud</span></button>' + mapBtns(e) + '</div>' +

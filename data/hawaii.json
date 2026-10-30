@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.13.0",
+ "version": "0.14.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -5179,6 +5179,842 @@
     {
      "name": "Hawaiʻi Guide: Kauaʻi helicopter tours (July 2026)",
      "url": "https://hawaii-guide-com.pages.dev/kauai/activities/helicopter-tours"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-oahu-circle-island",
+   "type": "trip",
+   "title": "Oʻahu day trip: the circle island drive",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "The classic full-day loop: head east past Hālona Blowhole and Makapuʻu, up the windward coast through Waimānalo, Kailua and Kualoa, stop for garlic shrimp in Kahuku, see the big-wave beaches of the North Shore, have shave ice in Haleʻiwa, then come back through the pineapple fields of Central Oʻahu. Plan 8 to 10 hours with stops.",
+   "details": [
+    "1. Hālona Blowhole Lookout (Hawaiʻi Kai): ocean blowhole and coast views.",
+    "2. Makapuʻu Point Lookout: windward views to Rabbit Island. (The upper lookout had weekend closures in fall 2026.)",
+    "3. Waimānalo Beach Park: long turquoise beach for a swim.",
+    "4. Kailua Beach Park: lunch or coffee in Kailua town.",
+    "5. Kualoa Regional Park: views of Mokoliʻi (Chinaman's Hat) and the Kualoa cliffs.",
+    "6. Kahuku shrimp trucks: Giovanni's, Romy's or Fumi's for a garlic shrimp plate.",
+    "7. Sunset Beach Park: famous winter surf.",
+    "8. Haleʻiwa town: Matsumoto Shave Ice (since the 1950s), shops and food trucks.",
+    "9. Dole Plantation (Wahiawā): pineapple treats on the drive home.",
+    "Driving: about 110 to 130 miles with the loop back; go clockwise early to beat windward traffic. Hanauma Bay and Diamond Head need separate reservations if you add them.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "circle island",
+    "around the island",
+    "oahu road trip",
+    "oahu day trip",
+    "full day",
+    "kahuku",
+    "north shore",
+    "kailua",
+    "waimanalo",
+    "haleiwa",
+    "dole plantation",
+    "shave ice",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Waikīkī",
+     "q": "Waikiki, Honolulu, HI"
+    },
+    {
+     "name": "Hālona Blowhole",
+     "q": "Halona Blowhole Lookout, Honolulu, HI"
+    },
+    {
+     "name": "Makapuʻu Point Lookout",
+     "q": "Makapuu Point Lookout, Waimanalo, HI"
+    },
+    {
+     "name": "Waimānalo Beach Park",
+     "q": "Waimanalo Beach Park, Waimanalo, HI"
+    },
+    {
+     "name": "Kailua Beach Park",
+     "q": "Kailua Beach Park, Kailua, HI"
+    },
+    {
+     "name": "Kualoa Regional Park",
+     "q": "Kualoa Regional Park, Kaneohe, HI"
+    },
+    {
+     "name": "Giovanni's Shrimp Truck, Kahuku",
+     "q": "Giovanni's Shrimp Truck, 56-505 Kamehameha Hwy, Kahuku, HI"
+    },
+    {
+     "name": "Sunset Beach Park",
+     "q": "Sunset Beach Park, Haleiwa, HI"
+    },
+    {
+     "name": "Matsumoto Shave Ice",
+     "q": "Matsumoto Shave Ice, Haleiwa, HI"
+    },
+    {
+     "name": "Dole Plantation",
+     "q": "Dole Plantation, Wahiawa, HI"
+    },
+    {
+     "name": "Waikīkī",
+     "q": "Waikiki, Honolulu, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Hawaii News Now: Matsumoto Shave Ice turns 75 (2026)",
+     "url": "https://www.hawaiinewsnow.com/2026/07/23/matsumoto-shave-ice-turns-75-north-shore-shop-that-became-iconic/"
+    },
+    {
+     "name": "Hawaiʻi Guide: Best food trucks on Oʻahu (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/oahu/best-food-trucks-oahu"
+    },
+    {
+     "name": "Hawaiʻi DLNR State Parks: notices (closures after Hurricane Lowell, Oct. 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-oahu-southeast-coast",
+   "type": "trip",
+   "title": "Oʻahu half-day trip: southeast coast and the Pali",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A half-day loop from Waikīkī around Diamond Head and the rugged southeast shore to Waimānalo and Kailua, then back over the mountains via the Nuʻuanu Pali Lookout. About 40 miles; allow 4 to 5 hours, more if you snorkel at Hanauma Bay.",
+   "details": [
+    "1. Diamond Head lookouts along Diamond Head Road (the crater hike needs a reservation for non-residents).",
+    "2. Hanauma Bay Nature Preserve: reservation required; closed Mondays and Tuesdays.",
+    "3. Hālona Blowhole Lookout.",
+    "4. Sandy Beach: watch the bodysurfers, but the shorebreak is dangerous.",
+    "5. Makapuʻu Point Lookout (or hike the paved Makapuʻu Lighthouse Trail).",
+    "6. Waimānalo Beach Park.",
+    "7. Kailua: lunch in town, then Kailua Beach.",
+    "8. Nuʻuanu Pali Lookout: windy cliffs and the site of a key 1795 battle in Kamehameha's unification of the islands.",
+    "Back to Waikīkī down the Pali Highway.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "southeast",
+    "east oahu",
+    "half day",
+    "pali lookout",
+    "hanauma bay",
+    "sandy beach",
+    "makapuu",
+    "kailua",
+    "diamond head",
+    "scenic drive",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Waikīkī",
+     "q": "Waikiki, Honolulu, HI"
+    },
+    {
+     "name": "Diamond Head Lookout",
+     "q": "Diamond Head Lighthouse, Diamond Head Rd, Honolulu, HI"
+    },
+    {
+     "name": "Hanauma Bay",
+     "q": "Hanauma Bay Nature Preserve, Honolulu, HI"
+    },
+    {
+     "name": "Hālona Blowhole",
+     "q": "Halona Blowhole Lookout, Honolulu, HI"
+    },
+    {
+     "name": "Sandy Beach",
+     "q": "Sandy Beach Park, Honolulu, HI"
+    },
+    {
+     "name": "Makapuʻu Point Lookout",
+     "q": "Makapuu Point Lookout, Waimanalo, HI"
+    },
+    {
+     "name": "Waimānalo Beach Park",
+     "q": "Waimanalo Beach Park, Waimanalo, HI"
+    },
+    {
+     "name": "Kailua Beach Park",
+     "q": "Kailua Beach Park, Kailua, HI"
+    },
+    {
+     "name": "Nuʻuanu Pali Lookout",
+     "q": "Nuuanu Pali Lookout, Honolulu, HI"
+    },
+    {
+     "name": "Waikīkī",
+     "q": "Waikiki, Honolulu, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Oʻahu driving times",
+     "url": "https://www.hawaii-guide.com/oahu/oahu-driving-times"
+    },
+    {
+     "name": "Hawaiʻi DLNR State Parks: notices (closures after Hurricane Lowell, Oct. 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-oahu-north-shore-day",
+   "type": "trip",
+   "title": "Oʻahu day trip: the North Shore",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Go up through the middle of the island to Dole Plantation and Haleʻiwa town, then follow the coast past Waimea Bay, Waimea Valley's waterfall, Pipeline and Sunset Beach to the Kahuku shrimp trucks. In winter, watch giant surf; in summer, the same beaches are often calm enough to swim.",
+   "details": [
+    "1. Dole Plantation (Wahiawā): Dole Whip and the pineapple garden.",
+    "2. Haleʻiwa town: shops, food trucks and Matsumoto Shave Ice.",
+    "3. Waimea Bay: big-wave surf in winter, swimming and the jumping rock in calm summer seas.",
+    "4. Waimea Valley: garden walk to Waimea Falls (admission; Hawaiʻi residents pay less).",
+    "5. ʻEhukai Beach Park: home of the Banzai Pipeline.",
+    "6. Sunset Beach.",
+    "7. Kahuku: garlic shrimp at Giovanni's, Romy's or Fumi's, or Mike's Huli-Huli Chicken.",
+    "Return via H-2 (faster) or continue down the windward coast for the full circle.",
+    "Winter surf is deadly: watch from the sand when lifeguards post warnings. Parking along Kamehameha Highway fills early.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "north shore",
+    "haleiwa",
+    "waimea bay",
+    "waimea valley",
+    "pipeline",
+    "sunset beach",
+    "kahuku",
+    "dole plantation",
+    "day trip",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Waikīkī",
+     "q": "Waikiki, Honolulu, HI"
+    },
+    {
+     "name": "Dole Plantation",
+     "q": "Dole Plantation, Wahiawa, HI"
+    },
+    {
+     "name": "Haleʻiwa town",
+     "q": "Haleiwa, HI"
+    },
+    {
+     "name": "Waimea Bay",
+     "q": "Waimea Bay Beach Park, Haleiwa, HI"
+    },
+    {
+     "name": "Waimea Valley",
+     "q": "Waimea Valley, Haleiwa, HI"
+    },
+    {
+     "name": "ʻEhukai Beach Park (Pipeline)",
+     "q": "Ehukai Beach Park, Haleiwa, HI"
+    },
+    {
+     "name": "Sunset Beach Park",
+     "q": "Sunset Beach Park, Haleiwa, HI"
+    },
+    {
+     "name": "Kahuku shrimp trucks",
+     "q": "Giovanni's Shrimp Truck, 56-505 Kamehameha Hwy, Kahuku, HI"
+    },
+    {
+     "name": "Waikīkī",
+     "q": "Waikiki, Honolulu, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Waimea Valley: Admission and hours",
+     "url": "https://www.waimeavalley.net/admission"
+    },
+    {
+     "name": "Hawaiʻi Guide: Oʻahu driving times",
+     "url": "https://www.hawaii-guide.com/oahu/oahu-driving-times"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-honolulu-history-day",
+   "type": "trip",
+   "title": "Oʻahu day trip: Pearl Harbor and historic Honolulu",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A history-filled day: the USS Arizona Memorial at Pearl Harbor in the morning, then downtown Honolulu for ʻIolani Palace, the King Kamehameha statue and Kawaiahaʻo Church, lunch in Chinatown, and Foster Botanical Garden or the Bishop Museum in the afternoon.",
+   "details": [
+    "1. Pearl Harbor National Memorial: free, but reserve USS Arizona program tickets on Recreation.gov; no bags allowed; parking $7.",
+    "2. ʻIolani Palace: tours must be booked ahead; no walk-ups.",
+    "3. King Kamehameha Statue, across from the palace at Aliʻiōlani Hale.",
+    "4. Kawaiahaʻo Church, Honolulu's historic coral-block church.",
+    "5. Chinatown: lunch, lei stands and markets.",
+    "6. Foster Botanical Garden (open 9 to 4; $5 adults, $3 Hawaiʻi residents).",
+    "7. Optional: Bishop Museum (daily 9 to 5) for Hawaiian history and culture.",
+    "Tip: start early at Pearl Harbor, where morning tickets go first.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "pearl harbor",
+    "history",
+    "historic",
+    "honolulu",
+    "downtown",
+    "iolani palace",
+    "kamehameha statue",
+    "chinatown",
+    "bishop museum",
+    "museum day",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Waikīkī",
+     "q": "Waikiki, Honolulu, HI"
+    },
+    {
+     "name": "Pearl Harbor National Memorial",
+     "q": "Pearl Harbor National Memorial, Honolulu, HI"
+    },
+    {
+     "name": "ʻIolani Palace",
+     "q": "Iolani Palace, Honolulu, HI"
+    },
+    {
+     "name": "King Kamehameha Statue",
+     "q": "King Kamehameha Statue, Honolulu, HI"
+    },
+    {
+     "name": "Kawaiahaʻo Church",
+     "q": "Kawaiahao Church, Honolulu, HI"
+    },
+    {
+     "name": "Chinatown",
+     "q": "Chinatown, Honolulu, HI"
+    },
+    {
+     "name": "Foster Botanical Garden",
+     "q": "Foster Botanical Garden, Honolulu, HI"
+    },
+    {
+     "name": "Bishop Museum",
+     "q": "Bishop Museum, Honolulu, HI"
+    },
+    {
+     "name": "Waikīkī",
+     "q": "Waikiki, Honolulu, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "National Park Service: Pearl Harbor directions",
+     "url": "https://www.nps.gov/perl/planyourvisit/directions.htm"
+    },
+    {
+     "name": "City and County of Honolulu: Foster Botanical Garden",
+     "url": "https://www.honolulu.gov/dpr/?p=16648"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-maui-road-to-hana",
+   "type": "trip",
+   "title": "Maui day trip: the Road to Hāna",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "The famous winding drive along Maui's rainforest coast: start early from Paʻia, stop at the Garden of Eden Arboretum, the Keʻanae Peninsula for Aunty Sandy's banana bread, Halfway to Hāna at mile 17, and Waiʻānapanapa's black-sand beach (reservation required), then Hāna town. About 52 miles from Kahului with hundreds of curves and one-lane bridges; plan a full day and return the way you came.",
+   "details": [
+    "1. Paʻia: last easy stop for gas, food and restrooms.",
+    "2. Garden of Eden Arboretum (half mile past mile marker 10): daily 8 to 4; $20 adults.",
+    "3. Keʻanae Peninsula: lava-rock coast and Aunty Sandy's banana bread.",
+    "4. Halfway to Hāna stand (mile marker 17): banana bread since 1982.",
+    "5. Waiʻānapanapa State Park: non-residents must reserve a time slot in advance or will be turned away.",
+    "6. Hāna town: a quiet, small town; please respect private property and residents.",
+    "Leave by 7 a.m., fill up the tank in Paʻia, and don't stop in the road or block bridges; pull fully off to let locals pass.",
+    "Return the same way; check your rental agreement before driving the rough back road past Kīpahulu.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "road to hana",
+    "hana",
+    "hana highway",
+    "paia",
+    "waianapanapa",
+    "garden of eden",
+    "keanae",
+    "banana bread",
+    "maui day trip",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Kahului",
+     "q": "Kahului, HI"
+    },
+    {
+     "name": "Paʻia",
+     "q": "Paia, HI"
+    },
+    {
+     "name": "Garden of Eden Arboretum",
+     "q": "Garden of Eden Arboretum, Haiku, HI"
+    },
+    {
+     "name": "Keʻanae Peninsula",
+     "q": "Keanae Peninsula, HI"
+    },
+    {
+     "name": "Halfway to Hāna",
+     "q": "Halfway to Hana, Hana Hwy, HI"
+    },
+    {
+     "name": "Waiʻānapanapa State Park",
+     "q": "Waianapanapa State Park, Hana, HI"
+    },
+    {
+     "name": "Hāna town",
+     "q": "Hana, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Garden of Eden Arboretum",
+     "url": "https://www.hawaii-guide.com/maui/sights/maui-garden-of-eden"
+    },
+    {
+     "name": "Hawaiʻi Magazine: Best banana bread on Maui (May 2026)",
+     "url": "https://www.hawaiimagazine.com/best-banana-bread-on-maui/"
+    },
+    {
+     "name": "Waiʻānapanapa State Park reservations FAQ",
+     "url": "https://gostateparks.hawaii.gov/waianapanapa/faq"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-maui-upcountry-haleakala",
+   "type": "trip",
+   "title": "Maui day trip: Haleakalā and Upcountry",
+   "island": [
+    "Maui"
+   ],
+   "county": "Maui County",
+   "summary": "Drive up Haleakalā (sunrise needs a reservation; daytime visits just need the park entry pass), then come down through cool Upcountry Maui: Kula Botanical Garden, the paniolo (cowboy) town of Makawao with Komoda Store's famous cream puffs, then Paʻia and the Hoʻokipa lookout to watch windsurfers and turtles.",
+   "details": [
+    "1. Haleakalā National Park summit: sunrise entry (3 to 7 a.m.) needs a Recreation.gov reservation; any time needs the park pass. It's often below freezing before dawn.",
+    "2. Kula Botanical Garden (Kekaulike Road, about 3,300 ft): protea, orchids and native plants.",
+    "3. Makawao: paniolo town with galleries and T. Komoda Store and Bakery, open since 1916, known for cream puffs and stick donuts. Go early; it sells out.",
+    "4. Paʻia: lunch and shops.",
+    "5. Hoʻokipa Beach Park lookout: windsurfers and resting honu (keep 10 feet away).",
+    "The summit road climbs from sea level to 10,000 feet in about 2 hours; bring layers and fill up on gas.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "haleakala",
+    "upcountry",
+    "kula",
+    "makawao",
+    "komoda",
+    "paia",
+    "hookipa",
+    "sunrise",
+    "maui day trip",
+    "cream puffs",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Kahului",
+     "q": "Kahului, HI"
+    },
+    {
+     "name": "Haleakalā summit",
+     "q": "Haleakala Visitor Center, Kula, HI"
+    },
+    {
+     "name": "Kula Botanical Garden",
+     "q": "Kula Botanical Garden, Kula, HI"
+    },
+    {
+     "name": "Makawao (Komoda Store)",
+     "q": "T. Komoda Store and Bakery, Makawao, HI"
+    },
+    {
+     "name": "Paʻia",
+     "q": "Paia, HI"
+    },
+    {
+     "name": "Hoʻokipa Lookout",
+     "q": "Hookipa Beach Park, Paia, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Maui Now: Komoda Bakery, more than a century in Makawao",
+     "url": "https://mauinow.com/2021/12/11/komoda-bakery-brings-more-than-a-century-of-sweetness-to-makawao/"
+    },
+    {
+     "name": "Kula Botanical Garden (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Kula_Botanical_Garden"
+    },
+    {
+     "name": "National Park Service: Haleakalā sunrise",
+     "url": "https://www.nps.gov/hale/planyourvisit/sunrise.htm"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-maui-west-maui",
+   "type": "trip",
+   "title": "Maui day trip: ʻĪao Valley and the West Maui coast",
+   "island": [
+    "Maui"
+   ],
+   "county": "Maui County",
+   "summary": "Start at ʻĪao Valley (reservation required for non-residents), then drive the coast to West Maui: Kāʻanapali's beach and Whalers Village, Nāpili and Kapalua, and the Honolua Bay lookout. Lāhainā is still rebuilding after the August 2023 fire; drive through respectfully and follow posted closures.",
+   "details": [
+    "1. ʻĪao Valley State Monument (Wailuku): 7 a.m. to 6 p.m.; non-residents reserve ahead ($5 entry, $10 parking).",
+    "2. Pali coast drive on Honoapiʻilani Highway: whale watching in winter from pullouts.",
+    "3. Lāhainā: still rebuilding; many areas remain closed. Please don't sightsee in burned areas.",
+    "4. Kāʻanapali Beach and Whalers Village: shopping, lunch, returning Lāhainā businesses.",
+    "5. Nāpili Bay and Kapalua Bay: calm-water swimming in summer.",
+    "6. Honolua Bay lookout: famous winter surf; snorkel in calm summer conditions.",
+    "Beyond Honolua the road (Kahekili Highway) becomes narrow and rough; many visitors turn back here.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "west maui",
+    "iao valley",
+    "kaanapali",
+    "whalers village",
+    "napili",
+    "kapalua",
+    "honolua bay",
+    "lahaina",
+    "maui day trip",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Kahului",
+     "q": "Kahului, HI"
+    },
+    {
+     "name": "ʻĪao Valley",
+     "q": "Iao Valley State Monument, Wailuku, HI"
+    },
+    {
+     "name": "Whalers Village",
+     "q": "Whalers Village, Kaanapali, HI"
+    },
+    {
+     "name": "Nāpili Bay",
+     "q": "Napili Bay, Lahaina, HI"
+    },
+    {
+     "name": "Kapalua Bay",
+     "q": "Kapalua Bay Beach, Lahaina, HI"
+    },
+    {
+     "name": "Honolua Bay lookout",
+     "q": "Honolua Bay, Lahaina, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of State Parks: ʻĪao Valley State Monument",
+     "url": "https://dlnr.hawaii.gov/dsp/parks/maui/iao-valley-state-monument/"
+    },
+    {
+     "name": "Maui Now: Whalers Village returning businesses (Mar. 2026)",
+     "url": "https://mauinow.com/2026/03/26/whalers-village-welcomes-new-beginnings-return-of-beloved-lahaina-businesses"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-kauai-north-shore",
+   "type": "trip",
+   "title": "Kauaʻi day trip: the North Shore drive",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "From Līhuʻe, drive up the east side through Kapaʻa to the Kīlauea Lighthouse, the Hanalei Valley Lookout over the taro fields, Hanalei town and Hāʻena State Park at the end of the road (reservation required for visitors).",
+   "details": [
+    "1. Kapaʻa: coffee, shave ice and the Kauaʻi Food Truck Park.",
+    "2. Kīlauea Point National Wildlife Refuge and lighthouse: Wednesday to Saturday, 10 a.m. to 4 p.m.; reserve on Recreation.gov ($11 adults); great for seabirds and albatross in season.",
+    "3. Hanalei Valley Lookout: taro fields under green mountains.",
+    "4. Hanalei town: lunch, JoJo's Shave Ice, Hanalei Bay.",
+    "5. Hāʻena State Park and Kēʻē Beach: reservation required at gohaena.com; open 7 a.m. to 6:45 p.m.; the Kalalau Trail is open to Hanakāpīʻai only (Oct. 2026).",
+    "Past Hanalei the road crosses several one-lane bridges: yield in groups of five to seven cars.",
+    "Kauaʻi parks were still recovering from Hurricane Lowell in fall 2026; check DLNR notices before you go.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "kauai north shore",
+    "hanalei",
+    "kilauea",
+    "kilauea lighthouse",
+    "haena",
+    "kee beach",
+    "princeville",
+    "kapaa",
+    "kauai day trip",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Līhuʻe",
+     "q": "Lihue, HI"
+    },
+    {
+     "name": "Kapaʻa",
+     "q": "Kapaa, HI"
+    },
+    {
+     "name": "Kīlauea Point Lighthouse",
+     "q": "Kilauea Point National Wildlife Refuge, Kilauea, HI"
+    },
+    {
+     "name": "Hanalei Valley Lookout",
+     "q": "Hanalei Valley Lookout, Princeville, HI"
+    },
+    {
+     "name": "Hanalei town",
+     "q": "Hanalei, HI"
+    },
+    {
+     "name": "Hāʻena State Park",
+     "q": "Haena State Park, Hanalei, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "U.S. Fish & Wildlife Service: Visit Kīlauea Point",
+     "url": "https://www.fws.gov/refuge/kilauea-point/visit-us"
+    },
+    {
+     "name": "Hāʻena State Park reservations",
+     "url": "https://gohaena.com/"
+    },
+    {
+     "name": "Hawaiʻi DLNR State Parks: notices (closures after Hurricane Lowell, Oct. 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-kauai-west-side",
+   "type": "trip",
+   "title": "Kauaʻi day trip: Waimea Canyon and the West Side",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Head west from Poʻipū or Līhuʻe through Hanapēpē's art town and historic Waimea town, then climb to the Waimea Canyon Lookout, the \"Grand Canyon of the Pacific.\" After Hurricane Lowell, only the main Waimea Canyon Lookout reopened (Oct. 24, 2026); Kōkeʻe Road and the Kalalau Lookout were closed.",
+   "details": [
+    "1. Hanapēpē: Kauaʻi's \"biggest little town\": galleries and historic storefronts.",
+    "2. Waimea town: where Captain Cook first landed in Hawaiʻi in 1778; JoJo's Shave Ice is a classic stop.",
+    "3. Waimea Canyon Lookout: non-residents pay $5 per person and $10 to park; daylight hours.",
+    "Status (Oct. 2026): other lookouts and Kōkeʻe Road were closed after the hurricane; check DLNR notices before driving up.",
+    "Bring water and a jacket; it's cooler at the canyon rim.",
+    "Return the same way; there are few services above Waimea town.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "waimea canyon",
+    "west side",
+    "kauai",
+    "hanapepe",
+    "waimea town",
+    "grand canyon of the pacific",
+    "kokee",
+    "kauai day trip",
+    "jojos",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Poʻipū",
+     "q": "Poipu, HI"
+    },
+    {
+     "name": "Hanapēpē",
+     "q": "Hanapepe, HI"
+    },
+    {
+     "name": "Waimea town",
+     "q": "Waimea, Kauai, HI"
+    },
+    {
+     "name": "Waimea Canyon Lookout",
+     "q": "Waimea Canyon Lookout, Waimea, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Best shave ice on Kauaʻi",
+     "url": "https://www.hawaii-guide.com/kauai/best-shave-ice-locations-kauai"
+    },
+    {
+     "name": "Hawaiʻi DLNR State Parks: notices (closures after Hurricane Lowell, Oct. 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-hilo-volcano",
+   "type": "trip",
+   "title": "Hawaiʻi Island day trip: Hilo and the volcano",
+   "island": [
+    "Hawaiʻi Island"
+   ],
+   "county": "Hawaiʻi County",
+   "summary": "Start in Hilo with the free Liliʻuokalani Gardens and a loco moco at Café 100 or Ken's House of Pancakes (Hilo is where the loco moco was born), see Rainbow Falls, then drive about 45 minutes up to Hawaiʻi Volcanoes National Park to see Kīlauea and, if it's erupting, the glow in Halemaʻumaʻu crater.",
+   "details": [
+    "1. Liliʻuokalani Gardens (Banyan Drive): free Japanese garden on Hilo Bay, open 24 hours.",
+    "2. Loco moco: Café 100 (969 Kīlauea Ave., serving it since 1949) or Ken's House of Pancakes (1730 Kamehameha Ave., open 24 hours).",
+    "3. Rainbow Falls (Wailuku River State Park): short walk; rainbows on sunny mornings.",
+    "4. Hawaiʻi Volcanoes National Park: $30 per car for 7 days, card only. Kīlauea Visitor Center first for eruption updates.",
+    "5. Kīlauea overlooks: eruption activity changes constantly; check the USGS Hawaiian Volcano Observatory. Lots can fill by 10 a.m.",
+    "6. Volcano Village: dinner and a cozy night if you want to see the glow after dark.",
+    "Volcanic gas can affect people with heart or breathing problems, pregnant people and young children.",
+    "Add-on north of Hilo: ʻAkaka Falls and the Hawaiʻi Tropical Botanical Garden.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "hilo",
+    "volcano",
+    "kilauea",
+    "hawaii volcanoes national park",
+    "loco moco",
+    "cafe 100",
+    "kens house of pancakes",
+    "rainbow falls",
+    "big island day trip",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "drive around"
+   ],
+   "stops": [
+    {
+     "name": "Hilo",
+     "q": "Hilo, HI"
+    },
+    {
+     "name": "Liliʻuokalani Gardens",
+     "q": "Liliuokalani Gardens, Hilo, HI"
+    },
+    {
+     "name": "Café 100",
+     "q": "Cafe 100, 969 Kilauea Ave, Hilo, HI"
+    },
+    {
+     "name": "Rainbow Falls",
+     "q": "Rainbow Falls, Hilo, HI"
+    },
+    {
+     "name": "Kīlauea Visitor Center",
+     "q": "Kilauea Visitor Center, Hawaii Volcanoes National Park, HI"
+    },
+    {
+     "name": "Volcano Village",
+     "q": "Volcano, HI"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: Where to eat a loco moco in Hilo",
+     "url": "https://www.hawaiimagazine.com/where-to-eat-a-loco-moco-in-hilo-the-town-that-invented-it/"
+    },
+    {
+     "name": "GoHawaii: Liliʻuokalani Gardens",
+     "url": "https://www.gohawaii.com/islands/hawaii-big-island/regions/hilo/liliuokalani-gardens"
+    },
+    {
+     "name": "National Park Service: Hawaiʻi Volcanoes",
+     "url": "https://www.nps.gov/havo/"
     }
    ],
    "last_checked": "2026-10-29"

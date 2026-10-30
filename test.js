@@ -134,6 +134,14 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("manta rays") === "tour-kona-manta-night-snorkel", "manta");
   ok(top("hanauma bay") === "place-hanauma-bay", "hanauma stays first");
 
+  // Day trips (v0.14)
+  ok(top("drive around the island oahu") === "trip-oahu-circle-island", "circle island");
+  ok(top("road to hana") === "trip-maui-road-to-hana", "road to hana");
+  ok(top("day trip on kauai").startsWith("trip-kauai"), "kauai day trip");
+  ok(top("pearl harbor") === "place-pearl-harbor", "trips don't crowd out");
+  ok(/waypoints=/.test(kb.get("trip-oahu-circle-island").google_maps), "multi-stop maps link");
+  ok(kb.DATA.entries.filter((e) => e.stops).every((e) => e.stops.length <= 11), "max 9 waypoints");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);
