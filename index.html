@@ -265,7 +265,10 @@ a.btn{text-decoration:none;color:var(--ink)}
 .givebtn{display:inline-flex;align-items:center;justify-content:center;width:100%;padding:14px 18px;border-radius:10px;background:#7B2D8E;color:#fff;font-weight:700;text-decoration:none;font-size:16px}
 .givebtn:hover{filter:brightness(1.1)}
 .give .crisis{font-size:14px;margin-top:12px}
-.give .crisis a{color:var(--ink)}
+.give .crisis a{color:#B45309;text-decoration:none}
+.give .crisis a b{font-size:1.15em}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .give .crisis a{color:#FBBF24}}
+:root[data-theme="dark"] .give .crisis a{color:#FBBF24}
 footer{background:var(--surface);border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;padding-block:40px 28px}
 @media (max-width:820px){footer .cols{grid-template-columns:1fr;gap:18px}}
