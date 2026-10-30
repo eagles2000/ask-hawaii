@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "last_updated": "2026-10-29",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -8566,6 +8566,510 @@
         "from_label": "Hilo airport (ITO)",
         "to": "Richardson Ocean Park, Hilo, HI",
         "to_label": "Richardson Ocean Park"
+      }
+    },
+    {
+      "id": "hike-pipiwai-trail",
+      "type": "hike",
+      "title": "Pīpīwai Trail, Hāna (bamboo forest and Waimoku Falls)",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Maui's most famous hike, in the Kīpahulu District of Haleakalā National Park past Hāna. It's 4 miles round trip with about 800 feet of gain, passing a giant banyan and a bamboo boardwalk on the way to the roughly 400-foot Waimoku Falls. The national park entrance fee is $30 per car, card only.",
+      "details": [
+        "Length: 4 miles round trip, about 800 feet of gain; allow 2 to 3 hours.",
+        "Fee: $30 per private vehicle (good for 3 days at both Haleakalā districts), $15 per person on foot or bike. Cards only.",
+        "Highlights: Makahiku Falls overlook, a giant banyan (stay off its roots), a bamboo forest on a boardwalk, and the roughly 400-foot Waimoku Falls at the end.",
+        "Flash floods and falling rocks happen without warning. Stay behind the signs, stay off the stream, and don't walk under the falls.",
+        "As of early October 2026 the trail is open, the Pools of ʻOheʻo are closed to swimming (you can view them from Kūloa Point), and the main restrooms are closed for repairs.",
+        "It's about 2.5 to 3 hours' drive from Kahului on the Road to Hāna, so start early and treat it as a daylight hike."
+      ],
+      "tags": [
+        "pipiwai",
+        "pipiwai trail",
+        "bamboo forest",
+        "bamboo",
+        "waimoku falls",
+        "waimoku",
+        "kipahulu",
+        "ohe o",
+        "oheo",
+        "seven sacred pools",
+        "hana",
+        "road to hana",
+        "haleakala",
+        "haleakala national park",
+        "waterfall",
+        "banyan",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "maui hikes",
+        "maui hiking"
+      ],
+      "sources": [
+        {
+          "name": "Wanderlustyle: Pīpīwai Trail (updated Oct. 3, 2026)",
+          "url": "https://wanderlustyle.com/pipiwai-trail-maui/"
+        },
+        {
+          "name": "Hawaiʻi Magazine: Hiking the Pīpīwai Trail",
+          "url": "https://www.hawaiimagazine.com/content/hiking-pipiwai-trail-waimoku-falls-haleakala-national-park"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Kipahulu Visitor Center, Haleakala National Park, Hana, HI",
+        "to_label": "Kīpahulu Visitor Center"
+      }
+    },
+    {
+      "id": "hike-sliding-sands-haleakala",
+      "type": "hike",
+      "title": "Sliding Sands (Keoneheʻeheʻe) Trail, Haleakalā",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "The trail into Haleakalā crater, starting at the summit visitor center parking lot at about 10,000 feet. It drops almost 2,500 feet across cinder slopes to the crater floor. Going down is easy; climbing back up at altitude takes about twice as long.",
+      "details": [
+        "Trailhead: Haleakalā Visitor Center parking lot (summit district). Restrooms and water are only at the visitor center.",
+        "Options: a short walk to the first overlook (0.5 mile round trip); 3.9 miles one way to the crater floor; about 5.6 miles to Kapalaoa Cabin; or about 11 miles through to the Halemauʻu trailhead (arrange a car shuttle).",
+        "Almost 2,500 feet of descent, all of which you climb back out. The park advises allowing twice as long to come up as to go down.",
+        "It's often cold, windy and very sunny at 10,000 feet. Bring layers, plenty of water, sun protection and food.",
+        "Park entrance fee required. A separate sunrise reservation is needed only to enter the summit district between 3 and 7 a.m.",
+        "Stay on the trail; the crater's plants (including the ʻāhinahina, silversword) are fragile and protected."
+      ],
+      "tags": [
+        "sliding sands",
+        "keoneheehee",
+        "haleakala",
+        "haleakala crater",
+        "crater",
+        "summit",
+        "haleakala national park",
+        "upcountry",
+        "cinder",
+        "silversword",
+        "kapalaoa",
+        "halemauu",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "maui hikes",
+        "maui hiking"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii-Guide: Sliding Sands Trail (Keoneheʻeheʻe)",
+          "url": "https://hawaii-guide.com/maui/hiking-trails/sliding_sands_trail_keoneheehee"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Haleakala Visitor Center, Kula, HI",
+        "to_label": "Haleakalā Visitor Center"
+      }
+    },
+    {
+      "id": "hike-waihee-ridge",
+      "type": "hike",
+      "title": "Waiheʻe Ridge Trail",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "A steady ridge climb in the West Maui Mountains above Waiheʻe, about 5 miles round trip with roughly 1,500 feet of gain to a 2,563-foot viewpoint (Lanilili). Clear mornings give waterfall and valley views; afternoons often cloud in, and the trail gets muddy after rain.",
+      "details": [
+        "Length: about 5 miles round trip, about 1,500 feet of gain; allow 3 to 4 hours. Rated moderate.",
+        "It starts with a steep paved section, then becomes a dirt ridge trail with stairs and mud. Wear shoes with grip.",
+        "Getting there: from Kahului, take Highway 340 (Kahekili Highway) north past Waiheʻe, then turn up the road at Maluhia Boy Scout Camp to the small trailhead lot.",
+        "The gate has set hours; don't start before it opens or park outside it. The lot is small, so go early, which also gives you the best chance of clear views.",
+        "Pass through the cattle gate and close it behind you. There's a picnic table at the top, but no restrooms or water."
+      ],
+      "tags": [
+        "waihee",
+        "waihee ridge",
+        "waihee ridge trail",
+        "lanilili",
+        "west maui mountains",
+        "wailuku",
+        "kahekili highway",
+        "ridge",
+        "waterfall view",
+        "views",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "maui hikes",
+        "maui hiking"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii-Guide: Waiheʻe Ridge Trail",
+          "url": "https://www.hawaii-guide.com/maui/hiking-trails/waihee-ridge-trail"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Waihee Ridge Trailhead, Wailuku, HI",
+        "to_label": "Waiheʻe Ridge trailhead"
+      }
+    },
+    {
+      "id": "hike-hoapili-kings-trail",
+      "type": "hike",
+      "title": "Hoapili Trail (King's Highway), La Perouse Bay",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "An ancient Hawaiian coastal path, rebuilt in 1824, across the jagged lava fields of South Maui's last lava flow. Most people go out and back from La Perouse Bay to Kanaio Beach: about 5.5 miles and 4 hours with no shade. Start early and bring lots of water.",
+      "details": [
+        "Start: the La Perouse Bay parking area, where Mākena Road dead-ends about 3 miles past Big Beach (Mākena).",
+        "Length: about 5.5 miles round trip to Kanaio Beach, about 4 hours. Even an hour gives a good feel for it.",
+        "Terrain: sharp ʻaʻā lava. Wear sturdy shoes, not slippers.",
+        "No shade, water or reliable cell service. Go early in the morning to beat the heat.",
+        "The surf spot 'Laps' early on gets dangerous during big south swells. The trail passes historic sites; look, don't touch or move stones.",
+        "Nearby: the ʻĀhihi-Kīnaʻu reserve and La Perouse Bay, where spinner dolphins often rest; keep your distance."
+      ],
+      "tags": [
+        "hoapili",
+        "hoapili trail",
+        "kings highway",
+        "king's highway",
+        "kings trail",
+        "la perouse",
+        "la perouse bay",
+        "makena",
+        "south maui",
+        "kanaio",
+        "lava",
+        "lava field",
+        "ahihi kinau",
+        "wailea",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "maui hikes",
+        "maui hiking"
+      ],
+      "sources": [
+        {
+          "name": "Moon Travel Guides: Hiking Hoapili Trail in South Maui",
+          "url": "https://www.moontravelguides.com/travel/outdoors/hiking-hoapili-trail-south-maui/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "La Perouse Bay, Makena, HI",
+        "to_label": "La Perouse Bay"
+      }
+    },
+    {
+      "id": "hike-kapalua-coastal-trail",
+      "type": "hike",
+      "title": "Kapalua Coastal Trail",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "An easy West Maui shoreline walk between Kapalua Bay and D.T. Fleming Beach, 1.76 miles one way (about 3.5 miles out and back), partly paved and partly dirt and boardwalk. In winter you can often see whales, with Molokaʻi across the channel.",
+      "details": [
+        "Length: 1.76 miles one way; about 1 to 1.5 hours round trip without stops.",
+        "Ends: Kapalua Bay Beach (south) and D.T. Fleming Beach Park (north). Hawea Point makes a good turnaround for a shorter walk.",
+        "Parking: D.T. Fleming Beach Park has the largest lot. The small lots at Kapalua Bay and the Dragon's Teeth trailhead fill early.",
+        "Side trip: Makāluapuna Point and the 'Dragon's Teeth' lava formations. The area holds a Hawaiian burial site, so stay on the path and off the marked areas.",
+        "Good for families and sunrise or sunset. Bring water and sun protection; the rocky points are exposed."
+      ],
+      "tags": [
+        "kapalua",
+        "kapalua coastal trail",
+        "kapalua bay",
+        "dt fleming",
+        "fleming beach",
+        "dragons teeth",
+        "dragon's teeth",
+        "makaluapuna",
+        "hawea point",
+        "west maui",
+        "napili",
+        "lahaina",
+        "easy",
+        "family",
+        "whales",
+        "coastal walk",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "maui hikes",
+        "maui hiking"
+      ],
+      "sources": [
+        {
+          "name": "Flashpacking America: Kapalua Coastal Trail",
+          "url": "https://www.flashpackingamerica.com/hawaii-travel/kapalua-coastal-trail-maui/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Kapalua Bay Beach, Lahaina, HI",
+        "to_label": "Kapalua Bay Beach"
+      }
+    },
+    {
+      "id": "hike-hanakapiai-falls",
+      "type": "hike",
+      "title": "Hanakāpīʻai Falls hike (Nāpali Coast)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "The best day hike on Kauaʻi's Nāpali Coast and open again since Oct. 15, 2026 after Hurricane Lowell. It's 4 miles round trip to Hanakāpīʻai Beach or 8 miles round trip to the 300-foot falls, starting at Hāʻena State Park. Non-residents need a GoHaena reservation, and the stream can flood fast.",
+      "details": [
+        "Reservations: non-residents need an entry reservation (and parking or a shuttle seat) from gohaena.com, up to 30 days ahead. Hawaiʻi residents with ID enter free.",
+        "Length: 2 miles each way to Hanakāpīʻai Beach (4 round trip); 8 miles round trip to the falls through the valley, with several stream crossings. Allow 6 to 8 hours for the falls.",
+        "Status: day hiking reopened Oct. 15, 2026. The Kalalau Trail past the 2-mile point and all Nāpali camping remain closed.",
+        "Flash floods: if the stream is rising or brown, don't cross; wait it out. Many rescues happen here.",
+        "Don't swim at Hanakāpīʻai Beach. Strong rip currents have drowned many people.",
+        "The trail is rocky and muddy; wear real hiking shoes and bring plenty of water."
+      ],
+      "tags": [
+        "hanakapiai",
+        "hanakapiai falls",
+        "hanakapiai beach",
+        "napali",
+        "na pali",
+        "napali coast",
+        "haena",
+        "kee beach",
+        "north shore",
+        "gohaena",
+        "waterfall",
+        "hurricane lowell",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "kauai hikes",
+        "kauai hiking"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi DLNR State Parks: Hāʻena and Nāpali Coast access",
+          "url": "https://dlnr.hawaii.gov/dsp/haena/"
+        },
+        {
+          "name": "Bites Sights Flights: Kauaʻi closures, what is open (updated Oct. 29, 2026)",
+          "url": "https://bitessightsflights.com/kauai-closures/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Haena State Park, Kauai, HI",
+        "to_label": "Hāʻena State Park"
+      }
+    },
+    {
+      "id": "hike-sleeping-giant",
+      "type": "hike",
+      "title": "Sleeping Giant (Nounou) Trail",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "Kauaʻi's popular East Side hike up Nounou mountain above Kapaʻa. It's about 3.5 miles round trip with roughly 1,000 feet of gain. All three routes were still closed after Hurricane Lowell as of Oct. 29, 2026, so check DLNR before you go.",
+      "details": [
+        "Status: all three routes (East, West and Kuamoʻo) remain closed after Hurricane Lowell, as of Oct. 29, 2026.",
+        "When open: the East trail from Haleilio Road in Wailua is the usual route, about 3.5 miles round trip and about 1,000 feet of gain, with ocean and mountain views at the top.",
+        "Stay off the final rocky 'chin' scramble if it's wet or windy; falls happen here.",
+        "Check the Nā Ala Hele and DLNR State Parks notices for reopening news."
+      ],
+      "tags": [
+        "sleeping giant",
+        "nounou",
+        "nounou mountain",
+        "kapaa",
+        "wailua",
+        "east side",
+        "east kauai",
+        "closed",
+        "hurricane lowell",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "kauai hikes",
+        "kauai hiking"
+      ],
+      "sources": [
+        {
+          "name": "Bites Sights Flights: Kauaʻi closures, what is open (updated Oct. 29, 2026)",
+          "url": "https://bitessightsflights.com/kauai-closures/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Sleeping Giant East Trailhead, Haleilio Rd, Kapaa, HI",
+        "to_label": "Sleeping Giant East trailhead"
+      }
+    },
+    {
+      "id": "hike-kokee-awaawapuhi",
+      "type": "hike",
+      "title": "Kōkeʻe trails (Awaʻawapuhi, Pihea): closed for now",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "Kōkeʻe State Park's famous ridge and cliff trails, including Awaʻawapuhi (about 6 miles round trip down to a Nāpali viewpoint) and Nuʻalolo, are closed until further notice after Hurricane Lowell. Kōkeʻe Road is also closed past the Waimea Canyon Lookout.",
+      "details": [
+        "Status (Oct. 29, 2026): Kōkeʻe State Park and its trails are closed until further notice. DLNR lists Nuʻalolo Cliffs and Poʻomau Canyon Lookout trails as closed.",
+        "The Waimea Canyon Trail and other Puʻu Ka Pele forest trails in the Waimea section are also closed; many river crossings were destroyed.",
+        "What you can do: the Waimea Canyon Lookout reopened Oct. 24, 2026 during daylight hours (fees apply to non-residents).",
+        "When open again: Awaʻawapuhi is about 6 miles round trip with about 1,600 feet you climb back out; Pihea follows the rim above the Kalalau Valley. Both are muddy and steep in places."
+      ],
+      "tags": [
+        "kokee",
+        "kokee state park",
+        "awaawapuhi",
+        "pihea",
+        "nualolo",
+        "alakai",
+        "alakai swamp",
+        "waimea canyon",
+        "west side",
+        "west kauai",
+        "closed",
+        "hurricane lowell",
+        "kalalau lookout",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "kauai hikes",
+        "kauai hiking"
+      ],
+      "sources": [
+        {
+          "name": "Bites Sights Flights: Kauaʻi closures, what is open (updated Oct. 29, 2026)",
+          "url": "https://bitessightsflights.com/kauai-closures/"
+        },
+        {
+          "name": "Kauaʻi Now: some state lands reopen after Hurricane Lowell (Sept. 21, 2026)",
+          "url": "https://kauainownews.com/2026/09/21/some-state-lands-reopen-to-public-on-kauai-following-hurricane-lowell-providing-limited-access/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Waimea Canyon Lookout, Waimea, HI",
+        "to_label": "Waimea Canyon Lookout"
+      }
+    },
+    {
+      "id": "hike-kuilau-ridge",
+      "type": "hike",
+      "title": "Kuilau Ridge Trail (Keāhua Arboretum)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "A gentle ridge walk through the Līhuʻe-Kōloa Forest Reserve inland of Wailua, about 4 miles round trip with views of Mount Waiʻaleʻale. After Hurricane Lowell, access only goes as far as the Keāhua Arboretum parking lot, so the trail itself isn't open yet.",
+      "details": [
+        "Status (Oct. 29, 2026): Līhuʻe-Kōloa Forest Reserve access is limited to the Keāhua Arboretum parking lot; Kuilau Ridge hasn't reopened.",
+        "When open: about 2 miles each way to a picnic shelter. It connects to the Moalepe Trail.",
+        "Getting there: Kuamoʻo Road (Route 580) from Wailua, past ʻŌpaekaʻa Falls, to the end at Keāhua Arboretum. You may have to ford a stream on the road, so don't drive in if it's running high.",
+        "The trail is red mud after rain; wear shoes you don't mind ruining."
+      ],
+      "tags": [
+        "kuilau",
+        "kuilau ridge",
+        "keahua",
+        "keahua arboretum",
+        "moalepe",
+        "wailua",
+        "kuamoo road",
+        "waialeale",
+        "east side",
+        "closed",
+        "hurricane lowell",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "kauai hikes",
+        "kauai hiking"
+      ],
+      "sources": [
+        {
+          "name": "Bites Sights Flights: Kauaʻi closures, what is open (updated Oct. 29, 2026)",
+          "url": "https://bitessightsflights.com/kauai-closures/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Keahua Arboretum, Kapaa, HI",
+        "to_label": "Keāhua Arboretum"
+      }
+    },
+    {
+      "id": "hike-mahaulepu-heritage",
+      "type": "hike",
+      "title": "Māhāʻulepū Heritage Trail (Poʻipū)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "An easy coastal walk on Kauaʻi's South Shore from Shipwreck Beach in Poʻipū east toward Māhāʻulepū, across sea cliffs, dunes and limestone formations. It's about 3.5 to 4 miles out and back, takes 2 to 3 hours, and has no shade or facilities. Makauwahi Cave Reserve, near the far end, has been closed since 2024.",
+      "details": [
+        "Start: Shipwreck Beach (Keoneloa Bay) next to the Grand Hyatt in Poʻipū.",
+        "Length: about 3.5 to 4 miles out and back; 2 to 3 hours.",
+        "No shade, water or restrooms along the way. Bring water, a hat and sunscreen.",
+        "Stay back from cliff edges; the limestone is brittle. Don't swim along this stretch when surf is up, especially in winter.",
+        "Look for honu and, in winter, whales offshore. Protected Hawaiian sites along the trail are unmarked; leave everything as you find it.",
+        "Makauwahi Cave Reserve has been closed since 2024 with no reopening date.",
+        "Hurricane Lowell: no trail closure has been reported, but check current conditions."
+      ],
+      "tags": [
+        "mahaulepu",
+        "mahaulepu heritage trail",
+        "shipwreck beach",
+        "keoneloa",
+        "poipu",
+        "koloa",
+        "south shore",
+        "coastal walk",
+        "easy",
+        "makauwahi",
+        "whales",
+        "sea cliffs",
+        "hike",
+        "hikes",
+        "hiking",
+        "trail",
+        "kauai hikes",
+        "kauai hiking"
+      ],
+      "sources": [
+        {
+          "name": "Kauai Sea Tours: Māhāʻulepū Heritage Trail guide",
+          "url": "https://kauaiseatours.com/maha%ca%bbulepu-heritage-trail-guide/"
+        },
+        {
+          "name": "Bites Sights Flights: Kauaʻi closures, what is open (updated Oct. 29, 2026)",
+          "url": "https://bitessightsflights.com/kauai-closures/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Shipwreck Beach, Koloa, HI",
+        "to_label": "Shipwreck Beach"
       }
     }
   ]

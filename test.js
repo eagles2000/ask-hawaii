@@ -181,6 +181,18 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("kilauea iki trail") === "hike-kilauea-iki", "kilauea iki");
   ok(top("hilo snorkeling") === "beach-richardson-hilo", "richardson");
 
+  // Maui and Kauai hikes (v0.20)
+  ok(top("pipiwai trail") === "hike-pipiwai-trail", "pipiwai");
+  ok(top("bamboo forest") === "hike-pipiwai-trail", "bamboo forest");
+  ok(top("sliding sands") === "hike-sliding-sands-haleakala", "sliding sands");
+  ok(top("waihee ridge") === "hike-waihee-ridge", "waihee");
+  ok(top("kings highway trail") === "hike-hoapili-kings-trail", "hoapili");
+  ok(top("kapalua coastal trail") === "hike-kapalua-coastal-trail", "kapalua");
+  ok(top("hanakapiai falls") === "hike-hanakapiai-falls", "hanakapiai");
+  ok(top("sleeping giant") === "hike-sleeping-giant", "sleeping giant");
+  ok(top("awaawapuhi trail") === "hike-kokee-awaawapuhi", "awaawapuhi");
+  ok(top("mahaulepu") === "hike-mahaulepu-heritage", "mahaulepu");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);
