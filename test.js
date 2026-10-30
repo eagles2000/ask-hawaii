@@ -95,6 +95,14 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(/google\.com\/maps\/dir/.test(kb.get("route-waikiki-mililani").google_maps), "maps link");
   ok(kb.DATA.entries.filter((e) => e.type === "route").every((e) => e.island === "Oʻahu"), "routes on Oahu");
 
+  // Events (v0.8)
+  ok(top("when is the merrie monarch") === "event-merrie-monarch", "merrie monarch");
+  ok(top("what events are happening in september") === "event-aloha-festivals", "september events");
+  ok(kb.search({ query: "what is happening in december", limit: 5 }).results.some((e) => e.id === "event-honolulu-marathon"), "december events");
+  ok(top("eddie aikau") === "event-the-eddie", "eddie");
+  ok(top("what time do lifeguards leave Waikiki") === "beaches-lifeguarded-oahu", "events don't crowd out");
+  ok(kb.list({ type: "event" }).items[0].months[0] === 1, "events sorted by month");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

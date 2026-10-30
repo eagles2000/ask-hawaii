@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.7.0",
+ "version": "0.8.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -2481,6 +2481,467 @@
     {
      "name": "Hawaiʻi Guide: Oʻahu driving times",
      "url": "https://www.hawaii-guide.com/oahu/oahu-driving-times"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-aloha-festivals",
+   "type": "event",
+   "title": "Aloha Festivals (September, with the Waikīkī Hoʻolauleʻa and Floral Parade)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "months": [
+    9
+   ],
+   "summary": "Hawaiʻi's biggest Hawaiian cultural celebration runs every September. The two big public days are the Waikīkī Hoʻolauleʻa, a street party on Kalākaua Avenue with food, music and hula, and the Floral Parade. In 2026: Hoʻolauleʻa Sept. 19, Floral Parade Sept. 26.",
+   "details": [
+    "Held every September; 2026 was its 80th year.",
+    "2026 dates: Royal Court Investiture and Opening Ceremony Sept. 5; Waikīkī Hoʻolauleʻa Sept. 19; Floral Parade Sept. 26.",
+    "The Hoʻolauleʻa closes part of Kalākaua Avenue in Waikīkī for an evening block party with food vendors, music stages and hula.",
+    "The Floral Parade features pāʻū riders on horseback representing each island, floats and marching bands.",
+    "Check alohafestivals.com each summer for that year's dates, times and road closures."
+   ],
+   "tags": [
+    "aloha festivals",
+    "hoolaulea",
+    "floral parade",
+    "waikiki",
+    "kalakaua",
+    "september",
+    "street party",
+    "block party",
+    "hula",
+    "pau riders",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Aloha Festivals: Waikīkī Hoʻolauleʻa",
+     "url": "https://www.alohafestivals.com/waikiki-hoolaulea/"
+    },
+    {
+     "name": "Hawaii News Now: Aloha Festivals 2026 marks 80 years",
+     "url": "https://www.hawaiinewsnow.com/2026/08/25/aloha-festivals-2026-nations-largest-hawaiian-cultural-celebration-marks-80-years/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-honolulu-festival",
+   "type": "event",
+   "title": "Honolulu Festival (March)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "months": [
+    3
+   ],
+   "summary": "A Pacific Rim cultural festival each March with performances at the Hawaiʻi Convention Center and Waikīkī stages, a free Grand Parade on Kalākaua Avenue and Nagaoka fireworks off Waikīkī. The 2027 festival is March 5 to 7.",
+   "details": [
+    "Usually a weekend in March. 2027: March 5 to 7 (Friday to Sunday).",
+    "Main venue: Hawaiʻi Convention Center (the Exhibition Hall has a small admission fee; in 2026 it was $10 at the door for adults, children under 18 free).",
+    "Free stages around Waikīkī and Ala Moana Center.",
+    "Grand Parade on Kalākaua Avenue and the Nagaoka fireworks show over Waikīkī, both free (both were canceled for weather in 2026).",
+    "Performers come from Japan, the Philippines, Korea, Taiwan, Tahiti and across the Pacific."
+   ],
+   "tags": [
+    "honolulu festival",
+    "nagaoka fireworks",
+    "fireworks",
+    "parade",
+    "march",
+    "convention center",
+    "japanese",
+    "pacific rim",
+    "waikiki",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Honolulu Festival (official)",
+     "url": "https://www.honolulufestival.com/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-pan-pacific-festival",
+   "type": "event",
+   "title": "Pan-Pacific Festival (June, Waikīkī)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "months": [
+    6
+   ],
+   "summary": "A free three-day festival in Waikīkī each June celebrating Hawaiʻi's cultural ties with Japan and the Pacific. It opens with a Hoʻolauleʻa street party on Kalākaua Avenue and ends with a parade. In 2026 it ran June 12 to 14.",
+   "details": [
+    "Usually the second weekend of June.",
+    "Opening night Hoʻolauleʻa closes Kalākaua Avenue between Seaside and Uluniu avenues.",
+    "Performances at Ala Moana Center Stage and International Market Place, plus the Pan-Pacific Hula Festival at the Kūhiō Beach hula mound.",
+    "Closing parade along Kalākaua Avenue on Sunday.",
+    "Free to attend. Full schedule at panpacificfestival.org."
+   ],
+   "tags": [
+    "pan pacific",
+    "pan-pacific festival",
+    "june",
+    "hoolaulea",
+    "japanese",
+    "parade",
+    "waikiki",
+    "kalakaua",
+    "free",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: 43rd Pan-Pacific Festival",
+     "url": "https://www.hawaiimagazine.com/43rd-pan-pacific-festival-returns-to-oahu-2026/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-merrie-monarch",
+   "type": "event",
+   "title": "Merrie Monarch Festival (hula, Hilo, the week after Easter)",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "months": [
+    3,
+    4
+   ],
+   "summary": "The world's most prestigious hula competition, held in Hilo the week after Easter. The 2027 festival runs March 28 to April 3. Tickets are by mail-in request only, starting November 16, 2026, and they sell out.",
+   "details": [
+    "2027: March 28 to April 3 in Hilo, Hawaiʻi Island.",
+    "Three competition nights: Miss Aloha Hula, then group hula kahiko (ancient) and hula ʻauana (modern).",
+    "Tickets: mail-in requests only, opening Nov. 16, 2026 (earlier postmarks are returned). Up to two tickets per person, paid by cashier's check or money order with a stamped return envelope.",
+    "The festival does not sell ticket blocks to tour groups or travel agents.",
+    "The competition is broadcast live on TV and online in Hawaiʻi, so you can watch even without tickets.",
+    "The week also includes a royal parade through Hilo town.",
+    "Hilo hotels book up months ahead for festival week."
+   ],
+   "tags": [
+    "merrie monarch",
+    "hula",
+    "hilo",
+    "competition",
+    "easter",
+    "kahiko",
+    "auana",
+    "miss aloha hula",
+    "big island",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Merrie Monarch Festival (official)",
+     "url": "https://www.merriemonarch.com/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-made-in-hawaii-festival",
+   "type": "event",
+   "title": "Made in Hawaiʻi Festival (August)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "months": [
+    8
+   ],
+   "summary": "Hawaiʻi's biggest shopping show for locally made products: more than 800 booths of food, crafts, clothing, art and gifts, plus chef demos and live music. In 2026 it was Aug. 20 to 23 at the Hawaiʻi Convention Center, with $8 to $9 weekend admission.",
+   "details": [
+    "Held every August.",
+    "2026: Aug. 20 to 23 at the Hawaiʻi Convention Center.",
+    "2026 admission: Thursday VIP night $25, Friday preview night $20, Saturday $9, Sunday $8. Tickets on sale Aug. 1 at madeinhawaiifestival.com.",
+    "800+ vendor booths from all islands: local foods, snacks, crafts, aloha wear, art.",
+    "Great for gifts; many vendors sell items you can't find in stores."
+   ],
+   "tags": [
+    "made in hawaii",
+    "shopping",
+    "craft fair",
+    "vendors",
+    "gifts",
+    "august",
+    "convention center",
+    "local products",
+    "trade show",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Aloha State Daily: 32nd Made in Hawaiʻi Festival",
+     "url": "https://alohastatedaily.com/2026/07/20/heres-what-to-expect-at-the-32nd-annual-made-in-hawaii-festival/"
+    },
+    {
+     "name": "Made in Hawaiʻi Festival (state DBEDT)",
+     "url": "https://invest.hawaii.gov/made-in-hawaiʻi-festival/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-north-shore-surf-season",
+   "type": "event",
+   "title": "North Shore pro surf contests (winter season)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2
+   ],
+   "summary": "The North Shore's winter contest season runs roughly October through March at Sunset Beach, Haleʻiwa and Pipeline. 2026-27 World Surf League dates: Sunset Pro Oct. 26 to Nov. 2, Haleʻiwa Pro Nov. 5 to 14, and Pipe Pro Jan. 29 to Feb. 8, 2027.",
+   "details": [
+    "HTA Sunset Pro, Sunset Beach: Oct. 26 to Nov. 2, 2026.",
+    "HTA Haleʻiwa Pro, Haleʻiwa Aliʻi Beach Park: Nov. 5 to 14, 2026.",
+    "Billabong Pipe Pro, Pipeline (ʻEhukai Beach Park): Jan. 29 to Feb. 8, 2027 (Championship Tour).",
+    "Dates are holding periods; contests only run on days with good waves. Check the WSL app or site each morning.",
+    "Watching from the beach is free. Parking along Kamehameha Highway fills early; arrive early and park legally.",
+    "Many more local and amateur contests run all season; the North Shore Chamber of Commerce keeps a calendar."
+   ],
+   "tags": [
+    "surf",
+    "surfing",
+    "contest",
+    "competition",
+    "pipeline",
+    "pipe masters",
+    "sunset beach",
+    "haleiwa",
+    "north shore",
+    "wsl",
+    "triple crown",
+    "winter",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii News Now: HTA Sunset Pro opens North Shore surf season",
+     "url": "https://www.hawaiinewsnow.com/2026/10/27/hta-sunset-pro-opens-north-shore-winter-surf-season/"
+    },
+    {
+     "name": "North Shore Chamber of Commerce: Surf contest calendar",
+     "url": "https://www.gonorthshore.org/surf-contest-calendar.html"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-the-eddie",
+   "type": "event",
+   "title": "The Eddie (Eddie Aikau Big Wave Invitational, Waimea Bay)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "months": [
+    12,
+    1,
+    2,
+    3
+   ],
+   "summary": "The most famous big-wave contest in the world, held at Waimea Bay only when waves are big enough: consistent 20-foot-plus Hawaiian-scale surf (about 40-foot faces) for a full day. The waiting period runs from early December to early March, and it has run only 11 times.",
+   "details": [
+    "Waiting period: roughly early December to early March each winter.",
+    "It only runs on a day with consistent 20 to 25 foot Hawaiian-scale surf (about 40 to 50 foot faces) all day.",
+    "It has run 11 times in 49 years as of the 2025-26 season; it did not run in 2025-26.",
+    "When it's called, huge crowds head to Waimea and traffic on Kamehameha Highway backs up for miles. Go very early or take the bus.",
+    "It honors Eddie Aikau, Waimea Bay's first lifeguard, who was lost at sea in 1978 while seeking help for the Hōkūleʻa crew."
+   ],
+   "tags": [
+    "eddie",
+    "eddie aikau",
+    "big wave",
+    "waimea bay",
+    "surf contest",
+    "the eddie",
+    "waimea",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Tribune-Herald: Opening of The Eddie holding period",
+     "url": "https://www.hawaiitribune-herald.com/2025/12/07/hawaii-news/big-wave-surfers-mark-opening-of-the-eddie-holding-period/"
+    },
+    {
+     "name": "Rip Curl: The Eddie Big Wave Invitational",
+     "url": "https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-molokai-channel-canoe-races",
+   "type": "event",
+   "title": "Molokaʻi-to-Oʻahu canoe races (Nā Wāhine O Ke Kai and Molokaʻi Hoe)",
+   "island": [
+    "Oʻahu",
+    "Molokaʻi"
+   ],
+   "county": "All counties",
+   "months": [
+    9,
+    10
+   ],
+   "summary": "The world championships of outrigger canoe racing cross the 41-mile Kaʻiwi Channel from Molokaʻi to Waikīkī. The women's race, Nā Wāhine O Ke Kai, is in late September; the men's Molokaʻi Hoe is in October. Watching the finish in Waikīkī is free.",
+   "details": [
+    "Course: about 40.8 miles from Molokaʻi across the Kaʻiwi Channel to Waikīkī.",
+    "Nā Wāhine O Ke Kai (women): late September. The 2026 race (Sept. 27) was canceled for storm conditions.",
+    "Molokaʻi Hoe (men): October. In 2026 it was Oct. 11, with leaders reaching Waikīkī around 12:30 p.m.",
+    "Spectators can watch crews finish in Waikīkī for free.",
+    "Outrigger canoe paddling season: regattas in summer, long-distance races in late summer and fall."
+   ],
+   "tags": [
+    "canoe",
+    "outrigger",
+    "paddling",
+    "molokai hoe",
+    "na wahine o ke kai",
+    "kaiwi channel",
+    "race",
+    "regatta",
+    "waikiki",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Aloha State Daily: OHCRA and the Molokaʻi Hoe",
+     "url": "https://alohastatedaily.com/2026/10/07/ohcra-looks-to-close-out-season-strong-with-molokai-hoe/"
+    },
+    {
+     "name": "Nā Wāhine O Ke Kai (official)",
+     "url": "https://nawahineokekai.com/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-honolulu-marathon",
+   "type": "event",
+   "title": "Honolulu Marathon (December)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "months": [
+    12
+   ],
+   "summary": "A huge December marathon that starts at 5 a.m. in Honolulu. The 2026 race is Sunday, Dec. 13, with a 10K the same morning and the Kalākaua Merrie Mile on Dec. 12. Expect early-morning road closures along the course through Waikīkī, Diamond Head and East Honolulu.",
+   "details": [
+    "2026 JAL Honolulu Marathon: Sunday, Dec. 13, 5 a.m. start. Start to Park 10K the same morning.",
+    "Kalākaua Merrie Mile: Saturday, Dec. 12, 7 a.m.",
+    "Entries are final, with no refunds or transfers.",
+    "Roads along the course (Ala Moana, Waikīkī, Diamond Head, Kalanianaʻole Highway toward Hawaiʻi Kai) close early that morning. Plan drives around it.",
+    "Very popular with visitors from Japan."
+   ],
+   "tags": [
+    "marathon",
+    "honolulu marathon",
+    "running",
+    "race",
+    "10k",
+    "december",
+    "road closures",
+    "jal",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Honolulu Marathon (official)",
+     "url": "https://www.honolulumarathon.org/events/honolulu-marathon"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "event-sony-championship-golf",
+   "type": "event",
+   "title": "Pro golf in Hawaiʻi: Sony Championship Hawaii at Waiʻalae (January)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "months": [
+    1
+   ],
+   "summary": "Starting in 2027, the long-running Sony Open in Hawaii becomes the Sony Championship Hawaii on the PGA TOUR Champions (golfers 50 and over). It's the week of Jan. 11, 2027, at Waiʻalae Country Club in Kāhala, with a $3 million purse.",
+   "details": [
+    "Week of Jan. 11, 2027, at Waiʻalae Country Club, Honolulu (Kāhala), which has hosted since 1965.",
+    "Tour: PGA TOUR Champions (age 50+), 78 players. Pro-am Tuesday and Wednesday, competition Thursday to Saturday.",
+    "It replaces the PGA TOUR's Sony Open in Hawaii.",
+    "Purse: $3 million; televised on Golf Channel.",
+    "Tickets and parking info are posted by the tournament each fall."
+   ],
+   "tags": [
+    "golf",
+    "golf tournament",
+    "pga",
+    "sony open",
+    "sony championship",
+    "waialae",
+    "kahala",
+    "champions tour",
+    "pro golf",
+    "january",
+    "event",
+    "events",
+    "festival",
+    "calendar",
+    "what's happening",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii News Now: Sony Championship Hawaii to debut at Waiʻalae in 2027",
+     "url": "https://www.hawaiinewsnow.com/2026/07/02/new-sony-championship-hawaii-golf-tournament-debut-waialae-2027/"
+    },
+    {
+     "name": "PGA TOUR: Sony moves to PGA TOUR Champions",
+     "url": "https://www.pgatour.com/pgatour-champions/article/news/latest/2026/07/01/sony-open-in-hawaii-pga-tour-champions-waialae-country-club-in-honolulu-hawaii"
     }
    ],
    "last_checked": "2026-10-29"
