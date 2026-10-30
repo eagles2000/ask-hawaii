@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.9.0",
+ "version": "0.10.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -3406,6 +3406,437 @@
     {
      "name": "Hawaiʻi Tourism Authority (GoHawaii): Hawaiʻi's best food truck stops",
      "url": "https://www.gohawaii.com/blog-down-under/hawaiis-best-food-truck-stops"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "guide-oahu-botanical-gardens",
+   "type": "garden",
+   "title": "How many botanical gardens are on Oʻahu?",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Oʻahu has eight major public gardens. The City runs five Honolulu Botanical Gardens: Foster, Hoʻomaluhia, Koko Crater, Liliʻuokalani and Wahiawā. The other three are the University of Hawaiʻi's Lyon Arboretum in Mānoa, Waimea Valley on the North Shore and Moanalua Gardens, home of the Hitachi Tree.",
+   "details": [
+    "City gardens (Honolulu Botanical Gardens): Foster (downtown, 14 acres), Hoʻomaluhia (Kāneʻohe, about 400 acres), Koko Crater (Hawaiʻi Kai, dryland plants inside a crater), Liliʻuokalani (Nuʻuanu, native plants and a waterfall) and Wahiawā (Central Oʻahu, 27-acre forested ravine).",
+    "Lyon Arboretum: University of Hawaiʻi rainforest garden at the back of Mānoa Valley; free, weekdays.",
+    "Waimea Valley: North Shore valley garden with a waterfall at the end of the path.",
+    "Moanalua Gardens: private park near Moanalua with the famous Hitachi monkeypod tree; small admission fee.",
+    "Free: Hoʻomaluhia, Koko Crater and Lyon Arboretum (donation suggested). Foster charges $5 for adults ($3 Hawaiʻi residents)."
+   ],
+   "tags": [
+    "how many",
+    "oahu gardens",
+    "honolulu botanical gardens",
+    "foster",
+    "hoomaluhia",
+    "koko crater",
+    "liliuokalani",
+    "wahiawa",
+    "lyon arboretum",
+    "waimea valley",
+    "moanalua gardens",
+    "hitachi tree",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "City and County of Honolulu: Honolulu Botanical Gardens",
+     "url": "https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2026/06/Honolulu-Botanical-Garden-1-Pager.pdf"
+    },
+    {
+     "name": "Hawaiʻi Magazine: Moanalua Gardens and the Hitachi Tree",
+     "url": "https://www.hawaiimagazine.com/moanalua-gardens-home-of-the-hitachi-tree-to-charge-admission/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-foster",
+   "type": "garden",
+   "title": "Foster Botanical Garden (downtown Honolulu)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Honolulu's oldest botanical garden, with giant tropical trees planted in the 1850s, an orchid conservatory, palms and a butterfly garden. 180 North Vineyard Boulevard, open 9 a.m. to 4 p.m. Adults $5, Hawaiʻi residents $3, kids 6 to 12 $1.",
+   "details": [
+    "Address: 180 N. Vineyard Blvd., Honolulu (near Chinatown).",
+    "Hours: 9 a.m. to 4 p.m.; last admission 3:30 p.m. Closed Christmas and New Year's Day.",
+    "Admission: adults $5, Hawaiʻi residents $3, children 6 to 12 $1, under 5 free; annual family pass $25.",
+    "Free docent tours at 10:30 a.m. Mondays, Wednesdays, Fridays and Saturdays (Thursdays added in 2026), about 90 minutes. Reservations recommended: 808-768-7135.",
+    "14 acres: exceptional trees, orchids, palms and cycads, and an outdoor butterfly habitat."
+   ],
+   "tags": [
+    "foster botanical garden",
+    "foster garden",
+    "chinatown",
+    "downtown",
+    "orchids",
+    "butterfly",
+    "exceptional trees",
+    "vineyard",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "City and County of Honolulu: Foster Botanical Garden",
+     "url": "https://www.honolulu.gov/dpr/?p=16648"
+    },
+    {
+     "name": "City and County of Honolulu: Honolulu Botanical Gardens",
+     "url": "https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2026/06/Honolulu-Botanical-Garden-1-Pager.pdf"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-hoomaluhia",
+   "type": "garden",
+   "title": "Hoʻomaluhia Botanical Garden (Kāneʻohe)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A free, 400-acre garden below the Koʻolau cliffs in Kāneʻohe, with a 32-acre lake and some of the most photographed mountain views on Oʻahu. Open 9 a.m. to 4 p.m., closed Thursdays. Weekend camping and free catch-and-release fishing by reservation.",
+   "details": [
+    "Address: 45-680 Luluku Road, Kāneʻohe. Phone 808-768-8942.",
+    "Hours: 9 a.m. to 4 p.m.; closed Thursdays, Christmas and New Year's Day. Last car in at 3:30 p.m.",
+    "Admission: free.",
+    "You can drive through the garden; park at pull-offs for the views. Please don't stop in the road.",
+    "Free catch-and-release fishing: Wednesdays and Saturdays, 10 a.m. to noon and 1 to 3 p.m., by online reservation (opens two weeks ahead); bamboo poles loaned.",
+    "Weekend camping: 28 sites, $32 per site Friday to Monday, reserved online at pros.hnl.info (opens Fridays at 5 p.m., two weeks ahead)."
+   ],
+   "tags": [
+    "hoomaluhia",
+    "kaneohe",
+    "koolau",
+    "mountain views",
+    "camping",
+    "fishing",
+    "lake",
+    "windward",
+    "free",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "City and County of Honolulu: Hoʻomaluhia Botanical Garden",
+     "url": "https://www.honolulu.gov/dpr/honolulu-botanical-gardens/hoomaluhia-botanical-garden"
+    },
+    {
+     "name": "City and County of Honolulu: Honolulu Botanical Gardens",
+     "url": "https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2026/06/Honolulu-Botanical-Garden-1-Pager.pdf"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-koko-crater",
+   "type": "garden",
+   "title": "Koko Crater Botanical Garden (Hawaiʻi Kai)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A free garden inside Koko Crater with rare and endangered dryland plants, cactus and a famous plumeria grove. A 2-mile mostly flat loop trail with little shade, so go early or late in the day.",
+   "details": [
+    "Inside Koko Crater near Hawaiʻi Kai, next to the Koko Crater Stables; unpaved parking lot at the gate.",
+    "Free admission; open daylight hours (closed Christmas and New Year's Day).",
+    "2-mile loop, mostly flat and dry; plan up to a couple of hours.",
+    "Highlights: the plumeria grove (best when blooming in late spring and summer), Hawaiian and Madagascar dryland plants, cactus and succulents.",
+    "Very little shade and no water; bring water, hat and sunscreen. Lock your car and keep valuables out of sight."
+   ],
+   "tags": [
+    "koko crater",
+    "hawaii kai",
+    "plumeria",
+    "cactus",
+    "dryland",
+    "free",
+    "east oahu",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Honolulu Magazine: Koko Crater Botanical Garden (2015)",
+     "url": "https://www.honolulumagazine.com/?p=458001"
+    },
+    {
+     "name": "City and County of Honolulu: Honolulu Botanical Gardens",
+     "url": "https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2026/06/Honolulu-Botanical-Garden-1-Pager.pdf"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-liliuokalani-wahiawa",
+   "type": "garden",
+   "title": "Liliʻuokalani and Wahiawā Botanical Gardens (smaller city gardens)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Two quieter city gardens: Liliʻuokalani Botanical Garden in Nuʻuanu, once Queen Liliʻuokalani's favorite picnic spot, with native plants and a waterfall; and Wahiawā Botanical Garden, a 27-acre forested ravine in cool Central Oʻahu.",
+   "details": [
+    "Liliʻuokalani Botanical Garden: just above Foster Garden across the freeway; native Hawaiian plants, a waterfall on Nuʻuanu Stream, and history as the Queen's picnic grounds.",
+    "Wahiawā Botanical Garden: 27 acres in a forested ravine in Wahiawā, first planted as an experimental arboretum in the 1920s; plants that like cool, wet uplands.",
+    "Both are free, small and good for a short walk. Check the City's botanical gardens page for current hours.",
+    "Wahiawā is on the way to the North Shore via H-2."
+   ],
+   "tags": [
+    "liliuokalani botanical garden",
+    "wahiawa botanical garden",
+    "nuuanu",
+    "waterfall",
+    "queen liliuokalani",
+    "central oahu",
+    "free",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "City and County of Honolulu: Honolulu Botanical Gardens",
+     "url": "https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2026/06/Honolulu-Botanical-Garden-1-Pager.pdf"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-lyon-arboretum",
+   "type": "garden",
+   "title": "Lyon Arboretum (Mānoa)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "The University of Hawaiʻi's rainforest garden at the very back of Mānoa Valley. Free (suggested $10 donation), open weekdays 9 a.m. to 3 p.m., closed weekends and holidays. A trail continues up to ʻAihualama Falls.",
+   "details": [
+    "Address: 3860 Mānoa Road, Honolulu, past the Mānoa Falls trailhead.",
+    "Hours: Monday to Friday, 9 a.m. to 3 p.m. Closed weekends and state and federal holidays.",
+    "Admission: free; suggested donation $10 per person.",
+    "Reservations aren't required right now, but construction has caused occasional closures. Check the website before going. Phone 808-988-0456.",
+    "Expect rain, mud and mosquitoes; wear closed shoes and repellent.",
+    "It holds spring and fall plant sales popular with local gardeners."
+   ],
+   "tags": [
+    "lyon arboretum",
+    "manoa",
+    "rainforest",
+    "university of hawaii",
+    "uh",
+    "aihualama",
+    "waterfall",
+    "free",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "University of Hawaiʻi: Visit Lyon Arboretum",
+     "url": "https://manoa.hawaii.edu/lyon/visit/visit-lyon"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-waimea-valley",
+   "type": "garden",
+   "title": "Waimea Valley (North Shore)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A culturally important valley across from Waimea Bay with a botanical garden along a paved path that ends at Waimea Falls. Adults $26, Hawaiʻi residents and military $10. Open Tuesday to Sunday 9 a.m. to 4 p.m. (daily in summer and December).",
+   "details": [
+    "Across Kamehameha Highway from Waimea Bay. Phone 808-638-7766.",
+    "Hours: Tuesday to Sunday, 9 a.m. to 4 p.m., closed Mondays. Daily in summer (9 to 5 in 2026) and Dec. 1 to 30. Closed Thanksgiving and Christmas.",
+    "Admission: adults $26, seniors 62+ and students $20, children 4 to 12 $18. Kamaʻāina and military with ID: adults $10, seniors and students $8, kids $6.",
+    "Shuttle to the falls: $10 one-way or $20 round trip; the walk is about 3/4 mile each way on a paved path.",
+    "Swimming at the falls depends on water conditions that day; check at the entrance.",
+    "The valley is managed by Hiʻipaka, a Hawaiian nonprofit, and has archaeological sites and cultural programs."
+   ],
+   "tags": [
+    "waimea valley",
+    "waimea falls",
+    "north shore",
+    "waterfall",
+    "swim",
+    "hiipaka",
+    "kamaaina",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Waimea Valley: Admission and hours",
+     "url": "https://www.waimeavalley.net/admission"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-kauai-gardens",
+   "type": "garden",
+   "title": "Kauaʻi gardens: Allerton, McBryde, Limahuli and Na ʻĀina Kai",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Kauaʻi, the Garden Isle, has three National Tropical Botanical Garden sites: Allerton (guided tours only, about $60), McBryde (self-guided, about $35) on the South Shore, and Limahuli near Hāʻena on the North Shore. Na ʻĀina Kai near Kīlauea offers guided tours by reservation.",
+   "details": [
+    "Allerton Garden (Lāwaʻi Valley, South Shore): guided tours only, about 2.5 hours, reservations required, about $60 per person. Famous for its giant Moreton Bay fig roots.",
+    "McBryde Garden (next to Allerton): self-guided, about $35.",
+    "Limahuli Garden (North Shore, near Hāʻena): self-guided trail through a valley of native and Polynesian-introduced plants.",
+    "Na ʻĀina Kai Botanical Gardens (near Kīlauea): guided tours of 1.5 to 5 hours, reservations required.",
+    "Smith's Tropical Paradise (Wailua River): garden paths, included with its lūʻau.",
+    "Prices are approximate; book directly with each garden."
+   ],
+   "tags": [
+    "kauai",
+    "allerton",
+    "mcbryde",
+    "limahuli",
+    "ntbg",
+    "national tropical botanical garden",
+    "na aina kai",
+    "kilauea",
+    "poipu",
+    "lawai",
+    "haena",
+    "smiths",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Kauaʻi gardens (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/kauai/gardens"
+    },
+    {
+     "name": "National Tropical Botanical Garden",
+     "url": "https://ntbg.org/?p=5589"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-maui-gardens",
+   "type": "garden",
+   "title": "Maui gardens: Maui Nui, Kula, Garden of Eden and Kahanu",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Maui's main gardens: Maui Nui Botanical Gardens in Kahului (native plants, free for Hawaiʻi residents, $10 otherwise), Kula Botanical Garden Upcountry at 3,300 feet, and the Garden of Eden Arboretum on the Road to Hāna ($20 adults, open daily 8 to 4).",
+   "details": [
+    "Maui Nui Botanical Gardens: 150 Kanaloa Ave., Kahului, across from War Memorial Stadium. Tuesday to Saturday, 8 a.m. to 4 p.m. $10 general; free for kamaʻāina and kids under 12. Focus on native Maui Nui plants.",
+    "Kula Botanical Garden: Upcountry on Kekaulike Road near Kula Highway, about 3,300 feet up; 8 acres with protea, orchids and native plants, plus an aviary. Opened 1971. Admission charged.",
+    "Garden of Eden Arboretum: Hāna Highway, half a mile past mile marker 10. Daily 8 a.m. to 4 p.m., no reservation. $20 adults, $10 ages 5 to 16. Views of Puohokamoa Falls and Keopuka Rock, seen in Jurassic Park.",
+    "Kahanu Garden near Hāna (National Tropical Botanical Garden) protects Piʻilanihale Heiau, one of the largest heiau in Polynesia."
+   ],
+   "tags": [
+    "maui",
+    "maui nui botanical gardens",
+    "kula botanical garden",
+    "garden of eden",
+    "road to hana",
+    "kahului",
+    "upcountry",
+    "protea",
+    "kahanu",
+    "jurassic park",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Maui Nui Botanical Gardens",
+     "url": "https://mnbg.org/"
+    },
+    {
+     "name": "Hawaiʻi Guide: Garden of Eden Arboretum",
+     "url": "https://www.hawaii-guide.com/maui/sights/maui-garden-of-eden"
+    },
+    {
+     "name": "Kula Botanical Garden (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Kula_Botanical_Garden"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "garden-hawaii-island-gardens",
+   "type": "garden",
+   "title": "Hawaiʻi Island gardens: Hawaiʻi Tropical Botanical Garden and Liliʻuokalani Gardens",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "Near Hilo, the Hawaiʻi Tropical Botanical Garden at Onomea Bay winds through rainforest to the ocean ($35 adults, daily 10 to 6). In town, Liliʻuokalani Gardens is a free, 24-acre Japanese garden on Banyan Drive, among the largest outside Japan.",
+   "details": [
+    "Hawaiʻi Tropical Botanical Garden: 27-717 Old Māmalahoa Hwy, Papaʻikou, about 7 miles north of Hilo. Daily 10 a.m. to 6 p.m., last entry 5 p.m. Adults $35, kamaʻāina $33 (in person), military $28, kids 6 to 12 $25.",
+    "Allow 90 minutes to 2 hours. The entrance boardwalk is steep; wheelchairs and walkers aren't permitted. Bring grippy shoes and repellent.",
+    "Liliʻuokalani Gardens: Banyan Drive on Hilo Bay, free and open 24 hours. Bridges, koi ponds, stone lanterns and a teahouse, dedicated in 1917 to honor Japanese immigrant plantation workers.",
+    "Hilo's rainy climate keeps both gardens lush; bring rain gear."
+   ],
+   "tags": [
+    "big island",
+    "hawaii island",
+    "hilo",
+    "onomea",
+    "hawaii tropical botanical garden",
+    "liliuokalani gardens",
+    "japanese garden",
+    "banyan drive",
+    "botanical garden",
+    "botanical gardens",
+    "garden",
+    "gardens",
+    "plants",
+    "flowers",
+    "nature"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Tropical Botanical Garden: Plan your visit",
+     "url": "https://htbg.com/plan-your-visit/"
+    },
+    {
+     "name": "GoHawaii: Liliʻuokalani Gardens",
+     "url": "https://www.gohawaii.com/islands/hawaii-big-island/regions/hilo/liliuokalani-gardens"
     }
    ],
    "last_checked": "2026-10-29"

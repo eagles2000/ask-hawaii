@@ -110,6 +110,11 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("malasadas") === "food-leonards-malasadamobile", "malasadas");
   ok(top("lifeguarded beaches on maui") === "beaches-lifeguarded-maui", "island named boosts");
 
+  // Gardens (v0.10)
+  ok(top("how many botanical gardens are there on the island of oahu") === "guide-oahu-botanical-gardens", "oahu gardens count");
+  ok(top("botanical gardens on maui") === "garden-maui-gardens", "maui gardens");
+  ok(top("hoomaluhia camping") === "garden-hoomaluhia", "hoomaluhia");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

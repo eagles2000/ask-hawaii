@@ -5,7 +5,7 @@ const wx = require("../lib/weather");
 const { logMissed } = require("../lib/log");
 
 const SERVER = { name: "ask-hawaii", title: "Ask Hawaiʻi", version: kb.DATA.version };
-const TYPES = ["place", "hike", "history", "guide", "safety", "rule", "culture", "transport", "contact", "tax", "route", "event", "food"];
+const TYPES = ["place", "hike", "history", "guide", "safety", "rule", "culture", "transport", "contact", "tax", "route", "event", "food", "garden"];
 
 const TOOLS = [
   {
