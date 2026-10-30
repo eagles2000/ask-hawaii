@@ -186,7 +186,9 @@ footer{padding-block:20px 36px;color:var(--muted);font-size:14px;border-top:1px 
     ["Getting around", "bus fare honolulu", "bus", "--c-transport"],
     ["Taxes", "tax 4.712 hotel tax", "receipt", "--c-tax"],
     ["Who to call", "who to call emergency injured wildlife", "phone", "--c-contact"],
-    ["History", "Kalakaua Avenue history", "book", "--c-history"]
+    ["Museums & history", "Iolani Palace Bishop Museum Kalakaua history", "book", "--c-history"],
+    ["Volcano", "volcano erupting Kilauea national park", "mountain", "--c-place"],
+    ["Park closures", "park closures hurricane status", "calendar", "--c-rule"]
   ];
   var ISLANDS = ["All islands", "Oʻahu", "Maui", "Kauaʻi", "Hawaiʻi Island", "Molokaʻi", "Lānaʻi"];
   var island = "";
@@ -236,7 +238,7 @@ footer{padding-block:20px 36px;color:var(--muted);font-size:14px;border-top:1px 
     var out = $("results");
     if (!items.length) {
       $("status").textContent = "";
-      out.innerHTML = '<div class="empty"><b>No checked answer for that yet.</b><p style="margin:6px 0 0">We saved your question so it can be added. Ask Hawaiʻi only shows facts that have been checked against a source, and it covers park reservations, Oʻahu hikes, lifeguarded beaches on every island, ocean safety, wildlife rules, culture, getting around, taxes and who to call so far. Try a topic above, or ask about the weather in the live box.</p></div>';
+      out.innerHTML = '<div class="empty"><b>No checked answer for that yet.</b><p style="margin:6px 0 0">We saved your question so it can be added. Ask Hawaiʻi only shows facts that have been checked against a source, and it covers park reservations and closures, Oʻahu hikes, lifeguarded beaches on every island, the volcano, museums and history, ocean safety, wildlife rules, culture, getting around, taxes and who to call so far. Try a topic above, or ask about the weather in the live box.</p></div>';
       return;
     }
     $("status").textContent = items.length + (items.length === 1 ? " checked answer" : " checked answers") + (island ? " for " + island : "") + ".";

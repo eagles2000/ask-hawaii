@@ -42,11 +42,17 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
     ["safe beach for kids big island", "Hawaii Island", "beaches-lifeguarded-hawaii-island"],
     ["what time do lifeguards leave Waikiki", "", "beaches-lifeguarded-oahu"],
     ["what does a red flag mean at the beach", "", "safety-beach-hazard-ratings"],
+    ["is the volcano erupting", "", "park-hawaii-volcanoes"],
+    ["Akaka Falls hours", "", "place-akaka-falls"],
+    ["is Waimea Canyon open", "", "park-waimea-canyon"],
+    ["is Secret Falls open", "", "notice-state-parks-oct-2026"],
+    ["Iolani Palace tickets", "", "place-iolani-palace"],
+    ["history of the Bishop Museum", "", "place-bishop-museum"],
   ];
   for (const [q, isl, want] of cases) { const got = await search(q, isl); ok(got[0] === want, `"${q}" -> ${got.join(",")} (wanted ${want})`); }
   { const r = await search("I'm on the island of Oahu. What is one of the easiest spots to hike?"); ok(r.slice(0, 2).includes("hike-oahu-by-difficulty") && r.slice(0, 2).includes("hike-manoa-falls"), "easiest Oahu hike -> Manoa Falls + hikes guide: " + r); }
   ok((await search("best ramen in kona", "Hawaii Island")).length === 0, "no fake match for ramen");
-  ok((await search("history of the Bishop Museum")).length === 0, "no fake match for an uncovered place");
+  ok((await search("history of the Shangri La museum")).length === 0, "no fake match for an uncovered place");
   ok((await search("what is the history of Kuhio Avenue in Waikiki")).indexOf("place-pearl-harbor") === -1, "no Pearl Harbor for street history");
   ok((await search("Diamond Head", "maui")).indexOf("place-diamond-head") === -1, "island filter excludes Oahu place on Maui");
 

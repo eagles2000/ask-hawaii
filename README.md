@@ -1,11 +1,11 @@
-# Ask Hawaiʻi (version 0.4.0)
+# Ask Hawaiʻi (version 0.5.0)
 
 Checked Hawaiʻi facts that AI assistants can look up. Every entry has an official
 source link and a "last checked" date.
 
 ## What's inside
 
-- `data/hawaii.json`: the facts (34 entries so far). Add new entries here.
+- `data/hawaii.json`: the facts (40 entries so far). Add new entries here.
 - `lib/rank.js` and `lib/kb.js`: the search logic (handles ʻokina and kahakō, so "oahu" finds "Oʻahu").
 - `lib/weather.js`: live forecasts and alerts from the National Weather Service (free, no key).
 - `api/mcp.js`: the endpoint AI assistants connect to (MCP, the standard Claude and others use).
