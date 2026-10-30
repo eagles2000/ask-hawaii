@@ -3,280 +3,476 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Ask Hawaiʻi</title>
+<title>Ask Hawaiʻi · Checked facts for visitors and locals</title>
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:title" content="Ask Hawaiʻi">
+<meta property="og:description" content="Checked Hawaiʻi facts with official sources, plus live weather and alerts.">
 <meta property="og:image" content="https://www.askaihawaii.com/icon-512.png">
 <meta name="description" content="Checked Hawaiʻi facts with official sources: park reservations, hikes, beaches and ocean safety, wildlife rules, culture, getting around, taxes, plus live weather and alerts. Ask by typing or by voice.">
+<script>
+  // Apply a saved light/dark choice before the page paints.
+  try { var t = localStorage.getItem("ah-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
 <style>
-/* Layout: a bright ask box first, live conditions under it, then topics to browse and the answers. One column on phones. */
+/* Ask Hawaiʻi: photo hero with the ask box, live conditions, then a two-column browse area (categories left, content right). */
 :root{
-  --bg:#F2F7F6; --surface:#FFFFFF; --ink:#0F2A30; --muted:#48616A; --line:#D3E0DF;
-  --ocean:#0A6A80; --ocean-ink:#FFFFFF; --sun:#D9661C; --sun-ink:#FFFFFF; --leaf:#2E7D4F; --alert:#9A3412; --alert-bg:#FFF1E6;
-  --c-place:#E3F1F6; --c-hike:#E6F4EA; --c-safety:#E5EEFB; --c-rule:#FCEDE3; --c-culture:#F3E8F8; --c-transport:#EEF0FB; --c-tax:#F5F2E1; --c-contact:#FDE9EC; --c-history:#F4ECE4; --c-guide:#E9F3F1;
-  --hero:linear-gradient(160deg,#DDF1F0 0%,#F2F7F6 55%);
-  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
-  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --bg:#F7F5F1; --surface:#FFFFFF; --sunk:#F0EDE7; --ink:#15212A; --muted:#5D6870; --line:#E3DED6;
+  --accent:#0D5C6B; --accent-ink:#FFFFFF; --accent-soft:#E2EEF0; --warn:#A4401A; --warn-bg:#FBEDE5; --ok:#2F7A55;
+  --shadow:0 1px 2px rgba(20,33,42,.05),0 8px 24px rgba(20,33,42,.06);
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
+  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F;
+  color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0B171A; --surface:#122329; --ink:#E4EFEE; --muted:#9FB6B8; --line:#24393F;
-  --ocean:#43B6CC; --ocean-ink:#06222A; --sun:#F08A3C; --sun-ink:#1E0E02; --leaf:#6CCB92; --alert:#FDBA74; --alert-bg:#2A1A0E;
-  --c-place:#15303A; --c-hike:#16302A; --c-safety:#172A40; --c-rule:#33231A; --c-culture:#2B1F33; --c-transport:#1E2340; --c-tax:#2E2A17; --c-contact:#35191F; --c-history:#2E241C; --c-guide:#173230;
-  --hero:linear-gradient(160deg,#10292C 0%,#0B171A 60%); color-scheme:dark}}
+  --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
+  --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0;
+  color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0B171A; --surface:#122329; --ink:#E4EFEE; --muted:#9FB6B8; --line:#24393F;
-  --ocean:#43B6CC; --ocean-ink:#06222A; --sun:#F08A3C; --sun-ink:#1E0E02; --leaf:#6CCB92; --alert:#FDBA74; --alert-bg:#2A1A0E;
-  --c-place:#15303A; --c-hike:#16302A; --c-safety:#172A40; --c-rule:#33231A; --c-culture:#2B1F33; --c-transport:#1E2340; --c-tax:#2E2A17; --c-contact:#35191F; --c-history:#2E241C; --c-guide:#173230;
-  --hero:linear-gradient(160deg,#10292C 0%,#0B171A 60%); color-scheme:dark}
+  --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
+  --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0;
+  color-scheme:dark}
+
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--body)}
-a{color:var(--ocean)}
-.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-h1,h2,h3{font-family:var(--display);margin:0;line-height:1.12;text-wrap:balance}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:92px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;line-height:1.15;letter-spacing:-.01em;text-wrap:balance}
 button,input,select{font:inherit;color:inherit}
 button{cursor:pointer}
-:focus-visible{outline:3px solid var(--sun);outline-offset:2px;border-radius:8px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-header.top{padding-block:14px}
-.brand{display:flex;align-items:center;gap:10px;justify-content:space-between;flex-wrap:wrap}
-.logoimg{border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px #fff,0 2px 8px rgba(0,60,90,.25)}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:22px}
-.navlink{font-weight:600;text-decoration:none;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:15px}
+/* Top navigation: sits on the photo, turns solid once you scroll */
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;transition:background .25s,box-shadow .25s,color .25s;color:#fff}
+.nav .row{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.nav.solid{background:var(--surface);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-family:var(--display);font-weight:600;font-size:21px;white-space:nowrap}
+.logo img{border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px rgba(255,255,255,.85)}
+.links{display:flex;align-items:center;gap:4px}
+.links a{color:inherit;text-decoration:none;font-size:14px;font-weight:500;padding:8px 12px;border-radius:8px;opacity:.92}
+.links a:hover{opacity:1;background:rgba(127,127,127,.14)}
+.iconbtn{width:40px;height:40px;border-radius:10px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.08);color:inherit;display:grid;place-items:center}
+.nav.solid .iconbtn{border-color:var(--line);background:var(--surface)}
+@media (max-width:760px){.links a.hide-sm{display:none}}
 
-.hero{background:var(--hero);padding-block:28px 22px}
-.hero h1{font-size:clamp(32px,6vw,54px);font-weight:800;letter-spacing:-.5px}
-.hero p.lede{margin:10px 0 18px;color:var(--muted);max-width:60ch;font-size:18px}
-.askbar{display:flex;gap:8px;background:var(--surface);border:2px solid var(--line);border-radius:18px;padding:6px;box-shadow:0 8px 30px rgba(10,60,70,.08)}
-.askbar:focus-within{border-color:var(--ocean)}
-.askbar input{flex:1 1 auto;min-width:0;border:0;background:transparent;padding:10px 12px;font-size:18px;outline:none}
-.mic,.go{flex:0 0 auto;border:0;border-radius:12px;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:6px;font-weight:700}
-.mic{width:52px;background:var(--sun);color:var(--sun-ink)}
-.mic.listening{animation:pulse 1.2s ease-in-out infinite}
-.go{padding:0 18px;background:var(--ocean);color:var(--ocean-ink)}
-@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(217,102,28,.5)}50%{box-shadow:0 0 0 10px rgba(217,102,28,0)}}
+/* Hero slideshow */
+.hero{position:relative;min-height:min(760px,92vh);display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#0B2730}
+.slides,.slide{position:absolute;inset:0}
+.slide{background-size:cover;background-position:center;opacity:0;transform:scale(1.04);transition:opacity 1.4s ease,transform 9s ease}
+.slide.on{opacity:1;transform:scale(1.10)}
+@media (prefers-reduced-motion:reduce){.slide,.slide.on{transition:opacity .3s;transform:none}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,18,24,.55) 0%,rgba(6,18,24,.15) 35%,rgba(6,18,24,.35) 62%,rgba(6,18,24,.82) 100%);pointer-events:none}
+.hero .inner{position:relative;z-index:2;width:100%;padding-top:120px;padding-bottom:110px}
+.hero .eyebrow{color:rgba(255,255,255,.85)}
+.hero h1{font-size:clamp(40px,7vw,78px);margin:10px 0 12px;font-weight:500}
+.hero .lede{max-width:56ch;font-size:clamp(16px,1.6vw,19px);color:rgba(255,255,255,.9);margin:0 0 26px}
+.askbar{display:flex;gap:8px;background:#fff;color:#15212A;border-radius:14px;padding:8px;max-width:760px;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+.askbar input{flex:1 1 auto;min-width:0;border:0;background:transparent;padding:10px 12px;font-size:17px;outline:none;color:#15212A}
+.askbar input::placeholder{color:#7A848A}
+.mic,.go{flex:0 0 auto;border:0;border-radius:10px;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:600}
+.mic{width:48px;background:#EEF1F2;color:#15212A}
+.mic.listening{background:#C2410C;color:#fff;animation:pulse 1.2s ease-in-out infinite}
+.go{padding:0 22px;background:#0D5C6B;color:#fff}
+.go:hover{background:#0A4A57}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(194,65,12,.5)}50%{box-shadow:0 0 0 10px rgba(194,65,12,0)}}
 @media (prefers-reduced-motion:reduce){.mic.listening{animation:none}}
-.hint{margin:8px 4px 0;font-size:14px;color:var(--muted);min-height:20px}
-.islands{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-.pill{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 14px;font-size:15px;min-height:38px}
-.pill[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.hint{margin:10px 2px 0;font-size:14px;color:rgba(255,255,255,.9);min-height:22px}
+.islands{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.pill{border:1px solid rgba(255,255,255,.38);background:rgba(10,25,32,.32);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:#fff;border-radius:999px;padding:7px 15px;font-size:14px;font-weight:500;min-height:38px}
+.pill:hover{background:rgba(10,25,32,.5)}
+.pill[aria-pressed="true"]{background:#fff;color:#15212A;border-color:#fff}
+.credit{position:absolute;z-index:2;right:max(20px,env(safe-area-inset-right,0px));bottom:62px;display:flex;align-items:center;gap:12px;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.5);color:rgba(255,255,255,.88)}
+.dots{display:flex;gap:6px}
+.dots button{width:8px;height:8px;border-radius:50%;border:0;padding:0;background:rgba(255,255,255,.45)}
+.dots button[aria-current="true"]{background:#fff;width:22px;border-radius:4px}
+.playbtn{background:none;border:1px solid rgba(255,255,255,.45);color:#fff;border-radius:999px;width:28px;height:28px;display:grid;place-items:center;padding:0}
+@media (max-width:640px){.credit{left:20px;right:auto;bottom:58px}.hero .inner{padding-bottom:104px}}
 
-.live{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start}
-.livebox{flex:1 1 280px;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
-.livebox .k{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:6px}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--leaf)}
-.livebox.alerting{background:var(--alert-bg);border-color:transparent}
-.livebox.alerting .k,.livebox.alerting b{color:var(--alert)}
-.wxrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.wxrow select{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:6px 8px;max-width:100%}
-
-main{padding-block:22px 40px;display:flex;flex-direction:column;gap:26px}
-.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:10px}
-.topic{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:14px;padding:12px;background:var(--surface);text-align:left;font-weight:600;min-height:56px}
-.topic .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;flex:0 0 auto}
-h2.sec{font-size:22px;margin-bottom:10px}
-.cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
-.cat{border:1px solid var(--line);border-radius:999px;padding:7px 12px;background:var(--surface);font-weight:600;font-size:14px;display:flex;align-items:center;gap:7px}
-.cat .dotc{width:10px;height:10px;border-radius:50%}
-.cat .n{color:var(--muted);font-weight:500}
-.cat[aria-pressed="true"]{outline:2px solid var(--ink)}
-.subh{font-size:15px;font-weight:700;margin:18px 0 0;color:var(--muted)}
-.elist{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px}
-.elist button{width:100%;text-align:left;border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--surface);font:inherit;display:flex;gap:10px;align-items:baseline;justify-content:space-between}
-.elist .il{color:var(--muted);font-size:13px;white-space:nowrap}
-.btn.speaking{background:var(--ink);color:#fff}
-
-#results{display:flex;flex-direction:column;gap:12px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
-.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
-.tag{border-radius:999px;padding:3px 10px;font-weight:700;font-size:12px;letter-spacing:.03em;color:var(--ink)}
-.card h3{font-size:20px}
-.card p{margin:0}
-.details{margin:4px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:5px}
-.details[hidden]{display:none}
+/* Live conditions: two cards that overlap the bottom of the photo */
+.conditions{position:relative;z-index:3;margin-top:-44px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:820px){.conditions{grid-template-columns:1fr}}
+.cond{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:var(--shadow);min-width:0}
+.cond .head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.cond .eyebrow{display:flex;align-items:center;gap:8px}
+.live-dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 25%,transparent)}
+.cond.alerting{border-color:color-mix(in srgb,var(--warn) 45%,var(--line));background:linear-gradient(0deg,var(--warn-bg),var(--warn-bg)),var(--surface)}
+.cond.alerting .live-dot{background:var(--warn);box-shadow:0 0 0 3px color-mix(in srgb,var(--warn) 25%,transparent)}
+.cond.alerting b{color:var(--warn)}
+.cond select{border:1px solid var(--line);background:var(--sunk);border-radius:8px;padding:6px 8px;max-width:60%;font-size:14px}
+#wx,#alerts{font-size:15px}
 .alist[hidden]{display:none}
-.alist{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:14px}
-.alist li{background:var(--surface);border-radius:10px;padding:10px 12px}
+.alist{margin:12px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font-size:14px}
+.alist li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
 .alist .ar{color:var(--muted);font-size:13px}
-.abtn{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer}
-.actions{display:flex;gap:8px;flex-wrap:wrap}
-.btn{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:8px 12px;font-size:15px;font-weight:600;min-height:40px;display:inline-flex;align-items:center;gap:6px}
-.src{font-size:14px;color:var(--muted)}
-.empty{background:var(--surface);border:1px dashed var(--line);border-radius:16px;padding:18px}
-.empty b{font-family:var(--display);font-size:18px}
-.status{color:var(--muted);font-size:15px}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:var(--accent);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 
-.addai{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px}
+/* Browse area */
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:40px;padding-block:56px 64px}
+@media (max-width:900px){.layout{grid-template-columns:1fr;gap:28px;padding-block:40px 48px}}
+.side{position:sticky;top:88px;align-self:start}
+@media (max-width:900px){.side{position:static}}
+.side h2{font-size:22px;margin:6px 0 4px}
+.side .total{color:var(--muted);font-size:14px;margin:0 0 14px}
+.catlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.catlist button{width:100%;display:flex;align-items:center;gap:10px;border:0;background:none;padding:9px 10px;border-radius:8px;text-align:left;font-size:15px;font-weight:500;color:var(--ink)}
+.catlist button:hover{background:var(--sunk)}
+.catlist button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.catlist .d{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+.catlist .n{margin-left:auto;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+@media (max-width:900px){.catlist{flex-direction:row;flex-wrap:wrap;gap:6px}.catlist button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 12px;font-size:14px}.catlist .n{margin-left:4px}}
+
+.sechead{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px}
+.sechead h2{font-size:clamp(26px,3vw,34px)}
+.sechead p{margin:6px 0 0;color:var(--muted)}
+
+/* Photo topic cards */
+.feature{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:1000px){.feature{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.feature{grid-template-columns:1fr}}
+.pcard{position:relative;display:block;width:100%;aspect-ratio:4/3;border:0;padding:0;border-radius:14px;overflow:hidden;background:#1d2b31;color:#fff;text-align:left;box-shadow:var(--shadow)}
+.pcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.pcard:hover img{transform:scale(1.05)}
+.pcard::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.72) 100%)}
+.pcard .t{position:absolute;z-index:1;left:18px;right:18px;bottom:16px}
+.pcard .t b{display:block;font-family:var(--display);font-weight:600;font-size:22px;line-height:1.2}
+.pcard .t span{font-size:14px;opacity:.88}
+.minitopics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+@media (max-width:1000px){.minitopics{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.minitopics{grid-template-columns:1fr}}
+.mini{display:flex;align-items:center;gap:12px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;text-align:left;font-weight:600;font-size:15px}
+.mini:hover{border-color:color-mix(in srgb,var(--accent) 50%,var(--line))}
+.mini .ic{width:36px;height:36px;border-radius:9px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);flex:0 0 auto}
+.mini small{display:block;font-weight:400;color:var(--muted);font-size:13px}
+
+/* Answers */
+#answers-sec{margin-bottom:56px}
+#answers-sec[hidden]{display:none}
+.status{color:var(--muted);font-size:15px;margin:0 0 14px}
+#results{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 24px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow)}
+.meta{display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
+.tag{display:inline-flex;align-items:center;gap:7px;font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.tag i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.card h3{font-size:24px}
+.card p{margin:0;font-size:16px}
+.details{margin:4px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.details[hidden]{display:none}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:9px;padding:8px 14px;font-size:14px;font-weight:600;min-height:40px;display:inline-flex;align-items:center;gap:7px}
+.btn:hover{background:var(--sunk)}
+.btn.speaking{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.src{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:2px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:22px}
+.empty b{font-family:var(--display);font-size:20px;font-weight:600}
+.elist{list-style:none;padding:0;margin:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.elist li+li{border-top:1px solid var(--line)}
+.elist button{width:100%;text-align:left;border:0;background:none;padding:14px 18px;display:flex;gap:14px;align-items:center;justify-content:space-between;font-size:15px;font-weight:500}
+.elist button:hover{background:var(--sunk)}
+.elist .il{color:var(--muted);font-size:13px;white-space:nowrap;display:flex;align-items:center;gap:8px}
+
+/* For AI assistants band */
+.band{background:#0F2229;color:#E6EEF0}
+.band .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;padding-block:56px}
+@media (max-width:820px){.band .wrap{grid-template-columns:1fr;gap:20px;padding-block:44px}}
+.band h2{font-size:clamp(26px,3vw,34px);color:#fff}
+.band p{color:#B9C8CC;margin:12px 0 0}
+.band .eyebrow{color:#8FB3BB}
+.codebox{background:#0A181D;border:1px solid #23404A;border-radius:12px;padding:18px}
+.codebox .steps{margin:0 0 14px;padding-left:20px;color:#B9C8CC;font-size:14px}
 .copyrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.copyrow code{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:15px;overflow-wrap:anywhere;user-select:all}
-footer{padding-block:20px 36px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
-@media (max-width:520px){.go span{display:none}.go{padding:0 14px}}
+.copyrow code{flex:1 1 220px;background:#06120F;border:1px solid #23404A;border-radius:8px;padding:10px 12px;font-size:14px;overflow-wrap:anywhere;user-select:all;color:#E6EEF0}
+.copybtn{border:0;border-radius:8px;background:#fff;color:#0F2229;font-weight:600;padding:10px 16px}
+#copied{font-size:13px;color:#8FB3BB}
+
+footer{background:var(--surface);border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;padding-block:40px 28px}
+@media (max-width:820px){footer .cols{grid-template-columns:1fr;gap:18px}}
+footer h4{margin:0 0 8px;color:var(--ink);font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+footer p{margin:0 0 6px}
+footer a{color:var(--muted)}
+footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size:13px}
+@media (max-width:520px){.go span{display:none}.go{padding:0 16px}}
 </style>
 </head>
 <body>
-<header class="top">
-  <div class="wrap brand">
-    <a class="logo" href="/" aria-label="Ask Hawaiʻi home">
-      <img src="/logo.jpg" width="38" height="38" alt="" class="logoimg">
-      Ask Hawaiʻi
-    </a>
-    <a class="navlink" href="#add-ai">Use it in your AI assistant</a>
+
+<header class="nav" id="nav">
+  <div class="wrap row">
+    <a class="logo" href="/" aria-label="Ask Hawaiʻi home"><img src="/logo.jpg" width="36" height="36" alt="">Ask Hawaiʻi</a>
+    <nav class="links" aria-label="Main">
+      <a href="#explore" class="hide-sm">Explore</a>
+      <a href="#conditions" class="hide-sm">Live conditions</a>
+      <a href="#add-ai" class="hide-sm">For AI assistants</a>
+      <button class="iconbtn" id="theme" type="button" aria-label="Switch to dark mode" title="Light or dark"></button>
+    </nav>
   </div>
 </header>
 
-<section class="hero">
-  <div class="wrap">
+<section class="hero" aria-label="Ask a question">
+  <div class="slides" id="slides" aria-hidden="true"></div>
+  <div class="wrap inner">
+    <p class="eyebrow">Checked facts · Official sources · Live weather</p>
     <h1>Ask about Hawaiʻi.</h1>
-    <p class="lede">Checked facts with official sources: park reservations, hikes, beaches and ocean safety, local laws and culture. Plus live weather and alerts from the National Weather Service.</p>
+    <p class="lede">Reservations, hikes, beaches and ocean safety, local laws and culture, checked against official sources and dated. Ask by typing or by voice.</p>
     <form class="askbar" id="ask" role="search">
-      <input id="q" type="search" autocomplete="off" aria-label="Your question" placeholder="Try: Do I need a reservation for Diamond Head?">
+      <input id="q" type="search" autocomplete="off" aria-label="Your question" placeholder="Do I need a reservation for Diamond Head?">
       <button class="mic" id="mic" type="button" aria-label="Ask by voice" title="Ask by voice">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
       </button>
-      <button class="go" type="submit"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span>Ask</span></button>
+      <button class="go" type="submit"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span>Ask</span></button>
     </form>
     <p class="hint" id="hint" aria-live="polite"></p>
-    <div class="islands" id="islands" role="group" aria-label="Island"></div>
+    <div class="islands" id="islands" role="group" aria-label="Choose an island"></div>
+  </div>
+  <div class="credit">
+    <span id="caption"></span>
+    <div class="dots" id="dots" role="group" aria-label="Photos"></div>
+    <button class="playbtn" id="play" type="button" aria-label="Pause slideshow"></button>
+  </div>
+</section>
 
-    <div class="live">
-      <div class="livebox" id="alertbox"><span class="k"><span class="dot"></span>Live alerts</span><span id="alerts">Checking the National Weather Service...</span></div>
-      <div class="livebox"><span class="k"><span class="dot"></span>Live weather</span>
-        <div class="wxrow"><label for="wxplace" class="src">Place</label><select id="wxplace"></select></div>
-        <span id="wx">Loading...</span>
-      </div>
+<div class="wrap conditions" id="conditions">
+  <div class="cond" id="alertbox">
+    <div class="head"><span class="eyebrow"><span class="live-dot"></span>Live alerts</span><span class="eyebrow">NWS</span></div>
+    <div id="alerts">Checking the National Weather Service...</div>
+  </div>
+  <div class="cond">
+    <div class="head"><span class="eyebrow"><span class="live-dot"></span>Live weather</span><label class="sr" for="wxplace">Place</label><select id="wxplace"></select></div>
+    <div id="wx">Loading...</div>
+  </div>
+</div>
+
+<div class="wrap layout" id="explore">
+  <aside class="side" aria-labelledby="cats-h">
+    <p class="eyebrow">Browse</p>
+    <h2 id="cats-h">Categories</h2>
+    <p class="total" id="total"></p>
+    <ul class="catlist" id="cats"></ul>
+  </aside>
+
+  <div>
+    <section id="answers-sec" aria-labelledby="answers" hidden>
+      <div class="sechead"><div><p class="eyebrow">Results</p><h2 id="answers" tabindex="-1">Answers</h2></div></div>
+      <p class="status" id="status" aria-live="polite"></p>
+      <div id="results"></div>
+    </section>
+
+    <section aria-labelledby="pop-h">
+      <div class="sechead"><div><p class="eyebrow">Start here</p><h2 id="pop-h">Popular topics</h2><p>What visitors and locals ask about most.</p></div></div>
+      <div class="feature" id="feature"></div>
+      <div class="minitopics" id="mini"></div>
+    </section>
+  </div>
+</div>
+
+<section class="band" id="add-ai" aria-labelledby="addai-h">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">For AI assistants</p>
+      <h2 id="addai-h">Use Ask Hawaiʻi inside Claude and other assistants</h2>
+      <p>Add it as a connector and your assistant checks these facts, with sources and dates, whenever you ask about Hawaiʻi. It also gets live National Weather Service forecasts and alerts.</p>
+    </div>
+    <div class="codebox">
+      <ol class="steps"><li>In Claude, open Settings, then Connectors.</li><li>Choose Add custom connector.</li><li>Paste this address:</li></ol>
+      <div class="copyrow"><code id="mcpurl">https://www.askaihawaii.com/api/mcp</code><button class="copybtn" type="button" id="copy">Copy</button></div>
+      <p id="copied" aria-live="polite" style="margin:8px 0 0"></p>
     </div>
   </div>
 </section>
 
-<main class="wrap">
-  <section aria-labelledby="browse">
-    <h2 class="sec" id="browse">Browse topics</h2>
-    <div class="topics" id="topics"></div>
-    <p class="subh" id="cats-h">Everything, by category <span id="total"></span></p>
-    <div class="cats" id="cats" role="group" aria-labelledby="cats-h"></div>
-  </section>
-
-  <section aria-labelledby="answers">
-    <h2 class="sec" id="answers">Answers</h2>
-    <p class="status" id="status" aria-live="polite"></p>
-    <div id="results"></div>
-  </section>
-
-  <section class="addai" id="add-ai" aria-labelledby="addai-h">
-    <h2 class="sec" id="addai-h" style="margin:0">Use Ask Hawaiʻi inside your AI assistant</h2>
-    <p style="margin:0">Add it to Claude (or any assistant that supports MCP connectors) and your assistant will check these facts automatically whenever you ask about Hawaiʻi. In Claude: Settings, Connectors, Add custom connector, then paste this address:</p>
-    <div class="copyrow"><code id="mcpurl">https://www.askaihawaii.com/api/mcp</code><button class="btn" type="button" id="copy">Copy</button><span class="src" id="copied" aria-live="polite"></span></div>
-  </section>
-</main>
-
 <footer>
-  <div class="wrap">
-    <p style="margin:0 0 6px">Facts are checked against the sources shown on each answer, with the date they were last checked. Hours, fees and rules change, so confirm time-sensitive details on the official site. In an emergency, call 911.</p>
-    <p style="margin:0">Ask Hawaiʻi is made in Kapolei, Oʻahu by ShakaSoftware LLC.</p>
+  <div class="wrap cols">
+    <div>
+      <h4>Ask Hawaiʻi</h4>
+      <p>Checked Hawaiʻi facts for visitors and locals, each with its source and the date it was last checked.</p>
+      <p>Made in Kapolei, Oʻahu by ShakaSoftware LLC.</p>
+    </div>
+    <div>
+      <h4>Good to know</h4>
+      <p>Hours, fees and rules change. Confirm time-sensitive details on the official site linked on each answer.</p>
+      <p>In an emergency, call 911.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <p><a href="#explore">Categories</a></p>
+      <p><a href="#conditions">Live alerts and weather</a></p>
+      <p><a href="#add-ai">Use it in your AI assistant</a></p>
+    </div>
   </div>
+  <div class="wrap legal">Weather and alerts: National Weather Service. Photos: Unsplash.</div>
 </footer>
 
 <script>
 (function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var IMG = function (id, w) { return "https://images.unsplash.com/photo-" + id + "?auto=format&fit=crop&q=70&w=" + w; };
+
   var TYPE = {
-    place: ["Place", "--c-place"], hike: ["Hike", "--c-hike"], guide: ["Guide", "--c-guide"], safety: ["Ocean safety", "--c-safety"],
-    rule: ["Rule", "--c-rule"], culture: ["Culture", "--c-culture"], transport: ["Getting around", "--c-transport"],
-    tax: ["Tax", "--c-tax"], contact: ["Who to call", "--c-contact"], history: ["History", "--c-history"]
+    place: ["Place", "--d-place"], hike: ["Hike", "--d-hike"], guide: ["Guide", "--d-guide"], safety: ["Safety", "--d-safety"],
+    rule: ["Rule", "--d-rule"], culture: ["Culture", "--d-culture"], transport: ["Getting around", "--d-transport"],
+    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"]
   };
   var ICON = {
     calendar: '<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/>',
-    mountain: '<path d="m3 20 6-11 4 6 3-4 5 9z"/>',
     wave: '<path d="M2 15c3 0 3-3 6-3s3 3 6 3 3-3 6-3M2 20c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/>',
     turtle: '<ellipse cx="12" cy="13" rx="6" ry="4.5"/><path d="M18 12h3M5 16l-2 2M19 16l2 2M5 10 3 8"/>',
-    flower: '<circle cx="12" cy="12" r="2.5"/><path d="M12 3c2 2.5 2 4.5 0 6.5-2-2-2-4 0-6.5zM21 12c-2.5 2-4.5 2-6.5 0 2-2 4-2 6.5 0zM12 21c-2-2.5-2-4.5 0-6.5 2 2 2 4 0 6.5zM3 12c2.5-2 4.5-2 6.5 0-2 2-4 2-6.5 0z"/>',
     bus: '<rect x="4" y="3" width="16" height="14" rx="3"/><path d="M4 11h16M8 21v-4M16 21v-4"/>',
     receipt: '<path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/>',
     phone: '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>',
-    book: '<path d="M4 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4zM20 4h-6"/><path d="M20 4v14h-6"/>'
+    plane: '<path d="M10.5 3.5 13 10l6-1.5c1.5-.4 2.5 1.6 1 2.4L14 14l-1.5 6.5-2 .5-1-6-4 1-1.5 2H3l1-4-2-3h1l2 1.5 4-1-3-5.5 1.5-.5z"/>',
+    closed: '<circle cx="12" cy="12" r="9"/><path d="m6 6 12 12"/>',
+    sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    moon: '<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>',
+    pause: '<path d="M9 6v12M15 6v12"/>', play: '<path d="M8 5v14l11-7z"/>'
   };
-  var TOPICS = [
-    ["Reservations", "which places need reservations", "calendar", "--c-place"],
-    ["Hikes", "hikes easiest to hardest", "mountain", "--c-hike"],
-    ["Lifeguarded beaches", "which beaches have lifeguards", "wave", "--c-safety"],
-    ["Ocean safety", "beach hazard ratings shorebreak", "wave", "--c-safety"],
-    ["Wildlife rules", "how close sea turtles monk seals", "turtle", "--c-rule"],
-    ["Culture & etiquette", "lei etiquette culture", "flower", "--c-culture"],
-    ["Getting around", "bus fare honolulu", "bus", "--c-transport"],
-    ["Taxes", "tax 4.712 hotel tax", "receipt", "--c-tax"],
-    ["Who to call", "who to call emergency injured wildlife", "phone", "--c-contact"],
-    ["Museums & history", "Iolani Palace Bishop Museum Kalakaua history", "book", "--c-history"],
-    ["Volcano", "volcano erupting Kilauea national park", "mountain", "--c-place"],
-    ["Park closures", "park closures hurricane status", "calendar", "--c-rule"]
-  ];
-  var ISLANDS = ["All islands", "Oʻahu", "Maui", "Kauaʻi", "Hawaiʻi Island", "Molokaʻi", "Lānaʻi"];
-  var island = "";
-  var $ = function (id) { return document.getElementById(id); };
-  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
-  var svg = function (k) { return '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICON[k] + "</svg>"; };
+  var svg = function (k, s) { s = s || 20; return '<svg width="' + s + '" height="' + s + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICON[k] + "</svg>"; };
   var islandText = function (e) { return Array.isArray(e.island) ? e.island.join(", ") : e.island; };
   var fmtDate = function (d) { try { return new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }); } catch (x) { return d; } };
 
+  // Light / dark
+  function isDark() { var t = document.documentElement.getAttribute("data-theme"); return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; }
+  function paintTheme() { var d = isDark(); $("theme").innerHTML = svg(d ? "sun" : "moon", 18); $("theme").setAttribute("aria-label", d ? "Switch to light mode" : "Switch to dark mode"); }
+  $("theme").onclick = function () { var n = isDark() ? "light" : "dark"; document.documentElement.setAttribute("data-theme", n); try { localStorage.setItem("ah-theme", n); } catch (e) {} paintTheme(); };
+  paintTheme();
+
+  // Nav turns solid after the photo
+  function navState() { $("nav").classList.toggle("solid", window.scrollY > 40); }
+  addEventListener("scroll", navState, { passive: true }); navState();
+
+  // Hero slideshow (real photos from Unsplash)
+  var SLIDES = [
+    ["1507876466758-bc54f384809c", "Waikīkī and Diamond Head, Oʻahu"],
+    ["1505852679233-d9fd70aff56d", "Nā Pali Coast, Kauaʻi"],
+    ["1475598322381-f1b499717dda", "Lava meeting the ocean, Hawaiʻi Island"],
+    ["1665287586189-f3e984344df4", "ʻIolani Palace, Honolulu"],
+    ["1542332213-9b5a5a3fad35", "On the trail"],
+    ["1507031774658-589130daf90c", "Above the clouds at sunrise"],
+    ["1761495264911-5b03064c1ef4", "A calm morning on the water"],
+    ["1767744911425-8c1329bcc517", "Waterfall and rainbow"]
+  ];
+  var ISLAND_PHOTO = { "Oʻahu": 0, "Kauaʻi": 1, "Hawaiʻi Island": 2, "Maui": 5 };
+  var W = innerWidth < 700 ? 1100 : 2000, cur = -1, timer = null, playing = !reduce;
+  SLIDES.forEach(function (s, i) {
+    var d = document.createElement("div"); d.className = "slide"; $("slides").appendChild(d);
+    var b = document.createElement("button"); b.type = "button"; b.setAttribute("aria-label", "Photo " + (i + 1) + ": " + s[1]); b.onclick = function () { show(i); restart(); }; $("dots").appendChild(b);
+  });
+  function load(i) { var d = $("slides").children[i]; if (!d.dataset.l) { d.style.backgroundImage = "url(" + IMG(SLIDES[i][0], W) + ")"; d.dataset.l = 1; } }
+  function show(i) {
+    if (i === cur) return;
+    load(i); load((i + 1) % SLIDES.length);
+    Array.prototype.forEach.call($("slides").children, function (d, j) { d.classList.toggle("on", j === i); });
+    Array.prototype.forEach.call($("dots").children, function (d, j) { d.setAttribute("aria-current", String(j === i)); });
+    $("caption").textContent = SLIDES[i][1]; cur = i;
+  }
+  function restart() { clearInterval(timer); if (playing) timer = setInterval(function () { show((cur + 1) % SLIDES.length); }, 7000); }
+  function paintPlay() { $("play").innerHTML = svg(playing ? "pause" : "play", 14); $("play").setAttribute("aria-label", playing ? "Pause slideshow" : "Play slideshow"); }
+  $("play").onclick = function () { playing = !playing; paintPlay(); restart(); };
+  show(0); paintPlay(); restart();
+
   // Islands
+  var ISLANDS = ["All islands", "Oʻahu", "Maui", "Kauaʻi", "Hawaiʻi Island", "Molokaʻi", "Lānaʻi"];
+  var island = "";
   ISLANDS.forEach(function (name, i) {
     var b = document.createElement("button");
     b.type = "button"; b.className = "pill"; b.textContent = name; b.setAttribute("aria-pressed", i === 0 ? "true" : "false");
     b.onclick = function () {
       island = i === 0 ? "" : name;
       Array.prototype.forEach.call($("islands").children, function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      if (ISLAND_PHOTO[name] !== undefined) { show(ISLAND_PHOTO[name]); playing = false; paintPlay(); restart(); }
+      else if (i === 0 && !reduce) { playing = true; paintPlay(); restart(); }
       loadCats();
       if (curCat) showCat(curCat); else if ($("q").value.trim()) run();
     };
     $("islands").appendChild(b);
   });
 
-  // Topics
-  TOPICS.forEach(function (t) {
-    var b = document.createElement("button");
-    b.type = "button"; b.className = "topic";
-    b.innerHTML = '<span class="ic" style="background:var(' + t[3] + ')">' + svg(t[2]) + "</span>" + esc(t[0]);
-    b.onclick = function () { $("q").value = t[1]; run(true); };
-    $("topics").appendChild(b);
-  });
+  // Popular topics: photo cards, then smaller text tiles
+  var FEATURE = [
+    ["Reservations", "Diamond Head, Hanauma Bay, Haleakalā and more", "which places need reservations", "1514313887299-224ccb4dd111"],
+    ["Hikes", "Oʻahu trails from easiest to hardest", "hikes easiest to hardest", "1542332213-9b5a5a3fad35"],
+    ["Beaches & ocean safety", "Lifeguards, hazards, rip currents, jellyfish", "which beaches have lifeguards", "1761495264911-5b03064c1ef4"],
+    ["The volcano", "Kīlauea and Hawaiʻi Volcanoes National Park", "volcano erupting Kilauea national park", "1475598322381-f1b499717dda"],
+    ["Museums & history", "ʻIolani Palace, Bishop Museum, Kalākaua", "Iolani Palace Bishop Museum Kalakaua history", "1665287586189-f3e984344df4"],
+    ["Culture & language", "Etiquette and Hawaiian words you will hear", "culture etiquette hawaiian words", "1527862030717-9d8ff8a7dfbf"]
+  ];
+  var MINI = [
+    ["Wildlife rules", "Turtles, monk seals, dolphins", "how close sea turtles monk seals", "turtle"],
+    ["Streams & flash floods", "Waterfalls, floods, leptospirosis", "flash flood stream waterfall", "wave"],
+    ["Park closures", "Current status", "park closures hurricane status", "closed"],
+    ["Getting around", "TheBus and Skyline fares", "bus fare honolulu", "bus"],
+    ["Taking things home", "Airport agriculture inspection", "take fruit flowers home airport inspection", "plane"],
+    ["Taxes", "Hotel and general excise tax", "tax 4.712 hotel tax", "receipt"],
+    ["Who to call", "Emergencies and injured wildlife", "who to call emergency injured wildlife", "phone"],
+    ["Reservations by island", "Every island at a glance", "reservations by island", "calendar"]
+  ];
+  var FW = innerWidth < 700 ? 700 : 800;
+  $("feature").innerHTML = FEATURE.map(function (t, i) {
+    return '<button type="button" class="pcard" data-f="' + i + '"><img src="' + IMG(t[3], FW) + '" alt="" loading="lazy"><span class="t"><b>' + esc(t[0]) + "</b><span>" + esc(t[1]) + "</span></span></button>";
+  }).join("");
+  $("mini").innerHTML = MINI.map(function (t, i) {
+    return '<button type="button" class="mini" data-m="' + i + '"><span class="ic">' + svg(t[3]) + "</span><span>" + esc(t[0]) + "<small>" + esc(t[1]) + "</small></span></button>";
+  }).join("");
+  $("feature").querySelectorAll("[data-f]").forEach(function (b) { b.onclick = function () { $("q").value = FEATURE[b.dataset.f][2]; run(true); }; });
+  $("mini").querySelectorAll("[data-m]").forEach(function (b) { b.onclick = function () { $("q").value = MINI[b.dataset.m][2]; run(true); }; });
 
-  // Categories: every entry, grouped by type, with counts (stays tidy as entries grow into the hundreds)
+  // Categories: every entry grouped by type, with counts
   var CATORDER = ["place", "hike", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
   var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call" };
   var curCat = "";
+  function markCats() { $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === curCat)); }); }
   function loadCats() {
     fetch("/api/search?counts=1" + (island ? "&island=" + encodeURIComponent(island) : "")).then(function (r) { return r.json(); }).then(function (c) {
-      $("total").textContent = "(" + c.total + " checked entries)";
+      $("total").textContent = c.total + " checked entries" + (island ? " for " + island : "");
       var keys = CATORDER.filter(function (k) { return c.types[k]; }).concat(Object.keys(c.types).filter(function (k) { return CATORDER.indexOf(k) < 0; }));
       $("cats").innerHTML = keys.map(function (k) {
-        var t = TYPE[k] || [k, "--c-guide"];
-        return '<button type="button" class="cat" data-cat="' + esc(k) + '" aria-pressed="' + (k === curCat) + '"><span class="dotc" style="background:var(' + t[1] + ')"></span>' + esc(CATNAME[k] || t[0]) + ' <span class="n">' + c.types[k] + "</span></button>";
+        var t = TYPE[k] || [k, "--d-guide"];
+        return '<li><button type="button" data-cat="' + esc(k) + '" aria-pressed="false"><span class="d" style="background:var(' + t[1] + ')"></span>' + esc(CATNAME[k] || t[0]) + '<span class="n">' + c.types[k] + "</span></button></li>";
       }).join("");
       $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.onclick = function () { showCat(b.dataset.cat); }; });
+      markCats();
     }).catch(function () {});
   }
+  function toAnswers(smooth) {
+    $("answers-sec").hidden = false;
+    $("answers-sec").scrollIntoView({ behavior: smooth && !reduce ? "smooth" : "auto", block: "start" });
+  }
   function showCat(k) {
-    curCat = k; stopSpeech(); ++seq;
-    $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === k)); });
+    curCat = k; stopSpeech(); ++seq; markCats();
+    $("answers").textContent = CATNAME[k] || k;
     $("status").textContent = "Loading...";
+    $("answers-sec").hidden = false;
     fetch("/api/search?list=1&type=" + encodeURIComponent(k) + (island ? "&island=" + encodeURIComponent(island) : "")).then(function (r) { return r.json(); }).then(function (d) {
-      $("status").textContent = (CATNAME[k] || k) + ": " + d.count + (d.count === 1 ? " entry" : " entries") + (island ? " for " + island : "") + ". Tap one to open it.";
+      $("status").textContent = d.count + (d.count === 1 ? " entry" : " entries") + (island ? " for " + island : "") + ". Choose one to open it.";
+      var dot = "var(" + (TYPE[k] || [k, "--d-guide"])[1] + ")";
       $("results").innerHTML = '<ul class="elist">' + d.items.map(function (e) {
-        return '<li><button type="button" data-id="' + esc(e.id) + '"><span>' + esc(e.title) + '</span><span class="il">' + esc(islandText(e)) + "</span></button></li>";
+        return '<li><button type="button" data-id="' + esc(e.id) + '"><span>' + esc(e.title) + '</span><span class="il">' + esc(islandText(e)) + ' <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></span></button></li>';
       }).join("") + "</ul>";
       $("results").querySelectorAll("[data-id]").forEach(function (b) {
         b.onclick = function () {
           fetch("/api/search?id=" + encodeURIComponent(b.dataset.id)).then(function (r) { return r.json(); }).then(function (e) {
-            curCat = ""; $("cats").querySelectorAll("[data-cat]").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+            curCat = ""; markCats();
             render(e.title, [e]);
-            $("status").innerHTML = '<button type="button" class="abtn" id="backcat">&larr; Back to ' + esc(CATNAME[k] || k) + "</button>";
+            $("status").innerHTML = '<button type="button" class="linkbtn" id="backcat">&larr; Back to ' + esc(CATNAME[k] || k) + "</button>";
             $("backcat").onclick = function () { showCat(k); };
-            document.getElementById("answers").scrollIntoView({ block: "start" });
+            toAnswers(false);
           });
         };
       });
-      document.getElementById("answers").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+      toAnswers(true);
     }).catch(function () { $("status").textContent = "Couldn't reach Ask Hawaiʻi. Check your connection and try again."; });
   }
   loadCats();
@@ -294,32 +490,34 @@ footer{padding-block:20px 36px;color:var(--muted);font-size:14px;border-top:1px 
     var q = $("q").value.trim();
     if (!q) { $("hint").textContent = "Type or speak a question first."; return; }
     $("hint").textContent = "";
-    stopSpeech(); curCat = ""; $("cats").querySelectorAll("[data-cat]").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+    stopSpeech(); curCat = ""; markCats();
     var my = ++seq;
+    $("answers").textContent = "Answers";
     $("status").textContent = "Looking that up...";
+    $("answers-sec").hidden = false;
     var url = "/api/search?full=1&limit=6&q=" + encodeURIComponent(q) + (island ? "&island=" + encodeURIComponent(island) : "") + (browse ? "&log=0" : "");
     fetch(url).then(function (r) { return r.json(); }).then(function (d) {
       if (my !== seq) return;
       render(q, d.results || []);
-      document.getElementById("answers").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+      toAnswers(true);
     }).catch(function () { $("status").textContent = "Couldn't reach Ask Hawaiʻi. Check your connection and try again."; });
   }
   function render(q, items) {
     var out = $("results");
     if (!items.length) {
       $("status").textContent = "";
-      out.innerHTML = '<div class="empty"><b>No checked answer for that yet.</b><p style="margin:6px 0 0">We saved your question so it can be added. Ask Hawaiʻi only shows facts that have been checked against a source, and new entries are added regularly. Try a topic or category above, or ask about the weather in the live box.</p></div>';
+      out.innerHTML = '<div class="empty"><b>No checked answer for that yet.</b><p style="margin:6px 0 0">We saved your question so it can be added. Ask Hawaiʻi only shows facts that have been checked against a source, and new entries are added regularly. Try a category or popular topic, or check the live weather above.</p></div>';
       return;
     }
     $("status").textContent = items.length + (items.length === 1 ? " checked answer" : " checked answers") + (island ? " for " + island : "") + ".";
     out.innerHTML = items.map(function (e, i) {
-      var t = TYPE[e.type] || [e.type, "--c-guide"];
+      var t = TYPE[e.type] || [e.type, "--d-guide"];
       return '<article class="card">' +
-        '<div class="meta"><span class="tag" style="background:var(' + t[1] + ')">' + esc(t[0]) + '</span><span>' + esc(islandText(e)) + '</span><span>Checked ' + esc(fmtDate(e.last_checked)) + '</span></div>' +
+        '<div class="meta"><span class="tag"><i style="background:var(' + t[1] + ')"></i>' + esc(t[0]) + '</span><span>' + esc(islandText(e)) + '</span><span>Checked ' + esc(fmtDate(e.last_checked)) + '</span></div>' +
         '<h3>' + esc(e.title) + '</h3><p>' + esc(e.summary) + '</p>' +
         '<ul class="details" id="d' + i + '" hidden>' + (e.details || []).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + '</ul>' +
         '<div class="actions"><button class="btn" type="button" data-more="' + i + '" aria-expanded="false" aria-controls="d' + i + '">More details</button>' +
-        '<button class="btn" type="button" data-say="' + i + '">' + svg("wave").replace('width="20" height="20"', 'width="18" height="18"') + '<span>Read aloud</span></button></div>' +
+        '<button class="btn" type="button" data-say="' + i + '">' + svg("wave", 16) + '<span>Read aloud</span></button></div>' +
         '<div class="src">Source: ' + (e.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>"; }).join(" · ") + '</div>' +
         "</article>";
     }).join("");
@@ -362,17 +560,17 @@ footer{padding-block:20px 36px;color:var(--muted);font-size:14px;border-top:1px 
   // Live alerts
   fetch("/api/weather?alerts=1").then(function (r) { return r.json(); }).then(function (a) {
     if (a.error) { $("alerts").textContent = "Alerts are unavailable right now."; return; }
-    if (!a.count) { $("alerts").innerHTML = "<b>No active weather alerts</b> for Hawaiʻi right now."; return; }
+    if (!a.count) { $("alerts").innerHTML = "<strong>No active weather alerts</strong> for Hawaiʻi right now."; return; }
     var names = {}; a.alerts.forEach(function (x) { names[x.event] = 1; });
     $("alertbox").classList.add("alerting");
     var fmt = function (t) { try { return new Date(t).toLocaleString("en-US", { timeZone: "Pacific/Honolulu", weekday: "short", hour: "numeric", minute: "2-digit" }) + " HST"; } catch (e) { return ""; } };
     var items = a.alerts.map(function (x) {
-      return "<li><b>" + esc(x.event) + "</b>" + (x.until ? " · until " + esc(fmt(x.until)) : "") +
+      return "<li><strong>" + esc(x.event) + "</strong>" + (x.until ? " · until " + esc(fmt(x.until)) : "") +
         '<div class="ar">' + esc(x.areas || "") + "</div>" +
         (x.instruction ? "<div>" + esc(String(x.instruction).split("\n\n")[0].replace(/\s+/g, " ")) + "</div>" : "") + "</li>";
     }).join("");
     $("alerts").innerHTML = "<b>" + a.count + " active:</b> " + esc(Object.keys(names).join(", ")) +
-      ' · <button type="button" class="abtn" id="abtn" aria-expanded="false">Details</button>' +
+      ' · <button type="button" class="linkbtn" id="abtn" aria-expanded="false" aria-controls="alist">Details</button>' +
       '<ul class="alist" id="alist" hidden>' + items + '<li class="ar">Source: <a href="' + esc(a.source.url) + '" target="_blank" rel="noopener">National Weather Service Honolulu</a></li></ul>';
     $("abtn").onclick = function () { var l = $("alist"), open = l.hidden; l.hidden = !open; this.textContent = open ? "Hide details" : "Details"; this.setAttribute("aria-expanded", open); };
   }).catch(function () { $("alerts").textContent = "Alerts are unavailable right now."; });
@@ -383,7 +581,7 @@ footer{padding-block:20px 36px;color:var(--muted);font-size:14px;border-top:1px 
     fetch("/api/weather?place=" + encodeURIComponent($("wxplace").value)).then(function (r) { return r.json(); }).then(function (w) {
       if (w.error) { $("wx").textContent = "Weather is unavailable right now."; return; }
       var p = w.periods.slice(0, 2);
-      $("wx").innerHTML = p.map(function (x) { return "<b>" + esc(x.name) + ":</b> " + esc(x.temperature) + ", " + esc(x.forecast.split(". ").slice(0, 2).join(". ")).replace(/\.?$/, ".") ; }).join("<br>");
+      $("wx").innerHTML = p.map(function (x) { return "<strong>" + esc(x.name) + ":</strong> " + esc(x.temperature) + ", " + esc(x.forecast.split(". ").slice(0, 2).join(". ")).replace(/\.?$/, "."); }).join("<br>");
     }).catch(function () { $("wx").textContent = "Weather is unavailable right now."; });
   }
   fetch("/api/weather?places=1").then(function (r) { return r.json(); }).then(function (d) {
