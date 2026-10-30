@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "last_updated": "2026-10-29",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -10675,6 +10675,1341 @@
         "from_label": "Honolulu airport (HNL)",
         "to": "U.S. Army Museum of Hawaii, 2131 Kalia Rd, Honolulu, HI",
         "to_label": "U.S. Army Museum of Hawaiʻi"
+      }
+    },
+    {
+      "id": "hotel-oahu-where-to-stay",
+      "type": "hotel",
+      "title": "Where to stay on Oʻahu: areas compared",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Most Oʻahu hotels are in Waikīkī, about 25 to 30 minutes from the airport. Ko Olina on the West Side is resort-quiet and close to the airport; Kāhala, by Diamond Head, is calm but near town; the North Shore (Turtle Bay, Lāʻie) is about an hour out. Kailua has beaches but almost no hotels.",
+      "details": [
+        "Waikīkī: the most choice at every price, walkable beaches, restaurants and shopping. Parking is expensive, so many visitors skip the rental car. Budget-friendly picks include Wayfinder Waikiki (from about $166 a night).",
+        "Kāhala and Diamond Head: quieter, upscale, about 10 minutes past Waikīkī. The Kahala Hotel & Resort is the main hotel.",
+        "Ko Olina (West Side): resort lagoons, the Four Seasons and Aulani, about 25 minutes west of the airport. You'll want a car.",
+        "North Shore and Lāʻie: The Ritz-Carlton Oʻahu, Turtle Bay is the big resort; Courtyard by Marriott Oʻahu North Shore in Lāʻie is the practical choice near the Polynesian Cultural Center. About an hour from the airport.",
+        "Kailua and Lanikai: famous beaches but no resort hotels. Most stays are licensed vacation rentals; Honolulu limits short-term rentals (generally 90 days or more outside resort areas), so book only legal, permitted rentals.",
+        "Ala Moana and the marina: The Modern Honolulu (from about $185 a night) and the Prince Waikīkī sit between Waikīkī and Ala Moana Center."
+      ],
+      "tags": [
+        "where to stay",
+        "oahu hotels",
+        "best hotels oahu",
+        "hotels on oahu",
+        "where to stay on oahu",
+        "waikiki hotels",
+        "ko olina",
+        "north shore hotel",
+        "kailua hotel",
+        "laie hotel",
+        "diamond head hotel",
+        "areas",
+        "neighborhoods",
+        "hotel",
+        "hotels",
+        "lodging",
+        "vacation rental",
+        "cheap",
+        "budget",
+        "affordable",
+        "value"
+      ],
+      "sources": [
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        },
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        }
+      ],
+      "last_checked": "2026-10-29"
+    },
+    {
+      "id": "hotel-halekulani",
+      "type": "hotel",
+      "title": "Halekūlani (Waikīkī)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Waikīkī's most celebrated luxury hotel, ranked in Hawaiʻi Magazine's 2026 readers' top 10 and Condé Nast readers' top 10 Hawaiʻi hotels. Known for service, House Without a Key's sunset music and hula, and the orchid pool. Rooms start around $700 a night.",
+      "details": [
+        "Area: central Waikīkī beachfront, between the Outrigger Reef and the Sheraton.",
+        "From the airport: about 9 miles, 25 to 30 minutes by car.",
+        "Price: luxury; starting rates around $700 a night.",
+        "Ratings: No. 8 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026; No. 9 Hawaiʻi hotel, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: SpaHalekulani, La Mer and Orchids restaurants, House Without a Key at sunset.",
+        "Website: halekulani.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "halekulani",
+        "house without a key",
+        "luxury",
+        "waikiki",
+        "best hotel",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "waikiki"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        },
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Halekulani, 2199 Kalia Rd, Honolulu, HI",
+        "to_label": "Halekūlani"
+      }
+    },
+    {
+      "id": "hotel-kahala",
+      "type": "hotel",
+      "title": "The Kahala Hotel & Resort (Kāhala)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "A quiet, classic beachfront resort past Diamond Head, about 10 minutes from Waikīkī, with a dolphin lagoon and no resort fee. It ranks in the top 10 of both Hawaiʻi Magazine's 2026 and Condé Nast's 2025 readers' lists. Starting rates around $446.",
+      "details": [
+        "Area: Kāhala, on the far side of Diamond Head; about 10 minutes from Waikīkī.",
+        "From the airport: about 30 minutes by car.",
+        "Price: upper upscale; starting rates around $446 a night; no resort fee.",
+        "Ratings: No. 7 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026; No. 3 Hawaiʻi hotel, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: dolphin lagoon, free surf and paddleboard lessons, Hoku's restaurant, calm beach.",
+        "Website: kahalaresort.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "kahala",
+        "kahala hotel",
+        "kahala resort",
+        "diamond head",
+        "dolphin",
+        "luxury",
+        "quiet",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "kahala"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        },
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "The Kahala Hotel & Resort, 5000 Kahala Ave, Honolulu, HI",
+        "to_label": "The Kahala Hotel & Resort"
+      }
+    },
+    {
+      "id": "hotel-prince-waikiki",
+      "type": "hotel",
+      "title": "Prince Waikīkī (Ala Moana side)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "A modern, all-ocean-view tower at the Ala Wai Harbor end of Waikīkī, ranked No. 4 among Hawaiʻi hotels by Condé Nast Traveler readers in 2025. Good value for the quality, walking distance to Ala Moana Center and Waikīkī Beach.",
+      "details": [
+        "Area: the ʻEwa (west) edge of Waikīkī by the Ala Wai Small Boat Harbor; Ala Moana Center is a short walk.",
+        "From the airport: about 20 to 25 minutes by car.",
+        "Price: upscale (mid-range for Waikīkī quality).",
+        "Ratings: No. 4 Hawaiʻi hotel, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: every room faces the ocean, infinity pool, 100 Sails restaurant, and the hotel's own Hawaiʻi Prince Golf Club in ʻEwa Beach.",
+        "Website: princewaikiki.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "prince waikiki",
+        "prince hotel",
+        "ala moana",
+        "harbor",
+        "ocean view",
+        "value",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "waikiki"
+      ],
+      "sources": [
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Prince Waikiki, 100 Holomoana St, Honolulu, HI",
+        "to_label": "Prince Waikīkī"
+      }
+    },
+    {
+      "id": "hotel-hilton-hawaiian-village",
+      "type": "hotel",
+      "title": "Hilton Hawaiian Village Waikīkī Beach Resort",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Waikīkī's giant, 22-acre resort and the No. 1 Best Hotel in Hawaiʻi Magazine's 2026 Readers' Choice Awards. Pools, a lagoon, dozens of shops and restaurants, and Friday fireworks; great for families and first-timers.",
+      "details": [
+        "Area: the west end of Waikīkī on Duke Kahanamoku Beach and Lagoon.",
+        "From the airport: about 20 to 25 minutes by car.",
+        "Price: mid to upscale, varies widely by tower; expect a daily resort fee and paid parking.",
+        "Ratings: No. 1 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026.",
+        "Highlights: several towers, multiple pools, Duke Kahanamoku Lagoon, Friday night fireworks, lots of family activities.",
+        "Website: hiltonhawaiianvillage.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "hilton hawaiian village",
+        "hilton",
+        "hhv",
+        "fireworks",
+        "family",
+        "families",
+        "lagoon",
+        "duke kahanamoku lagoon",
+        "kids",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "waikiki"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Hilton Hawaiian Village, 2005 Kalia Rd, Honolulu, HI",
+        "to_label": "Hilton Hawaiian Village Waikīkī Beach Resort"
+      }
+    },
+    {
+      "id": "hotel-hyatt-regency-waikiki",
+      "type": "hotel",
+      "title": "Hyatt Regency Waikīkī Beach Resort and Spa",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Twin towers across Kalākaua Avenue from Kūhiō Beach in the heart of Waikīkī, No. 5 in Hawaiʻi Magazine's 2026 readers' poll. Solid rooms, an easy walk to everything, and starting rates around $224, among the best values on this list.",
+      "details": [
+        "Area: central Waikīkī, across the street from Kūhiō Beach and the Duke statue.",
+        "From the airport: about 25 to 30 minutes by car.",
+        "Price: mid-range; starting rates around $224 a night.",
+        "Ratings: No. 5 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026.",
+        "Highlights: pet-friendly, Regency Club lounge, shops in the atrium, beach across the street.",
+        "Website: hyatt.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "hyatt",
+        "hyatt regency waikiki",
+        "kuhio beach",
+        "value",
+        "pet friendly",
+        "dog friendly",
+        "central waikiki",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "waikiki",
+        "cheap",
+        "budget",
+        "affordable"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        },
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Hyatt Regency Waikiki Beach Resort and Spa, 2424 Kalakaua Ave, Honolulu, HI",
+        "to_label": "Hyatt Regency Waikīkī Beach Resort and Spa"
+      }
+    },
+    {
+      "id": "hotel-moana-surfrider",
+      "type": "hotel",
+      "title": "Moana Surfrider, A Westin Resort (Waikīkī)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Waikīkī's first hotel, opened in 1901 and called the First Lady of Waikīkī, right on the sand with its famous banyan courtyard. Historic charm with modern towers; starting rates around $316.",
+      "details": [
+        "Area: central Waikīkī beachfront, next to the Royal Hawaiian Center.",
+        "From the airport: about 25 to 30 minutes by car.",
+        "Price: upscale; starting rates around $316 a night.",
+        "Highlights: the 1901 Banyan Wing, Beach Bar under the banyan tree, beachfront pool and spa.",
+        "Next door: the pink Royal Hawaiian (from about $425) for a classic 1927 alternative.",
+        "Website: marriott.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "moana surfrider",
+        "moana",
+        "westin",
+        "historic",
+        "banyan",
+        "first lady of waikiki",
+        "royal hawaiian",
+        "pink palace",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "waikiki"
+      ],
+      "sources": [
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Moana Surfrider, 2365 Kalakaua Ave, Honolulu, HI",
+        "to_label": "Moana Surfrider, A Westin Resort"
+      }
+    },
+    {
+      "id": "hotel-laylow",
+      "type": "hotel",
+      "title": "The Laylow, Autograph Collection (Waikīkī)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "A stylish midcentury-modern boutique hotel a block from the beach, ranked No. 2 among Hawaiʻi hotels by Condé Nast Traveler readers in 2025. Saltwater pool with cabanas, pet-friendly, starting rates around $288.",
+      "details": [
+        "Area: central Waikīkī on Kūhiō Avenue, about a block from the beach.",
+        "From the airport: about 25 minutes by car.",
+        "Price: mid to upscale; starting rates around $288 a night.",
+        "Ratings: No. 2 Hawaiʻi hotel, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: boutique design, saltwater pool, Hideout restaurant, pet-friendly.",
+        "Website: marriott.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "laylow",
+        "the laylow",
+        "boutique",
+        "autograph collection",
+        "kuhio avenue",
+        "pet friendly",
+        "stylish",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "waikiki"
+      ],
+      "sources": [
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "The Laylow, 2299 Kuhio Ave, Honolulu, HI",
+        "to_label": "The Laylow, Autograph Collection"
+      }
+    },
+    {
+      "id": "hotel-four-seasons-oahu",
+      "type": "hotel",
+      "title": "Four Seasons Resort Oʻahu at Ko Olina",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "A luxury beach resort on the quiet West Side lagoons, about 25 minutes from the airport, with adults-only and family pools and excellent dining. Starting rates around $895 a night.",
+      "details": [
+        "Area: Ko Olina, West Oʻahu (Kapolei), on a calm swimming lagoon.",
+        "From the airport: about 25 minutes by car (the closest luxury resort to the airport).",
+        "Price: luxury; starting rates around $895 a night.",
+        "Highlights: lagoon beach, kids program, spa, Mina's Fish House and other restaurants.",
+        "You'll want a car to explore beyond Ko Olina.",
+        "Website: fourseasons.com/oahu",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "four seasons oahu",
+        "four seasons ko olina",
+        "ko olina",
+        "west side",
+        "kapolei",
+        "luxury",
+        "lagoon",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "ko olina"
+      ],
+      "sources": [
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Four Seasons Resort Oahu at Ko Olina, Kapolei, HI",
+        "to_label": "Four Seasons Resort Oʻahu at Ko Olina"
+      }
+    },
+    {
+      "id": "hotel-aulani",
+      "type": "hotel",
+      "title": "Aulani, A Disney Resort & Spa (Ko Olina)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Named the No. 1 Best Family Hotel in the USA by U.S. News & World Report for 2026. Disney's Hawaiʻi resort on a Ko Olina lagoon has a lazy river, kids club, character events and Hawaiian culture woven throughout. Starting rates around $637.",
+      "details": [
+        "Area: Ko Olina, West Oʻahu.",
+        "From the airport: about 25 minutes by car.",
+        "Price: luxury family; starting rates around $637 a night.",
+        "Ratings: No. 1 Best Family Hotel in the USA, U.S. News & World Report 2026.",
+        "Highlights: Waikolohe Valley pools and lazy river, Aunty's Beach House kids club, character breakfasts, Laniwai spa.",
+        "Website: disneyaulani.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "aulani",
+        "disney",
+        "disney aulani",
+        "family",
+        "families",
+        "kids",
+        "ko olina",
+        "lazy river",
+        "best family hotel",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "ko olina"
+      ],
+      "sources": [
+        {
+          "name": "WDWNT: Aulani No. 1 family hotel, U.S. News 2026",
+          "url": "https://wdwnt.com/2026/02/aulani-earns-top-spot-in-u-s-news-world-report-2026-ranking"
+        },
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Aulani, A Disney Resort & Spa, Kapolei, HI",
+        "to_label": "Aulani, A Disney Resort & Spa"
+      }
+    },
+    {
+      "id": "hotel-turtle-bay",
+      "type": "hotel",
+      "title": "The Ritz-Carlton Oʻahu, Turtle Bay (North Shore)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The North Shore's only big resort, on 850 acres at Kahuku, rebranded as a Ritz-Carlton and ranked No. 2 Best Hotel in Hawaiʻi Magazine's 2026 readers' poll. Beaches, golf, horseback riding and big-wave season close by. Starting rates around $815.",
+      "details": [
+        "Area: Kahuku, North Shore; about 15 minutes from Haleʻiwa and 10 minutes from the Polynesian Cultural Center.",
+        "From the airport: about 1 hour by car.",
+        "Price: luxury; starting rates around $815 a night.",
+        "Ratings: No. 2 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026.",
+        "Highlights: two golf courses, pools with waterslides, horseback rides, surf lessons, seven restaurants and bars.",
+        "Website: turtlebayresort.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "turtle bay",
+        "ritz carlton turtle bay",
+        "ritz-carlton oahu",
+        "north shore",
+        "kahuku",
+        "haleiwa",
+        "laie",
+        "golf",
+        "luxury",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "north shore"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        },
+        {
+          "name": "The Points Guy: best Oʻahu hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-oahu-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Turtle Bay Resort, Kahuku, HI",
+        "to_label": "The Ritz-Carlton Oʻahu, Turtle Bay"
+      }
+    },
+    {
+      "id": "hotel-hotel-wailea",
+      "type": "hotel",
+      "title": "Hotel Wailea (adults only)",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Maui's top-rated small hotel: an adults-only Relais & Châteaux property with 72 suites on a hillside above Wailea, ranked No. 5 among Hawaiʻi hotels by Condé Nast Traveler readers in 2025. Quiet, romantic and pricey, from about $999 a night.",
+      "details": [
+        "Area: Wailea, South Maui; beach shuttle and valet to Wailea Beach.",
+        "From the airport: about 30 minutes by car.",
+        "Price: luxury; starting rates around $999 a night.",
+        "Ratings: No. 5 Hawaiʻi hotel, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: adults only, all suites, The Restaurant at Hotel Wailea, sunset views, no crowds.",
+        "Website: hotelwailea.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "hotel wailea",
+        "adults only",
+        "adult only",
+        "honeymoon",
+        "romantic",
+        "wailea",
+        "south maui",
+        "boutique",
+        "luxury",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "wailea"
+      ],
+      "sources": [
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "The Points Guy: best Maui hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-maui-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Hotel Wailea, 555 Kaukahi St, Wailea, HI",
+        "to_label": "Hotel Wailea"
+      }
+    },
+    {
+      "id": "hotel-montage-kapalua",
+      "type": "hotel",
+      "title": "Montage Kapalua Bay (West Maui)",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Spacious condo-style suites with full kitchens over Kapalua Bay, ranked No. 6 among Hawaiʻi resorts by Condé Nast readers in 2025. Great snorkeling bay, terraced pools and the Kapalua Coastal Trail out the door. From about $1,025 a night.",
+      "details": [
+        "Area: Kapalua, West Maui; quieter than Kāʻanapali.",
+        "From the airport: about 50 to 60 minutes by car.",
+        "Price: luxury; starting rates around $1,025 a night.",
+        "Ratings: No. 6 Hawaiʻi resort, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: one- to four-bedroom suites, Spa Montage, Cane & Canoe restaurant, Paintbox kids program.",
+        "Website: montagehotels.com/kapaluabay",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "montage",
+        "montage kapalua",
+        "kapalua",
+        "west maui",
+        "suites",
+        "families",
+        "luxury",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "kapalua"
+      ],
+      "sources": [
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "The Points Guy: best Maui hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-maui-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Montage Kapalua Bay, 1 Bay Dr, Lahaina, HI",
+        "to_label": "Montage Kapalua Bay"
+      }
+    },
+    {
+      "id": "hotel-grand-wailea",
+      "type": "hotel",
+      "title": "Grand Wailea, A Waldorf Astoria Resort",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Maui's famous big resort on Wailea Beach, with a canyon river pool, waterslides, rope swing and a huge spa, ranked No. 7 among Hawaiʻi resorts by Condé Nast readers in 2025. Ideal for families; from about $832 a night.",
+      "details": [
+        "Area: Wailea Beach, South Maui.",
+        "From the airport: about 30 minutes by car.",
+        "Price: luxury; starting rates around $832 a night, plus a resort fee.",
+        "Ratings: No. 7 Hawaiʻi resort, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: activity pool with nine pools and waterslides, Spa Grande, Humuhumunukunukuāpuaʻa restaurant, a large art collection.",
+        "Website: grandwailea.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "grand wailea",
+        "waldorf astoria",
+        "wailea",
+        "south maui",
+        "family",
+        "families",
+        "kids",
+        "waterslide",
+        "spa",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "wailea"
+      ],
+      "sources": [
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "The Points Guy: best Maui hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-maui-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Grand Wailea, 3850 Wailea Alanui Dr, Wailea, HI",
+        "to_label": "Grand Wailea, A Waldorf Astoria Resort"
+      }
+    },
+    {
+      "id": "hotel-hyatt-regency-maui",
+      "type": "hotel",
+      "title": "Hyatt Regency Maui Resort and Spa (Kāʻanapali)",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "A big, lively Kāʻanapali Beach resort with a 150-foot lava-tube waterslide, a rooftop stargazing program and a lūʻau, ranked No. 13 among Hawaiʻi resorts by Condé Nast readers in 2025. From about $667 a night.",
+      "details": [
+        "Area: Kāʻanapali Beach, West Maui. Lahaina town, next door, is still rebuilding after the 2023 fire; be respectful.",
+        "From the airport: about 45 minutes by car.",
+        "Price: upscale to luxury; starting rates around $667 a night, plus a resort fee.",
+        "Ratings: No. 13 Hawaiʻi resort, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: six pools and lava-tube slide, Drums of the Pacific lūʻau, Tour of the Stars rooftop program, oceanfront cabanas.",
+        "Website: hyatt.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "hyatt regency maui",
+        "hyatt maui",
+        "kaanapali",
+        "west maui",
+        "family",
+        "families",
+        "waterslide",
+        "luau",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "kaanapali"
+      ],
+      "sources": [
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "The Points Guy: best Maui hotels (updated Jan. 15, 2026)",
+          "url": "https://thepointsguy.com/guide/best-maui-hotels/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kahului Airport, Kahului, HI",
+        "from_label": "Kahului airport (OGG)",
+        "to": "Hyatt Regency Maui Resort and Spa, Kaanapali, HI",
+        "to_label": "Hyatt Regency Maui Resort and Spa"
+      }
+    },
+    {
+      "id": "hotel-four-seasons-hualalai",
+      "type": "hotel",
+      "title": "Four Seasons Resort Hualālai (Kona Coast)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Ranked the No. 1 hotel in the USA by U.S. News & World Report for 2026. A low-rise oceanfront resort just north of the Kona airport with a saltwater snorkel pond (King's Pond), golf and superb service. Ultra-luxury pricing.",
+      "details": [
+        "Area: Kaʻūpūlehu, North Kona coast; about 10 minutes from the Kona airport.",
+        "Price: ultra-luxury (typically well over $1,000 a night).",
+        "Ratings: No. 1 Best Hotel in the USA, U.S. News & World Report 2026; No. 16 Hawaiʻi resort, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: King's Pond snorkel lagoon, seven pools, Jack Nicklaus golf, Hualālai Sports Club, ʻUlu Ocean Grill.",
+        "Website: fourseasons.com/hualalai",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "four seasons hualalai",
+        "hualalai",
+        "four seasons big island",
+        "kona",
+        "kona coast",
+        "luxury",
+        "best hotel in the us",
+        "golf",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "kona"
+      ],
+      "sources": [
+        {
+          "name": "Johnny Jet: U.S. News 2026 Best Hotels",
+          "url": "https://johnnyjet.com/u-s-news-reveals-2026-best-hotels-rankings-four-seasons-dominates-again/"
+        },
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "Hawaiʻi Magazine: best hotels on Hawaiʻi Island",
+          "url": "https://www.hawaiimagazine.com/best-hotels-hawaii-island/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kona International Airport, Kailua-Kona, HI",
+        "from_label": "Kona airport (KOA)",
+        "to": "Four Seasons Resort Hualalai, Kailua-Kona, HI",
+        "to_label": "Four Seasons Resort Hualālai"
+      }
+    },
+    {
+      "id": "hotel-fairmont-orchid",
+      "type": "hotel",
+      "title": "Fairmont Orchid (Kohala Coast)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "The No. 1 resort in Hawaiʻi in Condé Nast Traveler's 2025 Readers' Choice Awards, and No. 10 in Hawaiʻi Magazine's 2026 poll. An oceanfront resort on 32 acres at Mauna Lani with a huge pool, a sheltered beach lagoon and the Spa Without Walls.",
+      "details": [
+        "Area: Mauna Lani, South Kohala; about 30 minutes north of the Kona airport.",
+        "Price: upscale to luxury; expect a daily resort fee.",
+        "Ratings: No. 1 Hawaiʻi resort, Condé Nast Traveler Readers' Choice 2025; No. 10 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026.",
+        "Highlights: 10,000-square-foot pool, calm swimming beach, Spa Without Walls, Brown's Beach House restaurant, golf next door.",
+        "Website: fairmont.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "fairmont orchid",
+        "fairmont",
+        "mauna lani",
+        "kohala",
+        "kohala coast",
+        "big island resort",
+        "spa",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "kohala coast"
+      ],
+      "sources": [
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        },
+        {
+          "name": "Hawaiʻi Magazine: best hotels on Hawaiʻi Island",
+          "url": "https://www.hawaiimagazine.com/best-hotels-hawaii-island/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kona International Airport, Kailua-Kona, HI",
+        "from_label": "Kona airport (KOA)",
+        "to": "Fairmont Orchid, 1 N Kaniku Dr, Waimea, HI",
+        "to_label": "Fairmont Orchid"
+      }
+    },
+    {
+      "id": "hotel-mauna-kea-beach",
+      "type": "hotel",
+      "title": "Mauna Kea Beach Hotel, Autograph Collection",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "A 1965 midcentury landmark on Kaunaʻoa Bay, one of the island's best swimming beaches, ranked No. 6 in Hawaiʻi Magazine's 2026 readers' poll. Famous for its golf course, art collection and evening manta ray viewing.",
+      "details": [
+        "Area: Kaunaʻoa Bay, South Kohala; about 35 minutes north of the Kona airport.",
+        "Price: luxury.",
+        "Ratings: No. 6 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026; No. 18 Hawaiʻi resort, Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: Kaunaʻoa Beach, Robert Trent Jones Sr. golf course, manta ray viewing at night, Asian and Pacific art collection.",
+        "Website: maunakeabeachhotel.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "mauna kea beach hotel",
+        "mauna kea hotel",
+        "kaunaoa",
+        "kaunaoa beach",
+        "kohala",
+        "golf",
+        "manta",
+        "luxury",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "kohala coast"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        },
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "Hawaiʻi Magazine: best hotels on Hawaiʻi Island",
+          "url": "https://www.hawaiimagazine.com/best-hotels-hawaii-island/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Kona International Airport, Kailua-Kona, HI",
+        "from_label": "Kona airport (KOA)",
+        "to": "Mauna Kea Beach Hotel, 62-100 Mauna Kea Beach Dr, Waimea, HI",
+        "to_label": "Mauna Kea Beach Hotel, Autograph Collection"
+      }
+    },
+    {
+      "id": "hotel-grand-naniloa-hilo",
+      "type": "hotel",
+      "title": "Grand Naniloa Hotel Hilo, a DoubleTree by Hilton",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "The best-known hotel on the Hilo side, on Banyan Drive overlooking Hilo Bay, picked by Hawaiʻi Magazine editors as the best stay for Hilo lovers. A good base for Hawaiʻi Volcanoes National Park, at a fraction of Kohala Coast prices.",
+      "details": [
+        "Area: Banyan Drive, Hilo; about 10 minutes from the Hilo airport and 45 minutes from Hawaiʻi Volcanoes National Park.",
+        "Price: mid-range.",
+        "Highlights: ocean views over Hilo Bay, Hula Hulas restaurant, Naniloa golf course (9 holes) next door, paddleboard and bike rentals.",
+        "Also on Banyan Drive: the Hilo Hawaiian Hotel, a budget-friendly classic; the SCP Hilo Hotel ranked No. 10 among Hawaiʻi hotels in Condé Nast readers' 2025 poll.",
+        "Website: hilton.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "grand naniloa",
+        "naniloa",
+        "hilo hotel",
+        "hilo",
+        "banyan drive",
+        "doubletree",
+        "hilton",
+        "volcano",
+        "budget",
+        "value",
+        "scp hilo",
+        "hilo hawaiian hotel",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "hilo",
+        "cheap",
+        "affordable"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: best hotels on Hawaiʻi Island",
+          "url": "https://www.hawaiimagazine.com/best-hotels-hawaii-island/"
+        },
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Hilo International Airport, Hilo, HI",
+        "from_label": "Hilo airport (ITO)",
+        "to": "Grand Naniloa Hotel Hilo, 93 Banyan Dr, Hilo, HI",
+        "to_label": "Grand Naniloa Hotel Hilo, a DoubleTree by Hilton"
+      }
+    },
+    {
+      "id": "hotel-grand-hyatt-kauai",
+      "type": "hotel",
+      "title": "Grand Hyatt Kauaʻi Resort & Spa (Poʻipū)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "Kauaʻi's top-rated big resort, No. 4 in Hawaiʻi Magazine's 2026 readers' poll, on the sunny South Shore at Poʻipū with a huge saltwater lagoon, river pools and Anara Spa. Open after Hurricane Lowell; the lagoon and one pool were limited during repairs as of Oct. 22, 2026.",
+      "details": [
+        "Area: Poʻipū, South Shore; sunniest part of the island.",
+        "From the airport: about 25 to 30 minutes by car.",
+        "Price: luxury; expect a daily resort fee.",
+        "Ratings: No. 4 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026; No. 19 Hawaiʻi resort, Condé Nast Traveler Readers' Choice 2025.",
+        "Status: open; saltwater lagoon and one pool limited during storm repairs (Oct. 22, 2026).",
+        "Highlights: saltwater lagoon, river pool and slide, Anara Spa, Poʻipū Bay golf, Tidepools restaurant.",
+        "Website: hyatt.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "grand hyatt kauai",
+        "hyatt kauai",
+        "poipu",
+        "south shore",
+        "kauai resort",
+        "family",
+        "spa",
+        "luxury",
+        "hurricane lowell",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "poipu"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        },
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "Kauai.guide: hotel status after Hurricane Lowell (verified Oct. 22, 2026)",
+          "url": "https://kauai.guide/resort-status"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Grand Hyatt Kauai Resort and Spa, 1571 Poipu Rd, Koloa, HI",
+        "to_label": "Grand Hyatt Kauaʻi Resort & Spa"
+      }
+    },
+    {
+      "id": "hotel-royal-sonesta-kauai",
+      "type": "hotel",
+      "title": "The Royal Sonesta Kauaʻi Resort Līhuʻe",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "A beachfront resort on Kalapakī Bay, 5 minutes from the Līhuʻe airport, ranked No. 5 among Hawaiʻi resorts by Condé Nast readers in 2025. A huge pool, a calm beach for swimming, and fully open after Hurricane Lowell.",
+      "details": [
+        "Area: Kalapakī Beach, Līhuʻe; central location for exploring the island.",
+        "From the airport: about 5 minutes.",
+        "Price: upscale.",
+        "Ratings: No. 5 Hawaiʻi resort, Condé Nast Traveler Readers' Choice 2025.",
+        "Status: open and fully operational (Oct. 22, 2026).",
+        "Highlights: one of Kauaʻi's largest pools, Kalapakī Bay's calm water, Duke's Kauaʻi next door, golf nearby.",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "royal sonesta",
+        "sonesta kauai",
+        "lihue",
+        "kalapaki",
+        "kalapaki beach",
+        "kauai resort",
+        "central",
+        "hurricane lowell",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "lihue"
+      ],
+      "sources": [
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        },
+        {
+          "name": "Kauai.guide: hotel status after Hurricane Lowell (verified Oct. 22, 2026)",
+          "url": "https://kauai.guide/resort-status"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "The Royal Sonesta Kauai Resort Lihue, 3610 Rice St, Lihue, HI",
+        "to_label": "The Royal Sonesta Kauaʻi Resort Līhuʻe"
+      }
+    },
+    {
+      "id": "hotel-waimea-plantation-cottages",
+      "type": "hotel",
+      "title": "Waimea Plantation Cottages (West Side)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "Restored plantation-era cottages in a coconut grove on Kauaʻi's sunny West Side, ranked No. 3 Best Hotel in Hawaiʻi Magazine's 2026 readers' poll. Old-Hawaiʻi charm close to Waimea Canyon. It reopened in mid-October 2026 after Hurricane Lowell.",
+      "details": [
+        "Area: Waimea town, West Kauaʻi; gateway to Waimea Canyon (only the lookout is open right now) and Polihale.",
+        "From the airport: about 45 minutes by car.",
+        "Price: mid-range to upscale; cottages have kitchens.",
+        "Ratings: No. 3 Best Hotel, Hawaiʻi Magazine Readers' Choice 2026.",
+        "Status: reopened in mid-October 2026 after a storm closure.",
+        "Note: the beach in front is not great for swimming; it's a place to unwind and watch sunsets.",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "waimea plantation cottages",
+        "plantation cottages",
+        "waimea",
+        "west side",
+        "west kauai",
+        "cottages",
+        "old hawaii",
+        "kitchen",
+        "hurricane lowell",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "waimea"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Magazine: 2026 Readers' Choice Awards, all islands",
+          "url": "https://hawaiimagazine.com/2026-readers-choice-awards-all-islands/"
+        },
+        {
+          "name": "Kauai.guide: hotel status after Hurricane Lowell (verified Oct. 22, 2026)",
+          "url": "https://kauai.guide/resort-status"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Waimea Plantation Cottages, 9400 Kaumualii Hwy, Waimea, HI",
+        "to_label": "Waimea Plantation Cottages"
+      }
+    },
+    {
+      "id": "hotel-1-hotel-hanalei-bay",
+      "type": "hotel",
+      "title": "1 Hotel Hanalei Bay (Princeville)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "The North Shore's luxury hotel on the cliffs above Hanalei Bay, with views of Bali Hai (Makana). It reopened Sept. 28, 2026 after Hurricane Lowell with no structural damage and has offered up to 30% off as a Kauaʻi relief package.",
+      "details": [
+        "Area: Princeville, North Shore; near Hanalei and the Hāʻena State Park (reservations needed).",
+        "From the airport: about 50 minutes by car.",
+        "Price: ultra-luxury.",
+        "Status: reopened Sept. 28, 2026; spa and select restaurants open. A relief package has offered up to 30% off new bookings, and the resort donates $50 per stay to the Kauaʻi Strong Fund.",
+        "Highlights: Hanalei Bay and Makana views, sustainable design, spa, Pu'u Poa beach below.",
+        "Website: 1hotels.com/hanalei-bay",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "1 hotel",
+        "1 hotel hanalei bay",
+        "one hotel",
+        "princeville",
+        "hanalei",
+        "north shore kauai",
+        "luxury",
+        "hurricane lowell",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "princeville"
+      ],
+      "sources": [
+        {
+          "name": "The Garden Island: 1 Hotel Hanalei Bay reopens (Oct. 1, 2026)",
+          "url": "https://www.thegardenisland.com/2026/10/01/business/1-hotel-hanalei-bay-reopens-following-hurricane-lowell/"
+        },
+        {
+          "name": "Kauai.guide: hotel status after Hurricane Lowell (verified Oct. 22, 2026)",
+          "url": "https://kauai.guide/resort-status"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "1 Hotel Hanalei Bay, 5520 Ka Haku Rd, Princeville, HI",
+        "to_label": "1 Hotel Hanalei Bay"
+      }
+    },
+    {
+      "id": "hotel-four-seasons-lanai",
+      "type": "hotel",
+      "title": "Four Seasons Resort Lānaʻi (Mānele Bay)",
+      "island": "Lānaʻi",
+      "county": "Maui County",
+      "summary": "Ranked among the top three hotels in the USA by U.S. News & World Report for 2026 and No. 3 among Hawaiʻi resorts by Condé Nast readers in 2025. An oceanfront resort above Hulopoʻe Bay, one of Hawaiʻi's best snorkeling beaches. Its sister, Sensei Lānaʻi, is an adults-only wellness retreat upcountry.",
+      "details": [
+        "Area: Mānele Bay, above Hulopoʻe Beach Park.",
+        "Getting there: fly to Lānaʻi (LNY) or take the ferry from Māʻalaea, Maui; the resort runs shuttles. About 20 minutes from the airport.",
+        "Price: ultra-luxury.",
+        "Ratings: top three hotels in the USA, U.S. News & World Report 2026; No. 3 Hawaiʻi resort (Sensei Lānaʻi No. 2), Condé Nast Traveler Readers' Choice 2025.",
+        "Highlights: Hulopoʻe Bay snorkeling and spinner dolphins, Nobu, Manele golf course, Puʻu Pehe (Sweetheart Rock).",
+        "Website: fourseasons.com/lanai",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "four seasons lanai",
+        "lanai resort",
+        "manele",
+        "manele bay",
+        "hulopoe",
+        "sensei",
+        "sensei lanai",
+        "adults only",
+        "wellness",
+        "luxury",
+        "lanai hotel",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "manele"
+      ],
+      "sources": [
+        {
+          "name": "Four Seasons Lānaʻi press: U.S. News 2026",
+          "url": "https://press.fourseasons.com/lanai/hotel-news/2026/best-hotels-in-usa/"
+        },
+        {
+          "name": "Aloha State Daily: Hawaiʻi hotels in Condé Nast Traveler 2025 Readers' Choice",
+          "url": "https://alohastatedaily.com/2025/10/07/these-hawaii-hotels-and-resorts-are-some-of-the-best-in-conde-nast-travelers-readers-choice-awards"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Lanai Airport, Lanai City, HI",
+        "from_label": "Lānaʻi airport (LNY)",
+        "to": "Four Seasons Resort Lanai, 1 Manele Bay Rd, Lanai City, HI",
+        "to_label": "Four Seasons Resort Lānaʻi"
+      }
+    },
+    {
+      "id": "hotel-molokai",
+      "type": "hotel",
+      "title": "Hotel Molokaʻi (Kaunakakai)",
+      "island": "Molokaʻi",
+      "county": "Maui County",
+      "summary": "Molokaʻi's only traditional hotel: simple Polynesian-style bungalows on the water just outside Kaunakakai, about 15 minutes from the airport. Expect rustic, old-Hawaiʻi comfort rather than luxury, at about $300 to $350 a night.",
+      "details": [
+        "Area: oceanfront, just east of Kaunakakai town.",
+        "From the airport: about 15 minutes by car.",
+        "Price: about $300 to $350 a night (early 2026).",
+        "Rooms are basic and somewhat dated; there's a pool, hammocks, free parking and laundry.",
+        "Hiro's ʻOhana Grill on site is oceanfront. No breakfast is included.",
+        "Other options are condos (like Castle Molokaʻi Shores) and vacation rentals; rent a car, because there are no taxis or ride-hail to speak of.",
+        "Website: hotelmolokai.com",
+        "Rates change by season and demand; check the hotel's own site for current prices and any resort fee."
+      ],
+      "tags": [
+        "hotel molokai",
+        "molokai hotel",
+        "kaunakakai",
+        "where to stay on molokai",
+        "rustic",
+        "bungalows",
+        "molokai",
+        "hotel",
+        "hotels",
+        "resort",
+        "resorts",
+        "where to stay",
+        "stay",
+        "lodging",
+        "accommodations",
+        "kaunakakai",
+        "cheap",
+        "budget",
+        "affordable",
+        "value"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi Travel with Kids: where to stay on Molokaʻi (2026)",
+          "url": "https://hawaiitravelwithkids.com/?p=2105"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Molokai Airport, Hoolehua, HI",
+        "from_label": "Molokaʻi airport (MKK)",
+        "to": "Hotel Molokai, 1300 Kamehameha V Hwy, Kaunakakai, HI",
+        "to_label": "Hotel Molokaʻi"
       }
     }
   ]

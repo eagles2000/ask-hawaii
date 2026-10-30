@@ -235,6 +235,32 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("army museum") === "museum-army-museum-hawaii", "army museum");
   ok(top("pearl harbor") === "place-pearl-harbor", "pearl harbor still");
 
+  // Hotels (v0.24)
+  ok(top("halekulani") === "hotel-halekulani", "halekulani");
+  ok(top("best family hotel") === "hotel-aulani", "aulani");
+  ok(top("hotel near turtle bay") === "hotel-turtle-bay", "turtle bay");
+  ok(top("where to stay on oahu") === "hotel-oahu-where-to-stay", "where to stay oahu");
+  ok(top("adults only hotel maui") === "hotel-hotel-wailea", "hotel wailea");
+  ok(top("hilo hotel") === "hotel-grand-naniloa-hilo", "hilo hotel");
+  ok(top("four seasons lanai") === "hotel-four-seasons-lanai", "fs lanai");
+  ok(top("hotel molokai") === "hotel-molokai", "hotel molokai");
+  ok(kb.search({ query: "hotels on kauai", limit: 5 }).results.every((r) => r.id.startsWith("hotel-")), "kauai hotels list");
+  ok(top("hanauma bay") === "place-hanauma-bay", "hanauma still");
+
+  // Headlines (twice daily)
+  const news = require("./lib/news");
+  const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST
+  ok(e1.morning && e1.start.toISOString() === "2026-10-29T17:00:00.000Z", "morning edition");
+  const e2 = news.edition(new Date("2026-10-30T08:00:00Z")); // 10 p.m. HST Oct 29
+  ok(!e2.morning && e2.start.toISOString() === "2026-10-30T05:00:00.000Z", "evening edition");
+  const e3 = news.edition(new Date("2026-10-29T15:00:00Z")); // 5 a.m. HST: still last night's edition
+  ok(!e3.morning && e3.start.toISOString() === "2026-10-29T05:00:00.000Z", "before 7 a.m.");
+  const xml = '<rss><channel><item><title><![CDATA[Road &amp; lanes reopen]]></title><link>https://x.test/a</link><pubDate>Thu, 29 Oct 2026 06:00:00 -1000</pubDate></item><item><title>Later story</title><link>https://x.test/b</link><pubDate>Thu, 29 Oct 2026 09:00:00 -1000</pubDate></item><item><title>Bad link</title><link>javascript:alert(1)</link><pubDate>Thu, 29 Oct 2026 05:00:00 -1000</pubDate></item></channel></rss>';
+  const parsed = news.parse(xml, "Test");
+  ok(parsed.length === 2 && parsed[0].title === "Road & lanes reopen", "rss parse");
+  const picked = news.pick([parsed], e1, 3, 8);
+  ok(picked.length === 1 && picked[0].link === "https://x.test/a", "edition cutoff");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

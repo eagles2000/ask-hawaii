@@ -26,20 +26,20 @@
   --shadow:0 1px 2px rgba(20,33,42,.05),0 8px 24px rgba(20,33,42,.06);
   --display:"Fraunces",Georgia,"Times New Roman",serif;
   --body:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
-  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D; --d-food:#A23E48; --d-garden:#4F7A2E; --d-animal:#6B5B95; --d-shop:#9C4F86; --d-tour:#C0392B; --d-trip:#1F7A6D; --d-golf:#2E7D32; --d-sport:#00695C; --d-museum:#6D4C41; --d-living:#00838F; --d-holiday:#B71C1C;
+  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D; --d-food:#A23E48; --d-garden:#4F7A2E; --d-animal:#6B5B95; --d-shop:#9C4F86; --d-tour:#C0392B; --d-trip:#1F7A6D; --d-golf:#2E7D32; --d-sport:#00695C; --d-museum:#6D4C41; --d-living:#00838F; --d-holiday:#B71C1C; --d-hotel:#5D4037;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4; --d-living:#80DEEA; --d-holiday:#EF9A9A;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4; --d-living:#80DEEA; --d-holiday:#EF9A9A; --d-hotel:#D7CCC8;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
   --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
-  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4; --d-living:#80DEEA; --d-holiday:#EF9A9A;
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4; --d-living:#80DEEA; --d-holiday:#EF9A9A; --d-hotel:#D7CCC8;
   color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -117,6 +117,14 @@ footer .shlink img{border-radius:6px}
 .cond.alerting b{color:var(--warn)}
 .cond select{border:1px solid var(--line);background:var(--sunk);border-radius:8px;padding:6px 8px;max-width:60%;font-size:14px}
 #wx,#alerts{font-size:15px}
+.cond.news{grid-column:1/-1}
+.newslist{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:4px 24px}
+@media (max-width:820px){.newslist{grid-template-columns:1fr}}
+.newslist li{padding:7px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.35}
+.newslist a{color:var(--ink);text-decoration:none}
+.newslist a:hover{text-decoration:underline}
+.newslist small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
+.newsnote{margin:10px 0 0;color:var(--muted);font-size:12.5px}
 .alist[hidden]{display:none}
 .alist{margin:12px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font-size:14px}
 .alist li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
@@ -248,12 +256,25 @@ a.btn{text-decoration:none;color:var(--ink)}
 .rv.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
 
+.give{background:var(--sunk);border-top:1px solid var(--line)}
+.give .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;align-items:center;padding-block:44px}
+@media (max-width:820px){.give .wrap{grid-template-columns:1fr;gap:18px}}
+.give h2{font-size:clamp(24px,2.6vw,30px);margin:4px 0 0}
+.give p{color:var(--muted);margin:10px 0 0}
+.givebox{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+.givebtn{display:inline-flex;align-items:center;justify-content:center;width:100%;padding:14px 18px;border-radius:10px;background:#7B2D8E;color:#fff;font-weight:700;text-decoration:none;font-size:16px}
+.givebtn:hover{filter:brightness(1.1)}
+.give .crisis{font-size:14px;margin-top:12px}
+.give .crisis a{color:var(--ink)}
 footer{background:var(--surface);border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;padding-block:40px 28px}
 @media (max-width:820px){footer .cols{grid-template-columns:1fr;gap:18px}}
 footer h4{margin:0 0 8px;color:var(--ink);font-size:13px;letter-spacing:.1em;text-transform:uppercase}
 footer p{margin:0 0 6px}
 footer a{color:var(--muted)}
+footer .vet{display:inline-flex;align-items:center;gap:10px;margin-top:10px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);line-height:1.3}
+footer .vet .flags{display:inline-flex;gap:6px}
+footer .vet .flag{border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
 footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size:13px}
 @media (max-width:520px){.go span{display:none}.go{padding:0 16px}}
 </style>
@@ -304,6 +325,11 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   <div class="cond">
     <div class="head"><span class="eyebrow"><span class="live-dot"></span>Live weather</span><label class="sr" for="wxplace">Place</label><select id="wxplace"></select></div>
     <div id="wx">Loading...</div>
+  </div>
+  <div class="cond news" id="newsbox">
+    <div class="head"><span class="eyebrow"><span class="live-dot"></span>Hawaiʻi headlines</span><span class="eyebrow" id="newsed">7 a.m. and 7 p.m.</span></div>
+    <ul id="news" class="newslist"><li>Loading the latest edition...</li></ul>
+    <p class="newsnote">Headlines from Hawaii News Now, KHON2 and Civil Beat, updated twice a day. Tap a headline to read the story on their site.</p>
   </div>
 </div>
 
@@ -360,12 +386,27 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   </div>
 </section>
 
+<section class="give" id="give" aria-labelledby="give-h">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Give back</p>
+      <h2 id="give-h">Help prevent suicide in Hawaiʻi</h2>
+      <p>Ask Hawaiʻi is free. If it helped you, please consider a gift to the Hawaiʻi chapter of the American Foundation for Suicide Prevention. Your donation goes straight to them and supports education, outreach and people who have lost someone to suicide.</p>
+    </div>
+    <div class="givebox">
+      <a class="givebtn" href="https://afsp.org/chapter/hawaii" target="_blank" rel="noopener">Donate to AFSP Hawaiʻi</a>
+      <p class="crisis">If you or someone you love is struggling, call or text <a href="tel:988"><b>988</b></a>, the Suicide &amp; Crisis Lifeline, any time. In an emergency, call 911.</p>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="wrap cols">
     <div>
       <h4>Ask Hawaiʻi</h4>
       <p>Checked Hawaiʻi facts for visitors and locals, each with its source and the date it was last checked.</p>
       <p>Made in Kapolei, Oʻahu by ShakaSoftware LLC.</p>
+      <p class="vet"><span class="flags"><svg class="flag" viewBox="0 0 57 30" width="38" height="20" role="img" aria-label="United States flag"><rect width="57" height="30" fill="#fff"/><rect y="0.000" width="57" height="2.308" fill="#B22234"/><rect y="4.615" width="57" height="2.308" fill="#B22234"/><rect y="9.231" width="57" height="2.308" fill="#B22234"/><rect y="13.846" width="57" height="2.308" fill="#B22234"/><rect y="18.462" width="57" height="2.308" fill="#B22234"/><rect y="23.077" width="57" height="2.308" fill="#B22234"/><rect y="27.692" width="57" height="2.308" fill="#B22234"/><rect width="22.80" height="16.154" fill="#3C3B6E"/><circle cx="1.90" cy="1.62" r=".55" fill="#fff"/><circle cx="5.70" cy="1.62" r=".55" fill="#fff"/><circle cx="9.50" cy="1.62" r=".55" fill="#fff"/><circle cx="13.30" cy="1.62" r=".55" fill="#fff"/><circle cx="17.10" cy="1.62" r=".55" fill="#fff"/><circle cx="20.90" cy="1.62" r=".55" fill="#fff"/><circle cx="3.80" cy="3.23" r=".55" fill="#fff"/><circle cx="7.60" cy="3.23" r=".55" fill="#fff"/><circle cx="11.40" cy="3.23" r=".55" fill="#fff"/><circle cx="15.20" cy="3.23" r=".55" fill="#fff"/><circle cx="19.00" cy="3.23" r=".55" fill="#fff"/><circle cx="1.90" cy="4.85" r=".55" fill="#fff"/><circle cx="5.70" cy="4.85" r=".55" fill="#fff"/><circle cx="9.50" cy="4.85" r=".55" fill="#fff"/><circle cx="13.30" cy="4.85" r=".55" fill="#fff"/><circle cx="17.10" cy="4.85" r=".55" fill="#fff"/><circle cx="20.90" cy="4.85" r=".55" fill="#fff"/><circle cx="3.80" cy="6.46" r=".55" fill="#fff"/><circle cx="7.60" cy="6.46" r=".55" fill="#fff"/><circle cx="11.40" cy="6.46" r=".55" fill="#fff"/><circle cx="15.20" cy="6.46" r=".55" fill="#fff"/><circle cx="19.00" cy="6.46" r=".55" fill="#fff"/><circle cx="1.90" cy="8.08" r=".55" fill="#fff"/><circle cx="5.70" cy="8.08" r=".55" fill="#fff"/><circle cx="9.50" cy="8.08" r=".55" fill="#fff"/><circle cx="13.30" cy="8.08" r=".55" fill="#fff"/><circle cx="17.10" cy="8.08" r=".55" fill="#fff"/><circle cx="20.90" cy="8.08" r=".55" fill="#fff"/><circle cx="3.80" cy="9.69" r=".55" fill="#fff"/><circle cx="7.60" cy="9.69" r=".55" fill="#fff"/><circle cx="11.40" cy="9.69" r=".55" fill="#fff"/><circle cx="15.20" cy="9.69" r=".55" fill="#fff"/><circle cx="19.00" cy="9.69" r=".55" fill="#fff"/><circle cx="1.90" cy="11.31" r=".55" fill="#fff"/><circle cx="5.70" cy="11.31" r=".55" fill="#fff"/><circle cx="9.50" cy="11.31" r=".55" fill="#fff"/><circle cx="13.30" cy="11.31" r=".55" fill="#fff"/><circle cx="17.10" cy="11.31" r=".55" fill="#fff"/><circle cx="20.90" cy="11.31" r=".55" fill="#fff"/><circle cx="3.80" cy="12.92" r=".55" fill="#fff"/><circle cx="7.60" cy="12.92" r=".55" fill="#fff"/><circle cx="11.40" cy="12.92" r=".55" fill="#fff"/><circle cx="15.20" cy="12.92" r=".55" fill="#fff"/><circle cx="19.00" cy="12.92" r=".55" fill="#fff"/><circle cx="1.90" cy="14.54" r=".55" fill="#fff"/><circle cx="5.70" cy="14.54" r=".55" fill="#fff"/><circle cx="9.50" cy="14.54" r=".55" fill="#fff"/><circle cx="13.30" cy="14.54" r=".55" fill="#fff"/><circle cx="17.10" cy="14.54" r=".55" fill="#fff"/><circle cx="20.90" cy="14.54" r=".55" fill="#fff"/></svg><svg class="flag" viewBox="0 0 60 30" width="40" height="20" role="img" aria-label="Hawaiʻi state flag"><rect y="0.000" width="60" height="3.800" fill="#fff"/><rect y="3.750" width="60" height="3.800" fill="#CE1126"/><rect y="7.500" width="60" height="3.800" fill="#00247D"/><rect y="11.250" width="60" height="3.800" fill="#fff"/><rect y="15.000" width="60" height="3.800" fill="#CE1126"/><rect y="18.750" width="60" height="3.800" fill="#00247D"/><rect y="22.500" width="60" height="3.800" fill="#fff"/><rect y="26.250" width="60" height="3.800" fill="#CE1126"/><svg x="0" y="0" width="30" height="15" viewBox="0 0 60 30"><clipPath id="hfc"><path d="M0,0v30h60V0z"/></clipPath><g clip-path="url(#hfc)"><path d="M0,0v30h60V0z" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" stroke="#C8102E" stroke-width="2"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></g></svg></svg></span><span><b>Veteran-owned business</b><br>ShakaSoftware LLC</span></p>
     </div>
     <div>
       <h4>Good to know</h4>
@@ -375,12 +416,13 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     <div>
       <h4>Explore</h4>
       <p><a href="#explore">Categories</a></p>
-      <p><a href="#conditions">Live alerts and weather</a></p>
+      <p><a href="#conditions">Live alerts, weather and headlines</a></p>
       <p><a href="#add-ai">Use it in your AI assistant</a></p>
+      <p><a href="#give">Give to suicide prevention</a></p>
       <p><a href="https://safehonolulu.com" target="_blank" rel="noopener" class="shlink"><img src="https://safehonolulu.com/icons/apple-touch-icon.png" width="22" height="22" alt="">Report or check incidents on SafeHonolulu</a></p>
     </div>
   </div>
-  <div class="wrap legal">Weather and alerts: National Weather Service. Photos: Unsplash.</div>
+  <div class="wrap legal">Weather and alerts: National Weather Service. Headlines: Hawaii News Now, KHON2 and Civil Beat (titles link to their stories). Photos: Unsplash.</div>
 </footer>
 
 <script>
@@ -393,13 +435,14 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   var TYPE = {
     place: ["Place", "--d-place"], hike: ["Hike", "--d-hike"], guide: ["Guide", "--d-guide"], safety: ["Safety", "--d-safety"],
     rule: ["Rule", "--d-rule"], culture: ["Culture", "--d-culture"], transport: ["Getting around", "--d-transport"],
-    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"], food: ["Food", "--d-food"], garden: ["Garden", "--d-garden"], animal: ["Wildlife", "--d-animal"], shop: ["Shopping", "--d-shop"], tour: ["Tour", "--d-tour"], trip: ["Day trip", "--d-trip"], golf: ["Golf", "--d-golf"], sport: ["UH sports", "--d-sport"], museum: ["Museum", "--d-museum"], living: ["Moving here", "--d-living"], holiday: ["Holiday", "--d-holiday"]
+    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"], food: ["Food", "--d-food"], garden: ["Garden", "--d-garden"], animal: ["Wildlife", "--d-animal"], shop: ["Shopping", "--d-shop"], tour: ["Tour", "--d-tour"], trip: ["Day trip", "--d-trip"], golf: ["Golf", "--d-golf"], sport: ["UH sports", "--d-sport"], museum: ["Museum", "--d-museum"], living: ["Moving here", "--d-living"], holiday: ["Holiday", "--d-holiday"], hotel: ["Hotel", "--d-hotel"]
   };
   var ICON = {
     bag: '<path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/>',
     museum: '<path d="M3 21h18M4 10h16M12 3l9 5H3z"/><path d="M6 10v8M10 10v8M14 10v8M18 10v8"/>',
     home: '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>',
     star: '<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+    bed: '<path d="M3 18V7M3 14h18v4M21 14v-2a3 3 0 0 0-3-3h-7v5"/><circle cx="7" cy="11" r="2"/>',
     flag: '<path d="M6 21V4M6 4l11 4-11 4"/><path d="M4 21h6"/>',
     leaf: '<path d="M5 19c0-8 6-14 15-14 0 9-6 15-14 15"/><path d="M5 19 13 11"/>',
     food: '<path d="M4 10h16l-1.5 9h-13z"/><path d="M8 10a4 4 0 0 1 8 0M12 3v3"/>',
@@ -493,6 +536,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     ["Culture & language", "Etiquette and Hawaiian words you will hear", "culture etiquette hawaiian words", "1527862030717-9d8ff8a7dfbf"]
   ];
   var MINI = [
+    ["Where to stay", "Top-rated hotels on every island", "cat:hotel", "bed"],
     ["Hawaiʻi's animals", "Nēnē, pueo, monk seals, whales", "cat:animal", "turtle"],
     ["Island day trips", "Planned drives with every stop", "cat:trip", "pin"],
     ["Botanical gardens", "Every island's best gardens", "cat:garden", "leaf"],
@@ -580,7 +624,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     if (reduce || !("IntersectionObserver" in window)) return;
     var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }); }, { rootMargin: "0px 0px -8% 0px" });
     window.__reveal = function (root) {
-      (root || document).querySelectorAll(".sechead, .pcard, .mini, .cond, .side, .band .wrap > *, footer .cols > *").forEach(function (el, i) {
+      (root || document).querySelectorAll(".sechead, .pcard, .mini, .cond, .side, .band .wrap > *, .give .wrap > *, footer .cols > *").forEach(function (el, i) {
         if (el.classList.contains("rv")) return;
         el.classList.add("rv"); el.style.transitionDelay = Math.min(i % 6, 5) * 60 + "ms"; io.observe(el);
       });
@@ -589,8 +633,8 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   })();
 
   // Categories: every entry grouped by type, with counts
-  var CATORDER = ["trip", "tour", "event", "food", "place", "garden", "golf", "sport", "holiday", "museum", "living", "animal", "shop", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
-  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Hawaiian food & lunch wagons", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities", trip: "Island day trips", golf: "Golf courses", sport: "UH sports", museum: "Museums", living: "Moving to Hawaiʻi", holiday: "Holidays & military events" };
+  var CATORDER = ["hotel", "trip", "tour", "event", "food", "place", "garden", "golf", "sport", "holiday", "museum", "living", "animal", "shop", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
+  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Hawaiian food & lunch wagons", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities", trip: "Island day trips", golf: "Golf courses", sport: "UH sports", museum: "Museums", living: "Moving to Hawaiʻi", holiday: "Holidays & military events", hotel: "Where to stay (hotels)" };
   var curCat = "";
   function markCats() { $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === curCat)); }); }
   function loadCats() {
@@ -811,6 +855,16 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
       try { startRec(); } catch (x) { rec = null; $("mic").classList.remove("listening"); $("hint").textContent = "Couldn't start the microphone. Reload the page and try again."; }
     };
   }
+
+  // Twice-daily headlines (7 a.m. and 7 p.m. HST)
+  fetch("/api/news").then(function (r) { return r.json(); }).then(function (n) {
+    if (!n.items || !n.items.length) { $("news").innerHTML = "<li>Headlines are unavailable right now.</li>"; return; }
+    $("newsed").textContent = n.edition;
+    $("news").innerHTML = n.items.map(function (i) {
+      var t = new Date(i.time).toLocaleString("en-US", { timeZone: "Pacific/Honolulu", weekday: "short", hour: "numeric", minute: "2-digit" });
+      return '<li><a href="' + esc(i.link) + '" target="_blank" rel="noopener">' + esc(i.title) + "</a><small>" + esc(i.source) + " · " + esc(t) + "</small></li>";
+    }).join("");
+  }).catch(function () { $("news").innerHTML = "<li>Headlines are unavailable right now.</li>"; });
 
   // Live alerts
   fetch("/api/weather?alerts=1").then(function (r) { return r.json(); }).then(function (a) {
