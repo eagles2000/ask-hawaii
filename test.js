@@ -155,6 +155,13 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("wailua golf course") === "golf-kauai-value", "wailua golf");
   ok(top("golf tournament") === "event-sony-championship-golf", "golf tournament");
 
+  // UH sports (v0.17)
+  ok(top("uh football schedule") === "sport-uh-football-2026", "uh football");
+  ok(top("hawaii bowl") === "sport-hawaii-bowl-2026", "hawaii bowl");
+  ok(top("clear bag policy") === "sport-ching-complex-gameday", "clear bag");
+  ok(top("mens volleyball national champions") === "sport-mens-volleyball", "mvb champs");
+  ok(top("uh volleyball").includes("volleyball"), "uh volleyball");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.16.0",
+ "version": "0.17.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -7129,6 +7129,497 @@
     {
      "name": "GolfPass: Best tropical islands with one golf course",
      "url": "https://www.golfpass.com/travel-advisor/articles/one-hit-wonders-ranking-the-best-tropical-islands-with-only-one-regulation-golf-course"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "sport-uh-athletics-overview",
+   "type": "sport",
+   "title": "UH Mānoa sports: teams, tickets, conferences and venues",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "The University of Hawaiʻi at Mānoa fields about 21 teams, the Rainbow Warriors (men) and Rainbow Wahine (women). On July 1, 2026, UH became a full member of the Mountain West; men's volleyball, beach volleyball and women's water polo stay in the Big West. Most big games are on the Mānoa campus: football at the Ching Complex, basketball and volleyball at Bankoh Arena at Stan Sheriff Center, baseball at Les Murakami Stadium.",
+   "details": [
+    "Conference: Mountain West (full member since July 1, 2026; football joined in 2012). Big West: men's volleyball, beach volleyball, women's water polo. Sailing: Pacific Coast Collegiate Sailing Conference.",
+    "Football: Clarence T.C. Ching Athletics Complex (temporary home while the New Aloha Stadium district is built).",
+    "Basketball and volleyball: Bankoh Arena at Stan Sheriff Center (name runs through 2037).",
+    "Baseball: Les Murakami Stadium. Softball: Rainbow Wahine Softball Stadium. Soccer: Waipiʻo Peninsula Soccer Stadium. Swimming, diving and water polo: Duke Kahanamoku Aquatic Complex.",
+    "National titles include men's volleyball (2021, 2022, 2026), women's volleyball (1982, 1983, 1987) and women's sailing (2001).",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "mountain west",
+    "big west",
+    "conference",
+    "venues",
+    "stadium",
+    "arena",
+    "uh teams",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "UH News: UH joins Mountain West as full member (July 2026)",
+     "url": "https://www.hawaii.edu/news/2026/07/01/uh-joins-mountain-west-as-full-member/"
+    },
+    {
+     "name": "Hawaiʻi Rainbow Warriors and Rainbow Wahine (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_and_Rainbow_Wahine"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "sport-uh-football-2026",
+   "type": "sport",
+   "title": "UH football: 2026 schedule and home games",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Rainbow Warrior football plays home games at the Clarence T.C. Ching Athletics Complex on the Mānoa campus. Remaining 2026 home games: North Dakota State on Saturday, Nov. 14, and Sacramento State on Saturday, Nov. 28, both at 6 p.m. Head coach is Timmy Chang (5th season).",
+   "details": [
+    "2026 home games at the Ching Complex: UNLV (Sept. 5), New Mexico State (Sept. 12, a 29-19 win), San Jose State (Oct. 3), New Mexico (Oct. 17), North Dakota State (Nov. 14, 6 p.m.) and Sacramento State (Nov. 28, 6 p.m.).",
+    "Away: at Northern Illinois (Oct. 24), UTEP (Nov. 7) and Nevada (Nov. 21).",
+    "Season runs late August to late November; a bowl game is possible in December.",
+    "Game-day rules (clear bags, parking passes): see the Ching Complex game-day entry.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "football",
+    "uh football",
+    "rainbow warriors football",
+    "timmy chang",
+    "ching complex",
+    "schedule",
+    "home games",
+    "mountain west football",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "2026 Hawaiʻi Rainbow Warriors football (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2026_Hawaii_Rainbow_Warriors_football_team"
+    },
+    {
+     "name": "Hawaiʻi Athletics: 2026 football schedule",
+     "url": "https://hawaiiathletics.com/news/2026/3/9/2026-football-schedule-announced.aspx"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "months": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": "sport-ching-complex-gameday",
+   "type": "sport",
+   "title": "Going to a UH football game: Ching Complex parking, bags and gates",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "UH football is played at the Clarence T.C. Ching Athletics Complex on lower campus at Mānoa. Stadium gates open 2 hours before kickoff (parking 3 hours); there's a clear-bag rule (one clear bag up to 12 x 6 x 12 inches), no re-entry, and you need a printed football parking pass for campus lots.",
+   "details": [
+    "Clear bag policy: one clear bag per person, no larger than 12\" x 6\" x 12\". No other bags.",
+    "Not allowed: outside food and drink, reusable bottles, coolers, umbrellas, alcohol, noise makers, pets (service animals OK), strollers, seat backs. Seat cushions are fine.",
+    "Gates: lower campus parking opens 3 hours before kickoff; stadium gates open 2 hours before. No re-entry.",
+    "Parking: buy a football parking pass ahead for lower or upper campus lots (upper campus via Maile Way or East-West Road).",
+    "Rideshare drop-off: the bus turnaround off University Avenue near the Great Lawn.",
+    "Mobile tickets are encouraged; the UH ticket office opens 2 hours before kickoff.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "parking",
+    "clear bag",
+    "bag policy",
+    "game day",
+    "ching complex",
+    "stadium rules",
+    "uh parking",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Athletics: Ching Complex game day information",
+     "url": "https://hawaiiathletics.com/sports/2022/8/22/clarence-t-c-ching-athletics-complex-game-day-information.aspx"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "sport-hawaii-bowl-2026",
+   "type": "sport",
+   "title": "Sheraton Hawaiʻi Bowl (Christmas Eve)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Hawaiʻi's college football bowl game is Thursday, Dec. 24, 2026, at 2 p.m. at the Clarence T.C. Ching Athletics Complex, matching teams from the Mountain West and Pac-12. Tickets: sidelines $54 to $79, ʻEwa end zone $44, Diamond Head end zone $33.",
+   "details": [
+    "Date: Thursday, Dec. 24, 2026, 2 p.m., the 23rd Hawaiʻi Bowl.",
+    "Venue: Ching Complex at UH Mānoa (5th year there while the New Aloha Stadium is built).",
+    "Teams: Mountain West vs. Pac-12.",
+    "Tickets: sidelines $54 to $79, ʻEwa end zone $44, Diamond Head end zone $33 (plus up to $1 delivery fee).",
+    "Buy at etickethawaii.com or the Bankoh Arena box office.",
+    "Clear-bag rules apply.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "hawaii bowl",
+    "sheraton hawaii bowl",
+    "bowl game",
+    "christmas eve",
+    "college football",
+    "december",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii News Now: Tickets on sale for 2026 Sheraton Hawaiʻi Bowl",
+     "url": "https://www.hawaiinewsnow.com/2026/10/16/tickets-now-sale-2026-sheraton-hawaii-bowl/"
+    },
+    {
+     "name": "Sheraton Hawaiʻi Bowl (official)",
+     "url": "https://www.thehawaiibowl.com/"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "months": [
+    12
+   ]
+  },
+  {
+   "id": "sport-wahine-volleyball",
+   "type": "sport",
+   "title": "Rainbow Wahine volleyball (UH women's volleyball)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "UH women's volleyball is one of Hawaiʻi's most popular teams, with NCAA titles in 1982, 1983 and 1987. The 2026 season (late August to November) is its first in the Mountain West, with home matches at Bankoh Arena at Stan Sheriff Center. The final home series is Air Force on Nov. 12 and 13 (Senior Night Nov. 13).",
+   "details": [
+    "Season: late August through November, plus the NCAA tournament in December if selected.",
+    "2026: 29 regular-season matches; first Mountain West season.",
+    "Remaining home series: Air Force, Nov. 12 and 13 (Senior Night on the 13th).",
+    "NCAA champions 1982, 1983 and 1987.",
+    "Matches draw big, loud crowds; buy ahead for big conference and tournament matches.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "volleyball",
+    "womens volleyball",
+    "wahine volleyball",
+    "rainbow wahine volleyball",
+    "bankoh arena",
+    "stan sheriff",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii News Now: Rainbow Wahine volleyball 2026 schedule",
+     "url": "https://www.hawaiinewsnow.com/2026/07/17/rainbow-wahine-volleyball-team-announces-2026-schedule/"
+    },
+    {
+     "name": "Hawaiʻi Rainbow Warriors and Rainbow Wahine (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_and_Rainbow_Wahine"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "months": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": "sport-mens-volleyball",
+   "type": "sport",
+   "title": "UH men's volleyball (2026 national champions)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "UH men's volleyball won the 2026 NCAA championship, its third title in six years (2021, 2022, 2026), beating UC Irvine in the final. The team set a program record with 30 wins and led the nation in attendance for the ninth straight year (7,221 a match), including a record 10,300 for an NCAA match at Bankoh Arena. Season runs January to May.",
+   "details": [
+    "NCAA champions: 2021, 2022 and 2026.",
+    "2026: program-record 30 wins; finished No. 1 in the final AVCA poll.",
+    "Attendance: nation's best for nine straight years, averaging 7,221; NCAA single-match record crowd of 10,300 vs. USC.",
+    "Home: Bankoh Arena at Stan Sheriff Center. Conference: Big West (affiliate).",
+    "Season: about January through early May. Big matches sell out; buy early.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "mens volleyball",
+    "men's volleyball",
+    "national champions",
+    "ncaa champions",
+    "volleyball",
+    "rainbow warriors volleyball",
+    "big west",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Athletics: 2026 men's volleyball season in review",
+     "url": "https://hawaiiathletics.com/news/2026/5/21/2026-mens-volleyball-season-in-review.aspx"
+    },
+    {
+     "name": "NCAA.com: Hawaiʻi wins 2026 men's volleyball championship",
+     "url": "https://www.ncaa.com/news/volleyball-men/article/2026-05-11/hawaii-wins-2026-nc-mens-volleyball-championship"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "id": "sport-uh-basketball",
+   "type": "sport",
+   "title": "UH basketball 2026-27 (men and women)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Both UH basketball teams play at Bankoh Arena at Stan Sheriff Center from November to March. The men open Nov. 2 vs. Seattle and host the 60th Outrigger Rainbow Classic (Nov. 6, 8 and 9). The Rainbow Wahine's home opener is Nov. 13 in the Bank of Hawaiʻi Classic, and they host the Rainbow Wahine Showdown over Thanksgiving weekend.",
+   "details": [
+    "Men: season opens Nov. 2 vs. Seattle; 60th Outrigger Rainbow Classic Nov. 6, 8 and 9; nine of 11 non-conference games at home; Mountain West play from Jan. 2, with eight games on national TV (FS1, The CW).",
+    "Women: open Nov. 2 at Oregon; home opener Nov. 13 vs. Saint Mary's (Bank of Hawaiʻi Classic); Rainbow Wahine Showdown at Thanksgiving with San Diego State, Columbia and Stanford; 15 home games; Mountain West opener Dec. 30 vs. Nevada.",
+    "Mountain West tournaments: March 7 to 10, 2027, in Las Vegas.",
+    "The Diamond Head Classic holiday tournament was not held in 2025.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "basketball",
+    "mens basketball",
+    "womens basketball",
+    "rainbow classic",
+    "bankoh arena",
+    "stan sheriff",
+    "hoops",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "UH News: Mānoa basketball 2026-27 schedules",
+     "url": "https://www.hawaii.edu/news/2026/09/29/manoa-basketball-26-27-schedules/"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "sport-uh-baseball",
+   "type": "sport",
+   "title": "UH baseball at Les Murakami Stadium",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Rainbow Warrior baseball plays at Les Murakami Stadium on the Mānoa campus, usually from February to May. 2027 is its first Mountain West season after 14 years in the Big West; conference play opens at home March 25 to 27 against Grand Canyon.",
+   "details": [
+    "Home: Les Murakami Stadium, UH Mānoa.",
+    "Season: non-conference games start around February; conference play late March to May.",
+    "2027 Mountain West home series: Grand Canyon (Mar. 25 to 27), Utah Tech, New Mexico and San Jose State.",
+    "Conference road trips include UNLV, UC Davis, Air Force and Nevada (May 20 to 22 finale).",
+    "Conference games stream on the Mountain West's subscription platform.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "baseball",
+    "les murakami",
+    "murakami stadium",
+    "rainbow warriors baseball",
+    "college baseball",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "UH News: Rainbow Warrior baseball 2027 schedule",
+     "url": "https://www.hawaii.edu/news/2026/04/29/rainbow-warrior-baseball-2027-schedule/"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "months": [
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "id": "sport-uh-other-sports",
+   "type": "sport",
+   "title": "More UH sports: softball, soccer, swimming, water polo and more",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Beyond the big four, UH has softball at Rainbow Wahine Softball Stadium (spring), women's soccer at Waipiʻo Peninsula Soccer Stadium (fall), swimming, diving and women's water polo at the Duke Kahanamoku Aquatic Complex, and beach volleyball, which plays at Queen's Beach in Waikīkī. Many of these events are free or low cost.",
+   "details": [
+    "Softball: Rainbow Wahine Softball Stadium, UH Mānoa; spring season.",
+    "Women's soccer: Waipiʻo Peninsula Soccer Stadium, Waipiʻo (Central Oʻahu); fall season.",
+    "Swimming and diving; women's water polo (Big West): Duke Kahanamoku Aquatic Complex, UH Mānoa.",
+    "Beach volleyball (Big West): home matches on the sand at Queen's Beach in Waikīkī; spring.",
+    "Also: tennis (UH Tennis Complex), golf, track and field, cross country, sailing.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "softball",
+    "soccer",
+    "water polo",
+    "beach volleyball",
+    "queens beach",
+    "swimming",
+    "diving",
+    "tennis",
+    "waipio",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Rainbow Warriors and Rainbow Wahine (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Hawaii_Rainbow_Warriors_and_Rainbow_Wahine"
+    },
+    {
+     "name": "Hawaiʻi Warrior World: Beach volleyball at Queen's",
+     "url": "https://www.hawaiiwarriorworld.com/court-sense/beach-volleyball-queens-is-where-its-at/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "sport-bankoh-arena",
+   "type": "sport",
+   "title": "Bankoh Arena at Stan Sheriff Center (UH's arena)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "UH's indoor arena on the Mānoa campus hosts men's and women's basketball and volleyball. Formerly called the Stan Sheriff Center and then SimpliFi Arena, it was renamed Bankoh Arena at Stan Sheriff Center in August 2025; in September 2026 Bank of Hawaiʻi extended the name through June 2037. Its box office sells tickets for most UH events.",
+   "details": [
+    "Sports: men's and women's basketball, men's and women's volleyball.",
+    "Box office: weekdays 9 a.m. to 5 p.m. (closed holidays); also sells Hawaiʻi Bowl tickets.",
+    "Name history: Stan Sheriff Center, then SimpliFi Arena at Stan Sheriff Center, then Bankoh Arena at Stan Sheriff Center (Aug. 2025); naming deal now runs to 2037.",
+    "Volleyball nights are often the loudest crowds in Hawaiʻi sports; big matches sell out.",
+    "Parking is on the lower campus near the arena; arrive early on big nights.",
+    "Tickets: etickethawaii.com or the box office at Bankoh Arena at Stan Sheriff Center (weekdays 9 a.m. to 5 p.m.). Schedules and times change; check hawaiiathletics.com."
+   ],
+   "tags": [
+    "bankoh arena",
+    "stan sheriff center",
+    "simplifi arena",
+    "arena",
+    "box office",
+    "uh arena",
+    "uh",
+    "university of hawaii",
+    "uh manoa",
+    "rainbow warriors",
+    "rainbow wahine",
+    "sports",
+    "game",
+    "games",
+    "tickets",
+    "college sports",
+    "athletics"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii News Now: Bank of Hawaiʻi and UH extend arena naming rights (Sept. 2026)",
+     "url": "https://www.hawaiinewsnow.com/2026/09/22/bank-hawaii-university-hawaii-extend-arena-naming-rights-through-2037/"
+    },
+    {
+     "name": "Hawaiʻi Public Radio: Stan Sheriff Center renamed (Aug. 2025)",
+     "url": "https://www.hawaiipublicradio.org/local-news/2025-08-27/uh-stan-sheriff-center-gets-updated-name-under-bank-of-hawaii"
     }
    ],
    "last_checked": "2026-10-29"
