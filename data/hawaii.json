@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "last_updated": "2026-10-29",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -10134,6 +10134,548 @@
         }
       ],
       "last_checked": "2026-10-29"
+    },
+    {
+      "id": "holiday-pearl-harbor-day",
+      "type": "holiday",
+      "title": "Pearl Harbor Remembrance Day (Dec. 7): 85th anniversary in 2026",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The National Pearl Harbor Remembrance Ceremony marks the 85th anniversary of the attack on Monday, Dec. 7, 2026, starting at 7:30 a.m. at Pearl Harbor National Memorial, with a moment of silence at 7:55 a.m., the minute the attack began. No ticket is needed; gates open at 6:15 a.m. and public seating is first come, first served.",
+      "details": [
+        "Ceremony: 7:30 a.m., Pearl Harbor National Memorial. Gates open 6:15 a.m. Front and middle sections are reserved for invited guests; the rest is first come, first served.",
+        "Parking ($7 normally) is free that day, and bag storage runs until 10 a.m. The usual no-bags rule still applies.",
+        "USS Arizona Memorial: no advance reservations for Dec. 7. Navy boats are planned from noon to 3:30 p.m., first come, first served, as conditions allow.",
+        "Related: USS Utah ceremony Dec. 6 at 4:30 p.m.; USS Oklahoma ceremony Dec. 7 at 1 p.m. on Ford Island (military or government ID needed for base access).",
+        "Traffic around the memorial is heavy; leave early or take a tour shuttle from Waikīkī.",
+        "Dress respectfully and keep phones away during the program. The evening Pearl Harbor Memorial Parade in Waikīkī is a separate event."
+      ],
+      "tags": [
+        "pearl harbor day",
+        "pearl harbor remembrance day",
+        "december 7",
+        "dec 7",
+        "85th anniversary",
+        "pearl harbor anniversary",
+        "remembrance",
+        "ceremony",
+        "uss arizona",
+        "military",
+        "veterans",
+        "world war ii",
+        "wwii",
+        "survivors",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii-Guide: Pearl Harbor 85th anniversary visitor guide",
+          "url": "https://www.hawaii-guide.com/blog/national-pearl-harbor-remembrance-day-visitor-guide"
+        },
+        {
+          "name": "Pearl Harbor Oʻahu: visiting on Dec. 7, 2026",
+          "url": "https://www.pearlharboroahu.com/pearl-harbor-85th-anniversary-december-7-2026/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        12
+      ],
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Pearl Harbor National Memorial, Honolulu, HI",
+        "to_label": "Pearl Harbor National Memorial"
+      }
+    },
+    {
+      "id": "holiday-pearl-harbor-parade",
+      "type": "holiday",
+      "title": "Pearl Harbor Memorial Parade (Waikīkī, Dec. 7 evening)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "An evening parade down Kalākaua Avenue honoring Pearl Harbor survivors and veterans, with military units, JROTC, high school bands from around the country and ship banners. It starts from Fort DeRussy and ends at the Waikīkī Shell. Recent years opened with a 4:15 p.m. ceremony at Fort DeRussy and stepped off at 6 p.m.",
+      "details": [
+        "Route: Fort DeRussy, east along Kalākaua Avenue for about a mile, then up Monsarrat Avenue to the Waikīkī Shell.",
+        "Timing in recent years: opening ceremony about 4:15 p.m. at Fort DeRussy Park; parade at 6 p.m. Confirm the 2026 schedule at pearlharborparade.org.",
+        "Free to watch along Kalākaua. Expect road closures and bus detours in Waikīkī that evening.",
+        "Marchers include Pearl Harbor survivors and veterans, every military branch, bands and choirs, JROTC units, civic groups and classic car clubs."
+      ],
+      "tags": [
+        "pearl harbor parade",
+        "pearl harbor memorial parade",
+        "waikiki parade",
+        "kalakaua parade",
+        "december 7",
+        "dec 7",
+        "parade",
+        "military",
+        "veterans",
+        "fort derussy",
+        "waikiki shell",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "Pearl Harbor Memorial Parade: the parade",
+          "url": "https://www.pearlharborparade.org/the-parade"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        12
+      ],
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Fort DeRussy Beach Park, Honolulu, HI",
+        "to_label": "Fort DeRussy"
+      }
+    },
+    {
+      "id": "holiday-veterans-day",
+      "type": "holiday",
+      "title": "Veterans Day in Hawaiʻi (Nov. 11)",
+      "island": [
+        "Oʻahu",
+        "Maui"
+      ],
+      "county": "All counties",
+      "summary": "Veterans Day is Wednesday, Nov. 11, 2026. On Oʻahu, the 79th Wahiawā Lions Veterans Day Parade runs 10 a.m. to noon along California Avenue with more than 80 units; on Maui, a free ceremony and picnic is at War Memorial Gymnasium in Wailuku at 9 a.m. Ceremonies are also held at Punchbowl and the state veterans cemeteries.",
+      "details": [
+        "Oʻahu: 79th Wahiawā Lions Veterans Day Parade, 10 a.m. to noon, from Kaʻala Elementary on California Avenue to Wahiawā District Park. Free; festivities follow at the park, with the Royal Hawaiian Band among the marchers.",
+        "Maui: free ceremony at 9 a.m. and community picnic at 11 a.m. at War Memorial Gymnasium, Wailuku. A Freedom Ride motorcycle procession leaves the old Sears lot at Queen Kaʻahumanu Center in Kahului at 10 a.m.",
+        "Ceremonies are traditionally held at the National Memorial Cemetery of the Pacific (Punchbowl) and the Hawaiʻi State Veterans Cemetery in Kāneʻohe; check the Office of Veterans Services for times.",
+        "Many attractions and restaurants offer veteran discounts on the day; bring military or veteran ID.",
+        "Federal, state and county offices are closed; schools are closed."
+      ],
+      "tags": [
+        "veterans day",
+        "november 11",
+        "nov 11",
+        "veterans",
+        "veteran",
+        "military",
+        "parade",
+        "wahiawa",
+        "wahiawa parade",
+        "punchbowl",
+        "ceremony",
+        "maui veterans day",
+        "discounts",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "Best of Oʻahu: November 2026 events (Wahiawā parade)",
+          "url": "https://www.best-of-oahu.com/oahu-events-in-november.html"
+        },
+        {
+          "name": "Maui Now: free Veterans Day ceremony, picnic and Freedom Ride (Oct. 26, 2026)",
+          "url": "https://mauinow.com/2026/10/26/free-veterans-day-ceremony-picnic-and-freedom-ride-nov-11/"
+        },
+        {
+          "name": "Wahiawa Community & Business Association: Veterans Day Parade",
+          "url": "https://www.ourwahiawa.com/events/veterans-day-parade"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        11
+      ]
+    },
+    {
+      "id": "holiday-memorial-day",
+      "type": "holiday",
+      "title": "Memorial Day at Punchbowl (late May)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "On Memorial Day, volunteers place fresh lei on every grave at the National Memorial Cemetery of the Pacific (Punchbowl), about 38,000 lei, sewn by the community statewide. The Mayor's Memorial Day Ceremony runs 8:30 to 10 a.m. In 2026 it was the 75th ceremony, held May 25.",
+      "details": [
+        "Mayor's Memorial Day Ceremony: Memorial Day morning, 8:30 to 10 a.m., National Memorial Cemetery of the Pacific, 2177 Puowaina Drive.",
+        "Lei: the city collects and sews about 38,000 lei so every grave gets one. Lei-sewing events usually start the Friday before; check the city's Memorial Day page to help.",
+        "Visit after the ceremony to see the cemetery covered in lei and flags; it's one of Oʻahu's most moving sights.",
+        "Lantern Floating at Ala Moana Beach has traditionally been held Memorial Day evening; check the organizer for the current year's plans.",
+        "Pearl Harbor National Memorial often runs a special Memorial Day weekend program; reserve USS Arizona Memorial tickets early."
+      ],
+      "tags": [
+        "memorial day",
+        "punchbowl",
+        "national memorial cemetery of the pacific",
+        "lei",
+        "lei on graves",
+        "mayor memorial day",
+        "ceremony",
+        "military",
+        "veterans",
+        "lantern floating",
+        "may",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "City and County of Honolulu: 75th Mayor's Memorial Day Ceremony",
+          "url": "https://www.honolulu.gov/dpr/events/75th-mayors-memorial-day-ceremony/"
+        },
+        {
+          "name": "Hawaii-Guide: Memorial Day weekend in Hawaiʻi",
+          "url": "https://www.hawaii-guide.com/blog/memorial-day-weekend-hawaii-guide"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        5
+      ],
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "National Memorial Cemetery of the Pacific, Honolulu, HI",
+        "to_label": "Punchbowl"
+      }
+    },
+    {
+      "id": "holiday-fourth-of-july",
+      "type": "holiday",
+      "title": "Fourth of July in Hawaiʻi: fireworks and parades",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Fourth of July means fireworks on every major island. In 2026 Oʻahu had the Waikīkī barge show at 8:30 p.m., Kailua's parade and beach fireworks, Haleʻiwa's festival and Lāʻie's Hukilau Marketplace show; Kailua-Kona, Hilo, Wailea and Līhuʻe had shows too. Schofield and Pearl Harbor-Hickam celebrations are for base ID holders and guests.",
+      "details": [
+        "Oʻahu (2026): Waikīkī fireworks at 8:30 p.m. from a barge off central Waikīkī; Kailua Independence Day Parade at 10 a.m. and Kailua Beach Park fireworks at 8 p.m. (free shuttle); Haleʻiwa festival with fireworks at 8:20 p.m.; Hukilau Marketplace, Lāʻie, fireworks at 9 p.m. (free).",
+        "Military: Schofield Barracks (Weyand Field) and Joint Base Pearl Harbor-Hickam hold big celebrations with fireworks, open to DoD ID holders and sponsored guests only.",
+        "Hawaiʻi Island: Kailua-Kona parade on Aliʻi Drive at 6 p.m. and fireworks over Kailua Bay at 8 p.m.; Hilo Bay Blast fireworks at 8 p.m.; Parker Ranch rodeo in Waimea.",
+        "Maui: fireworks at Wailea Beach (Grand Wailea) at 9 p.m.; the Makawao Rodeo weekend upcountry.",
+        "Kauaʻi: Concert in the Sky at Vidinha Stadium, Līhuʻe (tickets), fireworks about 9:15 p.m.",
+        "At home: on Oʻahu, only firecrackers with a permit, 1 to 9 p.m. on the Fourth. Aerial fireworks are illegal. See the fireworks permits entry.",
+        "Times change each year; check local news lists in late June."
+      ],
+      "tags": [
+        "fourth of july",
+        "4th of july",
+        "july 4",
+        "independence day",
+        "fireworks",
+        "parade",
+        "kailua parade",
+        "waikiki fireworks",
+        "schofield",
+        "hickam",
+        "military",
+        "july",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii News Now: 2026 Fourth of July guide",
+          "url": "https://www.hawaiinewsnow.com/2026/07/02/your-guide-2026-fourth-july-fireworks-celebrations-hawaii/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        7
+      ]
+    },
+    {
+      "id": "holiday-end-of-wwii-missouri",
+      "type": "holiday",
+      "title": "End of WWII ceremony on the Battleship Missouri (Sept. 2)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Each Sept. 2 the Battleship Missouri Memorial marks Japan's 1945 surrender, which was signed on the Missouri's deck, with a ceremony on the ship's fantail at 9:02 a.m., the minute the signing began. The 2026 ceremony (the 81st) was free and open to the public.",
+      "details": [
+        "Time: 9:02 a.m. HST; guests seated by 8:45 a.m.",
+        "Place: the fantail of the Battleship Missouri Memorial on Ford Island. Access is by the Pearl Harbor visitor center shuttle.",
+        "Free and open to the public.",
+        "The Missouri also holds Veterans Day and other commemorations; check ussmissouri.org."
+      ],
+      "tags": [
+        "battleship missouri",
+        "uss missouri",
+        "mighty mo",
+        "surrender",
+        "end of wwii",
+        "end of world war ii",
+        "v-j day",
+        "september 2",
+        "sept 2",
+        "ceremony",
+        "military",
+        "ford island",
+        "pearl harbor",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "Battleship Missouri Memorial: End of WWII commemoration",
+          "url": "https://ussmissouri.org/endofwwii"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        9
+      ],
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Pearl Harbor National Memorial, Honolulu, HI",
+        "to_label": "Pearl Harbor visitor center (shuttle to the Missouri)"
+      }
+    },
+    {
+      "id": "holiday-kaneohe-air-show",
+      "type": "holiday",
+      "title": "Kāneʻohe Bay Air Show (Marine Corps Base Hawaii)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Hawaiʻi's big military air show, held on Marine Corps Base Hawaii at Kāneʻohe Bay with the Navy Blue Angels. The last show was Aug. 8 to 10, 2025, with free general admission. Air show calendars list the next one for Aug. 14 and 15, 2027.",
+      "details": [
+        "Next: listed for Aug. 14 to 15, 2027, with the Blue Angels (confirm at kbayairshow.com).",
+        "2025 format: a Military Appreciation Day on Friday, then two public days. General admission was free; preferred seating was sold through MCCS.",
+        "It's held on an active base: expect security screening and a clear-bag style policy, and plan for heavy H-3 and Kāneʻohe traffic.",
+        "The Blue Angels practice over Windward Oʻahu in the days before; the base issues noise advisories."
+      ],
+      "tags": [
+        "air show",
+        "airshow",
+        "kaneohe bay air show",
+        "kbay air show",
+        "blue angels",
+        "marine corps base hawaii",
+        "mcbh",
+        "kaneohe",
+        "military",
+        "jets",
+        "august",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "Marine Corps Base Hawaii: 2025 Kāneʻohe Bay Airshow announcement",
+          "url": "https://www.mcbhawaii.marines.mil/Media-Room/Press-Releases/Announcement/Article/4040837/marine-corps-base-hawaii-announces-2025-kaneohe-bay-airshow/"
+        },
+        {
+          "name": "MILAVIA: 2027 Hawaiʻi air show calendar",
+          "url": "https://milavia.net/airshows/calendar/showdates-2027-north_america-US-HI.html"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        8
+      ],
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Marine Corps Base Hawaii, Kaneohe, HI",
+        "to_label": "MCBH Kāneʻohe Bay"
+      }
+    },
+    {
+      "id": "holiday-hawaii-state-holidays",
+      "type": "holiday",
+      "title": "Hawaiʻi-only holidays (Kūhiō Day, Kamehameha Day, Statehood Day)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Besides the federal holidays, Hawaiʻi closes state offices and schools for Prince Kūhiō Day (March 26), Good Friday, King Kamehameha Day (June 11) and Statehood Day (the third Friday in August). Lei Day, May 1, isn't an official holiday but is celebrated everywhere.",
+      "details": [
+        "Prince Kūhiō Day, March 26: honors Prince Jonah Kūhiō Kalanianaʻole, who championed the Hawaiian Homes Commission Act. Festivals and hula, especially on Kauaʻi, his birthplace.",
+        "Good Friday (April 3 in 2026): Hawaiʻi is one of very few states where it's a state holiday; state offices and many banks close.",
+        "King Kamehameha Day, June 11: lei draping of the Kamehameha statues and floral parades (see that entry).",
+        "Statehood Day, third Friday of August (Aug. 21, 2026): marks statehood on Aug. 21, 1959. Usually low-key.",
+        "Lei Day, May 1: 'May Day is Lei Day in Hawaiʻi.' School May Day programs and lei contests; the big celebration is at Kapiʻolani Park.",
+        "On state holidays, state and county offices (including DMVs and satellite city halls) close; federal offices and most businesses stay open."
+      ],
+      "tags": [
+        "state holidays",
+        "hawaii holidays",
+        "prince kuhio day",
+        "kuhio day",
+        "kamehameha day",
+        "statehood day",
+        "admission day",
+        "good friday",
+        "lei day",
+        "may day",
+        "closed",
+        "what is closed",
+        "offices closed",
+        "march 26",
+        "june 11",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "AlohaCalendar: Hawaiian holidays 2026",
+          "url": "https://alohacalendar.com/blog/hawaiian-holidays-calendar-2026"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        3,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "holiday-kamehameha-day",
+      "type": "holiday",
+      "title": "King Kamehameha Day (June 11): lei draping and floral parade",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi honors the king who united the islands with towering lei draped on his statues in Honolulu (in front of Aliʻiōlani Hale), Kapaʻau in North Kohala (his birthplace) and Hilo, plus a floral parade with pāʻū riders through Honolulu and Waikīkī. June 11 is a state holiday.",
+      "details": [
+        "Honolulu lei draping: at the Kamehameha statue on King Street; long strands of plumeria and other flowers are hung from the statue by Honolulu Fire Department ladders. It's often held on a different day than the parade.",
+        "Floral parade: from downtown Honolulu to Kapiʻolani Park through Waikīkī, with pāʻū riders representing each island, floats and bands.",
+        "North Kohala (Hawaiʻi Island): ceremony and festivities at the original statue in Kapaʻau.",
+        "Dates and times are set each year by the King Kamehameha Celebration Commission (State Foundation on Culture and the Arts)."
+      ],
+      "tags": [
+        "kamehameha day",
+        "king kamehameha day",
+        "king kamehameha",
+        "lei draping",
+        "floral parade",
+        "pau riders",
+        "kamehameha statue",
+        "june 11",
+        "june",
+        "aliiolani hale",
+        "kapaau",
+        "north kohala",
+        "parade",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "State Foundation on Culture and the Arts: King Kamehameha Celebration Commission",
+          "url": "https://sfca.hawaii.gov/resources/king-kamehameha-celebration-commission/"
+        },
+        {
+          "name": "Hawaii News Now: lei draping ceremony (June 13, 2026)",
+          "url": "https://www.hawaiinewsnow.com/2026/06/13/crowd-gathers-king-kamehameha-lei-draping-ceremony-downtown-honolulu/"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        6
+      ]
+    },
+    {
+      "id": "holiday-fireworks-permits",
+      "type": "holiday",
+      "title": "Fireworks rules and firecracker permits (Oʻahu)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "On Oʻahu, aerial fireworks, sparklers and fountains are illegal; firecrackers need a $25 permit (up to 5,000 firecrackers) bought online at least 10 days ahead. New Year's Eve use is allowed only 9 p.m. to 1 a.m., the Fourth of July 1 to 9 p.m., and Chinese New Year 7 a.m. to 7 p.m.",
+      "details": [
+        "Permit: $25 plus a small service fee, online only, at least 10 days before use; you must be 18 with photo ID. Each permit covers up to 5,000 firecrackers.",
+        "Pickup: New Year's Eve permits at Ala Moana, Kapolei Hale, Pearlridge or Windward satellite city halls, weekdays Dec. 17 to 31. Fourth of July and Chinese New Year permits at HFD headquarters, 636 South Street.",
+        "Allowed hours: New Year's Eve 9 p.m. to 1 a.m.; Chinese New Year 7 a.m. to 7 p.m.; Fourth of July 1 to 9 p.m.; cultural events 9 a.m. to 9 p.m.",
+        "Illegal on Oʻahu: aerial fireworks, sparklers, fountains and novelty items. Police step up enforcement around New Year's.",
+        "Neighbor islands have their own county rules; check your county fire department.",
+        "Questions: HFD fireworks inspector, 808-723-7174."
+      ],
+      "tags": [
+        "fireworks",
+        "firecrackers",
+        "firecracker permit",
+        "fireworks permit",
+        "new years eve",
+        "new year",
+        "illegal fireworks",
+        "aerial fireworks",
+        "sparklers",
+        "chinese new year",
+        "fourth of july",
+        "hfd",
+        "december",
+        "holiday",
+        "holidays",
+        "event",
+        "events"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Fire Department: fireworks FAQ",
+          "url": "https://www1.honolulu.gov/hfdfireworks/faq.php"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "months": [
+        12,
+        1,
+        7
+      ]
+    },
+    {
+      "id": "museum-army-museum-hawaii",
+      "type": "museum",
+      "title": "U.S. Army Museum of Hawaiʻi (Fort DeRussy, Waikīkī)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "A free military history museum inside Battery Randolph, a 1911 coastal artillery bunker at Fort DeRussy in Waikīkī. It covers ancient Hawaiian warfare through WWII, Korea and Vietnam, with tanks, a Cobra helicopter and a Gallery of Heroes. Open Tuesday to Saturday, 10 a.m. to 5 p.m.",
+      "details": [
+        "Hours: Tuesday to Saturday, 10 a.m. to 5 p.m.; closed Sunday, Monday and federal holidays.",
+        "Admission: free (donations welcome).",
+        "Address: 2131 Kālia Road, Waikīkī, at Fort DeRussy Beach Park.",
+        "Parking: Fort DeRussy lot, about $4 for the first hour and $3 each additional hour with museum validation.",
+        "Inside: WWII tanks and artillery, an AH-1 Cobra helicopter, uniforms and weapons, displays on Hawaiian warfare, and the Gallery of Heroes honoring Hawaiʻi's Medal of Honor and other top award recipients."
+      ],
+      "tags": [
+        "army museum",
+        "us army museum of hawaii",
+        "army museum of hawaii",
+        "fort derussy",
+        "battery randolph",
+        "waikiki",
+        "military",
+        "military history",
+        "free",
+        "free museum",
+        "veterans",
+        "wwii",
+        "tanks"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii.com: U.S. Army Museum of Hawaiʻi",
+          "url": "https://hawaii.com/blog/us-army-museum-hawaii"
+        }
+      ],
+      "last_checked": "2026-10-29",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "U.S. Army Museum of Hawaii, 2131 Kalia Rd, Honolulu, HI",
+        "to_label": "U.S. Army Museum of Hawaiʻi"
+      }
     }
   ]
 }

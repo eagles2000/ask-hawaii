@@ -221,6 +221,20 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("enroll kids in school") === "living-schools", "schools");
   ok(top("hurricane kit") === "living-hurricane-prep", "hurricane");
 
+  // Holidays and military events (v0.23)
+  ok(top("pearl harbor day ceremony") === "holiday-pearl-harbor-day", "pearl harbor day");
+  ok(top("pearl harbor parade") === "holiday-pearl-harbor-parade", "ph parade");
+  ok(top("veterans day") === "holiday-veterans-day", "veterans day");
+  ok(top("memorial day") === "holiday-memorial-day", "memorial day");
+  ok(top("fourth of july fireworks") === "holiday-fourth-of-july", "july 4");
+  ok(top("battleship missouri ceremony") === "holiday-end-of-wwii-missouri", "missouri");
+  ok(top("blue angels") === "holiday-kaneohe-air-show", "air show");
+  ok(top("prince kuhio day") === "holiday-hawaii-state-holidays", "kuhio");
+  ok(top("kamehameha day parade") === "holiday-kamehameha-day", "kamehameha day");
+  ok(top("firecracker permit") === "holiday-fireworks-permits", "firecracker");
+  ok(top("army museum") === "museum-army-museum-hawaii", "army museum");
+  ok(top("pearl harbor") === "place-pearl-harbor", "pearl harbor still");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);
