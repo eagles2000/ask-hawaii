@@ -83,6 +83,11 @@ h2.sec{font-size:22px;margin-bottom:10px}
 .card p{margin:0}
 .details{margin:4px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:5px}
 .details[hidden]{display:none}
+.alist[hidden]{display:none}
+.alist{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:14px}
+.alist li{background:var(--surface);border-radius:10px;padding:10px 12px}
+.alist .ar{color:var(--muted);font-size:13px}
+.abtn{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer}
 .actions{display:flex;gap:8px;flex-wrap:wrap}
 .btn{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:8px 12px;font-size:15px;font-weight:600;min-height:40px;display:inline-flex;align-items:center;gap:6px}
 .src{font-size:14px;color:var(--muted)}
@@ -282,7 +287,16 @@ footer{padding-block:20px 36px;color:var(--muted);font-size:14px;border-top:1px 
     if (!a.count) { $("alerts").innerHTML = "<b>No active weather alerts</b> for Hawaiʻi right now."; return; }
     var names = {}; a.alerts.forEach(function (x) { names[x.event] = 1; });
     $("alertbox").classList.add("alerting");
-    $("alerts").innerHTML = "<b>" + a.count + " active:</b> " + esc(Object.keys(names).join(", ")) + ' · <a href="' + esc(a.source.url) + '" target="_blank" rel="noopener">Details</a>';
+    var fmt = function (t) { try { return new Date(t).toLocaleString("en-US", { timeZone: "Pacific/Honolulu", weekday: "short", hour: "numeric", minute: "2-digit" }) + " HST"; } catch (e) { return ""; } };
+    var items = a.alerts.map(function (x) {
+      return "<li><b>" + esc(x.event) + "</b>" + (x.until ? " · until " + esc(fmt(x.until)) : "") +
+        '<div class="ar">' + esc(x.areas || "") + "</div>" +
+        (x.instruction ? "<div>" + esc(String(x.instruction).split("\n\n")[0].replace(/\s+/g, " ")) + "</div>" : "") + "</li>";
+    }).join("");
+    $("alerts").innerHTML = "<b>" + a.count + " active:</b> " + esc(Object.keys(names).join(", ")) +
+      ' · <button type="button" class="abtn" id="abtn" aria-expanded="false">Details</button>' +
+      '<ul class="alist" id="alist" hidden>' + items + '<li class="ar">Source: <a href="' + esc(a.source.url) + '" target="_blank" rel="noopener">National Weather Service Honolulu</a></li></ul>';
+    $("abtn").onclick = function () { var l = $("alist"), open = l.hidden; l.hidden = !open; this.textContent = open ? "Hide details" : "Details"; this.setAttribute("aria-expanded", open); };
   }).catch(function () { $("alerts").textContent = "Alerts are unavailable right now."; });
 
   // Live weather
