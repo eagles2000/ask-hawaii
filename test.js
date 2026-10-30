@@ -162,6 +162,13 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("mens volleyball national champions") === "sport-mens-volleyball", "mvb champs");
   ok(top("uh volleyball").includes("volleyball"), "uh volleyball");
 
+  // Molokai and Lanai (v0.18)
+  ok(top("how do I get to molokai") === "guide-molokai-getting-there", "get to molokai");
+  ok(top("lanai ferry") === "guide-lanai-getting-there", "lanai ferry");
+  ok(top("kalaupapa") === "place-molokai-kalaupapa", "kalaupapa");
+  ok(top("garden of the gods") === "place-lanai-garden-of-gods", "garden of the gods");
+  ok((top("things to do on molokai") || "").includes("molokai"), "things to do molokai");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

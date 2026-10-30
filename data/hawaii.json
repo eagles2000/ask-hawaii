@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.17.0",
+ "version": "0.18.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -5223,7 +5223,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5324,7 +5325,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5416,7 +5418,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5504,7 +5507,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5591,7 +5595,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5675,7 +5680,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5755,7 +5761,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5829,7 +5836,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5906,7 +5914,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -5975,7 +5984,8 @@
     "plan my day",
     "stops",
     "sightseeing",
-    "drive around"
+    "drive around",
+    "things to do"
    ],
    "stops": [
     {
@@ -7623,6 +7633,474 @@
     }
    ],
    "last_checked": "2026-10-29"
+  },
+  {
+   "id": "guide-molokai-getting-there",
+   "type": "guide",
+   "title": "Getting to and around Molokaʻi",
+   "island": "Molokaʻi",
+   "county": "Maui County",
+   "summary": "You can only fly to Molokaʻi: the passenger ferry from Lāhainā stopped in 2016 (Maui County plans a new one around 2029). Mokulele Airlines flies small planes from Honolulu and Kahului to Hoʻolehua Airport (MKK), and Lānaʻi Air flies from Honolulu. Alamo is the only rental car company and there's no rideshare, so book a car with your flight.",
+   "details": [
+    "Flights: Mokulele Airlines (Honolulu and Kahului to MKK); Lānaʻi Air from Honolulu (uses a hangar on Kaulele Place; courtesy shuttle needs 48 hours' notice).",
+    "No ferry since October 2016. Maui County plans to build boats from 2027 and start Molokaʻi service in 2029.",
+    "Rental cars: Alamo only at the airport, with a small fleet. Book early. No Uber or Lyft.",
+    "A free Maui Economic Opportunity bus runs weekdays with limited Saturday service; call 808-553-3218 to confirm times.",
+    "Gas is pricier and there are only a couple of stations; fill up in Kaunakakai.",
+    "Kaunakakai is the only town: groceries, bank, post office, restaurants. Stores close early and Sundays are quiet."
+   ],
+   "tags": [
+    "molokai",
+    "getting to molokai",
+    "flights",
+    "mokulele",
+    "lanai air",
+    "ferry",
+    "rental car",
+    "kaunakakai",
+    "how to get to molokai"
+   ],
+   "sources": [
+    {
+     "name": "Wanderlustyle: Molokaʻi travel guide (Aug. 2026)",
+     "url": "https://wanderlustyle.com/molokai-travel-guide/"
+    },
+    {
+     "name": "Maui Now: County ferry plan for Lānaʻi (2027) and Molokaʻi (2029)",
+     "url": "https://mauinow.com/2026/09/20/maui-county-run-ferry-service-aims-to-launch-for-lanai-next-year-molokai-in-2029/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-molokai-kalaupapa",
+   "type": "place",
+   "title": "Kalaupapa: the lookout and the paused tours",
+   "island": "Molokaʻi",
+   "county": "Maui County",
+   "summary": "Kalaupapa is the remote peninsula below Molokaʻi's sea cliffs where thousands of people with Hansen's disease (leprosy) were forcibly isolated from 1866 to 1969. You can see it from the Kalaupapa Lookout in Pālāʻau State Park (free, 7 a.m. to 7 p.m.). Public tours to the settlement were paused after a single National Park Service tour on July 9, 2026, with no restart date.",
+   "details": [
+    "Kalaupapa Lookout, Pālāʻau State Park: free; open daily 7 a.m. to 7 p.m.; the settlement is about 1,600 feet below.",
+    "Public tours: the National Park Service ran one guided hiking tour on July 9, 2026, then paused tours after community protests; no timeline to resume.",
+    "The Pali Trail down the cliff crosses private land and isn't open to general visitors.",
+    "History: from 1866 to 1969, people with Hansen's disease were sent here; Saint Damien and Saint Marianne Cope served the community.",
+    "Kalaupapa National Historical Park remains home to a small number of former patients; please respect their privacy."
+   ],
+   "tags": [
+    "kalaupapa",
+    "kalaupapa lookout",
+    "palaau state park",
+    "father damien",
+    "leprosy",
+    "hansens disease",
+    "molokai history",
+    "national park",
+    "tours"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii News Now: Kalaupapa tour pause (July 2026)",
+     "url": "https://www.hawaiinewsnow.com/2026/07/12/molokai-activists-celebrate-kalaupapa-tour-pause-future-still-uncertain/"
+    },
+    {
+     "name": "Wanderlustyle: Molokaʻi travel guide (Aug. 2026)",
+     "url": "https://wanderlustyle.com/molokai-travel-guide/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "hike-halawa-valley",
+   "type": "hike",
+   "title": "Hālawa Valley guided hike to Moʻoula Falls (Molokaʻi)",
+   "island": "Molokaʻi",
+   "county": "Maui County",
+   "summary": "Hālawa Valley at Molokaʻi's east end is one of the oldest settled valleys in Hawaiʻi. The hike to 250-foot Moʻoula (Moaʻula) Falls crosses private land, so you must go with a guide: the Solatorio ʻohana leads tours at 9 a.m. Monday, Tuesday and Thursday through Saturday, about 3.4 miles round trip with two river crossings, $100 adults and $65 kids 4 to 12.",
+   "details": [
+    "Guided only: the valley is privately owned.",
+    "Solatorio ʻohana tours: 9 a.m. Mon., Tue., Thu., Fri., Sat. (closed Wed. and Sun.). About 3.4 miles round trip with two stream crossings.",
+    "Price: $100 adults, $65 kids 4 to 12; two-person minimum.",
+    "Another guide, Mystical Molokai, has also led valley hikes.",
+    "Wear closed-toe shoes that can get wet; expect mud and mosquitoes.",
+    "Local lore: float a ti leaf on the pool; if it sinks, don't swim."
+   ],
+   "tags": [
+    "halawa valley",
+    "halawa",
+    "moaula falls",
+    "mooula falls",
+    "waterfall",
+    "molokai hike",
+    "guided hike",
+    "east end"
+   ],
+   "sources": [
+    {
+     "name": "Wanderlustyle: Molokaʻi travel guide (Aug. 2026)",
+     "url": "https://wanderlustyle.com/molokai-travel-guide/"
+    },
+    {
+     "name": "Hawaiʻi Magazine: A hike into Hālawa Valley",
+     "url": "https://www.hawaiimagazine.com/a-hike-into-molokais-lush-halawa-valley-to-its-250-foot-moaula-falls"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-molokai-east-end",
+   "type": "trip",
+   "title": "Molokaʻi day trip: the East End to Hālawa",
+   "island": "Molokaʻi",
+   "county": "Maui County",
+   "summary": "Drive east from Kaunakakai along Kamehameha V Highway, the slow coastal road past old Hawaiian fishponds and St. Joseph Church, built by Father Damien in 1876, to the end of the road at Hālawa Valley and Hālawa Beach Park. Pick up hot bread or lunch in Kaunakakai first; there are few services out east.",
+   "details": [
+    "1. Kaunakakai: gas up, then Kanemitsu Bakery for breakfast or bread.",
+    "2. St. Joseph Church (Kamalō): small wooden church built by Father Damien in 1876.",
+    "3. The coast road: ancient fishponds along the shore; the road gets narrow and winding past mile 20. Drive slowly and wave.",
+    "4. Hālawa Valley and Hālawa Beach Park at the end of the road; book the guided falls hike ahead.",
+    "Plan most of a day; same road back.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "molokai",
+    "east end",
+    "halawa",
+    "st joseph church",
+    "father damien",
+    "kamehameha v highway",
+    "fishponds",
+    "kaunakakai",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "GoHawaii: Molokaʻi East End",
+     "url": "https://www.gohawaii.com/de/islands/molokai/regions/east-end"
+    },
+    {
+     "name": "Wanderlustyle: Molokaʻi travel guide (Aug. 2026)",
+     "url": "https://wanderlustyle.com/molokai-travel-guide/"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "stops": [
+    {
+     "name": "Kaunakakai",
+     "q": "Kaunakakai, HI"
+    },
+    {
+     "name": "Kanemitsu Bakery",
+     "q": "Kanemitsu Bakery, Kaunakakai, HI"
+    },
+    {
+     "name": "St. Joseph Church",
+     "q": "St. Joseph Church, Kamalo, HI"
+    },
+    {
+     "name": "Hālawa Beach Park",
+     "q": "Halawa Beach Park, Molokai, HI"
+    }
+   ]
+  },
+  {
+   "id": "trip-molokai-west-central",
+   "type": "trip",
+   "title": "Molokaʻi day trip: Kalaupapa Lookout, macadamia farm and Pāpōhaku Beach",
+   "island": "Molokaʻi",
+   "county": "Maui County",
+   "summary": "A west and central Molokaʻi loop: Purdy's macadamia nut farm in Hoʻolehua, the Kalaupapa Lookout in Pālāʻau State Park, the quiet old plantation town of Maunaloa, and sunset on Pāpōhaku, one of Hawaiʻi's biggest white-sand beaches (walk it, but swimming is usually unsafe).",
+   "details": [
+    "1. Kaunakakai: supplies and gas.",
+    "2. Purdy's Natural Macadamia Nut Farm (Hoʻolehua): crack your own nuts, try macadamia blossom honey; call 808-567-6601 for hours.",
+    "3. Pālāʻau State Park and the Kalaupapa Lookout (free, 7 a.m. to 7 p.m.).",
+    "4. Maunaloa: small former plantation town on the West End.",
+    "5. Pāpōhaku Beach: huge white-sand beach; strong shore break and currents, so it's for walking and sunsets, not swimming.",
+    "Few stores outside Kaunakakai; bring water and snacks.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "molokai",
+    "west end",
+    "papohaku",
+    "papohaku beach",
+    "purdys",
+    "macadamia",
+    "kalaupapa lookout",
+    "palaau",
+    "maunaloa",
+    "sunset",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Wanderlustyle: Molokaʻi travel guide (Aug. 2026)",
+     "url": "https://wanderlustyle.com/molokai-travel-guide/"
+    },
+    {
+     "name": "GoHawaii: Pāpōhaku Beach",
+     "url": "https://www.gohawaii.com/islands/molokai/regions/west-end/papohaku-beach"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "stops": [
+    {
+     "name": "Kaunakakai",
+     "q": "Kaunakakai, HI"
+    },
+    {
+     "name": "Purdy's Macadamia Nut Farm",
+     "q": "Purdy's Natural Macadamia Nut Farm, Hoolehua, HI"
+    },
+    {
+     "name": "Kalaupapa Lookout",
+     "q": "Palaau State Park, Kalae, HI"
+    },
+    {
+     "name": "Maunaloa",
+     "q": "Maunaloa, HI"
+    },
+    {
+     "name": "Pāpōhaku Beach",
+     "q": "Papohaku Beach Park, Maunaloa, HI"
+    }
+   ]
+  },
+  {
+   "id": "culture-molokai-etiquette",
+   "type": "culture",
+   "title": "Visiting Molokaʻi respectfully: the Friendly Isle",
+   "island": "Molokaʻi",
+   "county": "Maui County",
+   "summary": "Molokaʻi is rural and proud of it, with a long history of resisting big resort development. Wave to other drivers, pull over to let locals pass, ask before parking or walking on land that may be private, buy from local farm stands and markets, and plan around early-closing stores and quiet Sundays.",
+   "details": [
+    "Wave at oncoming drivers; pull over if cars stack up behind you.",
+    "Much land is private: ask before parking or walking; stay on public beaches and parks.",
+    "Stores close early and Sundays are quiet; shop on a weekday afternoon.",
+    "Support local businesses: farm stands, Kanemitsu Bakery, small markets.",
+    "Drones: check rules and get permission before flying.",
+    "Many places have limited or no cell service; download maps before you go."
+   ],
+   "tags": [
+    "molokai",
+    "friendly isle",
+    "etiquette",
+    "respect",
+    "rules",
+    "molokai culture",
+    "private land"
+   ],
+   "sources": [
+    {
+     "name": "Wanderlustyle: Molokaʻi travel guide (Aug. 2026)",
+     "url": "https://wanderlustyle.com/molokai-travel-guide/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "guide-lanai-getting-there",
+   "type": "guide",
+   "title": "Getting to and around Lānaʻi",
+   "island": "Lānaʻi",
+   "county": "Maui County",
+   "summary": "Most visitors arrive on the Expeditions ferry from Māʻalaea Harbor on Maui: three round trips a day, about 1 hour 10 minutes each way (Māʻalaea departs 6:30 a.m., 11 a.m., 3:30 p.m.; Mānele departs 8:30 a.m., 1 p.m., 5:30 p.m.). You can also fly into Lānaʻi Airport. Most of the island's roads are dirt, so a 4WD Jeep is needed beyond Lānaʻi City.",
+   "details": [
+    "Ferry: Expeditions, Māʻalaea Harbor (Maui) to Mānele Harbor (Lānaʻi). Reservations 800-695-2624. Times can change; check the booking calendar.",
+    "Maui County plans to take over the route with a contracted operator around mid-2027.",
+    "Fly: small-plane service into Lānaʻi Airport (LNY).",
+    "Getting around: Lānaʻi City has one main paved road network; beyond it, roads are dirt and cinder. Dollar Rent A Car Lānaʻi rents Jeep Wranglers for off-road routes; Four Seasons guests can rent Jeeps.",
+    "Rental contracts often exclude damage on unpaved roads; read yours.",
+    "Hulopoʻe Beach is a short walk or ride from the ferry dock, so a day trip without a car is possible."
+   ],
+   "tags": [
+    "lanai",
+    "getting to lanai",
+    "ferry",
+    "expeditions",
+    "maalaea",
+    "manele",
+    "jeep",
+    "4wd",
+    "rental car",
+    "how to get to lanai"
+   ],
+   "sources": [
+    {
+     "name": "Expeditions Maui–Lānaʻi ferry",
+     "url": "https://go-lanai.com"
+    },
+    {
+     "name": "Maui Now: County ferry plan for Lānaʻi (2027) and Molokaʻi (2029)",
+     "url": "https://mauinow.com/2026/09/20/maui-county-run-ferry-service-aims-to-launch-for-lanai-next-year-molokai-in-2029/"
+    },
+    {
+     "name": "How to Live in Hawaiʻi: Polihua and Keahiakawelo by 4WD",
+     "url": "https://howtoliveinhawaii.com/polihua-lanai-4wd-shoreline-garden-of-gods/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-lanai-hulopoe-puu-pehe",
+   "type": "place",
+   "title": "Hulopoʻe Bay and Puʻu Pehe (Sweetheart Rock), Lānaʻi",
+   "island": "Lānaʻi",
+   "county": "Maui County",
+   "summary": "Lānaʻi's best beach, Hulopoʻe Bay, is a protected marine area with clear water and reef for snorkeling, right near the Mānele ferry dock. A short trail from the beach leads to the cliffs overlooking Puʻu Pehe, the sea stack called Sweetheart Rock. Spinner dolphins often visit the bay in the morning.",
+   "details": [
+    "Hulopoʻe Beach Park: white sand, calm on most days, good snorkeling on the reef; restrooms and showers.",
+    "It's a protected marine area: don't take shells, rocks or marine life, and don't feed fish.",
+    "Puʻu Pehe (Sweetheart Rock): a short, rocky trail from the left end of Hulopoʻe to the cliff overlook. Stay back from the edge.",
+    "Spinner dolphins may come in to rest; federal rules say stay at least 50 yards away and don't swim with them.",
+    "Walkable from the Mānele ferry harbor, so it works on a ferry day trip."
+   ],
+   "tags": [
+    "hulopoe",
+    "hulopoe bay",
+    "hulopoe beach",
+    "puu pehe",
+    "sweetheart rock",
+    "lanai beach",
+    "snorkel",
+    "dolphins",
+    "manele"
+   ],
+   "sources": [
+    {
+     "name": "HawaiiActivities: Lānaʻi day trip from Maui",
+     "url": "https://hawaiiactivities.com/travelguide/the-ultimate-day-trip-itinerary-for-lanai-from-maui"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-lanai-garden-of-gods",
+   "type": "place",
+   "title": "Keahiakawelo (Garden of the Gods) and Polihua, Lānaʻi",
+   "island": "Lānaʻi",
+   "county": "Maui County",
+   "summary": "Keahiakawelo is a field of red, orange and purple rock formations about 4 miles from Lānaʻi City on Polihua Road. The first 1.3 miles are paved, then gravel; a regular SUV can reach Keahiakawelo, but continuing to remote Polihua Beach needs a real 4WD. Don't stack or take rocks; it's a culturally important place.",
+   "details": [
+    "Distance: about 4.2 miles from Lānaʻi City; about 10.8 miles (45 minutes) to Polihua Beach.",
+    "Road: paved for 1.3 miles, then gravel and dirt; past Keahiakawelo it's loose cinder and steep, 4WD only.",
+    "Please don't stack rocks or build cairns, and take nothing home. In Hawaiian tradition the place is tied to a contest between two kahuna.",
+    "Polihua Beach: swimming is not safe (steep shore break, strong current, no lifeguard, no phone service).",
+    "Swim and snorkel at Hulopoʻe Bay instead.",
+    "Also on the north shore: Shipwreck Beach (Kaiolohia), with an old wreck offshore, reached by 4WD."
+   ],
+   "tags": [
+    "garden of the gods",
+    "keahiakawelo",
+    "polihua",
+    "polihua beach",
+    "shipwreck beach",
+    "kaiolohia",
+    "lanai",
+    "4wd",
+    "red rocks"
+   ],
+   "sources": [
+    {
+     "name": "How to Live in Hawaiʻi: Polihua and Keahiakawelo by 4WD",
+     "url": "https://howtoliveinhawaii.com/polihua-lanai-4wd-shoreline-garden-of-gods/"
+    },
+    {
+     "name": "HawaiiActivities: Lānaʻi day trip from Maui",
+     "url": "https://hawaiiactivities.com/travelguide/the-ultimate-day-trip-itinerary-for-lanai-from-maui"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "trip-lanai-day-trip",
+   "type": "trip",
+   "title": "Lānaʻi day trip from Maui",
+   "island": "Lānaʻi",
+   "county": "Maui County",
+   "summary": "Take the morning Expeditions ferry from Māʻalaea, snorkel Hulopoʻe Bay and see Sweetheart Rock, head up to Lānaʻi City for lunch (Blue Ginger Café is a favorite) and the Lānaʻi Culture & Heritage Center on Dole Park, then, with a Jeep, drive out to Keahiakawelo (Garden of the Gods) before catching the last ferry back.",
+   "details": [
+    "1. Mānele Harbor: ferry arrives from Māʻalaea (first boat leaves Maui at 6:30 a.m.).",
+    "2. Hulopoʻe Beach and the Puʻu Pehe overlook: swim, snorkel, watch for dolphins.",
+    "3. Lānaʻi City: Dole Park, shops, lunch at Blue Ginger Café or Nō Ka ʻOi Grindz.",
+    "4. Lānaʻi Culture & Heritage Center (Dole Park): free; island history from Hawaiian times through the pineapple era. Check current hours.",
+    "5. Keahiakawelo (Garden of the Gods): Jeep or high-clearance SUV.",
+    "Last ferry back to Maui leaves Mānele at 5:30 p.m.; arrive early.",
+    "Tap \"Open all stops in Google Maps\" for the whole route. Phone browsers may show only the first few stops; the Google Maps app shows them all."
+   ],
+   "tags": [
+    "lanai",
+    "lanai day trip",
+    "from maui",
+    "ferry",
+    "hulopoe",
+    "lanai city",
+    "dole park",
+    "garden of the gods",
+    "blue ginger",
+    "day trip",
+    "itinerary",
+    "road trip",
+    "what to do",
+    "plan my day",
+    "stops",
+    "sightseeing",
+    "things to do"
+   ],
+   "sources": [
+    {
+     "name": "Expeditions Maui–Lānaʻi ferry",
+     "url": "https://go-lanai.com"
+    },
+    {
+     "name": "HawaiiActivities: Lānaʻi day trip from Maui",
+     "url": "https://hawaiiactivities.com/travelguide/the-ultimate-day-trip-itinerary-for-lanai-from-maui"
+    },
+    {
+     "name": "Go Visit Hawaiʻi: Lānaʻi Culture & Heritage Center",
+     "url": "https://www.govisithawaii.com/2011/05/05/visiting-the-lanai-culture-heritage-center/"
+    },
+    {
+     "name": "Hawaiʻi Magazine: 2026 Readers' Choice, Molokaʻi and Lānaʻi",
+     "url": "https://www.hawaiimagazine.com/2026-readers-choice-awards-molokai-and-lanai/"
+    }
+   ],
+   "last_checked": "2026-10-29",
+   "stops": [
+    {
+     "name": "Mānele Harbor",
+     "q": "Manele Small Boat Harbor, Lanai, HI"
+    },
+    {
+     "name": "Hulopoʻe Beach",
+     "q": "Hulopoe Beach Park, Lanai City, HI"
+    },
+    {
+     "name": "Lānaʻi City (Dole Park)",
+     "q": "Dole Park, Lanai City, HI"
+    },
+    {
+     "name": "Keahiakawelo (Garden of the Gods)",
+     "q": "Keahiakawelo, Lanai City, HI"
+    },
+    {
+     "name": "Mānele Harbor",
+     "q": "Manele Small Boat Harbor, Lanai, HI"
+    }
+   ]
   }
  ]
 }
