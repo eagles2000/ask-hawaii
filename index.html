@@ -494,7 +494,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     ["Botanical gardens", "Every island's best gardens", "cat:garden", "leaf"],
     ["Shopping centers", "Malls and markets, every island", "cat:shop", "bag"],
     ["Tours & lūʻau", "Lūʻau, cruises, snorkel, surf", "cat:tour", "wave"],
-    ["Lunch wagons", "Food trucks on every island", "cat:food", "food"],
+    ["Hawaiian food & lunch wagons", "Laulau, poi, saimin, food trucks", "cat:food", "food"],
     ["Who to call", "Emergencies and injured wildlife", "who to call emergency injured wildlife", "phone"],
     ["Driving routes", "Waikīkī to anywhere on Oʻahu", "cat:route", "car"],
     ["Events calendar", "Festivals, surf contests, races", "cat:event", "calendar"]
@@ -583,7 +583,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
 
   // Categories: every entry grouped by type, with counts
   var CATORDER = ["trip", "tour", "event", "food", "place", "garden", "animal", "shop", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
-  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Lunch wagons & food", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities", trip: "Island day trips" };
+  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Hawaiian food & lunch wagons", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities", trip: "Island day trips" };
   var curCat = "";
   function markCats() { $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === curCat)); }); }
   function loadCats() {

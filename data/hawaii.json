@@ -1,6 +1,6 @@
 {
  "name": "Ask Hawaiʻi",
- "version": "0.14.0",
+ "version": "0.15.0",
  "last_updated": "2026-10-29",
  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
  "entries": [
@@ -6015,6 +6015,470 @@
     {
      "name": "National Park Service: Hawaiʻi Volcanoes",
      "url": "https://www.nps.gov/havo/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-hawaiian-dishes-guide",
+   "type": "food",
+   "title": "Hawaiian food explained: laulau, kālua pig, poi and more",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "A traditional Hawaiian plate usually has laulau or kālua pig with poi, lomi salmon, chicken long rice or squid lūʻau, and haupia for dessert. Poi, pounded taro, is the heart of the meal; eat it alongside the salty dishes.",
+   "details": [
+    "Laulau: pork (often with butterfish) wrapped in taro leaves and steamed for hours.",
+    "Kālua pig: smoky, salty pulled pork, traditionally cooked in an imu (underground oven).",
+    "Poi: cooked taro pounded with water; sour poi is older, fresh poi is sweeter.",
+    "Squid lūʻau: squid or octopus with young taro leaves in coconut milk.",
+    "Lomi salmon: diced salted salmon with tomato and onion, served cold.",
+    "Pipikaula: salted, dried beef, broiled until crisp, like Hawaiian jerky.",
+    "Chicken long rice: glass noodles in ginger-chicken broth.",
+    "Haupia: firm coconut pudding squares. Kūlolo: dense baked taro and coconut.",
+    "Poke: raw cubed fish (often ʻahi) seasoned with salt, shoyu, sesame oil and onion.",
+    "Ask for a Hawaiian plate to try several at once.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "laulau",
+    "lau lau",
+    "kalua pig",
+    "kalua pork",
+    "poi",
+    "squid luau",
+    "lomi salmon",
+    "pipikaula",
+    "haupia",
+    "kulolo",
+    "chicken long rice",
+    "poke",
+    "what is hawaiian food",
+    "hawaiian plate",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: What to eat in Hawaiʻi (July 2026)",
+     "url": "https://www.hawaii-guide.com/hawaii-eats/what-to-eat"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-helenas-hawaiian-food",
+   "type": "food",
+   "title": "Helena's Hawaiian Food (Kalihi, Honolulu)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A family-run Hawaiian food restaurant at 1240 N. School St. in Kalihi, open since 1946 and winner of a James Beard America's Classics award in 2000. It's famous for pipikaula short ribs and squid lūʻau. Tables are hard to get; ordering ahead helps.",
+   "details": [
+    "Address: 1240 N. School St., Honolulu (Kalihi). Phone 808-845-8044.",
+    "Since 1946; James Beard Foundation America's Classics award, 2000.",
+    "Order: pipikaula short ribs, squid lūʻau, laulau, kālua pig, poi, haupia.",
+    "Small and busy; Hawaiʻi Magazine suggests ordering online for takeout.",
+    "About 15 minutes from Waikīkī by car.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "helenas",
+    "helena's",
+    "kalihi",
+    "pipikaula",
+    "short ribs",
+    "james beard",
+    "squid luau",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: 5 best traditional Hawaiian restaurants on Oʻahu (updated May 2026)",
+     "url": "https://www.hawaiimagazine.com/the-5-best-traditional-hawaiian-restaurants-on-oahu/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-highway-inn",
+   "type": "food",
+   "title": "Highway Inn (Waipahu and Kakaʻako)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "One of Oʻahu's best-known Hawaiian food restaurants, started in 1947 by Seiichi and Nancy Toguchi in Waipahu. Locations in Waipahu and Kakaʻako; try the Tasting Plate (kālua pig, chicken long rice, lomi salmon, squid lūʻau). Closes at 3 p.m. on Sundays.",
+   "details": [
+    "Founded September 1947 on Farrington Highway; now on Moloalo Street in Waipahu (since 2020).",
+    "Kakaʻako location opened in 2013, near Ala Moana; adds fish tacos, kālua pig nachos and laulau spring rolls.",
+    "Its Bishop Museum café was rebranded Tūtū's Place in 2025.",
+    "Signature dishes: pipikaula, hand-wrapped laulau, beef stew, kālua pig, squid lūʻau, haupia.",
+    "Closes at 3 p.m. on Sundays; closed major holidays.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "highway inn",
+    "waipahu",
+    "kakaako",
+    "tasting plate",
+    "toguchi",
+    "bishop museum",
+    "tutus place",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Aloha State Daily: Iconic Eats, Highway Inn (Oct. 2026)",
+     "url": "https://alohastatedaily.com/2026/10/08/iconic-eats-highway-inn/"
+    },
+    {
+     "name": "Hawaiʻi Magazine: 5 best traditional Hawaiian restaurants on Oʻahu (updated May 2026)",
+     "url": "https://www.hawaiimagazine.com/the-5-best-traditional-hawaiian-restaurants-on-oahu/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-oahu-more-hawaiian",
+   "type": "food",
+   "title": "More Hawaiian food on Oʻahu: Waiāhole Poi Factory and Yama's",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "On the windward side, Waiāhole Poi Factory (48-140 Kamehameha Hwy.) serves fresh hand-pounded poi, kālua pig and the Sweet Lady of Waiāhole dessert. In town, Yama's Fish Market (2332 Young St., since 1980) is a local favorite for laulau, poke and plate lunches. Note: Haili's Hawaiian Food in Kapahulu closed in June 2024.",
+   "details": [
+    "Waiāhole Poi Factory: 48-140 Kamehameha Hwy., Waiāhole (windward Oʻahu); 808-239-2222. Fresh poi, kālua pig, beef lūʻau; Sweet Lady of Waiāhole (kūlolo with haupia ice cream). Second location at Windward Mall since 2023.",
+    "Yama's Fish Market: 2332 Young St., Honolulu (Mōʻiliʻili); 808-941-9994. Poke, laulau, plate lunches, house-made haupia and kūlolo.",
+    "Haili's Hawaiian Food (Kapahulu, since 1958) closed June 30, 2024; older guides still list it.",
+    "Waiāhole is on the circle island route, between Kāneʻohe and Kualoa.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "waiahole poi factory",
+    "waiahole",
+    "poi",
+    "yamas",
+    "yama's fish market",
+    "hailis",
+    "haili's",
+    "kapahulu",
+    "windward",
+    "sweet lady",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: 5 best traditional Hawaiian restaurants on Oʻahu (updated May 2026)",
+     "url": "https://www.hawaiimagazine.com/the-5-best-traditional-hawaiian-restaurants-on-oahu/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-oahu-poke",
+   "type": "food",
+   "title": "Where to get poke on Oʻahu",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Poke (raw cubed fish, usually ʻahi) is everywhere on Oʻahu, from grocery counters to fish markets. Favorites include Ono Seafood (747 Kapahulu Ave., near Waikīkī), Foodland's poke counters, Tamura's Fine Wine, Fresh Catch and Maguro Brothers.",
+   "details": [
+    "Ono Seafood: 747 Kapahulu Ave., Honolulu; small shop known for its shoyu ʻahi poke and poke bowls.",
+    "Foodland supermarkets: big poke counters at most stores; flavors vary by store.",
+    "Tamura's Fine Wine & Liquors: poke counter at the back (king crab, kimchi tako) plus Hawaiʻi's biggest wine selection.",
+    "Fresh Catch: dozens of varieties, including smoked tako and ʻahi with limu.",
+    "Maguro Brothers: started in Chinatown; watch them cut the tuna.",
+    "Order by the pound or as a bowl over rice; eat it the same day.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "poke",
+    "ahi",
+    "ahi poke",
+    "poke bowl",
+    "ono seafood",
+    "foodland",
+    "tamuras",
+    "fresh catch",
+    "maguro brothers",
+    "fish market",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: 5 best places for poke on Oʻahu",
+     "url": "https://www.hawaiimagazine.com/the-5-best-places-to-get-poke-on-oahu/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-maui-hawaiian-food",
+   "type": "food",
+   "title": "Hawaiian and local food on Maui",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "On Maui, try the laulau plate at Da Kitchen in Kīhei, Aloha Mixed Plate in Lāhainā (reopened after the fire), and Sam Sato's in Wailuku for Maui's famous dry mein noodles. For a full traditional spread with poi, the Old Lāhainā Lūʻau reopened at its original spot in March 2024.",
+   "details": [
+    "Da Kitchen: 1215 S. Kīhei Rd., Kīhei; laulau plate and mixed plates are local favorites.",
+    "Aloha Mixed Plate: Lāhainā; listed as open in 2026 recovery updates.",
+    "Sam Sato's: Wailuku; known for dry mein, a Maui-style saimin without the soup.",
+    "Old Lāhainā Lūʻau: 1251 Front St.; reopened March 12, 2024; traditional family-style feast with poi (about $230 adults).",
+    "Mama's Fish House (Pāʻia): upscale, with poi and taro sides.",
+    "Grab-and-go: local poi is often sold in grocery and liquor store coolers (for example Tamura's in Kīhei).",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "maui",
+    "da kitchen",
+    "kihei",
+    "aloha mixed plate",
+    "lahaina",
+    "sam satos",
+    "sam sato's",
+    "dry mein",
+    "wailuku",
+    "old lahaina luau",
+    "laulau",
+    "poi",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Maui dining (June 2026)",
+     "url": "https://hawaii-guide.com/maui/dining"
+    },
+    {
+     "name": "Hawaiʻi Guide: Top poi spots on Maui (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/maui/best-poi-locations-maui"
+    },
+    {
+     "name": "Hawaiʻi Magazine: Sam Sato's dry mein",
+     "url": "https://www.hawaiimagazine.com/blogs/hawaii_today/2014/1/3/maui_sam_satos_dry_mein_noodle"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-kauai-hawaiian-food",
+   "type": "food",
+   "title": "Hawaiian and local food on Kauaʻi",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "For Hawaiian food on Kauaʻi: Hanalei Taro & Juice Co. (poi and laulau from the family's own taro farm), Mark's Place in Puhi near Līhuʻe (laulau and mixed plates), and Pono Market and Smiley's Local Grinds in Kapaʻa. Go early; laulau sells out.",
+   "details": [
+    "Hanalei Taro & Juice Co.: Hanalei, North Shore; food truck; poi and pork or fish laulau using the family's taro. Menu changes daily.",
+    "Mark's Place: Puhi (Līhuʻe area); pork laulau and mixed plates.",
+    "Pono Market: Kapaʻa; small market and deli; laulau, poke and lomi salmon; sells out early.",
+    "Smiley's Local Grinds: Kapaʻa; laulau favorite.",
+    "Konohiki Seafoods: Līhuʻe; poke bowls.",
+    "Costco Līhuʻe sells packaged laulau from Hawaiian brands to heat up at your rental.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "kauai",
+    "hanalei taro",
+    "poi",
+    "laulau",
+    "marks place",
+    "puhi",
+    "pono market",
+    "kapaa",
+    "smileys",
+    "konohiki",
+    "lihue",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Guide: Top laulau spots on Kauaʻi (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/kauai/best-lau-lau-locations-kauai"
+    },
+    {
+     "name": "Hawaiʻi Magazine: 12 dishes every traveler to Kauaʻi should try",
+     "url": "https://www.hawaiimagazine.com/12-iconic-kauai-dishes/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-hawaii-island-hawaiian-food",
+   "type": "food",
+   "title": "Hawaiian and local food on Hawaiʻi Island",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "On Hawaiʻi Island, Hawaiian Style Cafe in Hilo serves huge local plates with kalua pork, Super J's in Captain Cook is known for laulau, and Broke da Mouth Grindz in Kailua-Kona does kālua pig and plate lunches. In Hilo, Café 100 serves the loco moco where it was born.",
+   "details": [
+    "Hawaiian Style Cafe: Hilo; big breakfasts, loco moco, kalua pork plates; cash preferred; usually packed.",
+    "Super J's: Captain Cook (South Kona); laulau with kālua pork, lomi salmon and poi; call ahead, can sell out by early afternoon.",
+    "Broke da Mouth Grindz: Kailua-Kona; kālua pig, chicken katsu, garlic shrimp; arrive early.",
+    "Umeke's Fish Market: Kailua-Kona; poke by the pound.",
+    "Café 100: 969 Kīlauea Ave., Hilo; the loco moco since 1949.",
+    "Ken's House of Pancakes: Hilo; open 24 hours; plate lunches and saimin.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "big island",
+    "hawaii island",
+    "hilo",
+    "kona",
+    "hawaiian style cafe",
+    "super js",
+    "super j's",
+    "captain cook",
+    "broke da mouth",
+    "umekes",
+    "cafe 100",
+    "loco moco",
+    "laulau",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Wanderlustyle: Where to eat on the Big Island (Aug. 2026)",
+     "url": "https://wanderlustyle.com/where-to-eat-big-island/"
+    },
+    {
+     "name": "Hawaiʻi Magazine: Loco moco in Hilo",
+     "url": "https://www.hawaiimagazine.com/where-to-eat-a-loco-moco-in-hilo-the-town-that-invented-it/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-saimin",
+   "type": "food",
+   "title": "Saimin: Hawaiʻi's noodle soup and where to get it",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Saimin is Hawaiʻi's own noodle soup, born in the plantation era, with wavy noodles in light dashi broth topped with green onion, kamaboko and char siu. Classics: Hamura Saimin in Līhuʻe, Kauaʻi (since 1952, cash only, famous lilikoʻi chiffon pie), Palace Saimin in Kalihi, Shiro's Saimin Haven in ʻAiea, and Sam Sato's dry mein on Maui.",
+   "details": [
+    "Hamura Saimin: 2956 Kress St., Līhuʻe, Kauaʻi; since 1952; counter seating; cash only; get the lilikoʻi chiffon pie.",
+    "Palace Saimin: 1256 N. King St., Honolulu (Kalihi); old-school, recipes unchanged since the 1940s.",
+    "Shiro's Saimin Haven: ʻAiea (98-020 Kamehameha Hwy.); 60+ versions, since 1969.",
+    "Sam Sato's (Wailuku, Maui): dry mein, a Maui twist with the broth on the side.",
+    "Zippy's: Oʻahu's local diner chain also serves saimin at many locations.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "saimin",
+    "noodles",
+    "noodle soup",
+    "hamura",
+    "hamuras",
+    "palace saimin",
+    "shiros",
+    "sam satos",
+    "dry mein",
+    "lilikoi pie",
+    "plantation",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Onolicious Hawaiʻi: Hamura Saimin",
+     "url": "https://onolicioushawaii.com/hamura-saimin/"
+    },
+    {
+     "name": "Hawaiʻi Guide: Best saimin on Oʻahu (Mar. 2026)",
+     "url": "https://www.hawaii-guide.com/oahu/best-saimin-locations-oahu"
+    },
+    {
+     "name": "Hawaiʻi Magazine: 12 dishes every traveler to Kauaʻi should try",
+     "url": "https://www.hawaiimagazine.com/12-iconic-kauai-dishes/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "food-molokai-lanai",
+   "type": "food",
+   "title": "Food on Molokaʻi and Lānaʻi: where to eat",
+   "island": [
+    "Molokaʻi",
+    "Lānaʻi"
+   ],
+   "county": "Maui County",
+   "summary": "On Molokaʻi, Kanemitsu Bakery is famous for its hot bread, and local favorites include Kualapuʻu Cookhouse, Hiro's ʻOhana Grill and Paddlers Restaurant. On Lānaʻi, Blue Ginger Café and Nō Ka ʻOi Grindz in Lānaʻi City are reader favorites, with Nobu and Malibu Farm at the resorts.",
+   "details": [
+    "Molokaʻi favorites (Hawaiʻi Magazine 2026 Readers' Choice): Kualapuʻu Cookhouse, Hiro's ʻOhana Grill, Paddlers Restaurant and Bar.",
+    "Molokaʻi cheap eats: Kanemitsu Bakery & Coffee Shop (hot bread), ʻOno Fish & Shrimp Truck, Molokaʻi Burger, Manaʻe Goods & Grindz, Molokaʻi Pizza Café.",
+    "Lānaʻi favorites: Blue Ginger Café, Nō Ka ʻOi Grindz Lānaʻi, Lānaʻi City Bar & Grill, Malibu Farm, Nobu Lānaʻi.",
+    "Lānaʻi cheap eats: Manele General Store, Coffee Works, Blue Ginger Café.",
+    "Both islands have few restaurants and short hours; many close early or on certain days.",
+    "Hours change and many small spots sell out or close early; call or check online before you go."
+   ],
+   "tags": [
+    "molokai",
+    "lanai",
+    "kanemitsu",
+    "hot bread",
+    "kualapuu cookhouse",
+    "paddlers",
+    "blue ginger",
+    "no ka oi grindz",
+    "lanai city",
+    "kaunakakai",
+    "hawaiian food",
+    "where to eat",
+    "food",
+    "restaurant",
+    "restaurants",
+    "local food",
+    "eat"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Magazine: 2026 Readers' Choice, Molokaʻi and Lānaʻi",
+     "url": "https://www.hawaiimagazine.com/2026-readers-choice-awards-molokai-and-lanai/"
     }
    ],
    "last_checked": "2026-10-29"

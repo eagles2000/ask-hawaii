@@ -142,6 +142,12 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(/waypoints=/.test(kb.get("trip-oahu-circle-island").google_maps), "multi-stop maps link");
   ok(kb.DATA.entries.filter((e) => e.stops).every((e) => e.stops.length <= 11), "max 9 waypoints");
 
+  // Hawaiian food (v0.15)
+  ok(top("helenas") === "food-helenas-hawaiian-food", "helenas");
+  ok(top("what is poi") === "food-hawaiian-dishes-guide", "poi explained");
+  ok(top("saimin") === "food-saimin", "saimin");
+  ok(top("lanai food") === "food-molokai-lanai", "lanai food");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);
