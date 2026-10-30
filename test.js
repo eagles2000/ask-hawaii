@@ -74,6 +74,18 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(down.isError, "weather outage handled");
   global.fetch = realFetch;
 
+  // Batch 0.6 entries and category browsing
+  const top = (q) => (kb.search({ query: q, limit: 3 }).results[0] || {}).id;
+  ok(top("box jellyfish") === "safety-box-jellyfish", "box jellyfish");
+  ok(top("what to do in a rip current") === "safety-rip-currents", "rip current");
+  ok(top("can I swim in a waterfall") === "safety-leptospirosis-freshwater", "waterfall lepto");
+  ok(top("can I take pineapple home") === "rule-leaving-hawaii-agriculture", "ag inspection");
+  ok(top("what does mauka mean") === "culture-hawaiian-words", "hawaiian words");
+  ok(top("time difference hawaii") === "guide-time-zone", "time zone");
+  ok(kb.counts("").total === kb.DATA.entries.length, "counts total");
+  ok(kb.list({ type: "hike" }).items.every((e) => e.type === "hike"), "list by type");
+  ok(kb.list({ type: "safety", island: "Kauai" }).items.every((e) => e.island !== "Oʻahu"), "list island filter");
+
   // Every entry has a source and a date
   ok(kb.DATA.entries.every((e) => e.sources && e.sources.length && e.last_checked), "all entries sourced and dated");
   console.log(`${pass} passed, ${fail} failed, ${kb.DATA.entries.length} entries`);

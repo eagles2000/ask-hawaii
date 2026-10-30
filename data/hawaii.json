@@ -1,1616 +1,1998 @@
 {
-  "name": "Ask Hawaiʻi",
-  "version": "0.5.0",
-  "last_updated": "2026-10-30",
-  "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
-  "entries": [
+ "name": "Ask Hawaiʻi",
+ "version": "0.6.0",
+ "last_updated": "2026-10-29",
+ "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
+ "entries": [
+  {
+   "id": "place-hanauma-bay",
+   "type": "place",
+   "title": "Hanauma Bay Nature Preserve",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Protected marine preserve and popular snorkeling bay in East Oʻahu. Advance reservations are required, it is closed Mondays and Tuesdays, and every visitor must watch a short conservation video before going down to the beach.",
+   "details": [
+    "Closed every Monday and Tuesday, plus Christmas Day and New Year's Day. Open Wednesday through Sunday.",
+    "Entry from 6:45 a.m. to 1:30 p.m.; all visitors must leave by 4:00 p.m.",
+    "Reservations open 48 hours ahead at 7:00 a.m. Hawaiʻi time on the City and County of Honolulu Parks and Recreation website, and often sell out within minutes.",
+    "Entry fee: $25 per person for non-residents age 13 and up. Free for children 12 and under, Hawaiʻi residents with a valid state ID, and active-duty military.",
+    "Parking: $3 per vehicle, cash only ($1 for Hawaiʻi residents). A reservation does not guarantee parking.",
+    "A mandatory 9-minute conservation video is shown before entry.",
+    "The preserve closes temporarily for maintenance at times (for example, sewer-system work in August 2026). Check the official site before you go."
+   ],
+   "tags": [
+    "snorkeling",
+    "beach",
+    "reservations",
+    "east oahu",
+    "marine preserve",
+    "fees",
+    "kids",
+    "fish",
+    "reef"
+   ],
+   "sources": [
     {
-      "id": "place-hanauma-bay",
-      "type": "place",
-      "title": "Hanauma Bay Nature Preserve",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Protected marine preserve and popular snorkeling bay in East Oʻahu. Advance reservations are required, it is closed Mondays and Tuesdays, and every visitor must watch a short conservation video before going down to the beach.",
-      "details": [
-        "Closed every Monday and Tuesday, plus Christmas Day and New Year's Day. Open Wednesday through Sunday.",
-        "Entry from 6:45 a.m. to 1:30 p.m.; all visitors must leave by 4:00 p.m.",
-        "Reservations open 48 hours ahead at 7:00 a.m. Hawaiʻi time on the City and County of Honolulu Parks and Recreation website, and often sell out within minutes.",
-        "Entry fee: $25 per person for non-residents age 13 and up. Free for children 12 and under, Hawaiʻi residents with a valid state ID, and active-duty military.",
-        "Parking: $3 per vehicle, cash only ($1 for Hawaiʻi residents). A reservation does not guarantee parking.",
-        "A mandatory 9-minute conservation video is shown before entry.",
-        "The preserve closes temporarily for maintenance at times (for example, sewer-system work in August 2026). Check the official site before you go."
-      ],
-      "tags": [
-        "snorkeling",
-        "beach",
-        "reservations",
-        "east oahu",
-        "marine preserve",
-        "fees",
-        "kids",
-        "fish",
-        "reef"
-      ],
-      "sources": [
-        {
-          "name": "City and County of Honolulu, Department of Parks and Recreation",
-          "url": "https://www.honolulu.gov/dpr/hanauma-bay-nature-preserve/"
-        },
-        {
-          "name": "Hawaii Guide: Hanauma Bay",
-          "url": "https://hawaii-guide.com/oahu/sights/hanauma-bay"
-        },
-        {
-          "name": "Hawaii Travel with Kids: Hanauma Bay reservations",
-          "url": "https://hawaiitravelwithkids.com/hanauma-bay-reservations/"
-        }
-      ],
-      "last_checked": "2026-10-29"
+     "name": "City and County of Honolulu, Department of Parks and Recreation",
+     "url": "https://www.honolulu.gov/dpr/hanauma-bay-nature-preserve/"
     },
     {
-      "id": "place-sandy-beach",
-      "type": "place",
-      "title": "Sandy Beach Park",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Southeast Oʻahu beach known for a powerful shorebreak, nicknamed \"Broke Neck Beach\" because waves breaking in shallow water cause serious neck and spinal injuries. Not recommended for children or inexperienced swimmers.",
-      "details": [
-        "Waves break close to shore and can slam people into the sand, even when the surf looks small.",
-        "Lifeguards reportedly rescue an average of 2 to 3 swimmers per day.",
-        "Lifeguards urge parents with children to choose a different beach.",
-        "If you go in at all, talk to the lifeguards about conditions first, and never turn your back on the ocean, even on the sand."
-      ],
-      "tags": [
-        "beach",
-        "shorebreak",
-        "dangerous",
-        "bodysurfing",
-        "east oahu",
-        "spinal injury",
-        "lifeguard",
-        "kids"
-      ],
-      "sources": [
-        {
-          "name": "Islands.com: Sandy Beach, \"Broke Neck Beach\"",
-          "url": "https://www.islands.com/1561835/unsettling-reason-hawaii-beach-horrifying-nickname-broke-neck-beach-surf"
-        },
-        {
-          "name": "Hawaiʻi ocean safety information (state and county partners)",
-          "url": "https://oceansafety.hawaii.gov/?p=19"
-        }
-      ],
-      "last_checked": "2026-10-29"
+     "name": "Hawaii Guide: Hanauma Bay",
+     "url": "https://hawaii-guide.com/oahu/sights/hanauma-bay"
     },
     {
-      "id": "safety-shorebreak",
-      "type": "safety",
-      "title": "Shorebreak and spinal injuries",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Waves that break directly onto the shore cause many of Hawaiʻi's neck and back injuries, often in small surf. The average wave height when a spinal cord injury happens is about 3 feet.",
-      "details": [
-        "Small-looking waves can still be dangerous when they break in shallow water.",
-        "Ask a lifeguard before entering the water at an unfamiliar beach.",
-        "Keep facing the ocean while standing in or near the water."
-      ],
-      "tags": [
-        "ocean safety",
-        "waves",
-        "shorebreak",
-        "injury",
-        "beach",
-        "swimming"
-      ],
-      "sources": [
-        {
-          "name": "Hawaiʻi ocean safety information (state and county partners)",
-          "url": "https://oceansafety.hawaii.gov/?p=19"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "safety-lifeguarded-beaches",
-      "type": "safety",
-      "title": "Choose a lifeguard-protected beach",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Hawaiʻi's ocean safety agencies advise swimming only at lifeguard-protected beaches and talking to the lifeguards before going in. Conditions change by season: a beach that is calm in summer can be dangerous in winter.",
-      "details": [
-        "Strong currents and rip currents can pull swimmers away from shore; learn how to recognize them and what to do if caught.",
-        "Pick a beach that matches your swimming ability, and consider currents, shorebreak and the season.",
-        "Each county publishes lifeguarded beaches with daily schedules and current conditions."
-      ],
-      "tags": [
-        "ocean safety",
-        "lifeguard",
-        "rip current",
-        "currents",
-        "winter surf",
-        "swimming",
-        "beach"
-      ],
-      "sources": [
-        {
-          "name": "Hawaiʻi ocean safety information (state and county partners)",
-          "url": "https://oceansafety.hawaii.gov/?p=19"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "rule-marine-wildlife-distances",
-      "type": "rule",
-      "title": "How close you can get to sea turtles, monk seals, dolphins and whales",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Give sea turtles at least 10 feet and Hawaiian monk seals at least 50 feet (150 feet for a mother and pup). Federal law keeps you 50 yards from spinner dolphins and 100 yards from humpback whales.",
-      "details": [
-        "Sea turtles: at least 10 feet (3 m), on land and in the water (guideline).",
-        "Hawaiian monk seals: at least 50 feet (15 m); mothers with pups at least 150 feet (about 45 m) (guideline). Stay behind signs or barriers and keep dogs on a leash.",
-        "Quick check for 50 feet: if your thumb at arm's length covers the whole seal, you are likely far enough away.",
-        "Spinner dolphins: federal law prohibits swimming with, approaching, or staying within 50 yards (46 m).",
-        "Humpback whales: federal law prohibits approaching within 100 yards (91 m), including by boat, kayak, drone or swimming.",
-        "Other dolphins and small whales: at least 50 yards (guideline)."
-      ],
-      "tags": [
-        "turtles",
-        "honu",
-        "monk seal",
-        "dolphins",
-        "whales",
-        "wildlife",
-        "law",
-        "what not to do",
-        "snorkeling",
-        "beach"
-      ],
-      "sources": [
-        {
-          "name": "NOAA Fisheries: Viewing marine wildlife in Hawaiʻi",
-          "url": "https://fisheries.noaa.gov/pacific-islands/marine-life-viewing-guidelines/viewing-marine-wildlife-hawaii"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "contact-wildlife-and-emergency",
-      "type": "contact",
-      "title": "Who to call: emergencies, injured wildlife, and illegal activity",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Call 911 for any emergency, including ocean rescue. Report sick, injured, stranded or dead marine mammals and sea turtles to the NOAA Marine Wildlife Hotline at (888) 256-9840.",
-      "details": [
-        "Emergencies, including people in trouble in the water: 911.",
-        "Sick, injured, stranded or dead marine mammals or sea turtles: NOAA Marine Wildlife Hotline, (888) 256-9840.",
-        "Illegal or suspicious activity involving wildlife or natural resources: (800) 853-1964 or (808) 643-DLNR (3567), or the DLNR Tip App.",
-        "Photos and videos of wildlife incidents: respectwildlife@noaa.gov."
-      ],
-      "tags": [
-        "emergency",
-        "911",
-        "hotline",
-        "report",
-        "turtles",
-        "monk seal",
-        "dlnr",
-        "noaa",
-        "phone numbers"
-      ],
-      "sources": [
-        {
-          "name": "NOAA Fisheries: Viewing marine wildlife in Hawaiʻi",
-          "url": "https://fisheries.noaa.gov/pacific-islands/marine-life-viewing-guidelines/viewing-marine-wildlife-hawaii"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "rule-sunscreen-statewide",
-      "type": "rule",
-      "title": "Statewide sunscreen law: no oxybenzone or octinoxate",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Hawaiʻi state law prohibits sunscreens containing oxybenzone and octinoxate, two chemicals linked to coral reef damage. Some counties go further and require mineral-only sunscreen.",
-      "details": [
-        "Check the label: avoid oxybenzone and octinoxate anywhere in Hawaiʻi.",
-        "Maui County and Hawaiʻi County have stricter mineral-only rules (see their entries).",
-        "Mineral sunscreens use zinc oxide or titanium dioxide."
-      ],
-      "tags": [
-        "sunscreen",
-        "reef safe",
-        "law",
-        "coral",
-        "what not to do",
-        "packing",
-        "beach"
-      ],
-      "sources": [
-        {
-          "name": "Civil Beat: Maui will require mineral-based sunscreens",
-          "url": "https://www.civilbeat.org/2022/09/maui-will-require-mineral-based-sunscreens-to-better-protect-reefs"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "rule-sunscreen-maui-county",
-      "type": "rule",
-      "title": "Maui County: mineral-only sunscreen",
-      "island": [
-        "Maui",
-        "Lānaʻi",
-        "Molokaʻi"
-      ],
-      "county": "Maui County",
-      "summary": "Since October 1, 2022, Maui County bans using, selling or distributing any sunscreen that is not mineral-based, on Maui, Lānaʻi and Molokaʻi, unless prescribed by a licensed health care provider.",
-      "details": [
-        "Allowed: mineral sunscreens with zinc oxide or titanium dioxide as the active ingredients.",
-        "The rule covers use as well as sale, so it applies to sunscreen you bring with you."
-      ],
-      "tags": [
-        "sunscreen",
-        "mineral",
-        "reef safe",
-        "law",
-        "maui",
-        "lanai",
-        "molokai",
-        "what not to do",
-        "packing"
-      ],
-      "sources": [
-        {
-          "name": "Civil Beat: Maui will require mineral-based sunscreens",
-          "url": "https://www.civilbeat.org/2022/09/maui-will-require-mineral-based-sunscreens-to-better-protect-reefs"
-        },
-        {
-          "name": "Maui County: Mineral-only sunscreen",
-          "url": "https://www.mauicounty.gov/2483/Sunscreen"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "rule-sunscreen-hawaii-county",
-      "type": "rule",
-      "title": "Hawaiʻi County (Big Island): mineral-only sunscreen sales",
-      "island": "Hawaiʻi Island",
-      "county": "Hawaiʻi County",
-      "summary": "Since December 1, 2022, stores on Hawaiʻi Island may only sell sunscreens whose active ingredients are zinc oxide or titanium dioxide.",
-      "details": [
-        "This rule covers sale and distribution on the island.",
-        "Visitors should still follow the statewide ban on oxybenzone and octinoxate."
-      ],
-      "tags": [
-        "sunscreen",
-        "mineral",
-        "reef safe",
-        "law",
-        "big island",
-        "kona",
-        "hilo",
-        "packing"
-      ],
-      "sources": [
-        {
-          "name": "TravelAwaits: Hawaiʻi County bans nonmineral sunscreens",
-          "url": "https://www.travelawaits.com/2790979/hawaii-county-bans-nonmineral-sunscreens"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "tax-transient-accommodations-2026",
-      "type": "tax",
-      "title": "Lodging tax (TAT) rose to 11% in 2026: the \"green fee\"",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Starting January 1, 2026, Hawaiʻi's state Transient Accommodations Tax rose 0.75 percentage points to 11% under Act 96, the \"green fee.\" It applies to overnight stays at hotels and vacation rentals, including by Hawaiʻi residents, and now to cruise ship passengers.",
-      "details": [
-        "Gov. Josh Green described the cost as about $3 extra for every $400 spent on lodging.",
-        "The added revenue, about $100 million a year, is split among natural resource protection, climate and disaster resilience, and visitor experience.",
-        "Each county adds its own 3% lodging tax, for a combined 14% TAT. With general excise tax passed on (up to 4.712%), total lodging taxes can reach about 18.7% of the room rate."
-      ],
-      "tags": [
-        "tax",
-        "tat",
-        "green fee",
-        "hotel",
-        "vacation rental",
-        "airbnb",
-        "cruise",
-        "2026",
-        "hosts",
-        "county tat",
-        "lodging tax",
-        "18.7"
-      ],
-      "sources": [
-        {
-          "name": "Hawaii Tribune-Herald: Green fee among Hawaiʻi's new 2026 laws",
-          "url": "https://www.hawaiitribune-herald.com/2026/01/01/hawaii-news/minimum-wage-hike-green-fee-tax-among-hawaiis-new-2026-laws/"
-        },
-        {
-          "name": "Hawaii Guide: Hawaiʻi accommodation taxes",
-          "url": "https://hawaii-guide-com.pages.dev/blog/hawaii-accommodation-tax"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "place-diamond-head",
-      "type": "place",
-      "title": "Diamond Head State Monument (Lēʻahi)",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Popular crater hike in Honolulu. Non-residents must reserve entry and parking in advance; Hawaiʻi residents with ID enter free. Open 6 a.m. to 6 p.m. daily, last reservation 4 p.m.",
-      "details": [
-        "Hours: 6:00 a.m. to 6:00 p.m. daily; gates lock at 6:00 p.m. Closed Christmas and New Year's Day.",
-        "Reservations required for non-residents at gostateparks.hawaii.gov/diamondhead. Bookings open up to 30 days ahead.",
-        "Last hike reservation 4:00 p.m.; last entry for that slot 4:30 p.m.",
-        "Non-resident fees: $5 entry (children 3 and under free) and $10 parking per non-commercial vehicle. Credit card only.",
-        "Hawaiʻi residents with a Hawaiʻi ID or driver's license enter free."
-      ],
-      "tags": [
-        "hike",
-        "hiking",
-        "crater",
-        "diamond head",
-        "leahi",
-        "reservations",
-        "fees",
-        "parking",
-        "waikiki",
-        "honolulu",
-        "state park",
-        "easy",
-        "moderate",
-        "oahu hikes",
-        "views"
-      ],
-      "sources": [
-        {
-          "name": "DLNR Division of State Parks: Diamond Head State Monument",
-          "url": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/"
-        },
-        {
-          "name": "Diamond Head reservations",
-          "url": "https://gostateparks.hawaii.gov/diamondhead/about"
-        },
-        {
-          "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
-          "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "place-pearl-harbor",
-      "type": "place",
-      "title": "Pearl Harbor National Memorial and USS Arizona Memorial",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Admission is free, but USS Arizona Memorial program tickets should be reserved on Recreation.gov ($1 reservation fee). No bags are allowed; parking is $7 a day.",
-      "details": [
-        "Visitor Center open daily 7:00 a.m. to 5:00 p.m.; closed Thanksgiving, Christmas and New Year's Day.",
-        "USS Arizona Memorial programs run from the first boat at 8:00 a.m. to the last departure at 3:30 p.m.",
-        "Reservations strongly recommended on Recreation.gov ($1 non-refundable fee). Tickets release 8 weeks ahead and 24 hours ahead at 3:00 p.m. Hawaiʻi time. Limited standby tickets.",
-        "No bags of any kind (backpacks, purses, camera bags). Paid bag storage is available near the entrance.",
-        "Parking: $7 per day, paid by app or QR code."
-      ],
-      "tags": [
-        "pearl harbor",
-        "uss arizona",
-        "memorial",
-        "history",
-        "museum",
-        "tickets",
-        "bags",
-        "parking",
-        "military",
-        "world war ii"
-      ],
-      "sources": [
-        {
-          "name": "National Park Service: Pearl Harbor basic information",
-          "url": "https://www.nps.gov/pearlharbor/planyourvisit/basicinfo.htm"
-        },
-        {
-          "name": "Recreation.gov: Pearl Harbor National Memorial",
-          "url": "https://www.recreation.gov/ticket/facility/10101488"
-        },
-        {
-          "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
-          "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "place-haleakala-sunrise",
-      "type": "place",
-      "title": "Haleakalā sunrise reservations",
-      "island": "Maui",
-      "county": "Maui County",
-      "summary": "Watching sunrise from Haleakalā National Park (3:00 to 7:00 a.m. entry) requires a vehicle reservation on Recreation.gov, plus a park entrance pass. The summit is regularly below freezing before dawn.",
-      "details": [
-        "Book the 3:00 to 7:00 a.m. sunrise slot on Recreation.gov. Tickets release 60 days ahead at 7:00 a.m. Hawaiʻi time, with more released 48 hours ahead.",
-        "One reservation per vehicle, and one sunrise reservation per person every three days.",
-        "Reservations are only valid for the reserved day and are not refunded for weather. The park cannot book by phone or in person.",
-        "Bring valid ID, the confirmation email, and a park pass or a way to buy one (private-vehicle pass listed at $30).",
-        "Conditions before dawn are regularly wet, windy and below freezing: bring warm layers."
-      ],
-      "tags": [
-        "haleakala",
-        "sunrise",
-        "national park",
-        "reservations",
-        "maui",
-        "cold",
-        "summit",
-        "fees",
-        "recreation.gov"
-      ],
-      "sources": [
-        {
-          "name": "National Park Service: Haleakalā sunrise",
-          "url": "https://www.nps.gov/hale/planyourvisit/sunrise.htm"
-        },
-        {
-          "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
-          "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "place-waianapanapa",
-      "type": "place",
-      "title": "Waiʻānapanapa State Park",
-      "island": "Maui",
-      "county": "Maui County",
-      "summary": "Black-sand beach park on the Road to Hāna. Non-residents must reserve a time slot in advance or they will be turned away. Opens 7 a.m.; parking is $10 per time slot.",
-      "details": [
-        "Reservations open 30 days ahead, one day at a time, at midnight Hawaiʻi time, at gostateparks.hawaii.gov/waianapanapa.",
-        "Opens 7:00 a.m.; enter by 5:30 p.m. You must leave when your time slot ends; book several slots for a longer stay.",
-        "Parking $10 per time slot plus a per-person entry fee for non-residents; children 3 and under free.",
-        "Hawaiʻi residents with valid ID don't need a reservation, but their out-of-state guests do.",
-        "Refunds up to 3 days before entry; a $5 cancellation fee and service fees may apply.",
-        "After the September 2026 storm closures, DLNR reported Maui parks reopened; confirm current status on the park notices page."
-      ],
-      "tags": [
-        "road to hana",
-        "black sand beach",
-        "reservations",
-        "state park",
-        "maui",
-        "hana",
-        "fees",
-        "parking"
-      ],
-      "sources": [
-        {
-          "name": "Waiʻānapanapa State Park reservations FAQ",
-          "url": "https://gostateparks.hawaii.gov/waianapanapa/faq"
-        },
-        {
-          "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
-          "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
-        },
-        {
-          "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "place-iao-valley",
-      "type": "place",
-      "title": "ʻĪao Valley State Monument",
-      "island": "Maui",
-      "county": "Maui County",
-      "summary": "Home of the ʻĪao Needle in Central Maui. Out-of-state visitors need advance reservations for entry and parking. Open 7 a.m. to 6 p.m.",
-      "details": [
-        "Hours: 7:00 a.m. to 6:00 p.m. daily.",
-        "Reserve at gostateparks.hawaii.gov.",
-        "Non-resident fees: $5 entry (children 3 and under free) and $10 parking per non-commercial vehicle.",
-        "Hawaiʻi residents with a driver's license or state ID: free entry and parking.",
-        "Open as of the DLNR notices dated October 23, 2026; check park notices before you go."
-      ],
-      "tags": [
-        "iao needle",
-        "iao valley",
-        "state park",
-        "reservations",
-        "maui",
-        "wailuku",
-        "fees"
-      ],
-      "sources": [
-        {
-          "name": "DLNR Division of State Parks: ʻĪao Valley State Monument",
-          "url": "https://dlnr.hawaii.gov/dsp/parks/maui/iao-valley-state-monument/"
-        },
-        {
-          "name": "DLNR Division of State Parks: park notices",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "place-haena",
-      "type": "place",
-      "title": "Hāʻena State Park and the Kalalau Trail",
-      "island": "Kauaʻi",
-      "county": "Kauaʻi County",
-      "summary": "North Shore park with Keʻe Beach and the Kalalau Trailhead. Out-of-state visitors must reserve day passes at gohaena.com. It reopened in mid-October 2026 after Hurricane Lowell; overnight Kalalau hiking and camping past the 2-mile point remain closed.",
-      "details": [
-        "Open daily 7:00 a.m. to 6:45 p.m., including holidays. The shuttle is running.",
-        "Out-of-state visitors: reserve at gohaena.com. Entry $5 per person (children 3 and under free); parking reservations listed at $10 per vehicle in October 2026 reporting.",
-        "Hawaiʻi residents with a driver's license or state ID enter free without a reservation.",
-        "Day hikers can reach Hanakāpīʻai Beach and Hanakāpīʻai Falls. Hiking past the 2-mile point and overnight camping are closed until further notice.",
-        "DLNR is crediting refunds for days missed during the storm closure."
-      ],
-      "tags": [
-        "haena",
-        "kalalau",
-        "napali",
-        "na pali",
-        "kee beach",
-        "hike",
-        "reservations",
-        "shuttle",
-        "north shore",
-        "kauai",
-        "hurricane",
-        "closure"
-      ],
-      "sources": [
-        {
-          "name": "Honolulu Star-Advertiser: Hāʻena State Park reopened (Oct. 14, 2026)",
-          "url": "https://www.staradvertiser.com/2026/10/14/breaking-news/haena-state-park-reopened-today-for-day-hikers/"
-        },
-        {
-          "name": "DLNR Division of State Parks: Hāʻena State Park",
-          "url": "https://dlnr.hawaii.gov/dsp/parks/Kauai/haena-state-park/"
-        },
-        {
-          "name": "Go Hāʻena reservations",
-          "url": "https://gohaena.com/info-faqs/"
-        },
-        {
-          "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "guide-reservations-by-island",
-      "type": "guide",
-      "title": "Which Hawaiʻi attractions need reservations (by island)",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Several top sites require advance booking for visitors: Hanauma Bay, Diamond Head and the USS Arizona Memorial on Oʻahu; Haleakalā sunrise, Waiʻānapanapa and ʻĪao Valley on Maui; Hāʻena State Park and Kīlauea Point on Kauaʻi. Hawaiʻi Island's main parks charge fees but don't need advance reservations.",
-      "details": [
-        "Oʻahu: Hanauma Bay (2 days ahead at 7 a.m.), Diamond Head (up to 30 days ahead), USS Arizona Memorial (8 weeks and 24 hours ahead at 3 p.m.), ʻIolani Palace tours (online booking).",
-        "Maui: Haleakalā sunrise (60 days and 2 days ahead at 7 a.m.), Waiʻānapanapa (30 days ahead at midnight), ʻĪao Valley (up to 30 days ahead).",
-        "Kauaʻi: Hāʻena State Park (30 days ahead at midnight), Kīlauea Point National Wildlife Refuge (up to 60 days ahead, $1 fee plus admission).",
-        "No reservation, fees only: Waimea Canyon and Kōkeʻe State Parks on Kauaʻi; Akaka Falls, Hāpuna Beach, Wailuku River and Kua Bay (Maniniʻōwali) on Hawaiʻi Island ($5 per person and $10 per vehicle for non-residents); Hawaiʻi Volcanoes National Park ($30 private-vehicle pass, valid 7 days).",
-        "Hawaiʻi residents with state ID are usually exempt from state park reservations and fees.",
-        "Entry and parking are often sold separately. Always confirm on the official site before booking."
-      ],
-      "tags": [
-        "reservations",
-        "booking",
-        "fees",
-        "state parks",
-        "national parks",
-        "planning",
-        "itinerary",
-        "volcanoes",
-        "waimea canyon",
-        "akaka falls",
-        "kilauea point",
-        "iolani palace"
-      ],
-      "sources": [
-        {
-          "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
-          "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
-        },
-        {
-          "name": "DLNR Division of State Parks: park notices",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "rule-taking-sand-rocks",
-      "type": "rule",
-      "title": "Taking sand, rocks or coral from beaches is illegal",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Hawaiʻi law (HRS 205A-44) prohibits taking sand, dead coral or coral rubble, rocks, soil or other beach deposits from the shoreline. Shells, driftwood, beach glass and seaweed are exempt, as is sand accidentally carried off on your body or gear.",
-      "details": [
-        "The law covers sand, dead coral, coral rubble, rocks, soil and other beach or marine deposits.",
-        "Allowed: driftwood, shells, beach glass, glass floats and seaweed; small amounts stuck to your body, clothes, toys or bags.",
-        "Other exceptions cover permitted traditional cultural practices, government maintenance and emergencies.",
-        "Leave lava rocks and plants where they are, too: local etiquette and many park rules ask visitors not to remove them."
-      ],
-      "tags": [
-        "sand",
-        "rocks",
-        "lava rock",
-        "coral",
-        "shells",
-        "beach",
-        "law",
-        "souvenir",
-        "what not to do",
-        "take",
-        "taking",
-        "take home",
-        "bring home",
-        "collect",
-        "remove"
-      ],
-      "sources": [
-        {
-          "name": "Hawaiʻi Revised Statutes §205A-44",
-          "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0205A/HRS_0205A-0044.htm"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "culture-visitor-etiquette",
-      "type": "culture",
-      "title": "Hawaiʻi visitor etiquette: lei, homes, rocks and driving",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Accept a lei by lowering your head and never throw one away; take off your shoes before entering a home; don't stack rocks; and drive patiently without honking. Touching or harming endangered or threatened species is a felony under state law.",
-      "details": [
-        "Lei: lower your head so the giver can place it on you, don't take it from their hands, and don't toss it in the trash; it carries cultural significance.",
-        "Homes: remove your shoes before entering.",
-        "Rocks: don't stack them. Rock stacking isn't a traditional practice, and rocks were used for ahu (altars and trail markers).",
-        "Driving: highways max out at 60 mph and speeding fines start at $100; locals rarely honk, pull over for others on narrow roads and one-lane bridges, and a wave or shaka says thanks.",
-        "Bicycles: don't ride on sidewalks in business districts such as Waikīkī and downtown Honolulu.",
-        "Words: residents of Hawaiʻi are kamaʻāina; not every resident is Native Hawaiian (kanaka maoli).",
-        "Don't stand on reefs, slippery ocean-side rock ledges or near blowholes."
-      ],
-      "tags": [
-        "etiquette",
-        "culture",
-        "respect",
-        "lei",
-        "shoes",
-        "rock stacking",
-        "driving",
-        "honking",
-        "shaka",
-        "what not to do",
-        "kamaaina",
-        "aloha"
-      ],
-      "sources": [
-        {
-          "name": "Lonely Planet: Dos and don'ts for traveling in Hawaiʻi (Aug. 2025)",
-          "url": "https://www.lonelyplanet.com/articles/dos-and-donts-for-traveling-in-hawaii"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "transport-thebus-skyline",
-      "type": "transport",
-      "title": "TheBus and Skyline fares on Oʻahu (from July 1, 2026)",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "A 2-hour pass is $3.00 for unlimited rides on TheBus and Skyline rail (cash $3.25 per boarding, no transfers). A 24-hour pass and the daily cap are $7.50; a month pass is $90.",
-      "details": [
-        "2-Hour Pass: $3.00, unlimited rides on TheBus and Skyline for two hours.",
-        "Cash: $3.25 per boarding, exact fare, no transfer.",
-        "24-Hour Pass: $7.50 from first tap. Day cap: $7.50, so a HOLO card never charges more than that in a day.",
-        "7-Day Pass: $45.00. Month Pass and month cap: $90.00. Annual: $990.00.",
-        "HOLO card: $2.00. Registering it adds balance protection and fare capping.",
-        "One child 5 and under rides free with a fare-paying rider (not occupying a seat).",
-        "Help: HOLO cards (808) 768-4656; TheBus (808) 848-5555."
-      ],
-      "tags": [
-        "bus",
-        "thebus",
-        "skyline",
-        "rail",
-        "train",
-        "fare",
-        "holo card",
-        "public transit",
-        "getting around",
-        "honolulu",
-        "airport"
-      ],
-      "sources": [
-        {
-          "name": "TheBus: fares effective July 1, 2026",
-          "url": "https://www.thebus.org/Fare/TheBusFares20260701.asp"
-        },
-        {
-          "name": "Honolulu Department of Transportation Services: fare changes July 1, 2026",
-          "url": "https://www.honolulu.gov/dts/changes-to-thebus-and-skyline-fares-starting-july-1-2026/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "tax-general-excise",
-      "type": "tax",
-      "title": "General excise tax (GET): Hawaiʻi's version of sales tax",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Hawaiʻi has no sales tax; it has a general excise tax of 4% plus a 0.5% county surcharge, 4.5% in all four counties. Businesses may pass on up to 4.712% to customers, which is why receipts often show that number.",
-      "details": [
-        "State GET 4% plus 0.5% county surcharge: 4.5% on Oʻahu, Maui County, Kauaʻi and Hawaiʻi Island.",
-        "Maximum pass-on to customers: 4.712% (the tax applies to income that already includes the passed-on tax).",
-        "Maui County's surcharge started January 1, 2024; older guides may show 4% there.",
-        "The county surcharges are scheduled to run through December 31, 2030."
-      ],
-      "tags": [
-        "tax",
-        "get",
-        "sales tax",
-        "general excise",
-        "receipt",
-        "shopping",
-        "4.712",
-        "prices"
-      ],
-      "sources": [
-        {
-          "name": "Kintsugi: Hawaiʻi GET guide 2026",
-          "url": "https://trykintsugi.com/sales-tax-guides/usa/hawaii"
-        },
-        {
-          "name": "Hawaiʻi Department of Taxation",
-          "url": "https://tax.hawaii.gov/"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "history-kalakaua-avenue",
-      "type": "history",
-      "title": "Kalākaua Avenue, Waikīkī's main street",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Yes, Kalākaua Avenue is Waikīkī's main oceanfront street. It was first called Waikiki Road and was renamed in the early 1900s for King David Kalākaua (reigned 1874 to 1891), the last king of the Hawaiian Kingdom, known as the Merrie Monarch.",
-      "details": [
-        "Route: about 4.4 km (2.7 miles), from Kapiʻolani Park near Diamond Head, past the Honolulu Zoo and Waikīkī's beaches and hotels, across the Ala Wai Canal, to South Beretania Street in McCully.",
-        "Name: originally Waikiki Road. Sources differ on the year it was renamed for King Kalākaua (1905 or 1908).",
-        "King Kalākaua (1836 to 1891) championed Hawaiian music, hula and culture, which helped spark the first Hawaiian Renaissance. The Merrie Monarch Festival in Hilo is named for him.",
-        "Landmarks along it include the Moana Hotel (1901, now the Moana Surfrider), the Royal Hawaiian Hotel (1927), Kapiʻolani Park and the Honolulu Zoo, with Fort DeRussy nearby.",
-        "In the 1990s the city spent more than $100 million over about ten years on new sidewalks, landscaping, historic-style lighting and plazas; the Waikiki Historic Trail was designed in 1994.",
-        "Nearby streets are named for Hawaiian royalty and notable figures too, such as Kaʻiulani Avenue (Princess Kaʻiulani) and Duke's Lane (Duke Kahanamoku)."
-      ],
-      "tags": [
-        "kalakaua",
-        "kalakaua avenue",
-        "street",
-        "waikiki",
-        "history",
-        "king kalakaua",
-        "merrie monarch",
-        "royalty",
-        "hawaiian kingdom",
-        "hotels",
-        "shopping",
-        "moana surfrider",
-        "royal hawaiian",
-        "kapiolani park",
-        "road"
-      ],
-      "sources": [
-        {
-          "name": "American Planning Association: Kalākaua Avenue, Great Places",
-          "url": "https://planning.org/greatplaces/streets/2013/kalakauaavenue.htm"
-        },
-        {
-          "name": "Wikipedia: Kalākaua Avenue",
-          "url": "https://en.wikipedia.org/wiki/Kal%C4%81kaua_Avenue"
-        },
-        {
-          "name": "Hawaii Magazine: 7 streets in Waikīkī and what their names mean",
-          "url": "https://hawaiimagazine.com/?p=102353"
-        }
-      ],
-      "last_checked": "2026-10-29"
-    },
-    {
-      "id": "hike-oahu-by-difficulty",
-      "type": "guide",
-      "title": "Oʻahu hikes from easiest to hardest",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Easiest: Mānoa Falls (1.6 miles round trip through rainforest). Easy to moderate: Lanikai Pillbox (1 mile, steep start), Diamond Head (reservation needed for visitors) and Makapuʻu Lighthouse (2 miles, 500 feet). Longer but flat: Kaʻena Point. Hardest: Koko Crater Stairs (1,048 steps, about 1,200 feet straight up). Haʻikū Stairs is illegal and being removed.",
-      "details": [
-        "Easy: Mānoa Falls Trail, 1.6 miles round trip, about an hour, rainforest to a 150-foot waterfall. Muddy and slippery.",
-        "Moderate, short: Lanikai Pillbox (Kaʻiwa Ridge), 1 mile round trip, steep and gravelly at the start, no shade, ocean views of the Mokulua islands.",
-        "Moderate: Diamond Head State Monument, Honolulu's classic crater hike. Non-residents must reserve ahead.",
-        "Moderate: Makapuʻu Point Lighthouse Trail, 2 miles round trip, 500 feet of gain, hot and exposed, whale watching November to May.",
-        "Moderate, long and flat: Kaʻena Point, 2.5 miles each way along the coast; check road access closures first.",
-        "Strenuous: Koko Crater Stairs, 1,048 old railway ties, about 1,200 feet of gain in under a mile, no shade.",
-        "Off-limits: Haʻikū Stairs (Stairway to Heaven) has been illegal to climb since 1987 and the city began removing it in 2024. Trespassers are cited and arrested.",
-        "For every trail: start early, carry plenty of water, wear sun protection, stay on the trail, and pack out your trash."
-      ],
-      "tags": [
-        "hike",
-        "hiking",
-        "trail",
-        "easy",
-        "easiest",
-        "beginner",
-        "difficulty",
-        "hardest",
-        "moderate",
-        "strenuous",
-        "family",
-        "oahu hikes",
-        "best hikes",
-        "waterfall",
-        "views",
-        "list"
-      ],
-      "sources": [
-        {
-          "name": "DLNR: Makapuʻu Point Lighthouse Trail",
-          "url": "https://dlnr.hawaii.gov/dsp/hiking/makapuu-point-lighthouse-trail"
-        },
-        {
-          "name": "DLNR: Kaʻena Point Trail",
-          "url": "https://dlnr.hawaii.gov/dsp/hiking/oahu/kaena-point-trail/"
-        },
-        {
-          "name": "Honolulu Magazine: Mānoa Falls Trail",
-          "url": "https://www.honolulumagazine.com/?p=37561"
-        },
-        {
-          "name": "Honolulu Magazine: Lanikai Pillbox Trail",
-          "url": "https://www.honolulumagazine.com/?p=40906"
-        },
-        {
-          "name": "Hawaii.com: Koko Crater Stairs (June 2026)",
-          "url": "https://hawaii.com/blog/hiking-koko-crater-stairs"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "hike-manoa-falls",
-      "type": "hike",
-      "title": "Mānoa Falls Trail",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "One of Oʻahu's easiest hikes: 1.6 miles round trip (about an hour) through Mānoa Valley rainforest to a roughly 150-foot waterfall, near Lyon Arboretum above Honolulu. Expect mud and slippery rocks; don't swim in the pool.",
-      "details": [
-        "Difficulty: easy, good for beginners.",
-        "Length: 1.6 miles round trip, about 1 hour.",
-        "Trail is rocky and often muddy and slippery; wear sturdy shoes, not slippers.",
-        "Don't swim or wade: the Hawaiʻi Department of Health discourages it because of leptospirosis, and signs warn of landslides and flash floods.",
-        "Parking: a paid private lot at the end of Mānoa Road (fees have been reported between $5 and $7), or free street parking lower in the neighborhood. Confirm current rates on arrival."
-      ],
-      "tags": [
-        "manoa falls",
-        "manoa",
-        "waterfall",
-        "hike",
-        "hiking",
-        "trail",
-        "easy",
-        "easiest",
-        "beginner",
-        "rainforest",
-        "lyon arboretum",
-        "honolulu",
-        "family",
-        "mud",
-        "leptospirosis"
-      ],
-      "sources": [
-        {
-          "name": "Honolulu Magazine: Mānoa Falls Trail",
-          "url": "https://www.honolulumagazine.com/?p=37561"
-        },
-        {
-          "name": "Wikipedia: Mānoa Falls Trail",
-          "url": "https://en.wikipedia.org/wiki/Manoa_Falls_Trail"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "hike-makapuu-lighthouse",
-      "type": "hike",
-      "title": "Makapuʻu Point Lighthouse Trail",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "A 2-mile round-trip trail (about 500 feet of climbing) on Oʻahu's southeast tip with views of the lighthouse and the windward coast. Rated moderate by the state; hot, sunny and exposed. Best for whale watching November through May.",
-      "details": [
-        "Length: 2.0 miles round trip; allow about 2 hours.",
-        "Elevation gain: 500 feet. State rating: moderate.",
-        "Hot, dry and exposed with no shade; very windy at the top. Bring a hat, sunscreen and plenty of water.",
-        "Humpback whale season: November through May; binoculars help.",
-        "Parking lot off Kalanianaʻole Highway (Route 72) in Kaiwi State Scenic Shoreline.",
-        "The lighthouse itself is off-limits. Stay on the trail and pack out trash.",
-        "Notice (Oct. 23, 2026): the upper Makapuʻu viewing area is closed for repairs October 21 to November 4, 2026, and all day on weekends and holidays; the Lighthouse Trail itself stays open."
-      ],
-      "tags": [
-        "makapuu",
-        "lighthouse",
-        "hike",
-        "hiking",
-        "trail",
-        "easy",
-        "moderate",
-        "whales",
-        "whale watching",
-        "views",
-        "east oahu",
-        "kaiwi",
-        "family",
-        "sunrise"
-      ],
-      "sources": [
-        {
-          "name": "DLNR Division of State Parks: Makapuʻu Point Lighthouse Trail",
-          "url": "https://dlnr.hawaii.gov/dsp/hiking/makapuu-point-lighthouse-trail"
-        },
-        {
-          "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "hike-lanikai-pillbox",
-      "type": "hike",
-      "title": "Lanikai Pillbox Trail (Kaʻiwa Ridge)",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "A short but steep 1-mile round-trip ridge hike in Kailua to old military pillboxes with famous views over Lanikai and the Mokulua islands. Free, no shade, and parking in Lanikai is very limited, so park at Kailua Beach Park and walk.",
-      "details": [
-        "Difficulty: moderate. Length: about 1 mile round trip.",
-        "Trailhead: Kaelepulu Drive in Lanikai, across from Mid-Pacific Country Club; a narrow signed path between two fences.",
-        "Parking: very limited in the neighborhood and cars get towed; park at Kailua Beach Park and walk.",
-        "No shade; go early. Gravel sections are slippery, especially going down and after rain.",
-        "Free."
-      ],
-      "tags": [
-        "lanikai",
-        "pillbox",
-        "kaiwa",
-        "kaiwa ridge",
-        "kailua",
-        "hike",
-        "hiking",
-        "trail",
-        "moderate",
-        "short",
-        "views",
-        "sunrise",
-        "mokulua",
-        "windward",
-        "parking"
-      ],
-      "sources": [
-        {
-          "name": "Honolulu Magazine: Lanikai Pillbox Trail",
-          "url": "https://www.honolulumagazine.com/?p=40906"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "hike-koko-crater-stairs",
-      "type": "hike",
-      "title": "Koko Crater Stairs (Koko Head)",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Oʻahu's famous stair workout: 1,048 old railway ties straight up Koko Crater, about 1,200 feet of climbing in roughly 1.6 miles round trip. Strenuous, with no shade. Free parking at Koko Head District Park in Hawaiʻi Kai.",
-      "details": [
-        "Difficulty: strenuous, nearly vertical with no switchbacks.",
-        "1,048 steps (ties from a World War II military tramway); summit at about 1,208 feet.",
-        "Time: 45 to 60 minutes round trip for first-timers.",
-        "Halfway up, a narrow section crosses a gap like a bridge; a bypass path on the right rejoins the trail.",
-        "No shade at all; go early or late and carry water.",
-        "Parking: free lot at Koko Head District Park, 423 Portlock Road (lot open 4 a.m. to 11 p.m.).",
-        "Free."
-      ],
-      "tags": [
-        "koko head",
-        "koko crater",
-        "stairs",
-        "hike",
-        "hiking",
-        "trail",
-        "strenuous",
-        "hard",
-        "hardest",
-        "workout",
-        "hawaii kai",
-        "east oahu",
-        "sunrise",
-        "views"
-      ],
-      "sources": [
-        {
-          "name": "Hawaii.com: Hiking Koko Crater Stairs (June 2026)",
-          "url": "https://hawaii.com/blog/hiking-koko-crater-stairs"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "hike-kaena-point",
-      "type": "hike",
-      "title": "Kaʻena Point Trail",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "A flat coastal walk, 2.5 miles each way, to Oʻahu's wild western tip, a protected Natural Area Reserve with nesting seabirds. Rated moderate for heat, wind and eroded sections. Check closures first: storm damage has restricted vehicle access.",
-      "details": [
-        "Length: 2.5 miles one way from either the Waiʻanae (Keawaʻula) or Mokulēʻia side; return the same way. Allow 1 to 3 hours.",
-        "Mostly flat on an old railroad bed and dirt road that has fully eroded in places.",
-        "Sunny, hot and windy; bring sun protection and plenty of water.",
-        "Natural Area Reserve rules: no dogs (service animals only), no drones or fires, stay on paths and watch for nesting seabirds.",
-        "Stay away from the wave-exposed coast unless you know hazardous ocean conditions. Whales pass offshore in winter.",
-        "Recent DLNR notice: vehicle access in Kaʻena Point State Park was restricted because of storm damage, and the Keawaʻula Trail was closed. Check park notices before going."
-      ],
-      "tags": [
-        "kaena",
-        "kaena point",
-        "hike",
-        "hiking",
-        "trail",
-        "flat",
-        "coast",
-        "coastal",
-        "seabirds",
-        "albatross",
-        "natural area reserve",
-        "waianae",
-        "mokuleia",
-        "north shore",
-        "dogs",
-        "closure"
-      ],
-      "sources": [
-        {
-          "name": "DLNR Division of State Parks: Kaʻena Point Trail",
-          "url": "https://dlnr.hawaii.gov/dsp/hiking/oahu/kaena-point-trail/"
-        },
-        {
-          "name": "DLNR Division of State Parks: park notices",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "rule-haiku-stairs",
-      "type": "rule",
-      "title": "Haʻikū Stairs (Stairway to Heaven) is illegal and being removed",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Climbing Oʻahu's Haʻikū Stairs has been illegal since 1987. The city voted in 2021 to remove them and began removal in 2024. Police cite and arrest trespassers. Choose a legal trail instead.",
-      "details": [
-        "The area is a closed, dangerous construction and natural area; officials cite safety, trespassing, neighborhood impacts and city liability.",
-        "In April 2024 alone, police issued dozens of citations and several arrests for trespassing at the stairs.",
-        "Legal alternatives with big views: Lanikai Pillbox, Makapuʻu Lighthouse, Koko Crater Stairs or Diamond Head."
-      ],
-      "tags": [
-        "haiku stairs",
-        "stairway to heaven",
-        "haiku",
-        "kaneohe",
-        "illegal",
-        "trespassing",
-        "closed",
-        "hike",
-        "what not to do",
-        "arrest"
-      ],
-      "sources": [
-        {
-          "name": "Washington Times / AP: Honolulu police arrest hikers at Haʻikū Stairs (April 2024)",
-          "url": "https://www.washingtontimes.com/news/2024/apr/26/honolulu-police-arrest-seven-for-attempting-to-ill/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "beaches-lifeguarded-oahu",
-      "type": "safety",
-      "title": "Lifeguarded beaches on Oʻahu",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Most Oʻahu lifeguard towers are staffed daily from 8 a.m. to 6:30 p.m., at beaches on every shore, from Ala Moana and Waikīkī to Waimea Bay and Mākaha. Bellows and Depot's are weekends only.",
-      "details": [
-        "South Shore: Ala Moana Beach Park, Magic Island lagoon, Waikīkī (Duke's, Kūhiō, Queen's and Kapiʻolani Park towers), Sans Souci, Hanauma Bay, Sandy Beach.",
-        "Windward: Makapuʻu Beach, Waimānalo Beach, Waimānalo Bay, Bellows Field Beach (weekends only), Kailua Beach, Kualoa Regional Park (daily Memorial Day to Labor Day; weekends and holidays the rest of the year).",
-        "North Shore: Sunset Beach, ʻEhukai Beach, Ke Waena Beach, Chun's Reef, Waimea Bay, Laniākea Beach, Haleʻiwa Aliʻi Beach Park.",
-        "Leeward (Waiʻanae): Keawaʻula Beach, Mākaha Beach, Māʻili Beach, Depot's Beach (weekends and holidays only), Nānākuli Beach, Pōkaʻī Bay.",
-        "Hours: daily 8:00 a.m. to 6:30 p.m. unless noted. If no lifeguard is in the tower, call 911 in an emergency.",
-        "Check current hazard ratings for any beach at Hawaii Beach Safety before you go in."
-      ],
-      "tags": [
-        "lifeguard",
-        "lifeguards",
-        "lifeguarded",
-        "swim",
-        "swimming",
-        "safe beaches",
-        "beach",
-        "beaches",
-        "waikiki",
-        "ala moana",
-        "waimea bay",
-        "sunset beach",
-        "kailua",
-        "makaha",
-        "north shore",
-        "hours",
-        "kids",
-        "family"
-      ],
-      "sources": [
-        {
-          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
-          "url": "https://oceansafety.hawaii.gov/?p=175"
-        },
-        {
-          "name": "Hawaii Beach Safety: current conditions by beach",
-          "url": "https://hawaiibeachsafety.com/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "beaches-lifeguarded-maui",
-      "type": "safety",
-      "title": "Lifeguarded beaches on Maui",
-      "island": "Maui",
-      "county": "Maui County",
-      "summary": "Maui's lifeguarded beaches are staffed daily from 8 a.m. to 4:45 p.m.: Hoʻokipa, Baldwin and Kanahā on the north shore; D.T. Fleming and Hanakaʻōʻō in West Maui; Kamaʻole I, II and III and Mākena (Big Beach) in South Maui; and Hāna Bay.",
-      "details": [
-        "North Shore: Hoʻokipa Beach Park, Baldwin Beach Park, Kanahā Beach Park.",
-        "West Maui: D.T. Fleming Beach Park, Hanakaʻōʻō Beach Park.",
-        "South Maui (Kīhei and Mākena): Kamaʻole Beach Parks I, II and III, Mākena State Park (Big Beach).",
-        "East Maui: Hāna Bay.",
-        "Hours: daily 8:00 a.m. to 4:45 p.m. If no lifeguard is in the tower, call 911 in an emergency."
-      ],
-      "tags": [
-        "lifeguard",
-        "lifeguards",
-        "lifeguarded",
-        "swim",
-        "swimming",
-        "safe beaches",
-        "beach",
-        "beaches",
-        "kamaole",
-        "kihei",
-        "makena",
-        "big beach",
-        "baldwin",
-        "hookipa",
-        "kanaha",
-        "hana",
-        "west maui",
-        "kaanapali",
-        "hours",
-        "kids",
-        "family"
-      ],
-      "sources": [
-        {
-          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
-          "url": "https://oceansafety.hawaii.gov/?p=175"
-        },
-        {
-          "name": "Hawaii Beach Safety: current conditions by beach",
-          "url": "https://hawaiibeachsafety.com/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "beaches-lifeguarded-kauai",
-      "type": "safety",
-      "title": "Lifeguarded beaches on Kauaʻi",
-      "island": "Kauaʻi",
-      "county": "Kauaʻi County",
-      "summary": "Kauaʻi lifeguards work daily from 8 a.m. to 6 p.m. at Kekaha, Salt Pond and Poʻipū on the south shore; Lydgate, Kealia and Anahola on the east; and Hanalei Bay, Hāʻena and Keʻe on the north.",
-      "details": [
-        "South Shore: Kekaha Beach Park, Salt Pond Beach Park, Poʻipū Beach (Nukumoi and Poʻipū towers).",
-        "East Shore: Lydgate Beach and ponds, Kealia Beach Park, Anahola Beach Park.",
-        "North Shore: Hanalei Bay (Pavilion and Pine Trees towers), Hāʻena Beach Park, Keʻe Beach.",
-        "Hours: daily 8:00 a.m. to 6:00 p.m. If no lifeguard is in the tower, call 911 in an emergency.",
-        "Lydgate's rock-walled ponds are a common pick for families with young children."
-      ],
-      "tags": [
-        "lifeguard",
-        "lifeguards",
-        "lifeguarded",
-        "swim",
-        "swimming",
-        "safe beaches",
-        "beach",
-        "beaches",
-        "poipu",
-        "hanalei",
-        "lydgate",
-        "salt pond",
-        "kekaha",
-        "kealia",
-        "kee",
-        "haena",
-        "hours",
-        "kids",
-        "family"
-      ],
-      "sources": [
-        {
-          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
-          "url": "https://oceansafety.hawaii.gov/?p=175"
-        },
-        {
-          "name": "Hawaii Beach Safety: current conditions by beach",
-          "url": "https://hawaiibeachsafety.com/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "beaches-lifeguarded-hawaii-island",
-      "type": "safety",
-      "title": "Lifeguarded beaches on Hawaiʻi Island (Big Island)",
-      "island": "Hawaiʻi Island",
-      "county": "Hawaiʻi County",
-      "summary": "Hawaiʻi Island lifeguards are on duty daily from 9:30 a.m. to 4:45 p.m.: in Hilo at Leleiwi, Carlsmith, Richardson Ocean Park, Onekahakaha and Honoliʻi, plus Punaluʻu; and on the Kona-Kohala side at Spencer, Hāpuna, Kahaluʻu and White Sands (Laʻaloa).",
-      "details": [
-        "East side (Hilo area): Leleiwi Beach Park, Carlsmith Beach Park, Richardson Ocean Park, Onekahakaha Beach Park, Honoliʻi Beach Park, plus Punaluʻu Beach Park (black sand) to the south.",
-        "West side (Kona and Kohala): Spencer Beach Park, Hāpuna Beach State Recreation Area, Kahaluʻu Beach Park, White Sands (Laʻaloa) Beach Park, also called Magic Sands.",
-        "Hours: daily 9:30 a.m. to 4:45 p.m. If no lifeguard is in the tower, call 911 in an emergency.",
-        "Hāpuna and Kua Bay charge non-resident entry and parking fees ($5 per person, $10 per vehicle)."
-      ],
-      "tags": [
-        "lifeguard",
-        "lifeguards",
-        "lifeguarded",
-        "swim",
-        "swimming",
-        "safe beaches",
-        "beach",
-        "beaches",
-        "big island",
-        "hapuna",
-        "kahaluu",
-        "magic sands",
-        "white sands",
-        "richardson",
-        "hilo",
-        "kona",
-        "kohala",
-        "punaluu",
-        "black sand",
-        "hours",
-        "kids",
-        "family"
-      ],
-      "sources": [
-        {
-          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
-          "url": "https://oceansafety.hawaii.gov/?p=175"
-        },
-        {
-          "name": "Hawaii Beach Safety: current conditions by beach",
-          "url": "https://hawaiibeachsafety.com/"
-        },
-        {
-          "name": "Hawaii's Best Travel: reservations and fees 2026",
-          "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "safety-beach-hazard-ratings",
-      "type": "safety",
-      "title": "Beach hazard ratings: yellow, red, black and closed",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Hawaiʻi's ocean safety agencies rate each lifeguarded beach's conditions: Yellow means caution, Red means high hazard, Black means extreme hazard, and Closed means stay out. Current ratings for each beach are posted on Hawaii Beach Safety.",
-      "details": [
-        "Yellow: caution. Red: high hazard. Black: extreme hazard. Closed: the beach or water is closed.",
-        "Ratings change through the day with surf, wind and currents; check right before you go.",
-        "Ask the lifeguard about conditions before swimming, and call 911 if someone is in trouble and no lifeguard is on duty."
-      ],
-      "tags": [
-        "flags",
-        "warning",
-        "hazard",
-        "rating",
-        "red flag",
-        "yellow",
-        "black",
-        "closed",
-        "conditions",
-        "surf report",
-        "ocean safety",
-        "beach",
-        "swimming"
-      ],
-      "sources": [
-        {
-          "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
-          "url": "https://oceansafety.hawaii.gov/?p=175"
-        },
-        {
-          "name": "Hawaii Beach Safety: current conditions by beach",
-          "url": "https://hawaiibeachsafety.com/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "park-hawaii-volcanoes",
-      "type": "place",
-      "title": "Hawaiʻi Volcanoes National Park",
-      "island": "Hawaiʻi Island",
-      "county": "Hawaiʻi County",
-      "summary": "Home of Kīlauea, which has been erupting in episodes of lava fountaining inside Halemaʻumaʻu crater since December 23, 2024 (Episode 55 was on October 17, 2026). Entry is $30 per private vehicle for 7 days, card only, with no reservation needed. Parking lots can fill by 10 a.m.",
-      "details": [
-        "Entrance: $30 per private vehicle (up to 15 people), $25 per motorcycle, $15 per person on foot or bicycle; 15 and under free. Passes are valid 7 days.",
-        "Hawaiʻi Tri-Park Annual Pass: $55, covers Hawaiʻi Volcanoes, Haleakalā and Puʻuhonua o Hōnaunau.",
-        "The park is cashless: pay by credit or debit card, or buy a digital pass on Recreation.gov ahead of time (cell service is limited).",
-        "Eruption: episodic lava fountaining in Halemaʻumaʻu crater since December 2024. Episode 55 (October 17, 2026) fountained for about six hours, up to 720 feet high. Activity changes constantly; check the USGS Hawaiian Volcano Observatory before you go.",
-        "Volcanic gas can be dangerous for people with heart or breathing problems, pregnant people, infants and young children; check air quality during your visit.",
-        "A two-year summit construction project means some closures and delays. Parking lots can be full by 10 a.m.",
-        "Park information: (808) 985-6011."
-      ],
-      "tags": [
-        "volcano",
-        "volcanoes",
-        "kilauea",
-        "halemaumau",
-        "lava",
-        "eruption",
-        "national park",
-        "hawaii volcanoes",
-        "big island",
-        "fees",
-        "pass",
-        "vog",
-        "volcanic gas"
-      ],
-      "sources": [
-        {
-          "name": "NPS: Hawaiʻi Volcanoes fees",
-          "url": "https://www.nps.gov/havo/planyourvisit/fees.htm"
-        },
-        {
-          "name": "NPS: Hawaiʻi Volcanoes alerts and conditions",
-          "url": "https://www.nps.gov/havo/planyourvisit/conditions.htm"
-        },
-        {
-          "name": "Honolulu Star-Advertiser: Lava fountaining returns to Halemaʻumaʻu (Oct. 17, 2026)",
-          "url": "https://www.staradvertiser.com/2026/10/17/breaking-news/lava-fountaining-returns-to-kilaueas-halemaumau-crater-5/"
-        },
-        {
-          "name": "USGS Hawaiian Volcano Observatory",
-          "url": "https://www.usgs.gov/observatories/hvo"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "place-akaka-falls",
-      "type": "place",
-      "title": "ʻAkaka Falls State Park",
-      "island": "Hawaiʻi Island",
-      "county": "Hawaiʻi County",
-      "summary": "An easy 0.4-mile rainforest loop north of Hilo to 442-foot ʻAkaka Falls. Open 8:30 a.m. to 5 p.m.; non-residents pay $5 per person and $10 to park, card only. Part of the trail was closed by fallen trees as of October 23, 2026.",
-      "details": [
-        "Hours: daily 8:30 a.m. to 5:00 p.m.",
-        "Non-resident fees: $5 entry per person (children 3 and under free) and $10 parking. Credit card only.",
-        "Hawaiʻi residents with ID: free entry and parking.",
-        "Trail: 0.4-mile paved loop with stairs through rainforest; ʻAkaka Falls drops 442 feet.",
-        "Cell reception is limited at the park, so pay fees before you arrive.",
-        "Notice (Oct. 23, 2026): part of the trail is closed due to fallen trees."
-      ],
-      "tags": [
-        "akaka falls",
-        "waterfall",
-        "hilo",
-        "hamakua",
-        "big island",
-        "state park",
-        "fees",
-        "easy",
-        "walk",
-        "rainforest",
-        "hike"
-      ],
-      "sources": [
-        {
-          "name": "DLNR Division of State Parks: ʻAkaka Falls State Park",
-          "url": "https://dlnr.hawaii.gov/dsp/parks/hawaii/akaka-falls-state-park/"
-        },
-        {
-          "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "park-waimea-canyon",
-      "type": "place",
-      "title": "Waimea Canyon State Park",
-      "island": "Kauaʻi",
-      "county": "Kauaʻi County",
-      "summary": "West Kauaʻi's huge red-rock canyon. After Hurricane Lowell, only the Waimea Canyon Lookout reopened (from October 24, 2026, daylight hours); other lookouts are closed and Kōkeʻe Road is closed until further notice. Non-residents pay $5 per person and $10 to park.",
-      "details": [
-        "Status (DLNR notice, Oct. 23, 2026): the Waimea Canyon Lookout reopened October 24 during daylight hours; other lookout areas remain closed; Kōkeʻe Road is closed until further notice.",
-        "Non-resident fees: $5 entry per person (children 3 and under free) and $10 parking per vehicle. Hawaiʻi residents with ID are free.",
-        "Parking tickets are valid at both Waimea Canyon and Kōkeʻe State Park lots.",
-        "Trails in the park include the Iliau Nature Loop and Kukui Trail; nearby forest-reserve hikes into the canyon are long and strenuous.",
-        "Check park notices before driving up, since conditions are changing after the storm."
-      ],
-      "tags": [
-        "waimea canyon",
-        "grand canyon of the pacific",
-        "kokee",
-        "lookout",
-        "kauai",
-        "state park",
-        "fees",
-        "closure",
-        "hurricane",
-        "west kauai",
-        "views"
-      ],
-      "sources": [
-        {
-          "name": "DLNR Division of State Parks: Waimea Canyon State Park",
-          "url": "https://dlnr.hawaii.gov/dsp/parks/kauai/waimea-canyon-state-park/"
-        },
-        {
-          "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "notice-state-parks-oct-2026",
-      "type": "guide",
-      "title": "State park closures after Hurricane Lowell (as of October 23, 2026)",
-      "island": "Statewide",
-      "county": "All counties",
-      "summary": "Most Kauaʻi state parks were still closed after Hurricane Lowell as of October 23, 2026. Open or reopening: Hāʻena (mid-October), the Waimea Canyon Lookout (October 24) and Wailua River (partly). Kauaʻi camping is closed. Most Maui, Molokaʻi and Hawaiʻi Island parks have reopened.",
-      "details": [
-        "Kauaʻi: Hāʻena State Park reopened in mid-October for day use; Waimea Canyon Lookout reopened October 24; Kōkeʻe Road closed; all Kauaʻi camping closed; Polihale and Nāpali Coast closed; Wailua River open for river access only (Fern Grotto closed to individual kayakers; Uluwehi/Secret Falls closed).",
-        "Oʻahu: Kaʻena Point vehicle access closed and Keawaʻula Trail closed; Makapuʻu upper lookout closed October 21 to November 4 and on weekends and holidays (the Lighthouse Trail stays open); Mālaekahana Kahuku Section parking closed October 26, 2026 to January 31, 2027.",
-        "Maui and Molokaʻi: all parks reopened except Polipoli (downed trees).",
-        "Hawaiʻi Island: most parks reopened; Lapakahi closed; part of the ʻAkaka Falls trail closed; Hāpuna and Kalōpā camping and cabins closed.",
-        "Reservations on storm-closure days are refunded automatically, minus service charges.",
-        "Conditions are changing week to week; always check the DLNR park notices page before you go."
-      ],
-      "tags": [
-        "closed",
-        "closure",
-        "closures",
-        "open",
-        "reopen",
-        "hurricane",
-        "lowell",
-        "storm",
-        "kauai",
-        "state parks",
-        "camping",
-        "secret falls",
-        "fern grotto",
-        "polihale",
-        "napali",
-        "kokee",
-        "status"
-      ],
-      "sources": [
-        {
-          "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
-          "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "place-iolani-palace",
-      "type": "history",
-      "title": "ʻIolani Palace",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "The royal palace of Hawaiʻi's last monarchs, King Kalākaua and Queen Liliʻuokalani, in downtown Honolulu. Tours must be booked in advance online or by phone, with no walk-ups or same-day tickets. Ticket office: Tuesday to Saturday, 8:30 a.m. to 4 p.m.",
-      "details": [
-        "Tours: docent-led or self-led audio tour of the first and second floors, about 60 to 90 minutes, plus specialty tours.",
-        "Booking: online only or by phone at (808) 522-0832. No walk-ups or same-day reservations.",
-        "Ticket office: Tuesday to Saturday, 8:30 a.m. to 4:00 p.m.; Monday is phone calls only.",
-        "Dress: shirts and shoes required (shoe covers provided); no bathing suits or beachwear.",
-        "Photos: personal photos allowed, but no flash, video, tripods or selfie sticks.",
-        "No large bags, backpacks, luggage, food or drinks inside. Children under 5 are free.",
-        "Location: King Street and Richards Street, downtown Honolulu."
-      ],
-      "tags": [
-        "iolani palace",
-        "palace",
-        "royalty",
-        "kalakaua",
-        "liliuokalani",
-        "history",
-        "museum",
-        "tour",
-        "tickets",
-        "downtown honolulu",
-        "monarchy",
-        "hawaiian kingdom"
-      ],
-      "sources": [
-        {
-          "name": "ʻIolani Palace: tours and admission",
-          "url": "https://www.iolanipalace.org/visit/tours-admission/"
-        }
-      ],
-      "last_checked": "2026-10-30"
-    },
-    {
-      "id": "place-bishop-museum",
-      "type": "history",
-      "title": "Bishop Museum",
-      "island": "Oʻahu",
-      "county": "City and County of Honolulu",
-      "summary": "Hawaiʻi's largest museum of Hawaiian and Pacific culture and natural history, in Kalihi, Honolulu. Open daily 9 a.m. to 5 p.m. except Thanksgiving, Christmas Eve, Christmas and New Year's. One ticket covers the signature galleries; the J. Watumull Planetarium is on site.",
-      "details": [
-        "Hours: daily 9:00 a.m. to 5:00 p.m. Closed Thanksgiving, Christmas Eve, Christmas Day and New Year's Day.",
-        "Address: 1525 Bernice Street, Honolulu, HI 96817, near downtown and the airport; reachable by TheBus.",
-        "Admission covers the signature galleries; check the museum's tickets page for current prices and kamaʻāina rates.",
-        "Highlights include the J. Watumull Planetarium and an erupting-volcano experience."
-      ],
-      "tags": [
-        "bishop museum",
-        "museum",
-        "museums",
-        "history",
-        "culture",
-        "planetarium",
-        "kalihi",
-        "honolulu",
-        "hawaiian culture",
-        "kids",
-        "rainy day"
-      ],
-      "sources": [
-        {
-          "name": "Bishop Museum: plan your visit",
-          "url": "https://www.bishopmuseum.org/visit/"
-        }
-      ],
-      "last_checked": "2026-10-30"
+     "name": "Hawaii Travel with Kids: Hanauma Bay reservations",
+     "url": "https://hawaiitravelwithkids.com/hanauma-bay-reservations/"
     }
-  ]
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-sandy-beach",
+   "type": "place",
+   "title": "Sandy Beach Park",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Southeast Oʻahu beach known for a powerful shorebreak, nicknamed \"Broke Neck Beach\" because waves breaking in shallow water cause serious neck and spinal injuries. Not recommended for children or inexperienced swimmers.",
+   "details": [
+    "Waves break close to shore and can slam people into the sand, even when the surf looks small.",
+    "Lifeguards reportedly rescue an average of 2 to 3 swimmers per day.",
+    "Lifeguards urge parents with children to choose a different beach.",
+    "If you go in at all, talk to the lifeguards about conditions first, and never turn your back on the ocean, even on the sand."
+   ],
+   "tags": [
+    "beach",
+    "shorebreak",
+    "dangerous",
+    "bodysurfing",
+    "east oahu",
+    "spinal injury",
+    "lifeguard",
+    "kids"
+   ],
+   "sources": [
+    {
+     "name": "Islands.com: Sandy Beach, \"Broke Neck Beach\"",
+     "url": "https://www.islands.com/1561835/unsettling-reason-hawaii-beach-horrifying-nickname-broke-neck-beach-surf"
+    },
+    {
+     "name": "Hawaiʻi ocean safety information (state and county partners)",
+     "url": "https://oceansafety.hawaii.gov/?p=19"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "safety-shorebreak",
+   "type": "safety",
+   "title": "Shorebreak and spinal injuries",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Waves that break directly onto the shore cause many of Hawaiʻi's neck and back injuries, often in small surf. The average wave height when a spinal cord injury happens is about 3 feet.",
+   "details": [
+    "Small-looking waves can still be dangerous when they break in shallow water.",
+    "Ask a lifeguard before entering the water at an unfamiliar beach.",
+    "Keep facing the ocean while standing in or near the water."
+   ],
+   "tags": [
+    "ocean safety",
+    "waves",
+    "shorebreak",
+    "injury",
+    "beach",
+    "swimming"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi ocean safety information (state and county partners)",
+     "url": "https://oceansafety.hawaii.gov/?p=19"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "safety-lifeguarded-beaches",
+   "type": "safety",
+   "title": "Choose a lifeguard-protected beach",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi's ocean safety agencies advise swimming only at lifeguard-protected beaches and talking to the lifeguards before going in. Conditions change by season: a beach that is calm in summer can be dangerous in winter.",
+   "details": [
+    "Strong currents and rip currents can pull swimmers away from shore; learn how to recognize them and what to do if caught.",
+    "Pick a beach that matches your swimming ability, and consider currents, shorebreak and the season.",
+    "Each county publishes lifeguarded beaches with daily schedules and current conditions."
+   ],
+   "tags": [
+    "ocean safety",
+    "lifeguard",
+    "rip current",
+    "currents",
+    "winter surf",
+    "swimming",
+    "beach"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi ocean safety information (state and county partners)",
+     "url": "https://oceansafety.hawaii.gov/?p=19"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "rule-marine-wildlife-distances",
+   "type": "rule",
+   "title": "How close you can get to sea turtles, monk seals, dolphins and whales",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Give sea turtles at least 10 feet and Hawaiian monk seals at least 50 feet (150 feet for a mother and pup). Federal law keeps you 50 yards from spinner dolphins and 100 yards from humpback whales.",
+   "details": [
+    "Sea turtles: at least 10 feet (3 m), on land and in the water (guideline).",
+    "Hawaiian monk seals: at least 50 feet (15 m); mothers with pups at least 150 feet (about 45 m) (guideline). Stay behind signs or barriers and keep dogs on a leash.",
+    "Quick check for 50 feet: if your thumb at arm's length covers the whole seal, you are likely far enough away.",
+    "Spinner dolphins: federal law prohibits swimming with, approaching, or staying within 50 yards (46 m).",
+    "Humpback whales: federal law prohibits approaching within 100 yards (91 m), including by boat, kayak, drone or swimming.",
+    "Other dolphins and small whales: at least 50 yards (guideline)."
+   ],
+   "tags": [
+    "turtles",
+    "honu",
+    "monk seal",
+    "dolphins",
+    "whales",
+    "wildlife",
+    "law",
+    "what not to do",
+    "snorkeling",
+    "beach"
+   ],
+   "sources": [
+    {
+     "name": "NOAA Fisheries: Viewing marine wildlife in Hawaiʻi",
+     "url": "https://fisheries.noaa.gov/pacific-islands/marine-life-viewing-guidelines/viewing-marine-wildlife-hawaii"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "contact-wildlife-and-emergency",
+   "type": "contact",
+   "title": "Who to call: emergencies, injured wildlife, and illegal activity",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Call 911 for any emergency, including ocean rescue. Report sick, injured, stranded or dead marine mammals and sea turtles to the NOAA Marine Wildlife Hotline at (888) 256-9840.",
+   "details": [
+    "Emergencies, including people in trouble in the water: 911.",
+    "Sick, injured, stranded or dead marine mammals or sea turtles: NOAA Marine Wildlife Hotline, (888) 256-9840.",
+    "Illegal or suspicious activity involving wildlife or natural resources: (800) 853-1964 or (808) 643-DLNR (3567), or the DLNR Tip App.",
+    "Photos and videos of wildlife incidents: respectwildlife@noaa.gov."
+   ],
+   "tags": [
+    "emergency",
+    "911",
+    "hotline",
+    "report",
+    "turtles",
+    "monk seal",
+    "dlnr",
+    "noaa",
+    "phone numbers"
+   ],
+   "sources": [
+    {
+     "name": "NOAA Fisheries: Viewing marine wildlife in Hawaiʻi",
+     "url": "https://fisheries.noaa.gov/pacific-islands/marine-life-viewing-guidelines/viewing-marine-wildlife-hawaii"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "rule-sunscreen-statewide",
+   "type": "rule",
+   "title": "Statewide sunscreen law: no oxybenzone or octinoxate",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi state law prohibits sunscreens containing oxybenzone and octinoxate, two chemicals linked to coral reef damage. Some counties go further and require mineral-only sunscreen.",
+   "details": [
+    "Check the label: avoid oxybenzone and octinoxate anywhere in Hawaiʻi.",
+    "Maui County and Hawaiʻi County have stricter mineral-only rules (see their entries).",
+    "Mineral sunscreens use zinc oxide or titanium dioxide."
+   ],
+   "tags": [
+    "sunscreen",
+    "reef safe",
+    "law",
+    "coral",
+    "what not to do",
+    "packing",
+    "beach"
+   ],
+   "sources": [
+    {
+     "name": "Civil Beat: Maui will require mineral-based sunscreens",
+     "url": "https://www.civilbeat.org/2022/09/maui-will-require-mineral-based-sunscreens-to-better-protect-reefs"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "rule-sunscreen-maui-county",
+   "type": "rule",
+   "title": "Maui County: mineral-only sunscreen",
+   "island": [
+    "Maui",
+    "Lānaʻi",
+    "Molokaʻi"
+   ],
+   "county": "Maui County",
+   "summary": "Since October 1, 2022, Maui County bans using, selling or distributing any sunscreen that is not mineral-based, on Maui, Lānaʻi and Molokaʻi, unless prescribed by a licensed health care provider.",
+   "details": [
+    "Allowed: mineral sunscreens with zinc oxide or titanium dioxide as the active ingredients.",
+    "The rule covers use as well as sale, so it applies to sunscreen you bring with you."
+   ],
+   "tags": [
+    "sunscreen",
+    "mineral",
+    "reef safe",
+    "law",
+    "maui",
+    "lanai",
+    "molokai",
+    "what not to do",
+    "packing"
+   ],
+   "sources": [
+    {
+     "name": "Civil Beat: Maui will require mineral-based sunscreens",
+     "url": "https://www.civilbeat.org/2022/09/maui-will-require-mineral-based-sunscreens-to-better-protect-reefs"
+    },
+    {
+     "name": "Maui County: Mineral-only sunscreen",
+     "url": "https://www.mauicounty.gov/2483/Sunscreen"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "rule-sunscreen-hawaii-county",
+   "type": "rule",
+   "title": "Hawaiʻi County (Big Island): mineral-only sunscreen sales",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "Since December 1, 2022, stores on Hawaiʻi Island may only sell sunscreens whose active ingredients are zinc oxide or titanium dioxide.",
+   "details": [
+    "This rule covers sale and distribution on the island.",
+    "Visitors should still follow the statewide ban on oxybenzone and octinoxate."
+   ],
+   "tags": [
+    "sunscreen",
+    "mineral",
+    "reef safe",
+    "law",
+    "big island",
+    "kona",
+    "hilo",
+    "packing"
+   ],
+   "sources": [
+    {
+     "name": "TravelAwaits: Hawaiʻi County bans nonmineral sunscreens",
+     "url": "https://www.travelawaits.com/2790979/hawaii-county-bans-nonmineral-sunscreens"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tax-transient-accommodations-2026",
+   "type": "tax",
+   "title": "Lodging tax (TAT) rose to 11% in 2026: the \"green fee\"",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Starting January 1, 2026, Hawaiʻi's state Transient Accommodations Tax rose 0.75 percentage points to 11% under Act 96, the \"green fee.\" It applies to overnight stays at hotels and vacation rentals, including by Hawaiʻi residents, and now to cruise ship passengers.",
+   "details": [
+    "Gov. Josh Green described the cost as about $3 extra for every $400 spent on lodging.",
+    "The added revenue, about $100 million a year, is split among natural resource protection, climate and disaster resilience, and visitor experience.",
+    "Each county adds its own 3% lodging tax, for a combined 14% TAT. With general excise tax passed on (up to 4.712%), total lodging taxes can reach about 18.7% of the room rate."
+   ],
+   "tags": [
+    "tax",
+    "tat",
+    "green fee",
+    "hotel",
+    "vacation rental",
+    "airbnb",
+    "cruise",
+    "2026",
+    "hosts",
+    "county tat",
+    "lodging tax",
+    "18.7"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii Tribune-Herald: Green fee among Hawaiʻi's new 2026 laws",
+     "url": "https://www.hawaiitribune-herald.com/2026/01/01/hawaii-news/minimum-wage-hike-green-fee-tax-among-hawaiis-new-2026-laws/"
+    },
+    {
+     "name": "Hawaii Guide: Hawaiʻi accommodation taxes",
+     "url": "https://hawaii-guide-com.pages.dev/blog/hawaii-accommodation-tax"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-diamond-head",
+   "type": "place",
+   "title": "Diamond Head State Monument (Lēʻahi)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Popular crater hike in Honolulu. Non-residents must reserve entry and parking in advance; Hawaiʻi residents with ID enter free. Open 6 a.m. to 6 p.m. daily, last reservation 4 p.m.",
+   "details": [
+    "Hours: 6:00 a.m. to 6:00 p.m. daily; gates lock at 6:00 p.m. Closed Christmas and New Year's Day.",
+    "Reservations required for non-residents at gostateparks.hawaii.gov/diamondhead. Bookings open up to 30 days ahead.",
+    "Last hike reservation 4:00 p.m.; last entry for that slot 4:30 p.m.",
+    "Non-resident fees: $5 entry (children 3 and under free) and $10 parking per non-commercial vehicle. Credit card only.",
+    "Hawaiʻi residents with a Hawaiʻi ID or driver's license enter free."
+   ],
+   "tags": [
+    "hike",
+    "hiking",
+    "crater",
+    "diamond head",
+    "leahi",
+    "reservations",
+    "fees",
+    "parking",
+    "waikiki",
+    "honolulu",
+    "state park",
+    "easy",
+    "moderate",
+    "oahu hikes",
+    "views"
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of State Parks: Diamond Head State Monument",
+     "url": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/"
+    },
+    {
+     "name": "Diamond Head reservations",
+     "url": "https://gostateparks.hawaii.gov/diamondhead/about"
+    },
+    {
+     "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
+     "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-pearl-harbor",
+   "type": "place",
+   "title": "Pearl Harbor National Memorial and USS Arizona Memorial",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Admission is free, but USS Arizona Memorial program tickets should be reserved on Recreation.gov ($1 reservation fee). No bags are allowed; parking is $7 a day.",
+   "details": [
+    "Visitor Center open daily 7:00 a.m. to 5:00 p.m.; closed Thanksgiving, Christmas and New Year's Day.",
+    "USS Arizona Memorial programs run from the first boat at 8:00 a.m. to the last departure at 3:30 p.m.",
+    "Reservations strongly recommended on Recreation.gov ($1 non-refundable fee). Tickets release 8 weeks ahead and 24 hours ahead at 3:00 p.m. Hawaiʻi time. Limited standby tickets.",
+    "No bags of any kind (backpacks, purses, camera bags). Paid bag storage is available near the entrance.",
+    "Parking: $7 per day, paid by app or QR code."
+   ],
+   "tags": [
+    "pearl harbor",
+    "uss arizona",
+    "memorial",
+    "history",
+    "museum",
+    "tickets",
+    "bags",
+    "parking",
+    "military",
+    "world war ii"
+   ],
+   "sources": [
+    {
+     "name": "National Park Service: Pearl Harbor basic information",
+     "url": "https://www.nps.gov/pearlharbor/planyourvisit/basicinfo.htm"
+    },
+    {
+     "name": "Recreation.gov: Pearl Harbor National Memorial",
+     "url": "https://www.recreation.gov/ticket/facility/10101488"
+    },
+    {
+     "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
+     "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-haleakala-sunrise",
+   "type": "place",
+   "title": "Haleakalā sunrise reservations",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Watching sunrise from Haleakalā National Park (3:00 to 7:00 a.m. entry) requires a vehicle reservation on Recreation.gov, plus a park entrance pass. The summit is regularly below freezing before dawn.",
+   "details": [
+    "Book the 3:00 to 7:00 a.m. sunrise slot on Recreation.gov. Tickets release 60 days ahead at 7:00 a.m. Hawaiʻi time, with more released 48 hours ahead.",
+    "One reservation per vehicle, and one sunrise reservation per person every three days.",
+    "Reservations are only valid for the reserved day and are not refunded for weather. The park cannot book by phone or in person.",
+    "Bring valid ID, the confirmation email, and a park pass or a way to buy one (private-vehicle pass listed at $30).",
+    "Conditions before dawn are regularly wet, windy and below freezing: bring warm layers."
+   ],
+   "tags": [
+    "haleakala",
+    "sunrise",
+    "national park",
+    "reservations",
+    "maui",
+    "cold",
+    "summit",
+    "fees",
+    "recreation.gov"
+   ],
+   "sources": [
+    {
+     "name": "National Park Service: Haleakalā sunrise",
+     "url": "https://www.nps.gov/hale/planyourvisit/sunrise.htm"
+    },
+    {
+     "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
+     "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-waianapanapa",
+   "type": "place",
+   "title": "Waiʻānapanapa State Park",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Black-sand beach park on the Road to Hāna. Non-residents must reserve a time slot in advance or they will be turned away. Opens 7 a.m.; parking is $10 per time slot.",
+   "details": [
+    "Reservations open 30 days ahead, one day at a time, at midnight Hawaiʻi time, at gostateparks.hawaii.gov/waianapanapa.",
+    "Opens 7:00 a.m.; enter by 5:30 p.m. You must leave when your time slot ends; book several slots for a longer stay.",
+    "Parking $10 per time slot plus a per-person entry fee for non-residents; children 3 and under free.",
+    "Hawaiʻi residents with valid ID don't need a reservation, but their out-of-state guests do.",
+    "Refunds up to 3 days before entry; a $5 cancellation fee and service fees may apply.",
+    "After the September 2026 storm closures, DLNR reported Maui parks reopened; confirm current status on the park notices page."
+   ],
+   "tags": [
+    "road to hana",
+    "black sand beach",
+    "reservations",
+    "state park",
+    "maui",
+    "hana",
+    "fees",
+    "parking"
+   ],
+   "sources": [
+    {
+     "name": "Waiʻānapanapa State Park reservations FAQ",
+     "url": "https://gostateparks.hawaii.gov/waianapanapa/faq"
+    },
+    {
+     "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
+     "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
+    },
+    {
+     "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-iao-valley",
+   "type": "place",
+   "title": "ʻĪao Valley State Monument",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Home of the ʻĪao Needle in Central Maui. Out-of-state visitors need advance reservations for entry and parking. Open 7 a.m. to 6 p.m.",
+   "details": [
+    "Hours: 7:00 a.m. to 6:00 p.m. daily.",
+    "Reserve at gostateparks.hawaii.gov.",
+    "Non-resident fees: $5 entry (children 3 and under free) and $10 parking per non-commercial vehicle.",
+    "Hawaiʻi residents with a driver's license or state ID: free entry and parking.",
+    "Open as of the DLNR notices dated October 23, 2026; check park notices before you go."
+   ],
+   "tags": [
+    "iao needle",
+    "iao valley",
+    "state park",
+    "reservations",
+    "maui",
+    "wailuku",
+    "fees"
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of State Parks: ʻĪao Valley State Monument",
+     "url": "https://dlnr.hawaii.gov/dsp/parks/maui/iao-valley-state-monument/"
+    },
+    {
+     "name": "DLNR Division of State Parks: park notices",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "place-haena",
+   "type": "place",
+   "title": "Hāʻena State Park and the Kalalau Trail",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "North Shore park with Keʻe Beach and the Kalalau Trailhead. Out-of-state visitors must reserve day passes at gohaena.com. It reopened in mid-October 2026 after Hurricane Lowell; overnight Kalalau hiking and camping past the 2-mile point remain closed.",
+   "details": [
+    "Open daily 7:00 a.m. to 6:45 p.m., including holidays. The shuttle is running.",
+    "Out-of-state visitors: reserve at gohaena.com. Entry $5 per person (children 3 and under free); parking reservations listed at $10 per vehicle in October 2026 reporting.",
+    "Hawaiʻi residents with a driver's license or state ID enter free without a reservation.",
+    "Day hikers can reach Hanakāpīʻai Beach and Hanakāpīʻai Falls. Hiking past the 2-mile point and overnight camping are closed until further notice.",
+    "DLNR is crediting refunds for days missed during the storm closure."
+   ],
+   "tags": [
+    "haena",
+    "kalalau",
+    "napali",
+    "na pali",
+    "kee beach",
+    "hike",
+    "reservations",
+    "shuttle",
+    "north shore",
+    "kauai",
+    "hurricane",
+    "closure"
+   ],
+   "sources": [
+    {
+     "name": "Honolulu Star-Advertiser: Hāʻena State Park reopened (Oct. 14, 2026)",
+     "url": "https://www.staradvertiser.com/2026/10/14/breaking-news/haena-state-park-reopened-today-for-day-hikers/"
+    },
+    {
+     "name": "DLNR Division of State Parks: Hāʻena State Park",
+     "url": "https://dlnr.hawaii.gov/dsp/parks/Kauai/haena-state-park/"
+    },
+    {
+     "name": "Go Hāʻena reservations",
+     "url": "https://gohaena.com/info-faqs/"
+    },
+    {
+     "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "guide-reservations-by-island",
+   "type": "guide",
+   "title": "Which Hawaiʻi attractions need reservations (by island)",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Several top sites require advance booking for visitors: Hanauma Bay, Diamond Head and the USS Arizona Memorial on Oʻahu; Haleakalā sunrise, Waiʻānapanapa and ʻĪao Valley on Maui; Hāʻena State Park and Kīlauea Point on Kauaʻi. Hawaiʻi Island's main parks charge fees but don't need advance reservations.",
+   "details": [
+    "Oʻahu: Hanauma Bay (2 days ahead at 7 a.m.), Diamond Head (up to 30 days ahead), USS Arizona Memorial (8 weeks and 24 hours ahead at 3 p.m.), ʻIolani Palace tours (online booking).",
+    "Maui: Haleakalā sunrise (60 days and 2 days ahead at 7 a.m.), Waiʻānapanapa (30 days ahead at midnight), ʻĪao Valley (up to 30 days ahead).",
+    "Kauaʻi: Hāʻena State Park (30 days ahead at midnight), Kīlauea Point National Wildlife Refuge (up to 60 days ahead, $1 fee plus admission).",
+    "No reservation, fees only: Waimea Canyon and Kōkeʻe State Parks on Kauaʻi; Akaka Falls, Hāpuna Beach, Wailuku River and Kua Bay (Maniniʻōwali) on Hawaiʻi Island ($5 per person and $10 per vehicle for non-residents); Hawaiʻi Volcanoes National Park ($30 private-vehicle pass, valid 7 days).",
+    "Hawaiʻi residents with state ID are usually exempt from state park reservations and fees.",
+    "Entry and parking are often sold separately. Always confirm on the official site before booking."
+   ],
+   "tags": [
+    "reservations",
+    "booking",
+    "fees",
+    "state parks",
+    "national parks",
+    "planning",
+    "itinerary",
+    "volcanoes",
+    "waimea canyon",
+    "akaka falls",
+    "kilauea point",
+    "iolani palace"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii's Best Travel: Hawaiʻi reservations and fees 2026 (verified July 22, 2026)",
+     "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
+    },
+    {
+     "name": "DLNR Division of State Parks: park notices",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "rule-taking-sand-rocks",
+   "type": "rule",
+   "title": "Taking sand, rocks or coral from beaches is illegal",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi law (HRS 205A-44) prohibits taking sand, dead coral or coral rubble, rocks, soil or other beach deposits from the shoreline. Shells, driftwood, beach glass and seaweed are exempt, as is sand accidentally carried off on your body or gear.",
+   "details": [
+    "The law covers sand, dead coral, coral rubble, rocks, soil and other beach or marine deposits.",
+    "Allowed: driftwood, shells, beach glass, glass floats and seaweed; small amounts stuck to your body, clothes, toys or bags.",
+    "Other exceptions cover permitted traditional cultural practices, government maintenance and emergencies.",
+    "Leave lava rocks and plants where they are, too: local etiquette and many park rules ask visitors not to remove them."
+   ],
+   "tags": [
+    "sand",
+    "rocks",
+    "lava rock",
+    "coral",
+    "shells",
+    "beach",
+    "law",
+    "souvenir",
+    "what not to do",
+    "take",
+    "taking",
+    "take home",
+    "bring home",
+    "collect",
+    "remove"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Revised Statutes §205A-44",
+     "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0205A/HRS_0205A-0044.htm"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "culture-visitor-etiquette",
+   "type": "culture",
+   "title": "Hawaiʻi visitor etiquette: lei, homes, rocks and driving",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Accept a lei by lowering your head and never throw one away; take off your shoes before entering a home; don't stack rocks; and drive patiently without honking. Touching or harming endangered or threatened species is a felony under state law.",
+   "details": [
+    "Lei: lower your head so the giver can place it on you, don't take it from their hands, and don't toss it in the trash; it carries cultural significance.",
+    "Homes: remove your shoes before entering.",
+    "Rocks: don't stack them. Rock stacking isn't a traditional practice, and rocks were used for ahu (altars and trail markers).",
+    "Driving: highways max out at 60 mph and speeding fines start at $100; locals rarely honk, pull over for others on narrow roads and one-lane bridges, and a wave or shaka says thanks.",
+    "Bicycles: don't ride on sidewalks in business districts such as Waikīkī and downtown Honolulu.",
+    "Words: residents of Hawaiʻi are kamaʻāina; not every resident is Native Hawaiian (kanaka maoli).",
+    "Don't stand on reefs, slippery ocean-side rock ledges or near blowholes."
+   ],
+   "tags": [
+    "etiquette",
+    "culture",
+    "respect",
+    "lei",
+    "shoes",
+    "rock stacking",
+    "driving",
+    "honking",
+    "shaka",
+    "what not to do",
+    "kamaaina",
+    "aloha"
+   ],
+   "sources": [
+    {
+     "name": "Lonely Planet: Dos and don'ts for traveling in Hawaiʻi (Aug. 2025)",
+     "url": "https://www.lonelyplanet.com/articles/dos-and-donts-for-traveling-in-hawaii"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "transport-thebus-skyline",
+   "type": "transport",
+   "title": "TheBus and Skyline fares on Oʻahu (from July 1, 2026)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A 2-hour pass is $3.00 for unlimited rides on TheBus and Skyline rail (cash $3.25 per boarding, no transfers). A 24-hour pass and the daily cap are $7.50; a month pass is $90.",
+   "details": [
+    "2-Hour Pass: $3.00, unlimited rides on TheBus and Skyline for two hours.",
+    "Cash: $3.25 per boarding, exact fare, no transfer.",
+    "24-Hour Pass: $7.50 from first tap. Day cap: $7.50, so a HOLO card never charges more than that in a day.",
+    "7-Day Pass: $45.00. Month Pass and month cap: $90.00. Annual: $990.00.",
+    "HOLO card: $2.00. Registering it adds balance protection and fare capping.",
+    "One child 5 and under rides free with a fare-paying rider (not occupying a seat).",
+    "Help: HOLO cards (808) 768-4656; TheBus (808) 848-5555."
+   ],
+   "tags": [
+    "bus",
+    "thebus",
+    "skyline",
+    "rail",
+    "train",
+    "fare",
+    "holo card",
+    "public transit",
+    "getting around",
+    "honolulu",
+    "airport"
+   ],
+   "sources": [
+    {
+     "name": "TheBus: fares effective July 1, 2026",
+     "url": "https://www.thebus.org/Fare/TheBusFares20260701.asp"
+    },
+    {
+     "name": "Honolulu Department of Transportation Services: fare changes July 1, 2026",
+     "url": "https://www.honolulu.gov/dts/changes-to-thebus-and-skyline-fares-starting-july-1-2026/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "tax-general-excise",
+   "type": "tax",
+   "title": "General excise tax (GET): Hawaiʻi's version of sales tax",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi has no sales tax; it has a general excise tax of 4% plus a 0.5% county surcharge, 4.5% in all four counties. Businesses may pass on up to 4.712% to customers, which is why receipts often show that number.",
+   "details": [
+    "State GET 4% plus 0.5% county surcharge: 4.5% on Oʻahu, Maui County, Kauaʻi and Hawaiʻi Island.",
+    "Maximum pass-on to customers: 4.712% (the tax applies to income that already includes the passed-on tax).",
+    "Maui County's surcharge started January 1, 2024; older guides may show 4% there.",
+    "The county surcharges are scheduled to run through December 31, 2030."
+   ],
+   "tags": [
+    "tax",
+    "get",
+    "sales tax",
+    "general excise",
+    "receipt",
+    "shopping",
+    "4.712",
+    "prices"
+   ],
+   "sources": [
+    {
+     "name": "Kintsugi: Hawaiʻi GET guide 2026",
+     "url": "https://trykintsugi.com/sales-tax-guides/usa/hawaii"
+    },
+    {
+     "name": "Hawaiʻi Department of Taxation",
+     "url": "https://tax.hawaii.gov/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "history-kalakaua-avenue",
+   "type": "history",
+   "title": "Kalākaua Avenue, Waikīkī's main street",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Yes, Kalākaua Avenue is Waikīkī's main oceanfront street. It was first called Waikiki Road and was renamed in the early 1900s for King David Kalākaua (reigned 1874 to 1891), the last king of the Hawaiian Kingdom, known as the Merrie Monarch.",
+   "details": [
+    "Route: about 4.4 km (2.7 miles), from Kapiʻolani Park near Diamond Head, past the Honolulu Zoo and Waikīkī's beaches and hotels, across the Ala Wai Canal, to South Beretania Street in McCully.",
+    "Name: originally Waikiki Road. Sources differ on the year it was renamed for King Kalākaua (1905 or 1908).",
+    "King Kalākaua (1836 to 1891) championed Hawaiian music, hula and culture, which helped spark the first Hawaiian Renaissance. The Merrie Monarch Festival in Hilo is named for him.",
+    "Landmarks along it include the Moana Hotel (1901, now the Moana Surfrider), the Royal Hawaiian Hotel (1927), Kapiʻolani Park and the Honolulu Zoo, with Fort DeRussy nearby.",
+    "In the 1990s the city spent more than $100 million over about ten years on new sidewalks, landscaping, historic-style lighting and plazas; the Waikiki Historic Trail was designed in 1994.",
+    "Nearby streets are named for Hawaiian royalty and notable figures too, such as Kaʻiulani Avenue (Princess Kaʻiulani) and Duke's Lane (Duke Kahanamoku)."
+   ],
+   "tags": [
+    "kalakaua",
+    "kalakaua avenue",
+    "street",
+    "waikiki",
+    "history",
+    "king kalakaua",
+    "merrie monarch",
+    "royalty",
+    "hawaiian kingdom",
+    "hotels",
+    "shopping",
+    "moana surfrider",
+    "royal hawaiian",
+    "kapiolani park",
+    "road"
+   ],
+   "sources": [
+    {
+     "name": "American Planning Association: Kalākaua Avenue, Great Places",
+     "url": "https://planning.org/greatplaces/streets/2013/kalakauaavenue.htm"
+    },
+    {
+     "name": "Wikipedia: Kalākaua Avenue",
+     "url": "https://en.wikipedia.org/wiki/Kal%C4%81kaua_Avenue"
+    },
+    {
+     "name": "Hawaii Magazine: 7 streets in Waikīkī and what their names mean",
+     "url": "https://hawaiimagazine.com/?p=102353"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "hike-oahu-by-difficulty",
+   "type": "guide",
+   "title": "Oʻahu hikes from easiest to hardest",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Easiest: Mānoa Falls (1.6 miles round trip through rainforest). Easy to moderate: Lanikai Pillbox (1 mile, steep start), Diamond Head (reservation needed for visitors) and Makapuʻu Lighthouse (2 miles, 500 feet). Longer but flat: Kaʻena Point. Hardest: Koko Crater Stairs (1,048 steps, about 1,200 feet straight up). Haʻikū Stairs is illegal and being removed.",
+   "details": [
+    "Easy: Mānoa Falls Trail, 1.6 miles round trip, about an hour, rainforest to a 150-foot waterfall. Muddy and slippery.",
+    "Moderate, short: Lanikai Pillbox (Kaʻiwa Ridge), 1 mile round trip, steep and gravelly at the start, no shade, ocean views of the Mokulua islands.",
+    "Moderate: Diamond Head State Monument, Honolulu's classic crater hike. Non-residents must reserve ahead.",
+    "Moderate: Makapuʻu Point Lighthouse Trail, 2 miles round trip, 500 feet of gain, hot and exposed, whale watching November to May.",
+    "Moderate, long and flat: Kaʻena Point, 2.5 miles each way along the coast; check road access closures first.",
+    "Strenuous: Koko Crater Stairs, 1,048 old railway ties, about 1,200 feet of gain in under a mile, no shade.",
+    "Off-limits: Haʻikū Stairs (Stairway to Heaven) has been illegal to climb since 1987 and the city began removing it in 2024. Trespassers are cited and arrested.",
+    "For every trail: start early, carry plenty of water, wear sun protection, stay on the trail, and pack out your trash."
+   ],
+   "tags": [
+    "hike",
+    "hiking",
+    "trail",
+    "easy",
+    "easiest",
+    "beginner",
+    "difficulty",
+    "hardest",
+    "moderate",
+    "strenuous",
+    "family",
+    "oahu hikes",
+    "best hikes",
+    "waterfall",
+    "views",
+    "list"
+   ],
+   "sources": [
+    {
+     "name": "DLNR: Makapuʻu Point Lighthouse Trail",
+     "url": "https://dlnr.hawaii.gov/dsp/hiking/makapuu-point-lighthouse-trail"
+    },
+    {
+     "name": "DLNR: Kaʻena Point Trail",
+     "url": "https://dlnr.hawaii.gov/dsp/hiking/oahu/kaena-point-trail/"
+    },
+    {
+     "name": "Honolulu Magazine: Mānoa Falls Trail",
+     "url": "https://www.honolulumagazine.com/?p=37561"
+    },
+    {
+     "name": "Honolulu Magazine: Lanikai Pillbox Trail",
+     "url": "https://www.honolulumagazine.com/?p=40906"
+    },
+    {
+     "name": "Hawaii.com: Koko Crater Stairs (June 2026)",
+     "url": "https://hawaii.com/blog/hiking-koko-crater-stairs"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "hike-manoa-falls",
+   "type": "hike",
+   "title": "Mānoa Falls Trail",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "One of Oʻahu's easiest hikes: 1.6 miles round trip (about an hour) through Mānoa Valley rainforest to a roughly 150-foot waterfall, near Lyon Arboretum above Honolulu. Expect mud and slippery rocks; don't swim in the pool.",
+   "details": [
+    "Difficulty: easy, good for beginners.",
+    "Length: 1.6 miles round trip, about 1 hour.",
+    "Trail is rocky and often muddy and slippery; wear sturdy shoes, not slippers.",
+    "Don't swim or wade: the Hawaiʻi Department of Health discourages it because of leptospirosis, and signs warn of landslides and flash floods.",
+    "Parking: a paid private lot at the end of Mānoa Road (fees have been reported between $5 and $7), or free street parking lower in the neighborhood. Confirm current rates on arrival."
+   ],
+   "tags": [
+    "manoa falls",
+    "manoa",
+    "waterfall",
+    "hike",
+    "hiking",
+    "trail",
+    "easy",
+    "easiest",
+    "beginner",
+    "rainforest",
+    "lyon arboretum",
+    "honolulu",
+    "family",
+    "mud",
+    "leptospirosis"
+   ],
+   "sources": [
+    {
+     "name": "Honolulu Magazine: Mānoa Falls Trail",
+     "url": "https://www.honolulumagazine.com/?p=37561"
+    },
+    {
+     "name": "Wikipedia: Mānoa Falls Trail",
+     "url": "https://en.wikipedia.org/wiki/Manoa_Falls_Trail"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "hike-makapuu-lighthouse",
+   "type": "hike",
+   "title": "Makapuʻu Point Lighthouse Trail",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A 2-mile round-trip trail (about 500 feet of climbing) on Oʻahu's southeast tip with views of the lighthouse and the windward coast. Rated moderate by the state; hot, sunny and exposed. Best for whale watching November through May.",
+   "details": [
+    "Length: 2.0 miles round trip; allow about 2 hours.",
+    "Elevation gain: 500 feet. State rating: moderate.",
+    "Hot, dry and exposed with no shade; very windy at the top. Bring a hat, sunscreen and plenty of water.",
+    "Humpback whale season: November through May; binoculars help.",
+    "Parking lot off Kalanianaʻole Highway (Route 72) in Kaiwi State Scenic Shoreline.",
+    "The lighthouse itself is off-limits. Stay on the trail and pack out trash.",
+    "Notice (Oct. 23, 2026): the upper Makapuʻu viewing area is closed for repairs October 21 to November 4, 2026, and all day on weekends and holidays; the Lighthouse Trail itself stays open."
+   ],
+   "tags": [
+    "makapuu",
+    "lighthouse",
+    "hike",
+    "hiking",
+    "trail",
+    "easy",
+    "moderate",
+    "whales",
+    "whale watching",
+    "views",
+    "east oahu",
+    "kaiwi",
+    "family",
+    "sunrise"
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of State Parks: Makapuʻu Point Lighthouse Trail",
+     "url": "https://dlnr.hawaii.gov/dsp/hiking/makapuu-point-lighthouse-trail"
+    },
+    {
+     "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "hike-lanikai-pillbox",
+   "type": "hike",
+   "title": "Lanikai Pillbox Trail (Kaʻiwa Ridge)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A short but steep 1-mile round-trip ridge hike in Kailua to old military pillboxes with famous views over Lanikai and the Mokulua islands. Free, no shade, and parking in Lanikai is very limited, so park at Kailua Beach Park and walk.",
+   "details": [
+    "Difficulty: moderate. Length: about 1 mile round trip.",
+    "Trailhead: Kaelepulu Drive in Lanikai, across from Mid-Pacific Country Club; a narrow signed path between two fences.",
+    "Parking: very limited in the neighborhood and cars get towed; park at Kailua Beach Park and walk.",
+    "No shade; go early. Gravel sections are slippery, especially going down and after rain.",
+    "Free."
+   ],
+   "tags": [
+    "lanikai",
+    "pillbox",
+    "kaiwa",
+    "kaiwa ridge",
+    "kailua",
+    "hike",
+    "hiking",
+    "trail",
+    "moderate",
+    "short",
+    "views",
+    "sunrise",
+    "mokulua",
+    "windward",
+    "parking"
+   ],
+   "sources": [
+    {
+     "name": "Honolulu Magazine: Lanikai Pillbox Trail",
+     "url": "https://www.honolulumagazine.com/?p=40906"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "hike-koko-crater-stairs",
+   "type": "hike",
+   "title": "Koko Crater Stairs (Koko Head)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Oʻahu's famous stair workout: 1,048 old railway ties straight up Koko Crater, about 1,200 feet of climbing in roughly 1.6 miles round trip. Strenuous, with no shade. Free parking at Koko Head District Park in Hawaiʻi Kai.",
+   "details": [
+    "Difficulty: strenuous, nearly vertical with no switchbacks.",
+    "1,048 steps (ties from a World War II military tramway); summit at about 1,208 feet.",
+    "Time: 45 to 60 minutes round trip for first-timers.",
+    "Halfway up, a narrow section crosses a gap like a bridge; a bypass path on the right rejoins the trail.",
+    "No shade at all; go early or late and carry water.",
+    "Parking: free lot at Koko Head District Park, 423 Portlock Road (lot open 4 a.m. to 11 p.m.).",
+    "Free."
+   ],
+   "tags": [
+    "koko head",
+    "koko crater",
+    "stairs",
+    "hike",
+    "hiking",
+    "trail",
+    "strenuous",
+    "hard",
+    "hardest",
+    "workout",
+    "hawaii kai",
+    "east oahu",
+    "sunrise",
+    "views"
+   ],
+   "sources": [
+    {
+     "name": "Hawaii.com: Hiking Koko Crater Stairs (June 2026)",
+     "url": "https://hawaii.com/blog/hiking-koko-crater-stairs"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "hike-kaena-point",
+   "type": "hike",
+   "title": "Kaʻena Point Trail",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "A flat coastal walk, 2.5 miles each way, to Oʻahu's wild western tip, a protected Natural Area Reserve with nesting seabirds. Rated moderate for heat, wind and eroded sections. Check closures first: storm damage has restricted vehicle access.",
+   "details": [
+    "Length: 2.5 miles one way from either the Waiʻanae (Keawaʻula) or Mokulēʻia side; return the same way. Allow 1 to 3 hours.",
+    "Mostly flat on an old railroad bed and dirt road that has fully eroded in places.",
+    "Sunny, hot and windy; bring sun protection and plenty of water.",
+    "Natural Area Reserve rules: no dogs (service animals only), no drones or fires, stay on paths and watch for nesting seabirds.",
+    "Stay away from the wave-exposed coast unless you know hazardous ocean conditions. Whales pass offshore in winter.",
+    "Recent DLNR notice: vehicle access in Kaʻena Point State Park was restricted because of storm damage, and the Keawaʻula Trail was closed. Check park notices before going."
+   ],
+   "tags": [
+    "kaena",
+    "kaena point",
+    "hike",
+    "hiking",
+    "trail",
+    "flat",
+    "coast",
+    "coastal",
+    "seabirds",
+    "albatross",
+    "natural area reserve",
+    "waianae",
+    "mokuleia",
+    "north shore",
+    "dogs",
+    "closure"
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of State Parks: Kaʻena Point Trail",
+     "url": "https://dlnr.hawaii.gov/dsp/hiking/oahu/kaena-point-trail/"
+    },
+    {
+     "name": "DLNR Division of State Parks: park notices",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "rule-haiku-stairs",
+   "type": "rule",
+   "title": "Haʻikū Stairs (Stairway to Heaven) is illegal and being removed",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Climbing Oʻahu's Haʻikū Stairs has been illegal since 1987. The city voted in 2021 to remove them and began removal in 2024. Police cite and arrest trespassers. Choose a legal trail instead.",
+   "details": [
+    "The area is a closed, dangerous construction and natural area; officials cite safety, trespassing, neighborhood impacts and city liability.",
+    "In April 2024 alone, police issued dozens of citations and several arrests for trespassing at the stairs.",
+    "Legal alternatives with big views: Lanikai Pillbox, Makapuʻu Lighthouse, Koko Crater Stairs or Diamond Head."
+   ],
+   "tags": [
+    "haiku stairs",
+    "stairway to heaven",
+    "haiku",
+    "kaneohe",
+    "illegal",
+    "trespassing",
+    "closed",
+    "hike",
+    "what not to do",
+    "arrest"
+   ],
+   "sources": [
+    {
+     "name": "Washington Times / AP: Honolulu police arrest hikers at Haʻikū Stairs (April 2024)",
+     "url": "https://www.washingtontimes.com/news/2024/apr/26/honolulu-police-arrest-seven-for-attempting-to-ill/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "beaches-lifeguarded-oahu",
+   "type": "safety",
+   "title": "Lifeguarded beaches on Oʻahu",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Most Oʻahu lifeguard towers are staffed daily from 8 a.m. to 6:30 p.m., at beaches on every shore, from Ala Moana and Waikīkī to Waimea Bay and Mākaha. Bellows and Depot's are weekends only.",
+   "details": [
+    "South Shore: Ala Moana Beach Park, Magic Island lagoon, Waikīkī (Duke's, Kūhiō, Queen's and Kapiʻolani Park towers), Sans Souci, Hanauma Bay, Sandy Beach.",
+    "Windward: Makapuʻu Beach, Waimānalo Beach, Waimānalo Bay, Bellows Field Beach (weekends only), Kailua Beach, Kualoa Regional Park (daily Memorial Day to Labor Day; weekends and holidays the rest of the year).",
+    "North Shore: Sunset Beach, ʻEhukai Beach, Ke Waena Beach, Chun's Reef, Waimea Bay, Laniākea Beach, Haleʻiwa Aliʻi Beach Park.",
+    "Leeward (Waiʻanae): Keawaʻula Beach, Mākaha Beach, Māʻili Beach, Depot's Beach (weekends and holidays only), Nānākuli Beach, Pōkaʻī Bay.",
+    "Hours: daily 8:00 a.m. to 6:30 p.m. unless noted. If no lifeguard is in the tower, call 911 in an emergency.",
+    "Check current hazard ratings for any beach at Hawaii Beach Safety before you go in."
+   ],
+   "tags": [
+    "lifeguard",
+    "lifeguards",
+    "lifeguarded",
+    "swim",
+    "swimming",
+    "safe beaches",
+    "beach",
+    "beaches",
+    "waikiki",
+    "ala moana",
+    "waimea bay",
+    "sunset beach",
+    "kailua",
+    "makaha",
+    "north shore",
+    "hours",
+    "kids",
+    "family"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+     "url": "https://oceansafety.hawaii.gov/?p=175"
+    },
+    {
+     "name": "Hawaii Beach Safety: current conditions by beach",
+     "url": "https://hawaiibeachsafety.com/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "beaches-lifeguarded-maui",
+   "type": "safety",
+   "title": "Lifeguarded beaches on Maui",
+   "island": "Maui",
+   "county": "Maui County",
+   "summary": "Maui's lifeguarded beaches are staffed daily from 8 a.m. to 4:45 p.m.: Hoʻokipa, Baldwin and Kanahā on the north shore; D.T. Fleming and Hanakaʻōʻō in West Maui; Kamaʻole I, II and III and Mākena (Big Beach) in South Maui; and Hāna Bay.",
+   "details": [
+    "North Shore: Hoʻokipa Beach Park, Baldwin Beach Park, Kanahā Beach Park.",
+    "West Maui: D.T. Fleming Beach Park, Hanakaʻōʻō Beach Park.",
+    "South Maui (Kīhei and Mākena): Kamaʻole Beach Parks I, II and III, Mākena State Park (Big Beach).",
+    "East Maui: Hāna Bay.",
+    "Hours: daily 8:00 a.m. to 4:45 p.m. If no lifeguard is in the tower, call 911 in an emergency."
+   ],
+   "tags": [
+    "lifeguard",
+    "lifeguards",
+    "lifeguarded",
+    "swim",
+    "swimming",
+    "safe beaches",
+    "beach",
+    "beaches",
+    "kamaole",
+    "kihei",
+    "makena",
+    "big beach",
+    "baldwin",
+    "hookipa",
+    "kanaha",
+    "hana",
+    "west maui",
+    "kaanapali",
+    "hours",
+    "kids",
+    "family"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+     "url": "https://oceansafety.hawaii.gov/?p=175"
+    },
+    {
+     "name": "Hawaii Beach Safety: current conditions by beach",
+     "url": "https://hawaiibeachsafety.com/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "beaches-lifeguarded-kauai",
+   "type": "safety",
+   "title": "Lifeguarded beaches on Kauaʻi",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "Kauaʻi lifeguards work daily from 8 a.m. to 6 p.m. at Kekaha, Salt Pond and Poʻipū on the south shore; Lydgate, Kealia and Anahola on the east; and Hanalei Bay, Hāʻena and Keʻe on the north.",
+   "details": [
+    "South Shore: Kekaha Beach Park, Salt Pond Beach Park, Poʻipū Beach (Nukumoi and Poʻipū towers).",
+    "East Shore: Lydgate Beach and ponds, Kealia Beach Park, Anahola Beach Park.",
+    "North Shore: Hanalei Bay (Pavilion and Pine Trees towers), Hāʻena Beach Park, Keʻe Beach.",
+    "Hours: daily 8:00 a.m. to 6:00 p.m. If no lifeguard is in the tower, call 911 in an emergency.",
+    "Lydgate's rock-walled ponds are a common pick for families with young children."
+   ],
+   "tags": [
+    "lifeguard",
+    "lifeguards",
+    "lifeguarded",
+    "swim",
+    "swimming",
+    "safe beaches",
+    "beach",
+    "beaches",
+    "poipu",
+    "hanalei",
+    "lydgate",
+    "salt pond",
+    "kekaha",
+    "kealia",
+    "kee",
+    "haena",
+    "hours",
+    "kids",
+    "family"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+     "url": "https://oceansafety.hawaii.gov/?p=175"
+    },
+    {
+     "name": "Hawaii Beach Safety: current conditions by beach",
+     "url": "https://hawaiibeachsafety.com/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "beaches-lifeguarded-hawaii-island",
+   "type": "safety",
+   "title": "Lifeguarded beaches on Hawaiʻi Island (Big Island)",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "Hawaiʻi Island lifeguards are on duty daily from 9:30 a.m. to 4:45 p.m.: in Hilo at Leleiwi, Carlsmith, Richardson Ocean Park, Onekahakaha and Honoliʻi, plus Punaluʻu; and on the Kona-Kohala side at Spencer, Hāpuna, Kahaluʻu and White Sands (Laʻaloa).",
+   "details": [
+    "East side (Hilo area): Leleiwi Beach Park, Carlsmith Beach Park, Richardson Ocean Park, Onekahakaha Beach Park, Honoliʻi Beach Park, plus Punaluʻu Beach Park (black sand) to the south.",
+    "West side (Kona and Kohala): Spencer Beach Park, Hāpuna Beach State Recreation Area, Kahaluʻu Beach Park, White Sands (Laʻaloa) Beach Park, also called Magic Sands.",
+    "Hours: daily 9:30 a.m. to 4:45 p.m. If no lifeguard is in the tower, call 911 in an emergency.",
+    "Hāpuna and Kua Bay charge non-resident entry and parking fees ($5 per person, $10 per vehicle)."
+   ],
+   "tags": [
+    "lifeguard",
+    "lifeguards",
+    "lifeguarded",
+    "swim",
+    "swimming",
+    "safe beaches",
+    "beach",
+    "beaches",
+    "big island",
+    "hapuna",
+    "kahaluu",
+    "magic sands",
+    "white sands",
+    "richardson",
+    "hilo",
+    "kona",
+    "kohala",
+    "punaluu",
+    "black sand",
+    "hours",
+    "kids",
+    "family"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+     "url": "https://oceansafety.hawaii.gov/?p=175"
+    },
+    {
+     "name": "Hawaii Beach Safety: current conditions by beach",
+     "url": "https://hawaiibeachsafety.com/"
+    },
+    {
+     "name": "Hawaii's Best Travel: reservations and fees 2026",
+     "url": "https://hawaiisbesttravel.com/hawaii-reservations-and-fees/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "safety-beach-hazard-ratings",
+   "type": "safety",
+   "title": "Beach hazard ratings: yellow, red, black and closed",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi's ocean safety agencies rate each lifeguarded beach's conditions: Yellow means caution, Red means high hazard, Black means extreme hazard, and Closed means stay out. Current ratings for each beach are posted on Hawaii Beach Safety.",
+   "details": [
+    "Yellow: caution. Red: high hazard. Black: extreme hazard. Closed: the beach or water is closed.",
+    "Ratings change through the day with surf, wind and currents; check right before you go.",
+    "Ask the lifeguard about conditions before swimming, and call 911 if someone is in trouble and no lifeguard is on duty."
+   ],
+   "tags": [
+    "flags",
+    "warning",
+    "hazard",
+    "rating",
+    "red flag",
+    "yellow",
+    "black",
+    "closed",
+    "conditions",
+    "surf report",
+    "ocean safety",
+    "beach",
+    "swimming"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Department of Health: List of lifeguarded beaches in Hawaiʻi",
+     "url": "https://oceansafety.hawaii.gov/?p=175"
+    },
+    {
+     "name": "Hawaii Beach Safety: current conditions by beach",
+     "url": "https://hawaiibeachsafety.com/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "park-hawaii-volcanoes",
+   "type": "place",
+   "title": "Hawaiʻi Volcanoes National Park",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "Home of Kīlauea, which has been erupting in episodes of lava fountaining inside Halemaʻumaʻu crater since December 23, 2024 (Episode 55 was on October 17, 2026). Entry is $30 per private vehicle for 7 days, card only, with no reservation needed. Parking lots can fill by 10 a.m.",
+   "details": [
+    "Entrance: $30 per private vehicle (up to 15 people), $25 per motorcycle, $15 per person on foot or bicycle; 15 and under free. Passes are valid 7 days.",
+    "Hawaiʻi Tri-Park Annual Pass: $55, covers Hawaiʻi Volcanoes, Haleakalā and Puʻuhonua o Hōnaunau.",
+    "The park is cashless: pay by credit or debit card, or buy a digital pass on Recreation.gov ahead of time (cell service is limited).",
+    "Eruption: episodic lava fountaining in Halemaʻumaʻu crater since December 2024. Episode 55 (October 17, 2026) fountained for about six hours, up to 720 feet high. Activity changes constantly; check the USGS Hawaiian Volcano Observatory before you go.",
+    "Volcanic gas can be dangerous for people with heart or breathing problems, pregnant people, infants and young children; check air quality during your visit.",
+    "A two-year summit construction project means some closures and delays. Parking lots can be full by 10 a.m.",
+    "Park information: (808) 985-6011."
+   ],
+   "tags": [
+    "volcano",
+    "volcanoes",
+    "kilauea",
+    "halemaumau",
+    "lava",
+    "eruption",
+    "national park",
+    "hawaii volcanoes",
+    "big island",
+    "fees",
+    "pass",
+    "vog",
+    "volcanic gas"
+   ],
+   "sources": [
+    {
+     "name": "NPS: Hawaiʻi Volcanoes fees",
+     "url": "https://www.nps.gov/havo/planyourvisit/fees.htm"
+    },
+    {
+     "name": "NPS: Hawaiʻi Volcanoes alerts and conditions",
+     "url": "https://www.nps.gov/havo/planyourvisit/conditions.htm"
+    },
+    {
+     "name": "Honolulu Star-Advertiser: Lava fountaining returns to Halemaʻumaʻu (Oct. 17, 2026)",
+     "url": "https://www.staradvertiser.com/2026/10/17/breaking-news/lava-fountaining-returns-to-kilaueas-halemaumau-crater-5/"
+    },
+    {
+     "name": "USGS Hawaiian Volcano Observatory",
+     "url": "https://www.usgs.gov/observatories/hvo"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "place-akaka-falls",
+   "type": "place",
+   "title": "ʻAkaka Falls State Park",
+   "island": "Hawaiʻi Island",
+   "county": "Hawaiʻi County",
+   "summary": "An easy 0.4-mile rainforest loop north of Hilo to 442-foot ʻAkaka Falls. Open 8:30 a.m. to 5 p.m.; non-residents pay $5 per person and $10 to park, card only. Part of the trail was closed by fallen trees as of October 23, 2026.",
+   "details": [
+    "Hours: daily 8:30 a.m. to 5:00 p.m.",
+    "Non-resident fees: $5 entry per person (children 3 and under free) and $10 parking. Credit card only.",
+    "Hawaiʻi residents with ID: free entry and parking.",
+    "Trail: 0.4-mile paved loop with stairs through rainforest; ʻAkaka Falls drops 442 feet.",
+    "Cell reception is limited at the park, so pay fees before you arrive.",
+    "Notice (Oct. 23, 2026): part of the trail is closed due to fallen trees."
+   ],
+   "tags": [
+    "akaka falls",
+    "waterfall",
+    "hilo",
+    "hamakua",
+    "big island",
+    "state park",
+    "fees",
+    "easy",
+    "walk",
+    "rainforest",
+    "hike"
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of State Parks: ʻAkaka Falls State Park",
+     "url": "https://dlnr.hawaii.gov/dsp/parks/hawaii/akaka-falls-state-park/"
+    },
+    {
+     "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "park-waimea-canyon",
+   "type": "place",
+   "title": "Waimea Canyon State Park",
+   "island": "Kauaʻi",
+   "county": "Kauaʻi County",
+   "summary": "West Kauaʻi's huge red-rock canyon. After Hurricane Lowell, only the Waimea Canyon Lookout reopened (from October 24, 2026, daylight hours); other lookouts are closed and Kōkeʻe Road is closed until further notice. Non-residents pay $5 per person and $10 to park.",
+   "details": [
+    "Status (DLNR notice, Oct. 23, 2026): the Waimea Canyon Lookout reopened October 24 during daylight hours; other lookout areas remain closed; Kōkeʻe Road is closed until further notice.",
+    "Non-resident fees: $5 entry per person (children 3 and under free) and $10 parking per vehicle. Hawaiʻi residents with ID are free.",
+    "Parking tickets are valid at both Waimea Canyon and Kōkeʻe State Park lots.",
+    "Trails in the park include the Iliau Nature Loop and Kukui Trail; nearby forest-reserve hikes into the canyon are long and strenuous.",
+    "Check park notices before driving up, since conditions are changing after the storm."
+   ],
+   "tags": [
+    "waimea canyon",
+    "grand canyon of the pacific",
+    "kokee",
+    "lookout",
+    "kauai",
+    "state park",
+    "fees",
+    "closure",
+    "hurricane",
+    "west kauai",
+    "views"
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of State Parks: Waimea Canyon State Park",
+     "url": "https://dlnr.hawaii.gov/dsp/parks/kauai/waimea-canyon-state-park/"
+    },
+    {
+     "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "notice-state-parks-oct-2026",
+   "type": "guide",
+   "title": "State park closures after Hurricane Lowell (as of October 23, 2026)",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Most Kauaʻi state parks were still closed after Hurricane Lowell as of October 23, 2026. Open or reopening: Hāʻena (mid-October), the Waimea Canyon Lookout (October 24) and Wailua River (partly). Kauaʻi camping is closed. Most Maui, Molokaʻi and Hawaiʻi Island parks have reopened.",
+   "details": [
+    "Kauaʻi: Hāʻena State Park reopened in mid-October for day use; Waimea Canyon Lookout reopened October 24; Kōkeʻe Road closed; all Kauaʻi camping closed; Polihale and Nāpali Coast closed; Wailua River open for river access only (Fern Grotto closed to individual kayakers; Uluwehi/Secret Falls closed).",
+    "Oʻahu: Kaʻena Point vehicle access closed and Keawaʻula Trail closed; Makapuʻu upper lookout closed October 21 to November 4 and on weekends and holidays (the Lighthouse Trail stays open); Mālaekahana Kahuku Section parking closed October 26, 2026 to January 31, 2027.",
+    "Maui and Molokaʻi: all parks reopened except Polipoli (downed trees).",
+    "Hawaiʻi Island: most parks reopened; Lapakahi closed; part of the ʻAkaka Falls trail closed; Hāpuna and Kalōpā camping and cabins closed.",
+    "Reservations on storm-closure days are refunded automatically, minus service charges.",
+    "Conditions are changing week to week; always check the DLNR park notices page before you go."
+   ],
+   "tags": [
+    "closed",
+    "closure",
+    "closures",
+    "open",
+    "reopen",
+    "hurricane",
+    "lowell",
+    "storm",
+    "kauai",
+    "state parks",
+    "camping",
+    "secret falls",
+    "fern grotto",
+    "polihale",
+    "napali",
+    "kokee",
+    "status"
+   ],
+   "sources": [
+    {
+     "name": "DLNR Division of State Parks: park notices (Oct. 23, 2026)",
+     "url": "https://dlnr.hawaii.gov/dsp/important-park-notices/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "place-iolani-palace",
+   "type": "history",
+   "title": "ʻIolani Palace",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "The royal palace of Hawaiʻi's last monarchs, King Kalākaua and Queen Liliʻuokalani, in downtown Honolulu. Tours must be booked in advance online or by phone, with no walk-ups or same-day tickets. Ticket office: Tuesday to Saturday, 8:30 a.m. to 4 p.m.",
+   "details": [
+    "Tours: docent-led or self-led audio tour of the first and second floors, about 60 to 90 minutes, plus specialty tours.",
+    "Booking: online only or by phone at (808) 522-0832. No walk-ups or same-day reservations.",
+    "Ticket office: Tuesday to Saturday, 8:30 a.m. to 4:00 p.m.; Monday is phone calls only.",
+    "Dress: shirts and shoes required (shoe covers provided); no bathing suits or beachwear.",
+    "Photos: personal photos allowed, but no flash, video, tripods or selfie sticks.",
+    "No large bags, backpacks, luggage, food or drinks inside. Children under 5 are free.",
+    "Location: King Street and Richards Street, downtown Honolulu."
+   ],
+   "tags": [
+    "iolani palace",
+    "palace",
+    "royalty",
+    "kalakaua",
+    "liliuokalani",
+    "history",
+    "museum",
+    "tour",
+    "tickets",
+    "downtown honolulu",
+    "monarchy",
+    "hawaiian kingdom"
+   ],
+   "sources": [
+    {
+     "name": "ʻIolani Palace: tours and admission",
+     "url": "https://www.iolanipalace.org/visit/tours-admission/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "place-bishop-museum",
+   "type": "history",
+   "title": "Bishop Museum",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "Hawaiʻi's largest museum of Hawaiian and Pacific culture and natural history, in Kalihi, Honolulu. Open daily 9 a.m. to 5 p.m. except Thanksgiving, Christmas Eve, Christmas and New Year's. One ticket covers the signature galleries; the J. Watumull Planetarium is on site.",
+   "details": [
+    "Hours: daily 9:00 a.m. to 5:00 p.m. Closed Thanksgiving, Christmas Eve, Christmas Day and New Year's Day.",
+    "Address: 1525 Bernice Street, Honolulu, HI 96817, near downtown and the airport; reachable by TheBus.",
+    "Admission covers the signature galleries; check the museum's tickets page for current prices and kamaʻāina rates.",
+    "Highlights include the J. Watumull Planetarium and an erupting-volcano experience."
+   ],
+   "tags": [
+    "bishop museum",
+    "museum",
+    "museums",
+    "history",
+    "culture",
+    "planetarium",
+    "kalihi",
+    "honolulu",
+    "hawaiian culture",
+    "kids",
+    "rainy day"
+   ],
+   "sources": [
+    {
+     "name": "Bishop Museum: plan your visit",
+     "url": "https://www.bishopmuseum.org/visit/"
+    }
+   ],
+   "last_checked": "2026-10-30"
+  },
+  {
+   "id": "safety-box-jellyfish",
+   "type": "safety",
+   "title": "Box jellyfish: when they show up and what to do",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Box jellyfish tend to wash in about 8 to 10 days after each full moon, mostly on south- and west-facing (leeward) shores such as Waikīkī, Ala Moana and Salt Pond on Kauaʻi. Lifeguards post warning signs on those days.",
+   "details": [
+    "Timing: sightings usually rise about 8 to 10 days after the full moon, every month.",
+    "Where: mostly leeward, south- and west-facing beaches. Examples where warning signs have been posted include Waikīkī and Ala Moana on Oʻahu and Salt Pond Beach Park on Kauaʻi.",
+    "Before you swim: look for yellow box jellyfish signs and ask the lifeguard.",
+    "If you are stung: get out of the water, tell a lifeguard, and call 911 if the person has trouble breathing, chest pain or a strong allergic reaction.",
+    "Daily conditions and warnings are on Hawaiʻi Beach Safety."
+   ],
+   "tags": [
+    "box jellyfish",
+    "jellyfish",
+    "jelly",
+    "sting",
+    "full moon",
+    "waikiki",
+    "ala moana",
+    "salt pond",
+    "beach",
+    "swimming",
+    "leeward"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Beach Safety (lifeguard warnings)",
+     "url": "https://hawaiibeachsafety.com/"
+    },
+    {
+     "name": "County of Kauaʻi: Box jellyfish signs at Salt Pond",
+     "url": "https://www.kauai.gov/Press-Releases/Ocean-Safety-officials-post-Box-Jellyfish-signs-at-Salt-Pond-Beach-Park-advising-avoiding-swimming-on-April-3-2024"
+    },
+    {
+     "name": "Hawaii News Now: Box jellyfish advisory for Waikīkī",
+     "url": "https://www.hawaiinewsnow.com/2025/06/20/box-jellyfish-advisory-issued-waikiki-beach/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "safety-rip-currents",
+   "type": "safety",
+   "title": "Caught in a rip current: what to do",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "A rip current pulls you away from shore, not under. Stay calm and float, swim parallel to the shore to get out of it, and wave your arms for a lifeguard. Never swim in after someone yourself.",
+   "details": [
+    "Float and stay calm. Fighting the current wears you out.",
+    "Swim parallel to the shore, then angle back in with the waves.",
+    "Wave your arms and call out so a lifeguard or people on the beach can see you.",
+    "Helping someone else: alert a lifeguard, throw them something that floats and call 911. Do not go in after them; many rip current deaths are would-be rescuers.",
+    "Best protection: swim at a beach with a lifeguard and ask about currents before going in."
+   ],
+   "tags": [
+    "rip current",
+    "rip",
+    "current",
+    "drowning",
+    "swimming",
+    "beach",
+    "ocean",
+    "pulled out",
+    "undertow"
+   ],
+   "sources": [
+    {
+     "name": "NOAA: How to survive a rip current",
+     "url": "https://nhc.noaa.gov/rip-currents/survive.html"
+    },
+    {
+     "name": "Hawaiʻi Beach Safety",
+     "url": "https://hawaiibeachsafety.com/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "safety-flash-floods-streams",
+   "type": "safety",
+   "title": "Flash floods and stream crossings",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Flash floods have killed more people in Hawaiʻi than high winds or hurricanes, often people crossing flooded streams. If it is raining hard or a Flood Watch or warning is out, stay out of streams and off flooded roads: Turn Around, Don't Drown.",
+   "details": [
+    "Many flash flood deaths in Hawaiʻi happened to people who crossed or fell into flooded streams.",
+    "Water can rise fast even if it is not raining where you are; the rain may be falling up in the mountains.",
+    "Do not cross a stream that is rising, muddy or fast. Wait for it to go down.",
+    "Never drive through a flooded road.",
+    "Flash floods can happen any month but are most common October through April.",
+    "Check live alerts on Ask Hawaiʻi or the National Weather Service Honolulu office before a hike."
+   ],
+   "tags": [
+    "flash flood",
+    "flood",
+    "stream",
+    "crossing",
+    "rain",
+    "waterfall",
+    "hiking",
+    "flood watch",
+    "flood warning",
+    "turn around dont drown",
+    "storm"
+   ],
+   "sources": [
+    {
+     "name": "National Weather Service Honolulu: Hawaiʻi weather hazard statistics",
+     "url": "https://www.weather.gov/media/hfo/weather_hazards_stats.pdf"
+    },
+    {
+     "name": "National Weather Service Honolulu",
+     "url": "https://www.weather.gov/hfo/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "safety-leptospirosis-freshwater",
+   "type": "safety",
+   "title": "Swimming in streams, ponds and waterfalls: leptospirosis",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi's freshwater streams, ponds and waterfall pools can carry leptospirosis, a bacteria spread by animal urine. The state Health Department advises not swimming or wading in them, especially with cuts, and not putting your head under.",
+   "details": [
+    "You can get it by swimming or wading in fresh water, or touching wet soil or plants contaminated by animal urine.",
+    "Risk is higher with open cuts or sores, and if your head goes under (eyes, nose, mouth).",
+    "Do not drink stream or pond water unless it has been boiled or treated.",
+    "Illness can start 2 days to 4 weeks after exposure, with fever, headache, chills and muscle aches.",
+    "If you get sick after freshwater exposure, see a doctor and mention it. It is treated with antibiotics.",
+    "Ocean water is not the concern here; this is about fresh water."
+   ],
+   "tags": [
+    "leptospirosis",
+    "lepto",
+    "waterfall",
+    "stream",
+    "pond",
+    "freshwater",
+    "swimming",
+    "manoa falls",
+    "hiking",
+    "health",
+    "sick"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Department of Health: Leptospirosis",
+     "url": "https://health.hawaii.gov/docd/disease_listing/leptospirosis/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "safety-siren-test",
+   "type": "safety",
+   "title": "Warning sirens and the monthly test",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi tests its outdoor warning sirens on the first working day of each month at 11:45 a.m. with a one-minute steady tone. If sirens sound at any other time, treat it as real and turn on local radio, TV or check your phone for alerts.",
+   "details": [
+    "Test: first working day of the month, 11:45 a.m. HST, about one minute, steady tone. No drill goes with it.",
+    "Any other time: a siren means an emergency such as a tsunami or other hazard. Get official instructions right away.",
+    "Where to get instructions: local radio and TV, and Wireless Emergency Alerts on your phone.",
+    "Tsunami: if you are near the coast and told to evacuate, go inland or to higher ground."
+   ],
+   "tags": [
+    "siren",
+    "sirens",
+    "tsunami",
+    "warning",
+    "emergency",
+    "test",
+    "11:45",
+    "alert",
+    "evacuation"
+   ],
+   "sources": [
+    {
+     "name": "Hawaiʻi Emergency Management Agency",
+     "url": "https://dod.hawaii.gov/hiema/"
+    },
+    {
+     "name": "Spectrum News: Monthly siren test notice",
+     "url": "https://spectrumlocalnews.com/hi/hawaii/news/2026/04/29/hawaii-siren-test-may-1-2026"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "rule-leaving-hawaii-agriculture",
+   "type": "rule",
+   "title": "Taking fruit, flowers and plants home: airport agriculture inspection",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Before flying from Hawaiʻi to the mainland, all food, plants and flowers must go through USDA agriculture inspection at the airport. Fresh pineapple, coconut, coffee and most lei are fine; most other fresh fruit, berries, soil and plants in soil are not.",
+   "details": [
+    "Present all food, plants and other agricultural items at the airport inspection before you check in.",
+    "Allowed after inspection: fresh pineapple, coconut, coffee (roasted or green), commercially canned, dried or frozen foods, white potatoes.",
+    "Allowed only if commercially treated and boxed with a USDA stamp: papaya, banana, lychee, longan, rambutan, dragon fruit, starfruit, sweet potato and a few others.",
+    "Fresh flowers and most lei are allowed, except jade vine, Mauna Loa flowers and citrus parts.",
+    "Not allowed: most fresh fruits and vegetables, berries of any kind (including fresh coffee berries), plants in soil, soil, cactus, sugarcane, live insects and snails.",
+    "Allowed by USDA: seashells (not land snail shells), driftwood, seed lei. Note that taking sand and rocks from Hawaiʻi beaches is limited by state law; see the sand rule."
+   ],
+   "tags": [
+    "agriculture",
+    "inspection",
+    "airport",
+    "fruit",
+    "pineapple",
+    "papaya",
+    "lei",
+    "flowers",
+    "plants",
+    "leaving",
+    "mainland",
+    "usda",
+    "take home",
+    "souvenir",
+    "coffee"
+   ],
+   "sources": [
+    {
+     "name": "USDA APHIS: Travelers from Hawaiʻi to the U.S. mainland",
+     "url": "https://www.aphis.usda.gov/ht/node/2211"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "rule-rapid-ohia-death",
+   "type": "rule",
+   "title": "Rapid ʻŌhiʻa Death: clean your shoes when hiking",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "A fungus called Rapid ʻŌhiʻa Death is killing ʻōhiʻa, Hawaiʻi's most important native forest tree. Clean mud off shoes and gear before and after hiking, and do not move ʻōhiʻa wood, leaves or flowers between islands.",
+   "details": [
+    "Brush off dirt and mud from shoes, gear and clothes before and after entering a forest, then spray soles with 70% rubbing alcohol.",
+    "Wash mud off vehicle tires after driving on dirt roads.",
+    "Do not injure ʻōhiʻa trees, and do not move ʻōhiʻa wood or parts.",
+    "Do not take ʻōhiʻa lei, flowers or wood from Hawaiʻi Island to other islands.",
+    "The fungus has been confirmed on Hawaiʻi Island and Kauaʻi, with detections on Oʻahu and Maui as well.",
+    "Many trailheads have boot brush stations; use them."
+   ],
+   "tags": [
+    "rapid ohia death",
+    "ohia",
+    "rod",
+    "boot brush",
+    "hiking",
+    "trail",
+    "forest",
+    "lehua",
+    "invasive",
+    "clean shoes"
+   ],
+   "sources": [
+    {
+     "name": "University of Hawaiʻi CTAHR: Rapid ʻŌhiʻa Death",
+     "url": "https://cms.ctahr.hawaii.edu/rod"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "rule-honolulu-distracted-walking",
+   "type": "rule",
+   "title": "Looking at your phone in a crosswalk (Honolulu)",
+   "island": "Oʻahu",
+   "county": "City and County of Honolulu",
+   "summary": "On Oʻahu it is illegal to look at a phone or other screen while crossing a street. Fines start at $15 and go up to $99 for repeat offenses. Calling 911 in an emergency is allowed.",
+   "details": [
+    "Covers phones, tablets, game devices and any screen while crossing a street or highway.",
+    "First offense: at least $15. Repeat offenses: $75 to $99.",
+    "Exception: calling 911 to report an emergency.",
+    "It applies across Oʻahu (City and County of Honolulu), including Waikīkī."
+   ],
+   "tags": [
+    "phone",
+    "crosswalk",
+    "texting",
+    "walking",
+    "jaywalking",
+    "fine",
+    "law",
+    "waikiki",
+    "pedestrian",
+    "distracted walking"
+   ],
+   "sources": [
+    {
+     "name": "NPR: Honolulu's distracted walking law takes effect",
+     "url": "https://www.npr.org/sections/thetwo-way/2017/10/25/559980080/honolulus-distracted-walking-law-takes-effect-targeting-phone-users"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "culture-hawaiian-words",
+   "type": "culture",
+   "title": "Hawaiian words you will hear",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "A few words go a long way: aloha (hello, goodbye, love), mahalo (thank you), mauka (toward the mountains), makai (toward the ocean), keiki (child), ʻohana (family), pau (finished), kapu (forbidden, keep out) and mālama (take care of).",
+   "details": [
+    "Aloha: hello, goodbye, love.",
+    "Mahalo: thank you. Mahalo nui: thank you very much.",
+    "Mauka: toward the mountains. Makai: toward the ocean. Locals give directions this way.",
+    "Keiki: child or children.",
+    "ʻOhana: family.",
+    "Pau: finished, done.",
+    "Kapu: forbidden, sacred, keep out. A kapu sign means stay off.",
+    "Mālama: take care of, protect, as in mālama ʻāina (care for the land).",
+    "Kuleana: responsibility.",
+    "Honu: green sea turtle.",
+    "Lānai: porch or balcony (the island is spelled Lānaʻi).",
+    "Kamaʻāina: local resident; you will see kamaʻāina discounts.",
+    "The ʻokina (ʻ) and kahakō (the line over a vowel) change pronunciation and meaning, so Hawaiʻi and Oʻahu are spelled with them."
+   ],
+   "tags": [
+    "hawaiian words",
+    "hawaiian language",
+    "olelo",
+    "aloha",
+    "mahalo",
+    "mauka",
+    "makai",
+    "keiki",
+    "ohana",
+    "pau",
+    "kapu",
+    "malama",
+    "kuleana",
+    "directions",
+    "phrases"
+   ],
+   "sources": [
+    {
+     "name": "Wehewehe Wikiwiki: Hawaiian dictionaries",
+     "url": "https://wehewehe.org/"
+    },
+    {
+     "name": "Hawaiʻi Magazine: Hawaiian words travelers should know",
+     "url": "https://hawaiimagazine.com/?p=125507"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  },
+  {
+   "id": "guide-time-zone",
+   "type": "guide",
+   "title": "Hawaiʻi time zone (no daylight saving)",
+   "island": "Statewide",
+   "county": "All counties",
+   "summary": "Hawaiʻi uses Hawaiʻi-Aleutian Standard Time (UTC minus 10) all year and does not switch for daylight saving time. That puts it 2 hours behind the U.S. West Coast in winter and 3 hours behind in summer.",
+   "details": [
+    "UTC minus 10 hours, all year.",
+    "No daylight saving time, so the gap with the mainland changes in March and November.",
+    "Winter (mainland on standard time): 2 hours behind Pacific, 5 hours behind Eastern.",
+    "Summer (mainland on daylight time): 3 hours behind Pacific, 6 hours behind Eastern.",
+    "Times on Ask Hawaiʻi, like alert end times, are shown in HST."
+   ],
+   "tags": [
+    "time zone",
+    "time",
+    "hst",
+    "daylight saving",
+    "clock",
+    "time difference",
+    "jet lag"
+   ],
+   "sources": [
+    {
+     "name": "NIST / time.gov: Official U.S. time",
+     "url": "https://www.time.gov/"
+    }
+   ],
+   "last_checked": "2026-10-29"
+  }
+ ]
 }

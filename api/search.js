@@ -11,7 +11,9 @@ module.exports = async function (req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Content-Type", "application/json; charset=utf-8");
   let out;
-  if (id) out = kb.get(id) || { error: "No entry with id " + id };
+  if (url.searchParams.get("counts")) { out = kb.counts(island); res.setHeader("Cache-Control", "public, max-age=300"); }
+  else if (url.searchParams.get("list")) { out = kb.list({ type: url.searchParams.get("type") || "", island }); res.setHeader("Cache-Control", "public, max-age=300"); }
+  else if (id) out = kb.get(id) || { error: "No entry with id " + id };
   else if (q) {
     out = kb.search({ query: q, island, type: url.searchParams.get("type") || "", limit: url.searchParams.get("limit") || 6 });
     if (url.searchParams.get("full") === "1") out.results = out.results.map((r) => kb.get(r.id));
