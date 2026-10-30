@@ -136,6 +136,9 @@ button{cursor:pointer}
 .sechead{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px}
 .sechead h2{font-size:clamp(26px,3vw,34px)}
 .sechead p{margin:6px 0 0;color:var(--muted)}
+.voicepick{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.voicepick[hidden]{display:none}
+.voicepick select{text-transform:none;letter-spacing:0;font-weight:500;font-size:14px;color:var(--ink);border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 8px;max-width:240px}
 
 /* Photo topic cards */
 .feature{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
@@ -264,7 +267,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
 
   <div>
     <section id="answers-sec" aria-labelledby="answers" hidden>
-      <div class="sechead"><div><p class="eyebrow">Results</p><h2 id="answers" tabindex="-1">Answers</h2></div></div>
+      <div class="sechead"><div><p class="eyebrow">Results</p><h2 id="answers" tabindex="-1">Answers</h2></div><label class="voicepick" id="voicewrap" hidden><span>Read-aloud voice</span><select id="voice"></select></label></div>
       <p class="status" id="status" aria-live="polite"></p>
       <div id="results"></div>
     </section>
@@ -480,11 +483,32 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   // Read aloud, with a working Stop, in a pleasant female voice when the device has one
   var speakingBtn = null, VOICES = [];
   var FEMALE = ["aria", "jenny", "michelle", "ava", "emma", "samantha", "allison", "susan", "zira", "google us english", "karen", "moira", "tessa", "serena", "victoria", "joanna", "salli", "kendra", "kimberly", "libby", "sonia", "natasha", "female"];
-  function loadVoices() { if ("speechSynthesis" in window) VOICES = speechSynthesis.getVoices() || []; }
+  function loadVoices() {
+    if (!("speechSynthesis" in window)) return;
+    VOICES = (speechSynthesis.getVoices() || []).filter(function (v) { return /^en/i.test(v.lang); });
+    var sel = $("voice"); if (!sel || !VOICES.length) return;
+    var saved = ""; try { saved = localStorage.getItem("ah-voice") || ""; } catch (e) {}
+    var auto = autoVoice();
+    sel.innerHTML = VOICES.map(function (v) { return '<option value="' + esc(v.name) + '">' + esc(v.name.replace(/^(Microsoft|Google)\s+/, "").replace(/\s*-\s*English.*$/, "").replace(/\s*Online \(Natural\)/, " (natural)")) + " · " + esc(v.lang) + "</option>"; }).join("");
+    sel.value = VOICES.some(function (v) { return v.name === saved; }) ? saved : (auto ? auto.name : VOICES[0].name);
+    $("voicewrap").hidden = false;
+  }
   if ("speechSynthesis" in window) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+  $("voice").onchange = function () { try { localStorage.setItem("ah-voice", this.value); } catch (e) {} stopSpeech(); };
+  // Make text easier for computer voices: drop the ʻokina and kahakō marks, read a.m. and p.m. normally.
+  function speakable(t) {
+    return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[ʻ‘]/g, "")
+      .replace(/\ba\.m\./gi, "AM").replace(/\bp\.m\./gi, "PM").replace(/\bHST\b/g, "Hawaii time")
+      .replace(/\s*·\s*/g, ", ");
+  }
   function pickVoice() {
     if (!VOICES.length) loadVoices();
-    var en = VOICES.filter(function (v) { return /^en/i.test(v.lang); });
+    var name = $("voice") && $("voice").value;
+    for (var j = 0; j < VOICES.length; j++) if (VOICES[j].name === name) return VOICES[j];
+    return autoVoice();
+  }
+  function autoVoice() {
+    var en = VOICES;
     var best = null, score = -1;
     en.forEach(function (v) {
       var n = v.name.toLowerCase(), i = -1;
@@ -547,13 +571,13 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
         stopSpeech();
         var e = items[b.dataset.say];
         // Speak one sentence at a time (some browsers cut off long readings).
-        var parts = (e.title + ". " + e.summary + " " + (e.details || []).join(" ")).match(/[^.!?]+[.!?]*/g) || [];
+        var parts = speakable(e.title + ". " + e.summary + " " + (e.details || []).join(" ")).match(/[^.!?]+[.!?]*/g) || [];
         speakingBtn = b; b.classList.add("speaking"); b.lastChild.textContent = "Stop";
         var v = pickVoice();
         parts.forEach(function (t, j) {
           var u = new SpeechSynthesisUtterance(t.trim());
           if (v) u.voice = v;
-          u.lang = v ? v.lang : "en-US"; u.rate = 0.95; u.pitch = 1.05;
+          u.lang = v ? v.lang : "en-US"; u.rate = 1.05; u.pitch = 1;
           if (j === parts.length - 1) u.onend = function () { if (speakingBtn === b) stopSpeech(); };
           u.onerror = function () { if (speakingBtn === b) stopSpeech(); };
           speechSynthesis.speak(u);
