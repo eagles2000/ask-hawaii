@@ -257,6 +257,9 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("on Oahu there are two Haleiwa Joe's resturants where are they located?") === "food-haleiwa-joes", "haleiwa joes");
   ok((await search("on oahu there are two dentists where are they located", "")).length === 0, "unknown restaurant gives no answer");
 
+  ok((await search("where is the best dentist in kapolei", "")).length === 0, "town alone is not an answer");
+  ok(top("best beaches in kailua") === "beaches-lifeguarded-oahu", "kailua is oahu, not kailua-kona");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST

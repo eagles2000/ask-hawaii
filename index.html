@@ -97,6 +97,14 @@ footer .shlink img{border-radius:6px}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(194,65,12,.5)}50%{box-shadow:0 0 0 10px rgba(194,65,12,0)}}
 @media (prefers-reduced-motion:reduce){.mic.listening{animation:none}}
 .hint{margin:10px 2px 0;font-size:14px;color:rgba(255,255,255,.9);min-height:22px}
+.scope{margin:8px 2px 0;font-size:13px;color:rgba(255,255,255,.82)}
+.scope b{color:#fff;font-weight:600}
+.empty .sugg{margin-top:14px}
+.empty .sugg p{margin:0 0 8px;font-weight:600;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--sunk);color:var(--ink);border-radius:999px;padding:7px 12px;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip:hover{border-color:var(--ink)}
+.chip i{width:8px;height:8px;border-radius:50%;display:inline-block}
 .islands{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
 .pill{border:1px solid rgba(255,255,255,.38);background:rgba(10,25,32,.32);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:#fff;border-radius:999px;padding:7px 15px;font-size:14px;font-weight:500;min-height:38px}
 .pill:hover{background:rgba(10,25,32,.5)}
@@ -327,6 +335,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
       </button>
       <button class="go" type="submit"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span>Ask</span></button>
     </form>
+    <p class="scope">Answers come from <b id="scopeN">257</b> checked Hawaiʻi entries, each with its source and date.</p>
     <p class="hint" id="hint" aria-live="polite"></p>
     <div class="islands" id="islands" role="group" aria-label="Choose an island"></div>
   </div>
@@ -667,6 +676,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
   function loadCats() {
     fetch("/api/search?counts=1" + (island ? "&island=" + encodeURIComponent(island) : "")).then(function (r) { return r.json(); }).then(function (c) {
       $("total").textContent = c.total + " checked entries" + (island ? " for " + island : "");
+      if (!island && c.total) $("scopeN").textContent = c.total;
       var keys = CATORDER.filter(function (k) { return c.types[k]; }).concat(Object.keys(c.types).filter(function (k) { return CATORDER.indexOf(k) < 0; }));
       $("cats").innerHTML = keys.map(function (k) {
         var t = TYPE[k] || [k, "--d-guide"];
@@ -786,7 +796,22 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     var out = $("results");
     if (!items.length) {
       $("status").textContent = "";
-      out.innerHTML = '<div class="empty"><b>No checked answer for that yet.</b><p style="margin:6px 0 0">We saved your question so it can be added. Ask Hawaiʻi only shows facts that have been checked against a source, and new entries are added regularly. Try a category or popular topic, or check the live weather above.</p></div>';
+      // Guess helpful categories from the question's words, then fill in with popular ones.
+      var lq = q.toLowerCase(), guess = [];
+      var HINTS = { food: /food|eat|restaurant|lunch|dinner|breakfast|poke|ramen|plate|truck|wagon/, hotel: /hotel|resort|stay|room|lodg|airbnb/, hike: /hike|hiking|trail|waterfall|summit/, place: /beach|park|snorkel|swim|lookout|valley/, event: /event|festival|concert|parade|race|when is/, tour: /tour|luau|lūʻau|cruise|boat|surf lesson|snorkel tour/, safety: /safe|danger|shark|jellyfish|current|lifeguard|tsunami|flood/, route: /drive|route|traffic|bus|get to|directions|airport/, shop: /shop|mall|store|buy|souvenir/, living: /move|moving|live here|rent|job|school|license|dmv|pets?/, museum: /museum|history|palace|exhibit/, holiday: /holiday|veteran|military|pearl harbor|fireworks|july/, garden: /garden|flower|plant/, animal: /animal|turtle|seal|whale|dolphin|bird/, golf: /golf/, sport: /\buh\b|football|volleyball|basketball|baseball/ };
+      Object.keys(HINTS).forEach(function (k) { if (HINTS[k].test(lq)) guess.push(k); });
+      ["hotel", "food", "place", "tour", "event", "hike"].forEach(function (k) { if (guess.indexOf(k) < 0) guess.push(k); });
+      guess = guess.slice(0, 6);
+      var EX = ["Do I need a reservation for Diamond Head?", "Best time to visit Hawaiʻi", "Which beaches have lifeguards?", "Where to stay on Maui", "Best snorkeling on the Big Island", "Lunch wagons and plate lunch"];
+      out.innerHTML = '<div class="empty"><b>We don\'t have a checked answer for that yet.</b>' +
+        '<p style="margin:6px 0 0">Ask Hawaiʻi only answers from its own checked entries, so it can\'t answer everything the way a search engine or AI chatbot can. We saved your question so it can be added. Try fewer words or the name of a place, or pick a topic below.</p>' +
+        '<div class="sugg"><p>Browse a category</p><div class="chips">' + guess.map(function (k) {
+          var t = TYPE[k] || [k, "--d-guide"];
+          return '<button type="button" class="chip" data-gcat="' + esc(k) + '"><i style="background:var(' + t[1] + ')"></i>' + esc(CATNAME[k] || t[0]) + '</button>';
+        }).join("") + '</div></div>' +
+        '<div class="sugg"><p>Or try one of these</p><div class="chips">' + EX.map(function (x) { return '<button type="button" class="chip" data-gq="' + esc(x) + '">' + esc(x) + '</button>'; }).join("") + '</div></div></div>';
+      out.querySelectorAll("[data-gcat]").forEach(function (b) { b.onclick = function () { showCat(b.dataset.gcat); }; });
+      out.querySelectorAll("[data-gq]").forEach(function (b) { b.onclick = function () { $("q").value = b.dataset.gq; run(true); }; });
       return;
     }
     $("status").textContent = items.length + (items.length === 1 ? " checked answer" : " checked answers") + (island ? " for " + island : "") + ".";
