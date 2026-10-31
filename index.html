@@ -90,6 +90,9 @@ footer .shlink img{border-radius:6px}
 .mic{width:48px;background:#EEF1F2;color:#15212A}
 .mic.listening{background:#C2410C;color:#fff;animation:pulse 1.2s ease-in-out infinite}
 .go{padding:0 22px;background:#0D5C6B;color:#fff}
+.go.ready{animation:askready 1.2s ease-in-out infinite}
+@keyframes askready{0%,100%{box-shadow:0 0 0 0 rgba(13,92,107,.55)}50%{box-shadow:0 0 0 7px rgba(13,92,107,0)}}
+@media (prefers-reduced-motion:reduce){.go.ready{animation:none;outline:3px solid #6CC0CD}}
 .go:hover{background:#0A4A57}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(194,65,12,.5)}50%{box-shadow:0 0 0 10px rgba(194,65,12,0)}}
 @media (prefers-reduced-motion:reduce){.mic.listening{animation:none}}
@@ -111,7 +114,9 @@ footer .shlink img{border-radius:6px}
 .cond{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:var(--shadow);min-width:0}
 .cond .head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
 .cond .eyebrow{display:flex;align-items:center;gap:8px}
-.live-dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 25%,transparent)}
+.live-dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 25%,transparent);animation:liveblink 1.6s ease-in-out infinite}
+@keyframes liveblink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.25;transform:scale(.8)}}
+@media (prefers-reduced-motion:reduce){.live-dot{animation:none}}
 .cond.alerting{border-color:color-mix(in srgb,var(--warn) 45%,var(--line));background:linear-gradient(0deg,var(--warn-bg),var(--warn-bg)),var(--surface)}
 .cond.alerting .live-dot{background:var(--warn);box-shadow:0 0 0 3px color-mix(in srgb,var(--warn) 25%,transparent)}
 .cond.alerting b{color:var(--warn)}
@@ -830,18 +835,30 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
       };
     });
   }
-  $("ask").addEventListener("submit", function (ev) { ev.preventDefault(); run(false); });
+  $("ask").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    heard = ""; // so the mic doesn't show "tap Ask" again after the question is sent
+    if (typeof stopListening === "function" && rec) { wantStop = true; try { rec.stop(); } catch (x) {} }
+    document.querySelector(".go").classList.remove("ready");
+    run(false);
+  });
 
   // Voice
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition, rec = null;
   if (!SR) { $("mic").title = "Voice isn't supported in this browser. Try Chrome, Edge or Safari, or your keyboard's mic."; $("mic").onclick = function () { $("hint").textContent = $("mic").title; }; }
   else {
-    // Keeps listening through short pauses (up to about 20 seconds), then asks the question.
+    // Keeps listening through short pauses (up to about 20 seconds). It never sends by itself:
+    // the words stay in the box so people can fix them, and the Ask button lights up.
     var heard = "", prior = "", stopAt = 0, wantStop = false, sendTimer = null;
-    var stopListening = function (send) {
+    var readyToAsk = function () {
+      if (!heard.trim()) return;
+      $("hint").textContent = "Got it. Fix any words if you need to, then tap Ask.";
+      document.querySelector(".go").classList.add("ready");
+    };
+    var stopListening = function () {
       wantStop = true; clearTimeout(sendTimer);
       if (rec) try { rec.stop(); } catch (x) {}
-      if (send && heard.trim()) run(false);
+      readyToAsk();
     };
     var startRec = function () {
       rec = new SR(); rec.lang = "en-US"; rec.interimResults = true; rec.continuous = true; rec.maxAlternatives = 1;
@@ -849,9 +866,10 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
         var fin = "", interim = "";
         for (var i = 0; i < ev.results.length; i++) { if (ev.results[i].isFinal) fin += ev.results[i][0].transcript; else interim += ev.results[i][0].transcript; }
         heard = (prior + " " + fin + interim).trim(); $("q").value = heard;
-        $("hint").textContent = "Listening... tap the mic again when you're done, or just pause.";
+        $("hint").textContent = "Listening... tap the mic when you're done, then tap Ask.";
         clearTimeout(sendTimer);
-        if (fin && !interim) sendTimer = setTimeout(function () { stopListening(true); }, 1500);
+        // After about 4 seconds of quiet, stop listening and wait for the person to tap Ask.
+        if (fin && !interim) sendTimer = setTimeout(stopListening, 4000);
       };
       rec.onerror = function (ev) {
         var m = {
@@ -866,12 +884,13 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
         // Browsers stop listening after a few silent seconds; quietly restart until the time limit.
         if (!wantStop && Date.now() < stopAt) { prior = heard; try { startRec(); return; } catch (x) {} }
         $("mic").classList.remove("listening"); rec = null;
-        if ($("hint").textContent.indexOf("Listening") === 0) $("hint").textContent = heard ? "" : "Didn't hear anything. Tap the mic and try again, or type your question.";
+        if (heard.trim()) readyToAsk();
+        else if ($("hint").textContent.indexOf("Listening") === 0) $("hint").textContent = "Didn't hear anything. Tap the mic and try again, or type your question.";
       };
       rec.start();
     };
     $("mic").onclick = function () {
-      if (rec) { stopListening(true); return; }
+      if (rec) { stopListening(); return; }
       heard = ""; prior = ""; wantStop = false; stopAt = Date.now() + 20000;
       $("mic").classList.add("listening"); $("hint").textContent = "Listening... ask your question.";
       try { startRec(); } catch (x) { rec = null; $("mic").classList.remove("listening"); $("hint").textContent = "Couldn't start the microphone. Reload the page and try again."; }
