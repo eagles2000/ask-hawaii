@@ -12,7 +12,7 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(init.result.serverInfo.name === "ask-hawaii", "initialize");
   ok((await handle({ jsonrpc: "2.0", method: "notifications/initialized" })) === null, "notification");
   const tools = (await call("tools/list")).result.tools.map((t) => t.name);
-  ok(tools.length === 5, "5 tools");
+  ok(tools.length === 6 && tools.includes("get_hawaii_headlines"), "6 tools incl. headlines");
   const cases = [
     ["Do I need a reservation for Hanauma Bay?", "", "place-hanauma-bay"],
     ["Diamond Head hike reservation", "oahu", "place-diamond-head"],

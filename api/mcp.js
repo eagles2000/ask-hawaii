@@ -3,6 +3,7 @@
 const kb = require("../lib/kb");
 const wx = require("../lib/weather");
 const { logMissed } = require("../lib/log");
+const news = require("../lib/news");
 
 const SERVER = { name: "ask-hawaii", title: "Ask Hawaiʻi", version: kb.DATA.version };
 const TYPES = ["place", "hike", "history", "guide", "safety", "rule", "culture", "transport", "contact", "tax", "route", "event", "food", "garden", "animal", "shop", "tour", "trip", "golf", "sport", "museum", "living", "holiday", "hotel"];
@@ -38,6 +39,11 @@ const TOOLS = [
     inputSchema: { type: "object", properties: { island: { type: "string", description: "Optional: Oahu, Maui, Kauai, Molokai, Lanai, or Big Island." } } }
   },
   {
+    name: "get_hawaii_headlines",
+    description: "Today's Hawaiʻi news headlines (titles and links) from Hawaii News Now, KHON2 and Civil Beat. Updated twice a day, at 7 a.m. and 7 p.m. Hawaiʻi time.",
+    inputSchema: { type: "object", properties: {} }
+  },
+  {
     name: "list_hawaii_topics",
     description: "List every topic Ask Hawaiʻi covers, grouped by category, with ids.",
     inputSchema: { type: "object", properties: {} }
@@ -60,7 +66,7 @@ async function handle(msg) {
         protocolVersion: p.protocolVersion || "2025-06-18",
         capabilities: { tools: { listChanged: false } },
         serverInfo: SERVER,
-        instructions: "Ask Hawaiʻi: checked Hawaiʻi facts with sources, plus live National Weather Service forecasts and alerts. Always tell the person the source and suggest confirming time-sensitive details (hours, fees, closures) on the official site."
+        instructions: "Ask Hawaiʻi: checked Hawaiʻi facts with sources, plus live National Weather Service forecasts and alerts, and Hawaiʻi news headlines updated twice a day. Always tell the person the source (including the news outlet for headlines) and suggest confirming time-sensitive details (hours, fees, closures) on the official site."
       });
     case "ping":
       return result(msg.id, {});
@@ -79,6 +85,12 @@ async function handle(msg) {
         return result(msg.id, e ? toolText(e) : toolText({ error: "No entry with id " + args.id }, true));
       }
       if (p.name === "list_hawaii_topics") return result(msg.id, toolText(kb.topics()));
+      if (p.name === "get_hawaii_headlines") {
+        try {
+          const out = await news.headlines(new Date());
+          return result(msg.id, toolText(out.items.length ? out : Object.assign(out, { error: "Headlines are unavailable right now." }), !out.items.length));
+        } catch (e) { return result(msg.id, toolText({ error: "Headlines are unavailable right now: " + e.message }, true)); }
+      }
       if (p.name === "get_hawaii_weather" || p.name === "get_hawaii_alerts") {
         try {
           const out = p.name === "get_hawaii_weather" ? await wx.forecast(args.place) : await wx.alerts(args.island);
