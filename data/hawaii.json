@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.28.0",
+  "version": "0.29.0",
   "last_updated": "2026-10-31",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -12752,6 +12752,378 @@
         "to": "Pacific Missile Range Facility, Kekaha, HI",
         "to_label": "PMRF Barking Sands"
       }
+    },
+    {
+      "id": "camping-hawaii-overview",
+      "type": "camping",
+      "title": "Camping in Hawaiʻi: how permits work",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Every campsite in Hawaiʻi needs a permit, and who issues it depends on the park: the county for beach parks, the state (DLNR) for state parks and forest reserves, and the National Park Service for Haleakalā and Hawaiʻi Volcanoes. Most permits are bought online ahead of time; you must be 18 or older, and camping without one can bring a fine of up to $500.",
+      "details": [
+        "County beach parks: Oʻahu at camping.honolulu.gov; Hawaiʻi County through its online camp reservation system; Maui and Kauaʻi counties through their parks departments. Each county sets its own fees and camping days.",
+        "State parks and forest reserves: book online through the state's system (camping.ehawaii.gov, which moved to explore.ehawaii.gov on Feb. 1, 2026; you need an account). Most sites are $20 a night for Hawaiʻi residents and $30 for non-residents, up to 10 people per site. Max 5 nights in a row at one park.",
+        "National parks: Haleakalā campgrounds and cabins through Recreation.gov; Hawaiʻi Volcanoes campgrounds are first come, first served.",
+        "Common rules: no sleeping in cars in park parking lots, no camping without a permit, quiet hours at night, and most beach parks ban campfires, pets and alcohol.",
+        "Camping days: Oʻahu county and state parks have no camping on Wednesday and Thursday nights. Maui County's Pāpalaua has no camping Tuesday and Wednesday nights.",
+        "Kauaʻi: all state park camping (including the Kalalau Trail) is closed after Hurricane Lowell. Check before planning.",
+        "Military families and eligible veterans can also camp at Bellows in Waimānalo (see the military lodging category)."
+      ],
+      "tags": [
+        "camping in hawaii",
+        "how to get a camping permit",
+        "camping rules",
+        "camping fees",
+        "overnight",
+        "sleep in car",
+        "beach camping",
+        "state park camping",
+        "county camping",
+        "camping",
+        "camp",
+        "campground",
+        "campgrounds",
+        "campsite",
+        "campsites",
+        "camping permit",
+        "camping permits",
+        "permit",
+        "permits",
+        "tent",
+        "tent camping",
+        "where can i camp"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi DLNR State Parks: camping permits and fees",
+          "url": "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"
+        },
+        {
+          "name": "Wanderlustyle: Oʻahu camping permits (2026)",
+          "url": "https://wanderlustyle.com/camping-oahu-permits/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "camping-oahu-county",
+      "type": "camping",
+      "title": "Oʻahu county beach park camping (camping.honolulu.gov)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Oʻahu's city beach parks allow camping with a permit from camping.honolulu.gov: $35 for 3 nights (Friday to Monday) or $55 for 5 nights (Friday to Wednesday), including the $5 admin fee since July 1, 2026. Permits open at 5 p.m. on the Friday two weeks before, and there's no camping Wednesday or Thursday nights.",
+      "details": [
+        "Book: camping.honolulu.gov opens at 5 p.m. Hawaiʻi time on the Friday two weeks before your camping weekend; last day to book online is the Thursday before. One permit per person per week. Walk-in permits from the following Monday at 650 South King Street, Honolulu (808-768-3440, option 1).",
+        "Cost: $35 for 3 days (Friday 8 a.m. to Monday 8 a.m.) or $55 for 5 days (to Wednesday 8 a.m.), plus a small card fee. Nonrefundable and can't be changed.",
+        "Popular campgrounds: Hoʻomaluhia Botanical Garden (Kāneʻohe), Kualoa Regional Park, Bellows Field Beach Park and Waimānalo Beach Park, Kaiaka Bay (Haleʻiwa), Swanzy, Hauʻula and Kokololio on the windward side, plus Kalaeloa, Māʻili, Lualualei and Keaʻau on the Leeward Coast.",
+        "Rules: 18+ to apply, up to 10 people per site and 3 vehicles per permit. No campfires at beach parks (fire rings allowed at Hoʻomaluhia and Kualoa), no generators, no pets except service animals, no alcohol, quiet hours 10 p.m. to 6 a.m.",
+        "Camping without a permit can mean a fine of up to $500 and up to 30 days in jail."
+      ],
+      "tags": [
+        "oahu camping",
+        "camping on oahu",
+        "honolulu camping permit",
+        "camping.honolulu.gov",
+        "beach park camping",
+        "kualoa camping",
+        "hoomaluhia camping",
+        "bellows field",
+        "waimanalo camping",
+        "kaiaka",
+        "keaau",
+        "county permit",
+        "camping",
+        "camp",
+        "campground",
+        "campgrounds",
+        "campsite",
+        "campsites",
+        "camping permit",
+        "camping permits",
+        "permit",
+        "permits",
+        "tent",
+        "tent camping",
+        "where can i camp"
+      ],
+      "sources": [
+        {
+          "name": "Wanderlustyle: Oʻahu camping permits (2026)",
+          "url": "https://wanderlustyle.com/camping-oahu-permits/"
+        },
+        {
+          "name": "City and County of Honolulu: camping admin fee increase (July 1, 2026)",
+          "url": "https://www.honolulu.gov/dpr/?p=48869"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "camping-oahu-state",
+      "type": "camping",
+      "title": "Oʻahu state park camping (Mālaekahana, Kahana, Keaīwa, Sand Island)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Oʻahu's state campgrounds are Mālaekahana (Kalanai Point), Ahupuaʻa ʻO Kahana, Keaīwa Heiau and Sand Island. Book online up to 30 days ahead: $20 a night per site for Hawaiʻi residents and $30 for visitors, up to 10 people. No camping Wednesday or Thursday nights.",
+      "details": [
+        "Book: the state's online camping system (explore.ehawaii.gov since Feb. 1, 2026; create a new account). Oʻahu sites open only 30 days ahead. Help line 808-587-0300.",
+        "Fees: $20 per site per night for residents, $30 for non-residents; up to 10 people; children 2 and under free. Cancellations stop 15 days before check-in ($5 fee).",
+        "Campgrounds: Mālaekahana State Recreation Area (Kalanai Point section) near Lāʻie; Ahupuaʻa ʻO Kahana on Kahana Bay; Keaīwa Heiau in the ʻAiea hills; Sand Island (Friday to Sunday nights only).",
+        "Rules: max 5 nights in a row per park, then 30 days before returning; one site per park at a time; no vans, campers or trailers; no sleeping in cars."
+      ],
+      "tags": [
+        "oahu state park camping",
+        "malaekahana",
+        "malaekahana camping",
+        "kahana",
+        "kahana bay",
+        "keaiwa",
+        "keaiwa heiau",
+        "sand island",
+        "state campground",
+        "dlnr camping",
+        "camping",
+        "camp",
+        "campground",
+        "campgrounds",
+        "campsite",
+        "campsites",
+        "camping permit",
+        "camping permits",
+        "permit",
+        "permits",
+        "tent",
+        "tent camping",
+        "where can i camp"
+      ],
+      "sources": [
+        {
+          "name": "Wanderlustyle: Oʻahu camping permits (2026)",
+          "url": "https://wanderlustyle.com/camping-oahu-permits/"
+        },
+        {
+          "name": "Hawaiʻi DLNR State Parks: camping permits and fees",
+          "url": "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "camping-maui",
+      "type": "camping",
+      "title": "Camping on Maui: state, county, Haleakalā and private",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Maui camping options: Haleakalā National Park's Hosmer Grove (summit, about $20, includes next-morning sunrise entry) and Kīpahulu (near Hāna) on Recreation.gov; Waiʻānapanapa State Park tent sites ($20 residents, $30 visitors) and cabins ($70 to $100); Maui County's Pāpalaua Wayside Park with a county permit; and private Camp Olowalu with hot showers.",
+      "details": [
+        "Haleakalā National Park: Hosmer Grove (about 7,000 ft, cold and wet nights; a campsite reservation includes the next sunrise entry) and Kīpahulu (on the Road to Hāna, vault toilets, no water). About $20 a night on Recreation.gov. Wilderness cabins in the crater and backcountry sites need reservations or permits. Max 3 nights in the park in any 30 days; no sleeping in cars.",
+        "Waiʻānapanapa State Park (Hāna): tent sites $20 residents / $30 non-residents per night; cabins (up to 6) $70 / $100, booked at least 7 days ahead. Campervan camping is unavailable through March 2027.",
+        "Polipoli Spring State Recreation Area (Kula): a cabin for up to 8, $70 / $100 per night.",
+        "Pāpalaua Wayside Park (West Maui, Maui County): basic beach camping with a county permit, portable toilets, no water; no camping Tuesday or Wednesday nights.",
+        "Camp Olowalu (private, West Maui): about $35 per adult per night, with hot showers, restrooms and grills."
+      ],
+      "tags": [
+        "maui camping",
+        "camping on maui",
+        "hosmer grove",
+        "kipahulu",
+        "kipahulu campground",
+        "haleakala camping",
+        "waianapanapa camping",
+        "waianapanapa cabins",
+        "polipoli",
+        "papalaua",
+        "camp olowalu",
+        "olowalu",
+        "recreation.gov",
+        "wilderness cabins",
+        "camping",
+        "camp",
+        "campground",
+        "campgrounds",
+        "campsite",
+        "campsites",
+        "camping permit",
+        "camping permits",
+        "permit",
+        "permits",
+        "tent",
+        "tent camping",
+        "where can i camp"
+      ],
+      "sources": [
+        {
+          "name": "Maui Snorkeling: Maui campgrounds, fees and permits (updated Sept. 24, 2026)",
+          "url": "https://mauisnorkeling.com/the-top-5-maui-campgrounds/"
+        },
+        {
+          "name": "NPS: camping in Haleakalā National Park",
+          "url": "https://www.nps.gov/hale/planyourvisit/camping.htm"
+        },
+        {
+          "name": "Hawaiʻi DLNR State Parks: camping permits and fees",
+          "url": "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "camping-big-island",
+      "type": "camping",
+      "title": "Camping on Hawaiʻi Island: county parks, state parks and Volcanoes",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Hawaiʻi County beach parks need a county permit, sold online or at county offices, priced per person per night: $21 for non-resident adults, $6 for resident adults. Popular parks include Spencer, Hoʻokena and Punaluʻu. State park camping and cabins (Kalōpā, Kīholo, the Hāpuna A-frames) are closed for hurricane recovery. In Hawaiʻi Volcanoes National Park, Kulanaokuaiki is first come, first served.",
+      "details": [
+        "County permits: per person per night. Non-residents: adults and teens $21, children $20. Residents: adults $6, teens $3, children $1. Book through the Hawaiʻi County online camp reservation system, or in person at the Hilo or Kona parks offices. Refunds need 15 days' notice.",
+        "Good county parks: Spencer Beach Park (Kohala Coast), Hoʻokena (South Kona), Mauna Kea Recreation Area, Punaluʻu (Kaʻū) and Kohanaiki. Miloliʻi, Kapaʻa and Whittington have no drinking water.",
+        "State parks: Kalōpā, Kīholo and the Hāpuna Beach A-frames are closed to camping and lodging for hurricane recovery, with no reopening date (day use open at Kalōpā and Kīholo).",
+        "Hawaiʻi Volcanoes National Park: Kulanaokuaiki Campground, about $10 a night, first come, first served. Nāmakanipaio Campground was listed as closed in the park's March 2026 update; check before you go. Backcountry sites need a park permit. Park entrance fee is separate.",
+        "Waimanu Valley backcountry camping needs a state permit, but the Waipiʻo Valley road to the trailhead is limited to residents in 4WD."
+      ],
+      "tags": [
+        "big island camping",
+        "camping on the big island",
+        "hawaii island camping",
+        "spencer beach park",
+        "hookena",
+        "punaluu camping",
+        "kulanaokuaiki",
+        "namakanipaio",
+        "volcano camping",
+        "kalopa",
+        "hapuna a-frame",
+        "waimanu",
+        "county camping permit",
+        "camping",
+        "camp",
+        "campground",
+        "campgrounds",
+        "campsite",
+        "campsites",
+        "camping permit",
+        "camping permits",
+        "permit",
+        "permits",
+        "tent",
+        "tent camping",
+        "where can i camp"
+      ],
+      "sources": [
+        {
+          "name": "Love Big Island: Big Island camping (updated Oct. 21, 2026)",
+          "url": "https://www.lovebigisland.com/big-island-camping/"
+        },
+        {
+          "name": "Hawaiʻi County: camping reservations",
+          "url": "https://www.parks.hawaiicounty.gov/facilities-parks/camping-reservations"
+        },
+        {
+          "name": "NPS: Hawaiʻi Volcanoes areas reopen (Mar. 2026)",
+          "url": "https://www.nps.gov/havo/learn/news/20260318-nr-some-areas-reopen.htm"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "camping-kauai",
+      "type": "camping",
+      "title": "Camping on Kauaʻi (status after Hurricane Lowell)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "All Kauaʻi state park camping is closed after Hurricane Lowell, including the Kalalau Trail and Nāpali Coast and Kōkeʻe. When it reopens, Nāpali Coast permits cost $25 per person per night for residents and $30 for visitors, and other state sites are $20 / $30 per site. Kauaʻi County beach parks issue their own permits; check with the county.",
+      "details": [
+        "Status: the state says all Kauaʻi camping remains closed. Hāʻena State Park is open for day use only (with reservations), and the Kalalau Trail is closed past the 2-mile point.",
+        "Nāpali Coast State Wilderness Park (Kalalau): permits normally $25 per person per night (residents) or $30 (non-residents), booked online up to a year ahead, with overnight parking at Hāʻena sold separately.",
+        "Other state parks (Kōkeʻe, Polihale): $20 / $30 per site when open. Kōkeʻe Road is closed.",
+        "Kauaʻi County beach parks (such as ʻAnini, Salt Pond, Lydgate and Hāʻena Beach Park) normally allow camping with a county permit; contact Kauaʻi County Parks and Recreation for current status and fees.",
+        "Check DLNR's park notices before planning; reopening dates are being announced park by park."
+      ],
+      "tags": [
+        "kauai camping",
+        "camping on kauai",
+        "kalalau camping",
+        "kalalau permit",
+        "napali camping",
+        "napali coast permit",
+        "kokee camping",
+        "polihale camping",
+        "anini",
+        "salt pond",
+        "hurricane lowell",
+        "camping",
+        "camp",
+        "campground",
+        "campgrounds",
+        "campsite",
+        "campsites",
+        "camping permit",
+        "camping permits",
+        "permit",
+        "permits",
+        "tent",
+        "tent camping",
+        "where can i camp"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi DLNR State Parks: camping permits and fees",
+          "url": "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "camping-molokai-lanai",
+      "type": "camping",
+      "title": "Camping on Molokaʻi and Lānaʻi",
+      "island": [
+        "Molokaʻi",
+        "Lānaʻi"
+      ],
+      "county": "Maui County",
+      "summary": "On Molokaʻi you can camp at Pālāʻau State Park, in the cool forest above the Kalaupapa Lookout ($20 a night per site for residents, $30 for visitors, booked online up to 90 days ahead), or at Maui County's Pāpōhaku Beach Park on the west end with a county permit. On Lānaʻi, camping at Hulopoʻe Beach is arranged through the island's landowner.",
+      "details": [
+        "Pālāʻau State Park: book on the state's online system (explore.ehawaii.gov); up to 10 people per site; max 5 nights in a row, then 30 days before returning.",
+        "Pāpōhaku Beach Park (west Molokaʻi): Maui County permit from the county parks department; it's remote, so bring all supplies.",
+        "Lānaʻi: Hulopoʻe Beach Park camping is managed by Pūlama Lānaʻi; contact them for permits and availability.",
+        "There's no public camping on Kalaupapa (tours are paused)."
+      ],
+      "tags": [
+        "molokai camping",
+        "camping on molokai",
+        "palaau",
+        "palaau state park",
+        "papohaku",
+        "lanai camping",
+        "camping on lanai",
+        "hulopoe camping",
+        "pulama lanai",
+        "camping",
+        "camp",
+        "campground",
+        "campgrounds",
+        "campsite",
+        "campsites",
+        "camping permit",
+        "camping permits",
+        "permit",
+        "permits",
+        "tent",
+        "tent camping",
+        "where can i camp"
+      ],
+      "sources": [
+        {
+          "name": "Hawaiʻi DLNR State Parks: Molokaʻi camping",
+          "url": "https://dlnr.hawaii.gov/dsp/camping-lodging/molokai"
+        },
+        {
+          "name": "Hawaiʻi DLNR State Parks: camping permits and fees",
+          "url": "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"
+        }
+      ],
+      "last_checked": "2026-10-31"
     }
   ]
 }

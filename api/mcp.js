@@ -6,7 +6,7 @@ const { logMissed } = require("../lib/log");
 const news = require("../lib/news");
 
 const SERVER = { name: "ask-hawaii", title: "Ask Hawaiʻi", version: kb.DATA.version };
-const TYPES = ["place", "hike", "history", "guide", "safety", "rule", "culture", "transport", "contact", "tax", "route", "event", "food", "garden", "animal", "shop", "tour", "trip", "golf", "sport", "museum", "living", "holiday", "hotel", "military"];
+const TYPES = ["place", "hike", "history", "guide", "safety", "rule", "culture", "transport", "contact", "tax", "route", "event", "food", "garden", "animal", "shop", "tour", "trip", "golf", "sport", "museum", "living", "holiday", "hotel", "military", "camping"];
 
 const TOOLS = [
   {

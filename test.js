@@ -113,7 +113,7 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   // Gardens (v0.10)
   ok(top("how many botanical gardens are there on the island of oahu") === "guide-oahu-botanical-gardens", "oahu gardens count");
   ok(top("botanical gardens on maui") === "garden-maui-gardens", "maui gardens");
-  ok(top("hoomaluhia camping") === "garden-hoomaluhia", "hoomaluhia");
+  ok(["garden-hoomaluhia", "camping-oahu-county"].includes(top("hoomaluhia camping")), "hoomaluhia");
 
   // Animals (v0.11)
   ok(top("hawaiian owl") === "animal-pueo", "pueo");
@@ -273,6 +273,14 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("kilauea military camp") === "military-kilauea-camp", "kmc");
   ok(top("barking sands cottages") === "military-barking-sands", "barking sands");
   ok(top("veterans day") === "holiday-veterans-day", "veterans day still");
+
+  ok(top("how do I get a camping permit") === "camping-hawaii-overview", "camping permit");
+  ok(top("camping on oahu") === "camping-oahu-county", "oahu camping");
+  ok(top("malaekahana camping") === "camping-oahu-state", "malaekahana");
+  ok(top("hosmer grove") === "camping-maui", "hosmer grove");
+  ok(top("big island camping") === "camping-big-island", "big island camping");
+  ok(top("kalalau camping permit") === "camping-kauai", "kalalau permit");
+  ok(top("camping on molokai") === "camping-molokai-lanai", "molokai camping");
 
   // Headlines (twice daily)
   const news = require("./lib/news");
