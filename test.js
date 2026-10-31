@@ -282,6 +282,14 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("kalalau camping permit") === "camping-kauai", "kalalau permit");
   ok(top("camping on molokai") === "camping-molokai-lanai", "molokai camping");
 
+  ok(top("nightclubs in honolulu") === "nightlife-oahu-clubs", "clubs");
+  ok(top("where can I hear blues in honolulu") === "nightlife-oahu-live-music", "blues");
+  ok(top("blue note hawaii") === "nightlife-oahu-live-music", "blue note");
+  ok(top("maui nightlife") === "nightlife-maui", "maui nightlife");
+  ok(top("live music in kona") === "nightlife-big-island", "kona music");
+  ok(top("tahiti nui") === "nightlife-kauai", "tahiti nui");
+  ok(top("what time do bars close in hawaii") === "nightlife-basics", "last call");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST

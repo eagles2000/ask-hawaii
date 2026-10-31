@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.29.0",
+  "version": "0.30.0",
   "last_updated": "2026-10-31",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -13121,6 +13121,378 @@
         {
           "name": "Hawaiʻi DLNR State Parks: camping permits and fees",
           "url": "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "nightlife-basics",
+      "type": "nightlife",
+      "title": "Going out in Hawaiʻi: nightlife basics",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi's nightlife is busiest in Honolulu (Waikīkī, Chinatown and the Ala Moana/Kakaʻako area); on the neighbor islands it's mostly live music at bars and resort lounges that wind down by 10 or 11 p.m. You must be 21 with a photo ID to drink, most bars close at 2 a.m., and a few licensed clubs stay open later.",
+      "details": [
+        "Age: 21+ to drink; clubs check ID at the door, and many are 21+ only. Bring a passport or driver's license.",
+        "Hours: most bars and clubs close by 2 a.m.; a few cabaret-licensed clubs can stay open until 4 a.m.",
+        "Dress: resort casual works almost everywhere. Some Waikīkī clubs and rooftop bars don't allow slippers (flip-flops), athletic wear or tank tops for men after about 10 p.m.",
+        "Getting home: use a rideshare, taxi or TheBus. Hawaiʻi's DUI laws are strict, and open containers aren't allowed in cars.",
+        "Where to go: Waikīkī for beach bars and clubs, Chinatown for cocktail bars and live music, and Kapiʻolani Boulevard near Ala Moana for the big dance club and concert hall. On Maui, Kīhei is liveliest; on the Big Island, Kailua-Kona; on Kauaʻi, Kapaʻa, Līhuʻe and Hanalei.",
+        "First Friday: Chinatown's art-and-music night on the first Friday of each month is a good free night out.",
+        "Music nights, covers and hours change often; check the venue's website or social media before you go."
+      ],
+      "tags": [
+        "where to go out",
+        "nightlife in hawaii",
+        "drinking age",
+        "last call",
+        "bars close",
+        "dress code",
+        "id",
+        "21",
+        "nightlife",
+        "night life",
+        "nightclub",
+        "nightclubs",
+        "clubs",
+        "club",
+        "bars",
+        "bar",
+        "live music",
+        "music",
+        "dancing",
+        "dance",
+        "night out",
+        "going out",
+        "drinks"
+      ],
+      "sources": [
+        {
+          "name": "AlohaCalendar: Waikīkī nightlife guide 2026",
+          "url": "https://alohacalendar.com/blog/waikiki-nightlife-guide-2026"
+        },
+        {
+          "name": "Honolulu Magazine: Best of HONOLULU 2026, entertainment",
+          "url": "https://www.honolulumagazine.com/best-of-honolulu-2026-entertainment-leisure/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "nightlife-oahu-clubs",
+      "type": "nightlife",
+      "title": "Oʻahu dance clubs (Honolulu and Waikīkī)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Honolulu's top dance clubs: The District on Kapiʻolani Boulevard across from Ala Moana Center (Honolulu Magazine readers' 2026 best club for dancing), Scarlet Honolulu in Chinatown (two floors, drag shows, top LGBTQ+ club), and Addiction Nightclub at The Modern Honolulu. In Waikīkī, Moose McGillycuddy's on Lewers Street mixes live bands and DJs.",
+      "details": [
+        "The District: 1349 Kapiʻolani Blvd., below The Republik concert hall, across from Ala Moana Center. Honolulu Magazine readers' Best Club for Dancing 2026.",
+        "Scarlet Honolulu: 80 S. Pauahi St., Chinatown, across from Hawaiʻi Theatre. Friday and Saturday 8 p.m. to 2 a.m., about $20 cover; drag shows at 9 p.m. on the Pineapple Stage. Readers' Best LGBTQIA+ Bar/Club 2026.",
+        "Addiction Nightclub: at The Modern Honolulu hotel near the Ala Wai Harbor; DJ nights with a dress code (no slippers or overly casual wear after 10 p.m.); crowd mostly mid-20s to mid-30s.",
+        "Moose McGillycuddy's: Lewers Street, Waikīkī; casual, with live music and DJ nights.",
+        "Sky Waikiki: rooftop bar on the 19th floor at International Market Place; dressy, with a weekend cover after 9 p.m.; busiest about 6 to 10 p.m.",
+        "The Dragon Upstairs in Chinatown also has DJ and karaoke nights (see the live music entry).",
+        "Music nights, covers and hours change often; check the venue's website or social media before you go."
+      ],
+      "tags": [
+        "dance clubs",
+        "dance club",
+        "oahu nightlife",
+        "honolulu nightlife",
+        "waikiki nightlife",
+        "the district",
+        "district nightclub",
+        "scarlet",
+        "scarlet honolulu",
+        "lgbtq",
+        "gay bar",
+        "gay club",
+        "drag show",
+        "addiction nightclub",
+        "modern honolulu",
+        "moose mcgillycuddys",
+        "moose",
+        "sky waikiki",
+        "rooftop bar",
+        "dj",
+        "chinatown",
+        "nightlife",
+        "night life",
+        "nightclub",
+        "nightclubs",
+        "clubs",
+        "club",
+        "bars",
+        "bar",
+        "live music",
+        "music",
+        "dancing",
+        "dance",
+        "night out",
+        "going out",
+        "drinks"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Magazine: Best of HONOLULU 2026, entertainment",
+          "url": "https://www.honolulumagazine.com/best-of-honolulu-2026-entertainment-leisure/"
+        },
+        {
+          "name": "Out x Out: Scarlet Honolulu",
+          "url": "https://outxout.com/venue/scarlethonoluluhonolulu"
+        },
+        {
+          "name": "AlohaCalendar: Waikīkī nightlife guide 2026",
+          "url": "https://alohacalendar.com/blog/waikiki-nightlife-guide-2026"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "nightlife-oahu-live-music",
+      "type": "nightlife",
+      "title": "Live music on Oʻahu: jazz, blues, rock and Hawaiian",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "For jazz and blues, go to Blue Note Hawaiʻi in Waikīkī (Honolulu Magazine readers' best live music venue 2026) or The Dragon Upstairs in Chinatown. For rock and touring bands, The Republik on Kapiʻolani Boulevard. For Hawaiian music, House Without a Key at sunset at the Halekūlani (free) and Duke's Waikīkī.",
+      "details": [
+        "Blue Note Hawaiʻi: 2335 Kalākaua Ave., in the Outrigger Waikīkī Beach Resort. Jazz, blues, Hawaiian artists and comedy in a 326-seat room; usually two shows a night (about 6:30 and 9 p.m.); tickets about $20 to $80.",
+        "The Dragon Upstairs: 1038 Nuʻuanu Ave., Chinatown. Intimate lounge with live local bands, jazz-club feel, DJ and karaoke nights. Honolulu Magazine's 2026 Best Late-Night Vibe; open late on Fridays and Saturdays.",
+        "The Republik: 1349 Kapiʻolani Blvd., across from Ala Moana Center. Concert hall (about 1,500) for rock, pop, reggae, hip-hop and touring acts; tickets online or at the box office.",
+        "House Without a Key: Halekūlani, Waikīkī. Hawaiian trio and hula every evening at sunset; no cover, arrive 30 to 45 minutes early. Lewers Lounge upstairs has jazz.",
+        "Duke's Waikīkī: Outrigger Reef, Waikīkī Beach. Contemporary Hawaiian music most nights, from solo ʻukulele to full bands.",
+        "Closed: Anna O'Brien's on South Beretania, a longtime rock and cover-band bar, has closed.",
+        "Music nights, covers and hours change often; check the venue's website or social media before you go."
+      ],
+      "tags": [
+        "live music oahu",
+        "live music honolulu",
+        "jazz",
+        "jazz club",
+        "blues",
+        "blues club",
+        "rock",
+        "rock and roll",
+        "rock music",
+        "concert",
+        "concerts",
+        "blue note",
+        "blue note hawaii",
+        "dragon upstairs",
+        "the republik",
+        "republik",
+        "house without a key",
+        "dukes waikiki",
+        "hawaiian music",
+        "slack key",
+        "anna obriens",
+        "nightlife",
+        "night life",
+        "nightclub",
+        "nightclubs",
+        "clubs",
+        "club",
+        "bars",
+        "bar",
+        "live music",
+        "music",
+        "dancing",
+        "dance",
+        "night out",
+        "going out",
+        "drinks"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Magazine: Best of HONOLULU 2026, entertainment",
+          "url": "https://www.honolulumagazine.com/best-of-honolulu-2026-entertainment-leisure/"
+        },
+        {
+          "name": "Wikipedia: Blue Note Hawaii",
+          "url": "https://en.wikipedia.org/wiki/Blue_Note_Hawaii"
+        },
+        {
+          "name": "The Dragon Upstairs: live music",
+          "url": "https://dragonupstairs.com/live-music"
+        },
+        {
+          "name": "AlohaCalendar: best live music venues in Honolulu (June 2026)",
+          "url": "https://alohacalendar.com/blog/best-live-music-venues-honolulu"
+        },
+        {
+          "name": "AlohaCalendar: Waikīkī nightlife guide 2026",
+          "url": "https://alohacalendar.com/blog/waikiki-nightlife-guide-2026"
+        },
+        {
+          "name": "Yelp: Anna O'Brien's (closed)",
+          "url": "https://www.yelp.com/biz/anna-o-briens-honolulu"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "nightlife-maui",
+      "type": "nightlife",
+      "title": "Maui nightlife and live music",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Maui's nightlife is mostly live music: Kīhei is the liveliest, with South Shore Tiki Lounge (DJs and dancing after 9 p.m.) and Life's a Beach (bands, karaoke and open mic). Mulligan's on the Blue in Wailea has nightly live music, Wai Bar in Wailuku has jazz and a small dance floor, and resort lounges like the Four Seasons Lobby Lounge have Hawaiian music.",
+      "details": [
+        "South Shore Tiki Lounge (Kīhei): music in the early evening, then DJs and dancing from about 9 p.m.",
+        "Life's a Beach (Kīhei): island-style live music, guest bands, karaoke six nights a week and open-mic nights.",
+        "Mulligan's on the Blue (Wailea): nightly live music, often Irish jams, plus monthly events.",
+        "Wai Bar (Wailuku): lounge music or live jazz, a small dance floor and karaoke night; closed Sundays.",
+        "Lobby Lounge, Four Seasons Resort Maui (Wailea): live Hawaiian music and some hula; cocktails 4 to 11 p.m.",
+        "Lahaina's Front Street bars were lost in the August 2023 fire; West Maui nightlife is now mostly in Kāʻanapali resort bars.",
+        "Music nights, covers and hours change often; check the venue's website or social media before you go."
+      ],
+      "tags": [
+        "maui nightlife",
+        "maui bars",
+        "maui live music",
+        "kihei",
+        "kihei bars",
+        "south shore tiki lounge",
+        "tiki lounge",
+        "lifes a beach",
+        "mulligans",
+        "mulligans on the blue",
+        "wailea",
+        "wai bar",
+        "wailuku",
+        "four seasons maui",
+        "karaoke",
+        "nightlife",
+        "night life",
+        "nightclub",
+        "nightclubs",
+        "clubs",
+        "club",
+        "bars",
+        "bar",
+        "live music",
+        "music",
+        "dancing",
+        "dance",
+        "night out",
+        "going out",
+        "drinks"
+      ],
+      "sources": [
+        {
+          "name": "Fodor's: Maui nightlife",
+          "url": "https://www.fodors.com/world/north-america/usa/hawaii/maui/things-to-do/nightlife"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "nightlife-big-island",
+      "type": "nightlife",
+      "title": "Big Island nightlife and live music",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "On the Big Island, nightlife centers on Kailua-Kona: Huggo's on the Rocks (nightly jazz, island and classic rock with dancing in the sand), Humpy's Big Island Alehouse (live music and dancing upstairs, open until 2 a.m.), and Laverne's (DJs after 10 p.m.). Up the coast, Blue Dragon Tavern in Kawaihae has jazz, R&B and soft rock five nights a week.",
+      "details": [
+        "Huggo's on the Rocks (Kailua-Kona): beachside, live jazz, island and classic rock nightly; dancing in the sand.",
+        "Humpy's Big Island Alehouse (Kailua-Kona): oceanfront, 36 craft beers, live music and dancing upstairs; open until 2 a.m.",
+        "Laverne's (Kailua-Kona): sports bar with island headliners and local bands, DJs after 10 p.m., upstairs dance floor.",
+        "Blue Dragon Tavern & Cosmic Musiquarium (Kawaihae): open-air, jazz, R&B, soft rock and Hawaiian music five nights a week.",
+        "Korner Pocket (Kealakekua, South Kona): local bands, no cover, dance floor and pool tables; open late.",
+        "Also: Kona Brewing Co. pub (Sunday patio music), Foster's Kitchen (island music nightly), The Mask-Querade Bar (LGBTQ+ bar with drag and karaoke), and Luana Lounge at the Fairmont Orchid (mellow sunset music).",
+        "Music nights, covers and hours change often; check the venue's website or social media before you go."
+      ],
+      "tags": [
+        "big island nightlife",
+        "kona nightlife",
+        "kona bars",
+        "kailua-kona",
+        "hilo bars",
+        "huggos",
+        "huggos on the rocks",
+        "humpys",
+        "laverne's",
+        "lavernes",
+        "blue dragon",
+        "kawaihae",
+        "korner pocket",
+        "kona brewing",
+        "classic rock",
+        "nightlife",
+        "night life",
+        "nightclub",
+        "nightclubs",
+        "clubs",
+        "club",
+        "bars",
+        "bar",
+        "live music",
+        "music",
+        "dancing",
+        "dance",
+        "night out",
+        "going out",
+        "drinks"
+      ],
+      "sources": [
+        {
+          "name": "Fodor's: Big Island nightlife",
+          "url": "https://www.fodors.com/world/north-america/usa/hawaii/big-island/things-to-do/nightlife"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "nightlife-kauai",
+      "type": "nightlife",
+      "title": "Kauaʻi nightlife and live music",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "Kauaʻi is quiet at night, and most live music ends by 9 or 10 p.m. Favorites include Tahiti Nui in Hanalei (a classic local hangout with nightly music), Rob's Good Times Grill in Līhuʻe (bands and dancing several nights a week), the Hanalei Gourmet (Hawaiian, jazz, rock and folk), and Duke's Barefoot Bar at Kalapakī Beach.",
+      "details": [
+        "Tahiti Nui (Hanalei): long-time local bar with live music nightly, about 6:30 to 8:30 p.m.",
+        "Rob's Good Times Grill (Līhuʻe): sports bar with live music on Wednesday, Friday and Saturday nights, plus trivia.",
+        "Hanalei Gourmet: in a restored schoolhouse; Hawaiian, jazz, rock and folk Wednesday through Friday evenings; open until about 10:30 p.m.",
+        "Duke's Barefoot Bar (Kalapakī Beach, Līhuʻe): contemporary Hawaiian music daily in the late afternoon and evening.",
+        "Keoki's Paradise (Poʻipū): bands on Friday and Saturday evenings until about 9 p.m.; younger crowd.",
+        "Stevenson's Library (Poʻipū): upscale lounge with live music; smart resort attire.",
+        "After Hurricane Lowell some businesses are on reduced hours; call ahead.",
+        "Music nights, covers and hours change often; check the venue's website or social media before you go."
+      ],
+      "tags": [
+        "kauai nightlife",
+        "kauai bars",
+        "kauai live music",
+        "tahiti nui",
+        "hanalei",
+        "robs good times grill",
+        "lihue bars",
+        "hanalei gourmet",
+        "dukes kauai",
+        "kalapaki",
+        "keokis",
+        "poipu bars",
+        "stevensons library",
+        "nightlife",
+        "night life",
+        "nightclub",
+        "nightclubs",
+        "clubs",
+        "club",
+        "bars",
+        "bar",
+        "live music",
+        "music",
+        "dancing",
+        "dance",
+        "night out",
+        "going out",
+        "drinks"
+      ],
+      "sources": [
+        {
+          "name": "Fodor's: Kauaʻi nightlife",
+          "url": "https://cdn.fodors.com/world/north-america/usa/hawaii/kauai/things-to-do/nightlife"
         }
       ],
       "last_checked": "2026-10-31"
