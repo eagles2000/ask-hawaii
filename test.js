@@ -265,6 +265,15 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
 
   ok(top("do I need reservations for the honolulu zoo") === "place-honolulu-zoo", "zoo");
 
+  ok(top("are there any Military Campgrounds on any of the bases in the Hawaiian Islands?") === "military-lodging-hawaii", "military campgrounds");
+  ok(top("bellows cabins") === "military-bellows", "bellows");
+  ok(top("hale koa") === "military-hale-koa", "hale koa");
+  ok(top("pililaau") === "military-pililaau", "pililaau");
+  ok(top("white plains beach cottages") === "military-barbers-point", "white plains");
+  ok(top("kilauea military camp") === "military-kilauea-camp", "kmc");
+  ok(top("barking sands cottages") === "military-barking-sands", "barking sands");
+  ok(top("veterans day") === "holiday-veterans-day", "veterans day still");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST

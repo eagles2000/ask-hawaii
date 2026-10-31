@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.27.0",
+  "version": "0.28.0",
   "last_updated": "2026-10-31",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -12268,6 +12268,489 @@
         "from_label": "Honolulu airport (HNL)",
         "to": "Honolulu Zoo, 151 Kapahulu Ave, Honolulu, HI",
         "to_label": "Honolulu Zoo"
+      }
+    },
+    {
+      "id": "military-lodging-hawaii",
+      "type": "military",
+      "title": "Military lodging and campgrounds in Hawaiʻi (overview)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Yes. Hawaiʻi has several military (MWR) getaways for eligible military families and some veterans. On Oʻahu: the Hale Koa Hotel in Waikīkī, Bellows beach cabins and campsites in Waimānalo, Pililāʻau cabins in Waiʻanae, Barbers Point beach cottages at White Plains and Nimitz beaches, and Kāneʻohe Bay cottages and cabanas. Kauaʻi has Barking Sands cottages at PMRF, and the Big Island has Kīlauea Military Camp. There's none on Maui, Molokaʻi or Lānaʻi.",
+      "details": [
+        "Who can stay: active duty, Guard and Reserve, military retirees, DoD civilians, and their families. Veterans with a service-connected disability rating (VA Health ID card), Purple Heart recipients, former POWs and VA caregivers also qualify under the 2018 Purple Heart and Disabled Veterans Equal Access Act, in effect since 2020. Most other veterans don't qualify unless sponsored by an eligible ID holder.",
+        "Oʻahu: Hale Koa Hotel (Waikīkī); Bellows Air Force Station (Waimānalo) with beach cabins, condos, camper cabins and tent campsites; Pililāʻau Army Recreation Center (Waiʻanae); Barbers Point Beach Cottages (Kalaeloa); Marine Corps Base Hawaiʻi Kāneʻohe Bay cottages, Cabanas and Klipper Villas.",
+        "Kauaʻi: Barking Sands Beach Cottages at the Pacific Missile Range Facility (west side).",
+        "Hawaiʻi Island: Kīlauea Military Camp inside Hawaiʻi Volcanoes National Park.",
+        "Maui, Molokaʻi and Lānaʻi: no military lodging.",
+        "Camping: Bellows is the main military campground, with family and group tent sites and rustic camper cabins. Kāneʻohe Bay's Cabanas are 'upscale camping' rooms with shared bathhouses.",
+        "On-base hotels (official travel first, leisure stays space-available): Navy Gateway Inns & Suites and Navy Lodge at Joint Base Pearl Harbor-Hickam, the Inn at Schofield Barracks, and Inns of the Corps at Kāneʻohe Bay.",
+        "Book early: the beach cottages and cabins often fill months ahead, especially summer and holidays. Each sponsor can usually book one cabin at a time."
+      ],
+      "tags": [
+        "military resorts",
+        "armed forces recreation",
+        "where can military stay",
+        "military vacation",
+        "military hotel",
+        "stay on base",
+        "on base lodging",
+        "military getaways",
+        "military",
+        "military lodging",
+        "military campgrounds",
+        "military cottages",
+        "mwr",
+        "base",
+        "bases",
+        "veterans",
+        "veteran",
+        "retirees",
+        "active duty",
+        "dod",
+        "cabins",
+        "cottages",
+        "campground",
+        "campgrounds",
+        "camping"
+      ],
+      "sources": [
+        {
+          "name": "PoppinSmoke: guide to Hawaiʻi military resorts and lodging (updated July 28, 2026)",
+          "url": "https://www.poppinsmoke.com/?p=8955"
+        },
+        {
+          "name": "Bellows AFS: eligibility",
+          "url": "https://www.bellowsafs.com/eligibility"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "military-hale-koa",
+      "type": "military",
+      "title": "Hale Koa Hotel (Waikīkī Armed Forces resort)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The Hale Koa is the military's beachfront hotel in Waikīkī, on Fort DeRussy, with 818 rooms, four pools, a lūʻau and a tax-free Exchange. Rates depend on rank and view, with no resort fee; 2026 rates ran about $199 to $419 a night.",
+      "details": [
+        "Who can stay: active duty (and Guard/Reserve on active orders), retirees, veterans with a VA service-connected disability rating, Purple Heart recipients, former POWs, DoD and Coast Guard civilians, and VA primary family caregivers. Bring military or DoD photo ID.",
+        "Guests: an eligible sponsor can book up to 4 rooms total for family and friends, but must be staying at the same time.",
+        "Rates: by rank and room view, with E-1 to E-6 paying least. Published 2026 rates (through Sept. 30, 2026) ran about $199 to $419; check the new rates. No hotel taxes or resort fee on the room rate. Parking is about $23 a day.",
+        "Book up to 365 days ahead; at least 6 months ahead is best. Call 1-800-367-6027 or 808-955-0555, or book at halekoa.com.",
+        "Address: 2055 Kalia Road, Honolulu, on Waikīkī Beach next to the U.S. Army Museum of Hawaiʻi.",
+        "Extras: Hale Koa lūʻau several nights a week, six restaurants and bars, four pools, fitness center, tour desk."
+      ],
+      "tags": [
+        "hale koa",
+        "hale koa hotel",
+        "fort derussy",
+        "waikiki",
+        "military hotel",
+        "armed forces recreation center",
+        "afrc",
+        "luau",
+        "military",
+        "military lodging",
+        "military campgrounds",
+        "military cottages",
+        "mwr",
+        "base",
+        "bases",
+        "veterans",
+        "veteran",
+        "retirees",
+        "active duty",
+        "dod",
+        "cabins",
+        "cottages",
+        "campground",
+        "campgrounds",
+        "camping"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii-Guide: Hale Koa Hotel (Apr. 2026)",
+          "url": "https://www.hawaii-guide.com/oahu/accommodations/hale-koa-hotel"
+        },
+        {
+          "name": "Hale Koa: FAQs",
+          "url": "https://halekoa.zendesk.com/hc/en-us/articles/11464500552593-FAQs"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Hale Koa Hotel, 2055 Kalia Rd, Honolulu, HI",
+        "to_label": "Hale Koa Hotel"
+      }
+    },
+    {
+      "id": "military-bellows",
+      "type": "military",
+      "title": "Bellows Air Force Station beach cabins and campground (Waimānalo)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Bellows, on Waimānalo Bay on Oʻahu's windward side, is the islands' main military beach getaway and campground: beachfront cabins and condos, fishing cabins, rustic camper cabins, and family and group tent campsites on one of Oʻahu's prettiest beaches. Book online after confirming eligibility.",
+      "details": [
+        "Who can stay: active duty, retirees, Guard and Reserve, current and retired DoD civilians, disabled veterans with a VA Health ID card showing a service-connected rating, Purple Heart or former POW status, VA caregivers, and Gold Star families (with the right ID). Veterans must be registered in DBIDS and pass a background check.",
+        "Lodging: beach cabins and condos (Wi-Fi), oceanfront fishing cabins, rustic Cedar Camper Cabins (no electricity, kitchen or bathroom), family campsites in three areas, and a group campsite. Dogs are allowed in some cabins, camper cabins and the Menehune campsites.",
+        "Guests: eligible patrons can sponsor family and friends; overnight guests 16 and older need a visitor pass, and the sponsor must stay on site.",
+        "Book: confirm eligibility at bellowsafs.com, then use the online reservations portal. Questions: 18msgdet2.fsvl.booking@us.af.mil.",
+        "Location: Waimānalo, about 40 minutes from the airport via the Pali or H-3. Bring your own food; the nearest stores are in Waimānalo and Kailua."
+      ],
+      "tags": [
+        "bellows",
+        "bellows air force station",
+        "bellows afs",
+        "waimanalo",
+        "windward",
+        "beach cabins",
+        "campsites",
+        "tent camping",
+        "camper cabins",
+        "fishing cabins",
+        "air force",
+        "military",
+        "military lodging",
+        "military campgrounds",
+        "military cottages",
+        "mwr",
+        "base",
+        "bases",
+        "veterans",
+        "veteran",
+        "retirees",
+        "active duty",
+        "dod",
+        "cabins",
+        "cottages",
+        "campground",
+        "campgrounds",
+        "camping"
+      ],
+      "sources": [
+        {
+          "name": "Bellows AFS: eligibility",
+          "url": "https://www.bellowsafs.com/eligibility"
+        },
+        {
+          "name": "PoppinSmoke: guide to Hawaiʻi military resorts and lodging (updated July 28, 2026)",
+          "url": "https://www.poppinsmoke.com/?p=8955"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Bellows Air Force Station, Waimanalo, HI",
+        "to_label": "Bellows Air Force Station"
+      }
+    },
+    {
+      "id": "military-pililaau",
+      "type": "military",
+      "title": "Pililāʻau Army Recreation Center (Waiʻanae)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Pililāʻau Army Recreation Center (PARC) has beachfront cabins on calm Pōkaʻī Bay in Waiʻanae on Oʻahu's west side, plus a restaurant. Cabins run about $175 to $255 a night (rates from Oct. 1, 2026), with $10 off for active duty E-1 to E-5.",
+      "details": [
+        "Rates (from Oct. 1, 2026): studio $175; 2-bedroom cabin $185; 3-bedroom cabin $205; Makai Hale 2-bedroom $185, bunk room $175, or both $505; Waiʻanae House $255. Active duty E-1 to E-5 get $10 off; DoD civilians and VA Health ID card holders pay the E-6 and up rate.",
+        "Who can stay: DoD ID cardholders (active, retired, Guard/Reserve, DoD civilians and families) and other authorized users such as eligible disabled veterans with a VA Health ID card. One cabin per ID cardholder.",
+        "Book: call 808-696-4158 (9 a.m. to 5 p.m.), up to 365 days ahead.",
+        "Location: Pōkaʻī Bay, Waiʻanae, about 45 minutes west of the airport on Farrington Highway. Pōkaʻī Bay is one of the calmest swimming beaches on the Leeward Coast."
+      ],
+      "tags": [
+        "pililaau",
+        "pililaau army recreation center",
+        "parc",
+        "waianae",
+        "pokai bay",
+        "west side",
+        "leeward",
+        "army",
+        "army recreation",
+        "beach cabins",
+        "military",
+        "military lodging",
+        "military campgrounds",
+        "military cottages",
+        "mwr",
+        "base",
+        "bases",
+        "veterans",
+        "veteran",
+        "retirees",
+        "active duty",
+        "dod",
+        "cabins",
+        "cottages",
+        "campground",
+        "campgrounds",
+        "camping"
+      ],
+      "sources": [
+        {
+          "name": "Army MWR Hawaiʻi: PARC lodging rates and reservations",
+          "url": "https://hawaii.armymwr.com/programs/pillar-army-recreation-center-parc/lodging-rates-and-reservations"
+        },
+        {
+          "name": "PoppinSmoke: guide to Hawaiʻi military resorts and lodging (updated July 28, 2026)",
+          "url": "https://www.poppinsmoke.com/?p=8955"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Pililaau Army Recreation Center, Waianae, HI",
+        "to_label": "Pililāʻau Army Recreation Center"
+      }
+    },
+    {
+      "id": "military-barbers-point",
+      "type": "military",
+      "title": "Barbers Point Beach Cottages (White Plains and Nimitz beaches, Kalaeloa)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Navy-run beach cottages on Oʻahu's southwest shore at Kalaeloa (Barbers Point): 24 one- to three-bedroom cottages, most oceanfront, at White Plains Beach and Nimitz Beach. Stays are 2 to 14 nights; book through Navy Getaways.",
+      "details": [
+        "Cottages: 24 units (20 oceanfront, 4 partial ocean view), 1, 2 or 3 bedrooms, at White Plains Beach and Nimitz Beach and Cove, inside a gated area.",
+        "Who can stay: military and DoD civilian sponsors and their sponsored guests; check with the front desk about veterans' eligibility. One cottage per sponsor ID (a sponsor and spouse may each book one).",
+        "Book: 1-877-NAVY-BED or 808-682-3085, or bpcottagereservations@bpcottageitt.com. 2-night minimum, 14-night maximum; one night's deposit is charged 14 days before arrival. No pets.",
+        "Location: Kalaeloa, near Kapolei, about 25 minutes from the airport. White Plains is a popular, gentle surf beach."
+      ],
+      "tags": [
+        "barbers point",
+        "barbers point beach cottages",
+        "white plains",
+        "white plains beach",
+        "nimitz beach",
+        "kalaeloa",
+        "kapolei",
+        "navy",
+        "navy getaways",
+        "beach cottages",
+        "jbphh",
+        "military",
+        "military lodging",
+        "military campgrounds",
+        "military cottages",
+        "mwr",
+        "base",
+        "bases",
+        "veterans",
+        "veteran",
+        "retirees",
+        "active duty",
+        "dod",
+        "cabins",
+        "cottages",
+        "campground",
+        "campgrounds",
+        "camping"
+      ],
+      "sources": [
+        {
+          "name": "DoD Lodging: Barbers Point Beach Cottages",
+          "url": "https://get.dodlodging.net/propertys/barbers-point-beach-cottages"
+        },
+        {
+          "name": "PoppinSmoke: guide to Hawaiʻi military resorts and lodging (updated July 28, 2026)",
+          "url": "https://www.poppinsmoke.com/?p=8955"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "White Plains Beach, Kapolei, HI",
+        "to_label": "White Plains Beach"
+      }
+    },
+    {
+      "id": "military-kaneohe-bay",
+      "type": "military",
+      "title": "Marine Corps Base Hawaiʻi lodging (Kāneʻohe Bay)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Marine Corps Base Hawaiʻi at Kāneʻohe Bay has recreation lodging: 13 two-bedroom beach cottages with full kitchens, the Cabanas (29 air-conditioned studios with shared bathhouses, a step up from camping), and Klipper Villas (2 to 4 bedrooms, some pet-friendly), plus Inns of the Corps and other on-base hotels.",
+      "details": [
+        "Cottages at Kāneʻohe Bay: 13 cottages, 2 bedrooms, 1 bath, full kitchen, A/C, lānai and grill, daily housekeeping. No pets.",
+        "Cabanas: 29 air-conditioned studios (king or queen beds, plus one five-bed studio) with communal bathrooms and showers; MCCS calls them upscale camping.",
+        "Klipper Villas: 2-, 3- and 4-bedroom units next to the base golf course; pets allowed in 3- and 4-bedroom units.",
+        "Also on base: Inns of the Corps (official and leisure travel), Fairway Inn and Marine Lodge Five Palms.",
+        "Who can stay: DoD ID cardholders and other authorized patrons; check each facility's rules. Leisure check-in is at Building 6937 next to the Fairway Inn. Book through hawaii.usmc-mccs.org/lodging.",
+        "Location: Mōkapu Peninsula, Kāneʻohe, about 30 minutes from the airport via H-3. Base access required."
+      ],
+      "tags": [
+        "kaneohe bay",
+        "mcbh",
+        "marine corps base hawaii",
+        "marine corps",
+        "marines",
+        "cabanas",
+        "klipper villas",
+        "inns of the corps",
+        "kaneohe",
+        "mokapu",
+        "windward",
+        "beach cottages",
+        "military",
+        "military lodging",
+        "military campgrounds",
+        "military cottages",
+        "mwr",
+        "base",
+        "bases",
+        "veterans",
+        "veteran",
+        "retirees",
+        "active duty",
+        "dod",
+        "cabins",
+        "cottages",
+        "campground",
+        "campgrounds",
+        "camping"
+      ],
+      "sources": [
+        {
+          "name": "MCCS Hawaiʻi: lodging",
+          "url": "https://hawaii.usmc-mccs.org/lodging"
+        },
+        {
+          "name": "PoppinSmoke: guide to Hawaiʻi military resorts and lodging (updated July 28, 2026)",
+          "url": "https://www.poppinsmoke.com/?p=8955"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Marine Corps Base Hawaii, Kaneohe, HI",
+        "to_label": "MCB Hawaiʻi Kāneʻohe Bay"
+      }
+    },
+    {
+      "id": "military-kilauea-camp",
+      "type": "military",
+      "title": "Kīlauea Military Camp (Hawaiʻi Volcanoes National Park)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Kīlauea Military Camp is a joint-services resort inside Hawaiʻi Volcanoes National Park at about 4,000 feet, with 90 cabins and apartments (1 to 3 bedrooms), a café, bowling, a general store and a fitness center. It's the only military lodging on the Big Island.",
+      "details": [
+        "Lodging: 90 cabins and apartments with 1 to 3 bedrooms, plus larger houses and group dorms.",
+        "Who can stay: active duty and retired military, Guard, Reserve, DoD civilians and their families; eligible disabled veterans may also qualify. Check eligibility when booking.",
+        "Book: kilaueamilitarycamp.com or call 808-208-9110 or 808-208-5630 (7 a.m. to 10 p.m.). Popular cabins sell out, so book early.",
+        "Location: 99-252 Crater Rim Drive, Volcano, about 45 minutes from the Hilo airport. The park entrance fee applies. It's cool and damp at this elevation, so bring a jacket.",
+        "Note: the park's temporary welcome center is at KMC while the Kīlauea Visitor Center is renovated."
+      ],
+      "tags": [
+        "kilauea military camp",
+        "kmc",
+        "volcano",
+        "hawaii volcanoes national park",
+        "big island",
+        "army",
+        "cabins",
+        "apartments",
+        "kilauea",
+        "military",
+        "military lodging",
+        "military campgrounds",
+        "military cottages",
+        "mwr",
+        "base",
+        "bases",
+        "veterans",
+        "veteran",
+        "retirees",
+        "active duty",
+        "dod",
+        "cabins",
+        "cottages",
+        "campground",
+        "campgrounds",
+        "camping"
+      ],
+      "sources": [
+        {
+          "name": "Army MWR Hawaiʻi: Kīlauea Military Camp",
+          "url": "https://hawaii.armymwr.com/programs/kilauea-military-camp-kmc"
+        },
+        {
+          "name": "PoppinSmoke: guide to Hawaiʻi military resorts and lodging (updated July 28, 2026)",
+          "url": "https://www.poppinsmoke.com/?p=8955"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Hilo International Airport, Hilo, HI",
+        "from_label": "Hilo airport (ITO)",
+        "to": "Kilauea Military Camp, 99-252 Crater Rim Dr, Volcano, HI",
+        "to_label": "Kīlauea Military Camp"
+      }
+    },
+    {
+      "id": "military-barking-sands",
+      "type": "military",
+      "title": "Barking Sands Beach Cottages (PMRF, Kauaʻi)",
+      "island": "Kauaʻi",
+      "county": "Kauaʻi County",
+      "summary": "The Pacific Missile Range Facility at Barking Sands on Kauaʻi's west side has beachfront cottages with full kitchens, many renovated or built in 2024 and 2025. A 2-bedroom beachfront cottage was about $250 a night in 2025. It's the only military lodging on Kauaʻi.",
+      "details": [
+        "Cottages: mostly 2-bedroom, 1-bath with full kitchen, outdoor shower and ocean-facing lānai (up to 6 guests); a VIP cottage sleeps 8. Some sit across the road from the beach.",
+        "Rate example: about $250 a night for a 2-bedroom beachfront cottage (2025 stay).",
+        "Who can stay: eligible military, retirees, dependents and authorized veterans. Book online through Navy Getaways (dodlodging.net); 14-day cancellation policy.",
+        "Location: PMRF, west Kauaʻi, about 50 minutes from the Līhuʻe airport. The base has one restaurant, a small shoppette and a gas pump, so stock up on groceries in Līhuʻe or Waimea.",
+        "Next to Polihale and the Nāpali Coast's south end; Kōkeʻe State Park is still closed after Hurricane Lowell."
+      ],
+      "tags": [
+        "barking sands",
+        "pmrf",
+        "pacific missile range facility",
+        "kauai",
+        "west kauai",
+        "kekaha",
+        "navy",
+        "navy getaways",
+        "beach cottages",
+        "military",
+        "military lodging",
+        "military campgrounds",
+        "military cottages",
+        "mwr",
+        "base",
+        "bases",
+        "veterans",
+        "veteran",
+        "retirees",
+        "active duty",
+        "dod",
+        "cabins",
+        "cottages",
+        "campground",
+        "campgrounds",
+        "camping"
+      ],
+      "sources": [
+        {
+          "name": "Military Money Manual: Barking Sands cottages (updated Mar. 2026)",
+          "url": "https://militarymoneymanual.com/barking-sands-cottages/"
+        },
+        {
+          "name": "PoppinSmoke: guide to Hawaiʻi military resorts and lodging (updated July 28, 2026)",
+          "url": "https://www.poppinsmoke.com/?p=8955"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Lihue Airport, Lihue, HI",
+        "from_label": "Līhuʻe airport (LIH)",
+        "to": "Pacific Missile Range Facility, Kekaha, HI",
+        "to_label": "PMRF Barking Sands"
       }
     }
   ]
