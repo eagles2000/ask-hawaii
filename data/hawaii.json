@@ -1,7 +1,7 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.25.0",
-  "last_updated": "2026-10-30",
+  "version": "0.26.0",
+  "last_updated": "2026-10-31",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
     {
@@ -12116,6 +12116,61 @@
         "from_label": "Kona airport (KOA)",
         "to": "Ikkyu Ramen, 75-5595 Palani Rd, Kailua-Kona, HI",
         "to_label": "Ikkyu Ramen"
+      }
+    },
+    {
+      "id": "food-haleiwa-joes",
+      "type": "food",
+      "title": "Haleʻiwa Joe's (Haleʻiwa and Kāneʻohe)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Haleʻiwa Joe's is a local seafood and grill restaurant with two Oʻahu locations: on the North Shore at 66-011 Kamehameha Highway in Haleʻiwa, by the harbor bridge, and in Kāneʻohe at 46-336 Haʻikū Road, overlooking the pond at Haʻikū Gardens. It's known for fresh fish and a big prime rib.",
+      "details": [
+        "Haleʻiwa (North Shore): 66-011 Kamehameha Highway, Haleʻiwa, by the Anahulu River bridge and the small boat harbor. Phone 808-637-8005. Recent listed hours: lunch and dinner Friday to Sunday from 11 a.m., dinner only Monday to Thursday from 4:30 p.m., closing about 9 p.m.",
+        "Kāneʻohe (Haʻikū Gardens): 46-336 Haʻikū Road, Kāneʻohe, in the lush Haʻikū Gardens with a lily pond and mountain views. Phone 808-247-6671. Recent listed hours: dinner nightly from 4:30 p.m. (to 10 p.m. Friday and Saturday), plus Sunday brunch 9 a.m. to 2 p.m.",
+        "Known for: fresh island fish (Thai-spiced, macadamia-nut pesto, or steamed with shoyu), and a prime rib that draws a crowd. The two menus differ slightly.",
+        "Popular at sunset and on weekends; reservations or an early arrival help, especially in Kāneʻohe.",
+        "Hours change; check haleiwajoes.com before you go."
+      ],
+      "tags": [
+        "haleiwa joes",
+        "haleiwa joe's",
+        "haleiwa joe",
+        "joes",
+        "joe's",
+        "haiku gardens",
+        "haiku",
+        "kaneohe",
+        "haleiwa",
+        "north shore",
+        "restaurant",
+        "restaurants",
+        "seafood",
+        "prime rib",
+        "dinner",
+        "windward",
+        "fish"
+      ],
+      "sources": [
+        {
+          "name": "Roadtrippers: Haleʻiwa Joe's (Haleʻiwa)",
+          "url": "https://maps.roadtrippers.com/us/haleiwa-hi/food-drink/haleiwa-joes"
+        },
+        {
+          "name": "Only In Your State: Haleʻiwa Joe's at Haiku Gardens",
+          "url": "https://www.onlyinyourstate.com/hawaii/haleiwa-joes-prime-rib-hi/"
+        },
+        {
+          "name": "Honolulu Magazine: Windward outdoor dining (2020)",
+          "url": "https://www.honolulumagazine.com/?p=267097"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Haleiwa Joe's at Haiku Gardens, 46-336 Haiku Rd, Kaneohe, HI",
+        "to_label": "Haleʻiwa Joe's Kāneʻohe"
       }
     }
   ]

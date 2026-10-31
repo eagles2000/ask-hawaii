@@ -254,6 +254,9 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("how many botanical gardens are there on the island of oahu") === "guide-oahu-botanical-gardens", "how many gardens");
   ok(top("hello hello whats the fastest way to get from waikiki to the west side west coast town call waianae") === "route-waikiki-waianae-coast", "waianae long");
 
+  ok(top("on Oahu there are two Haleiwa Joe's resturants where are they located?") === "food-haleiwa-joes", "haleiwa joes");
+  ok((await search("on oahu there are two dentists where are they located", "")).length === 0, "unknown restaurant gives no answer");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST
