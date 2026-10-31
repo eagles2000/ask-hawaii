@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/missed
+
+Sitemap: https://www.askaihawaii.com/sitemap.xml

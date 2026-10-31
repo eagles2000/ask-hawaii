@@ -290,6 +290,15 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("tahiti nui") === "nightlife-kauai", "tahiti nui");
   ok(top("what time do bars close in hawaii") === "nightlife-basics", "last call");
 
+  // Search-engine pages (v0.31)
+  const pg = require("./lib/pages");
+  ok(kb.DATA.entries.every((e) => { const h = pg.entryPage(e.id); return h && h.includes("<h1>") && h.includes('rel="canonical"'); }), "every entry has a page");
+  ok(pg.entryPage("no-such-entry") === null, "unknown entry is null");
+  ok(pg.topicPage("camping").includes("Camping &amp; permits"), "topic page");
+  ok(pg.islandPage("hawaii-island").includes("Spencer") || pg.islandPage("hawaii-island").includes("Kīlauea"), "island page");
+  ok((pg.sitemap().match(/<url>/g) || []).length >= kb.DATA.entries.length + 8, "sitemap lists everything");
+  ok(!pg.entryPage("place-waikiki-aquarium").includes("<script>alert"), "pages escape text");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST

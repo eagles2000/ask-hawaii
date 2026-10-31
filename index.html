@@ -14,6 +14,10 @@
   // Apply a saved light/dark choice before the page paints.
   try { var t = localStorage.getItem("ah-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
 </script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "Ask Hawaiʻi", "url": "https://www.askaihawaii.com/", "description": "Checked Hawaiʻi facts with official sources and dates, plus live weather, alerts and news headlines."}, {"@type": "Organization", "name": "ShakaSoftware LLC", "url": "https://www.askaihawaii.com/", "description": "Veteran-owned software company in Kapolei, Oʻahu.", "address": {"@type": "PostalAddress", "addressLocality": "Kapolei", "addressRegion": "HI", "addressCountry": "US"}}]}</script>
+<link rel="canonical" href="https://www.askaihawaii.com/">
+<meta property="og:url" content="https://www.askaihawaii.com/">
+<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com">
@@ -367,6 +371,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     <p class="eyebrow">Browse</p>
     <h2 id="cats-h">Categories</h2>
     <p class="total" id="total"></p>
+    <p class="total"><a href="/topics">See every topic as a list</a></p>
     <ul class="catlist" id="cats"></ul>
   </aside>
 
@@ -451,7 +456,8 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     </div>
     <div>
       <h4>Explore</h4>
-      <p><a href="#explore">Categories</a></p>
+      <p><a href="/topics">All topics</a></p>
+      <p><a href="/island/oahu">Oʻahu</a> · <a href="/island/maui">Maui</a> · <a href="/island/hawaii-island">Hawaiʻi Island</a> · <a href="/island/kauai">Kauaʻi</a> · <a href="/island/molokai">Molokaʻi</a> · <a href="/island/lanai">Lānaʻi</a></p>
       <p><a href="#conditions">Live alerts, weather and headlines</a></p>
       <p><a href="#add-ai">Use it in your AI assistant</a></p>
       <p><a href="#give">Give to suicide prevention</a></p>
@@ -829,7 +835,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
         '<ul class="details" id="d' + i + '" hidden>' + (e.details || []).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + '</ul>' +
         '<div class="actions"><button class="btn" type="button" data-more="' + i + '" aria-expanded="false" aria-controls="d' + i + '">More details</button>' +
         '<button class="btn" type="button" data-say="' + i + '">' + svg("wave", 16) + '<span>Read aloud</span></button>' + mapBtns(e) + '</div>' +
-        '<div class="src">Source: ' + (e.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>"; }).join(" · ") + '</div>' +
+        '<div class="src">Source: ' + (e.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>"; }).join(" · ") + ' · <a href="/a/' + esc(e.id) + '">Page link to share</a></div>' +
         "</article>";
     }).join("");
     out.querySelectorAll("[data-more]").forEach(function (b) {

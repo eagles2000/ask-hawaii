@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/a/:id", "destination": "/api/page?kind=entry&id=:id" },
+    { "source": "/topics", "destination": "/api/page?kind=topics" },
+    { "source": "/topics/:type", "destination": "/api/page?kind=topic&type=:type" },
+    { "source": "/island/:slug", "destination": "/api/page?kind=island&island=:slug" },
+    { "source": "/sitemap.xml", "destination": "/api/page?kind=sitemap" }
+  ]
+}
