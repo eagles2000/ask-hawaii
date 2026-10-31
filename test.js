@@ -260,6 +260,11 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok((await search("where is the best dentist in kapolei", "")).length === 0, "town alone is not an answer");
   ok(top("best beaches in kailua") === "beaches-lifeguarded-oahu", "kailua is oahu, not kailua-kona");
 
+  ok(top("do I need reservations for the Waikiki Aquarium?") === "place-waikiki-aquarium", "aquarium");
+  ok((await search("do I need reservations for the waikiki planetarium", "")).length === 0, "reservation word alone is not an answer");
+
+  ok(top("do I need reservations for the honolulu zoo") === "place-honolulu-zoo", "zoo");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST

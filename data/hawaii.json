@@ -1,6 +1,6 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.26.0",
+  "version": "0.27.0",
   "last_updated": "2026-10-31",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
@@ -12171,6 +12171,103 @@
         "from_label": "Honolulu airport (HNL)",
         "to": "Haleiwa Joe's at Haiku Gardens, 46-336 Haiku Rd, Kaneohe, HI",
         "to_label": "Haleʻiwa Joe's Kāneʻohe"
+      }
+    },
+    {
+      "id": "place-waikiki-aquarium",
+      "type": "place",
+      "title": "Waikīkī Aquarium",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "No reservation is needed: buy tickets at the door or online. The Waikīkī Aquarium, run by the University of Hawaiʻi at Mānoa, is open daily 9 a.m. to 4:30 p.m. (building closes at 5 p.m.) on the ocean side of Kapiʻolani Park. Adults $12, kamaʻāina and seniors $8, keiki 4 to 12 $5, ages 3 and under free.",
+      "details": [
+        "Reservations: not required for general admission. Buy tickets at the door or at waikikiaquarium.org. Popular summer concerts (Ke Kani O Ke Kai) do sell out, so book those early.",
+        "Hours: daily 9 a.m. to 4:30 p.m. last entry; closes 5 p.m. Closed Christmas Day and Honolulu Marathon day in December; shorter hours on Thanksgiving and New Year's Day.",
+        "Admission: adults $12; kamaʻāina (Hawaiʻi ID) and seniors 65+ $8; visitors with disabilities $5; children 4 to 12 $5; 3 and under free.",
+        "Address: 2777 Kalākaua Avenue, at the Diamond Head end of Waikīkī, about a 10 to 15 minute walk from most Waikīkī hotels.",
+        "Parking: metered street parking along Kalākaua and in Kapiʻolani Park fills on nice days; the Waikīkī Shell lot on Monsarrat Avenue is a short walk. TheBus and Biki bikes stop nearby.",
+        "See: reef sharks, giant clams, jellyfish, sea dragons, an octopus and chambered nautilus, the outdoor Edge of the Reef exhibit, and a Hawaiian monk seal habitat. Plan about 1 to 2 hours.",
+        "History: opened in 1904 and run by the University of Hawaiʻi since 1919, it's one of the oldest public aquariums in the United States."
+      ],
+      "tags": [
+        "waikiki aquarium",
+        "aquarium",
+        "fish",
+        "sharks",
+        "jellyfish",
+        "monk seal",
+        "kapiolani park",
+        "kalakaua",
+        "waikiki",
+        "uh",
+        "kids",
+        "family",
+        "rainy day",
+        "marine",
+        "reef",
+        "tickets"
+      ],
+      "sources": [
+        {
+          "name": "Wanderlustyle: Waikīkī Aquarium guide (updated Aug. 9, 2026)",
+          "url": "https://wanderlustyle.com/waikiki-aquarium/"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Waikiki Aquarium, 2777 Kalakaua Ave, Honolulu, HI",
+        "to_label": "Waikīkī Aquarium"
+      }
+    },
+    {
+      "id": "place-honolulu-zoo",
+      "type": "place",
+      "title": "Honolulu Zoo",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "No reservation is needed for the Honolulu Zoo; just arrive between 10 a.m. and 3 p.m. (grounds close at 4 p.m.). It's at Kapahulu and Kalākaua avenues at the Diamond Head end of Waikīkī. Adults $21 and keiki 3 to 12 $13; kamaʻāina and active military pay $10 and $6.",
+      "details": [
+        "Reservations: not needed for general admission. Buy at the gate or online at honoluluzoo.org. Guided Twilight Tours and Morning Safari need advance booking.",
+        "Hours: daily, entry 10 a.m. to 3 p.m.; grounds close at 4 p.m. Closed Christmas Day.",
+        "Admission: adults 13+ $21, children 3 to 12 $13, under 2 free. Kamaʻāina (Hawaiʻi ID) and U.S. active military and dependents: adults $10, children $6.",
+        "Address: 151 Kapahulu Avenue, Honolulu, next to Kapiʻolani Park.",
+        "Parking: the zoo lot on Kapahulu Avenue is $1.50 an hour (4-hour max). The free Waikīkī Shell lot across Monsarrat Avenue is a good backup.",
+        "See: the African Savanna (lions, giraffes, zebras, rhinos, hippos, elephants), orangutans, Komodo dragons, Galápagos tortoises, the Keiki Zoo with a splash area, and flamingos.",
+        "Nearby: the Waikīkī Aquarium is a short walk down Kalākaua Avenue."
+      ],
+      "tags": [
+        "honolulu zoo",
+        "zoo",
+        "animals",
+        "lions",
+        "giraffes",
+        "elephants",
+        "kapahulu",
+        "kapiolani park",
+        "waikiki",
+        "kids",
+        "family",
+        "keiki zoo",
+        "tickets"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Zoo: visit",
+          "url": "https://honoluluzoo.org/visit-honolulu-zoo"
+        },
+        {
+          "name": "Wanderlustyle: Honolulu Zoo (updated Aug. 9, 2026)",
+          "url": "https://wanderlustyle.com/honolulu-zoo/"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Honolulu Zoo, 151 Kapahulu Ave, Honolulu, HI",
+        "to_label": "Honolulu Zoo"
       }
     }
   ]
