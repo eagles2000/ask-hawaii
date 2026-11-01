@@ -344,6 +344,13 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(top("merrie monarch tickets") === "event-merrie-monarch", "merrie monarch still event");
   ok(top("iolani palace") === "place-iolani-palace", "iolani still place");
 
+  // Mountains (v0.32)
+  ok(top("whats the highest mountain on oahu") === "place-mount-kaala", "highest on oahu");
+  ok(top("highest mountain in hawaii") === "guide-highest-peaks", "highest in hawaii");
+  ok(top("tallest mountain on maui") === "guide-highest-peaks", "tallest on maui");
+  ok(!kb.search({ query: "highest mountain on oahu", limit: 6 }).results.some((r) => r.type === "sport"), "mountain doesn't pull Mountain West");
+  ok(top("mountain west conference") === "sport-uh-athletics-overview", "mountain west still works");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST

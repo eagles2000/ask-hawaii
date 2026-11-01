@@ -14798,6 +14798,121 @@
         "to": "Kuhio Beach Hula Mound, 2453 Kalakaua Ave, Honolulu, HI",
         "to_label": "Kūhiō Beach hula mound"
       }
+    },
+    {
+      "id": "place-mount-kaala",
+      "type": "place",
+      "title": "Mount Kaʻala, Oʻahu's tallest peak (4,025 ft)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Mount Kaʻala is Oʻahu's highest mountain at 4,025 feet (1,227 m). It's the top of the Waiʻanae Range on the island's west side, above Waiʻanae, Mākaha and Schofield Barracks. You can spot it from far away by the white FAA radar dome on its flat summit. The summit station is closed to the public.",
+      "details": [
+        "Elevation: 4,025 ft (1,227 m), the highest point on Oʻahu.",
+        "Location: Waiʻanae Range, an old eroded volcano on the west side of the island.",
+        "Summit: an FAA tracking station (the white dome), closed to the public and secured by the U.S. Army. The summit access road is not open to the public.",
+        "Hiking: the trail from Waiʻanae Valley is about 7 miles round trip with roughly 3,600 feet of climbing, usually 4 to 6 hours. It's steep, narrow and muddy, with ropes and ladders in places. Experienced hikers only; don't go after heavy rain.",
+        "Second-highest on Oʻahu is Puʻu Kalena, also in the Waiʻanae Range. The Koʻolau Range on the east side tops out lower, at Puʻu Kōnāhuanui (about 3,100 ft)."
+      ],
+      "tags": [
+        "mount kaala",
+        "kaala",
+        "mt kaala",
+        "waianae range",
+        "waianae mountains",
+        "highest mountain on oahu",
+        "tallest mountain on oahu",
+        "highest peak on oahu",
+        "highest point on oahu",
+        "oahu highest",
+        "radar dome",
+        "faa dome",
+        "mountain",
+        "mountains",
+        "peak",
+        "peaks",
+        "summit",
+        "elevation",
+        "how high",
+        "how tall"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Kaʻala",
+          "url": "https://en.wikipedia.org/wiki/Ka%CA%BBala"
+        },
+        {
+          "name": "KHON2: Hawaiʻi's 8 tallest peaks",
+          "url": "https://www.khon2.com/local-news/the-unfit-adventurer/hawai%CA%BBis-8-tallest-peaks-one-is-the-highest-on-earth/amp/"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "guide-highest-peaks",
+      "type": "guide",
+      "title": "Highest mountain on each Hawaiian island",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "The highest point on each island: Hawaiʻi Island, Mauna Kea 13,803 ft; Maui, Haleakalā 10,023 ft; Kauaʻi, Kawaikini 5,243 ft; Molokaʻi, Kamakou 4,961 ft; Oʻahu, Kaʻala 4,025 ft; Lānaʻi, Lānaʻihale 3,366 ft; Kahoʻolawe, Puʻu Moaulanui 1,477 ft; Niʻihau, Pānīʻau 1,281 ft. Measured from its base on the ocean floor, Mauna Kea is the tallest mountain on Earth.",
+      "details": [
+        "Hawaiʻi Island: Mauna Kea, 13,803 ft (Mauna Loa, 13,679 ft, is the largest volcano by volume). You can drive to Mauna Kea's summit with a 4WD vehicle; see the Mauna Kea entry.",
+        "Maui: Haleakalā, 10,023 ft at Puʻu ʻUlaʻula; the summit area is in Haleakalā National Park, and sunrise visits need a reservation.",
+        "Kauaʻi: Kawaikini, 5,243 ft, next to Waiʻaleʻale (5,148 ft), one of the rainiest spots on Earth. No public trail to the top.",
+        "Molokaʻi: Kamakou, 4,961 ft, inside The Nature Conservancy's Kamakou Preserve.",
+        "Oʻahu: Kaʻala, 4,025 ft, topped by a white FAA radar dome; summit closed to the public.",
+        "Lānaʻi: Lānaʻihale, 3,366 ft, reached by the Munro Trail.",
+        "Kahoʻolawe (Puʻu Moaulanui, 1,477 ft) and Niʻihau (Pānīʻau, 1,281 ft) are closed to visitors.",
+        "Mountain summits get cold, windy and wet; Mauna Kea and Haleakalā can drop below freezing."
+      ],
+      "tags": [
+        "highest mountain in hawaii",
+        "tallest mountain in hawaii",
+        "highest peaks",
+        "highest point",
+        "mauna kea",
+        "mauna loa",
+        "haleakala",
+        "kawaikini",
+        "waialeale",
+        "kamakou",
+        "kaala",
+        "lanaihale",
+        "munro trail",
+        "puu moaulanui",
+        "paniau",
+        "tallest mountain in the world",
+        "each island",
+        "islands",
+        "highest mountain",
+        "tallest mountain",
+        "highest peak",
+        "tallest peak",
+        "highest point",
+        "mountain",
+        "mountains",
+        "peak",
+        "peaks",
+        "summit",
+        "elevation",
+        "highest",
+        "tallest",
+        "how high",
+        "how tall",
+        "highest mountain in the state",
+        "tallest in hawaii",
+        "hawaii"
+      ],
+      "sources": [
+        {
+          "name": "KHON2: Hawaiʻi's 8 tallest peaks",
+          "url": "https://www.khon2.com/local-news/the-unfit-adventurer/hawai%CA%BBis-8-tallest-peaks-one-is-the-highest-on-earth/amp/"
+        },
+        {
+          "name": "Wikipedia: Kaʻala",
+          "url": "https://en.wikipedia.org/wiki/Ka%CA%BBala"
+        }
+      ],
+      "last_checked": "2026-11-01"
     }
   ]
 }
