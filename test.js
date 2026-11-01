@@ -299,6 +299,51 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok((pg.sitemap().match(/<url>/g) || []).length >= kb.DATA.entries.length + 8, "sitemap lists everything");
   ok(!pg.entryPage("place-waikiki-aquarium").includes("<script>alert"), "pages escape text");
 
+  // History (v0.32)
+  const H = [
+    ["battle of nuuanu", "history-kamehameha-nuuanu"],
+    ["who united the hawaiian islands", "history-kamehameha-nuuanu"],
+    ["when did hawaii become a state", "history-statehood"],
+    ["duke kahanamoku", "history-duke-surfing"],
+    ["overthrow of the hawaiian kingdom", "history-overthrow-annexation"],
+    ["captain cook monument", "history-captain-cook"],
+    ["hokulea voyaging canoe", "history-voyaging-hokulea"],
+    ["how did the polynesians get to hawaii", "history-voyaging-hokulea"],
+    ["when did missionaries come to hawaii", "history-missionaries-kawaiahao"],
+    ["lahaina whaling history", "history-lahaina-whaling"],
+    ["plantation era immigration", "history-plantations-immigration"],
+    ["martial law in hawaii during world war 2", "history-wwii-hawaii"],
+    ["hawaiian renaissance", "history-hawaiian-renaissance"],
+    ["hawaii history timeline", "history-timeline"],
+  ];
+  for (const [q, id] of H) ok(top(q) === id, "history: " + q);
+  ok(top("can I bring a backpack to Pearl Harbor") === "place-pearl-harbor", "pearl harbor still place");
+
+  // Hawaiian entertainers (v0.32)
+  const ENT = [
+    ["don ho tiny bubbles", "ent-don-ho"],
+    ["who sang somewhere over the rainbow ukulele", "ent-israel-kamakawiwoole"],
+    ["bruddah iz", "ent-israel-kamakawiwoole"],
+    ["gabby pahinui", "ent-gabby-pahinui"],
+    ["slack key guitar legend", "ent-gabby-pahinui"],
+    ["genoa keawe alika", "ent-genoa-keawe"],
+    ["brothers cazimero may day", "ent-brothers-cazimero"],
+    ["kealii reichel", "ent-kealii-reichel"],
+    ["jake shimabukuro", "ent-jake-shimabukuro"],
+    ["makaha sons", "ent-makaha-sons"],
+    ["kalapana nightbird", "ent-kalapana"],
+    ["na leo local boys", "ent-na-leo"],
+    ["who wrote i'll remember you", "ent-kui-lee"],
+    ["edith kanakaole quarter", "ent-edith-kanakaole"],
+    ["royal hawaiian band free concert", "ent-royal-hawaiian-band"],
+    ["na hoku hanohano awards", "ent-na-hoku-awards"],
+    ["where can i see a free hula show", "ent-where-to-hear"],
+  ];
+  for (const [q, id] of ENT) ok(top(q) === id, "entertainers: " + q);
+  ok(kb.search({ query: "hawaiian entertainers", limit: 20 }).results.filter((r) => r.type === "entertainers").length >= 10, "entertainers category list");
+  ok(top("merrie monarch tickets") === "event-merrie-monarch", "merrie monarch still event");
+  ok(top("iolani palace") === "place-iolani-palace", "iolani still place");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST

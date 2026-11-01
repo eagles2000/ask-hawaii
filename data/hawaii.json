@@ -1,7 +1,7 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.30.0",
-  "last_updated": "2026-10-31",
+  "version": "0.32.0",
+  "last_updated": "2026-11-01",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
     {
@@ -13496,6 +13496,1308 @@
         }
       ],
       "last_checked": "2026-10-31"
+    },
+    {
+      "id": "history-voyaging-hokulea",
+      "type": "history",
+      "title": "Polynesian voyaging and Hōkūleʻa",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "The first Hawaiians arrived by double-hulled voyaging canoe from other Polynesian islands, navigating thousands of miles by stars, swells and birds. In 1976 the canoe Hōkūleʻa proved it could be done again: guided by master navigator Mau Piailug without instruments, it sailed from Maui to Tahiti in about a month, sparking a rebirth of Hawaiian pride. 2026 marks the voyage's 50th anniversary.",
+      "details": [
+        "Settlement: Polynesian voyagers reached Hawaiʻi centuries ago, bringing kalo (taro), sugarcane, pigs and dogs on their canoes.",
+        "The 1976 voyage: Hōkūleʻa left Honolua Bay, Maui, on May 1, 1976, sighted Mataiva 31 days later and reached Papeʻete, Tahiti, on June 4, where more than 17,000 people greeted it.",
+        "Navigator: Pius 'Mau' Piailug of Satawal, Micronesia, one of the last masters of traditional wayfinding, guided the voyage and later trained Hawaiian navigators such as Nainoa Thompson.",
+        "Since then, Hōkūleʻa has sailed around the world, including a worldwide voyage that reached South Africa in 2015. It is operated by the Polynesian Voyaging Society.",
+        "See it: when it's home, Hōkūleʻa usually docks at the Marine Education Training Center on Sand Island, Honolulu; check the Polynesian Voyaging Society for public events."
+      ],
+      "tags": [
+        "hokulea",
+        "polynesian voyaging",
+        "voyaging canoe",
+        "wayfinding",
+        "navigation",
+        "mau piailug",
+        "nainoa thompson",
+        "polynesian voyaging society",
+        "first hawaiians",
+        "tahiti",
+        "canoe",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical",
+        "polynesians",
+        "how polynesians got to hawaii",
+        "first settlers",
+        "settled",
+        "settlement",
+        "discovered hawaii",
+        "who discovered hawaii",
+        "arrived",
+        "migration",
+        "get to hawaii"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii Tribune-Herald: 50 years after Hōkūleʻa's first voyage (May 4, 2026)",
+          "url": "https://www.hawaiitribune-herald.com/2026/05/04/hawaii-news/50-years-after-hokuleas-first-voyage-the-canoe-continues-to-reshape-hawaii/"
+        },
+        {
+          "name": "Wikipedia: Polynesian Voyaging Society",
+          "url": "https://en.wikipedia.org/wiki/Polynesian_Voyaging_Society"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "history-kamehameha-nuuanu",
+      "type": "history",
+      "title": "Kamehameha the Great and the Battle of Nuʻuanu (Pali Lookout)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Kamehameha I united the Hawaiian Islands into one kingdom. His decisive victory came in May 1795 at the Battle of Nuʻuanu on Oʻahu, where his army drove the Oʻahu forces up Nuʻuanu Valley to the cliffs; hundreds of warriors went over the edge. You can stand at that spot today at the Nuʻuanu Pali Lookout. Kauaʻi joined the kingdom peacefully in 1810.",
+      "details": [
+        "The battle: Kamehameha's army, estimated at 10,000 or more, pushed Kalanikūpule's forces from the Punchbowl area up Nuʻuanu Valley. Trapped at the 1,000-foot cliffs, more than 700 warriors leapt or were pushed off. About 800 skulls were found below in 1898 during road building.",
+        "Unification: after Nuʻuanu, Kamehameha ruled every island except Kauaʻi and Niʻihau; King Kaumualiʻi of Kauaʻi accepted his rule in 1810.",
+        "Visit: Nuʻuanu Pali Lookout (Pali Highway, Route 61) has sweeping Windward views and markers about the battle. It's very windy; non-residents pay a small parking fee.",
+        "Also see: the gilded King Kamehameha statue in front of Aliʻiōlani Hale in downtown Honolulu (draped with lei every June 11) and the original statue in Kapaʻau, North Kohala, near his birthplace.",
+        "Kamehameha founded the dynasty that ruled until 1872; June 11 is King Kamehameha Day, a state holiday."
+      ],
+      "tags": [
+        "kamehameha",
+        "kamehameha the great",
+        "kamehameha i",
+        "battle of nuuanu",
+        "nuuanu",
+        "pali lookout",
+        "nuuanu pali",
+        "pali",
+        "unification",
+        "kingdom of hawaii",
+        "kamehameha statue",
+        "kalanikupule",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical",
+        "united",
+        "unite",
+        "unified",
+        "united the islands",
+        "who united the hawaiian islands",
+        "first king",
+        "islands"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Battle of Nuʻuanu",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Nu%CA%BBuanu"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Nuuanu Pali Lookout, Honolulu, HI",
+        "to_label": "Nuʻuanu Pali Lookout"
+      }
+    },
+    {
+      "id": "history-captain-cook",
+      "type": "history",
+      "title": "Captain Cook in Hawaiʻi (1778 to 1779)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "British explorer Captain James Cook was the first recorded European to reach Hawaiʻi, landing at Waimea, Kauaʻi, in January 1778. On his return a year later he anchored at Kealakekua Bay on Hawaiʻi Island, where he was killed in a clash with Hawaiians on February 14, 1779. A white obelisk at Kaʻawaloa on the bay marks the spot.",
+      "details": [
+        "Arrival: Cook's ships Resolution and Discovery reached Waimea, Kauaʻi, in January 1778. A monument and marker stand in Waimea town.",
+        "Kealakekua Bay: Cook returned in late 1778 and anchored at Kealakekua during the Makahiki season. After he left and returned for repairs, tensions grew; he was killed on February 14, 1779.",
+        "Monument: a 27-foot white obelisk (1874) at Kaʻawaloa on the north side of the bay. Reach it by permitted kayak tour, snorkel boat, or the steep Kaʻawaloa Trail (about 3.8 miles round trip).",
+        "Kealakekua Bay is a Marine Life Conservation District with excellent snorkeling; Puʻuhonua o Hōnaunau is just south.",
+        "Cook's arrival brought trade, new tools and also devastating diseases that sharply reduced the Native Hawaiian population in the decades that followed."
+      ],
+      "tags": [
+        "captain cook",
+        "james cook",
+        "cook monument",
+        "captain cook monument",
+        "kealakekua",
+        "kealakekua bay",
+        "kaawaloa",
+        "waimea kauai",
+        "1778",
+        "1779",
+        "explorer",
+        "first europeans",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "Hawaii-Guide: Captain Cook Monument (Waimea, Kauaʻi)",
+          "url": "https://www.hawaii-guide.com/kauai/sights/captain-cook-monument"
+        },
+        {
+          "name": "Historical Marker Database: Waimea, Kauaʻi",
+          "url": "https://hmdb.org/m.asp?m=65777"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Kona International Airport, Kailua-Kona, HI",
+        "from_label": "Kona airport (KOA)",
+        "to": "Kealakekua Bay State Historical Park, Captain Cook, HI",
+        "to_label": "Kealakekua Bay"
+      }
+    },
+    {
+      "id": "history-missionaries-kawaiahao",
+      "type": "history",
+      "title": "The missionaries and Kawaiahaʻo Church (1820s to 1840s)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "American Protestant missionaries arrived in 1820 and, with Hawaiian aliʻi, created a written Hawaiian alphabet, schools and printing presses; within a generation Hawaiʻi had one of the highest literacy rates in the world. Their landmark is Kawaiahaʻo Church in downtown Honolulu, built from 1836 to 1842 with about 14,000 coral blocks cut by hand by Hawaiian divers.",
+      "details": [
+        "Arrival: the first company arrived aboard the brig Thaddeus at Kailua-Kona in April 1820, just after Kamehameha II ended the old kapu system.",
+        "Literacy: missionaries and Hawaiian scholars developed the Hawaiian alphabet and printed the first Hawaiian-language materials in 1822; Hawaiians embraced reading and writing rapidly.",
+        "Kawaiahaʻo Church: about 14,000 coral slabs were quarried from offshore reefs by Hawaiian divers. Called 'Hawaiʻi's Westminster Abbey,' it hosted royal oaths of office, weddings and funerals; Queen Liliʻuokalani lay in state here in 1917, and King Lunalilo is buried in a tomb on the grounds.",
+        "Visit: 957 Punchbowl Street, Honolulu. Sunday services include Hawaiian language. Next door, the Hawaiian Mission Houses Historic Site (553 S. King St.) preserves the missionaries' 1821 frame house, the oldest in Hawaiʻi.",
+        "The missionaries' influence was mixed: they promoted literacy and Western law, and some descendants later became powerful in business and in the 1893 overthrow."
+      ],
+      "tags": [
+        "missionaries",
+        "missionary",
+        "kawaiahao",
+        "kawaiahao church",
+        "mission houses",
+        "hawaiian mission houses",
+        "thaddeus",
+        "1820",
+        "hiram bingham",
+        "literacy",
+        "hawaiian alphabet",
+        "coral church",
+        "downtown honolulu",
+        "lunalilo",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical",
+        "missionaries come",
+        "missionaries came",
+        "arrived",
+        "came",
+        "come",
+        "christianity",
+        "first christians"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Kawaiahaʻo Church",
+          "url": "https://en.wikipedia.org/wiki/Kawaiaha%CA%BBo_Church"
+        },
+        {
+          "name": "Images of Old Hawaiʻi: literacy was sought by the people",
+          "url": "https://imagesofoldhawaii.com/literacy-was-sought-by-the-people/"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Kawaiahao Church, 957 Punchbowl St, Honolulu, HI",
+        "to_label": "Kawaiahaʻo Church"
+      }
+    },
+    {
+      "id": "history-lahaina-whaling",
+      "type": "history",
+      "title": "Lahaina: royal capital and whaling town",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Lahaina was the capital of the Hawaiian Kingdom from 1820 to 1845 and, in the 1840s and 1850s, the busiest whaling port in the Pacific, with more than 400 ships a year at its peak. The August 8, 2023 wildfire destroyed most of the historic town, including the Baldwin Home and Pioneer Inn; the famous banyan tree survived and is regrowing.",
+      "details": [
+        "Royal capital: Kamehameha I kept a residence here, and under Kamehameha II and III Lahaina was the kingdom's capital until it moved to Honolulu in 1845.",
+        "Whaling: American whalers arrived from 1819; about 100 ships called a year by 1824 and more than 400 a year at the 1850s peak. Whaling declined after the 1860s.",
+        "Landmarks before the fire: the 1834 Baldwin Home (the missionary doctor's house and museum), the 1910 Wo Hing Temple, the 1901 Pioneer Inn, the old fort in Banyan Court and Waiola Church with its royal cemetery.",
+        "The 2023 fire: on August 8, 2023, a wind-driven fire killed about 100 people and burned most of historic Lahaina. Rebuilding is ongoing; the 1873 banyan tree, scorched, has been sprouting new growth.",
+        "Visiting today: West Maui is open. Respect closed areas and residents still rebuilding; Kāʻanapali, Nāpili and Kapalua are nearby."
+      ],
+      "tags": [
+        "lahaina",
+        "lahaina history",
+        "whaling",
+        "whaling era",
+        "whalers",
+        "capital of hawaii",
+        "royal capital",
+        "baldwin home",
+        "banyan tree",
+        "pioneer inn",
+        "wo hing",
+        "front street",
+        "lahaina fire",
+        "maui history",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "NPS: Lahaina Historic District",
+          "url": "https://www.nps.gov/places/lahaina-historic-district.htm"
+        },
+        {
+          "name": "National Geographic: What was lost in Lahaina",
+          "url": "https://www.nationalgeographic.com/premium/article/lahaina-maui-lost-cultural-history-hawaii-kingdom"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "history-plantations-immigration",
+      "type": "history",
+      "title": "Sugar plantations and immigration: how local culture formed",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Starting with Kōloa, Kauaʻi, in 1835, sugar (and later pineapple) plantations reshaped Hawaiʻi. They brought hundreds of thousands of workers from China, Japan, Portugal, Korea, the Philippines and beyond; their mix of foods, festivals and Pidgin English became Hawaiʻi's local culture. Hawaiʻi's last sugar mill, Puʻunēnē on Maui, closed in 2016.",
+      "details": [
+        "First plantation: the Old Sugar Mill at Kōloa, Kauaʻi (1835).",
+        "Who came: about 50,000 Chinese (1852 to 1887), about 200,000 Japanese (1885 to 1924), Portuguese from Madeira and the Azores, about 7,300 Koreans (1903 to 1910), and about 112,800 Filipinos (1909 to 1930), plus Puerto Ricans and others. Many stayed.",
+        "Plantation life: workers lived in ethnic camps but shared food at lunch, which is the origin of the mixed plate lunch, and created Hawaiian Pidgin to talk across languages.",
+        "Strikes in 1920 and later united workers across ethnic lines and helped end the plantation system's grip.",
+        "Visit: Hawaiʻi's Plantation Village in Waipahu (an outdoor museum of plantation homes from many ethnic groups), the Alexander & Baldwin Sugar Museum in Puʻunēnē, Maui, and Grove Farm on Kauaʻi."
+      ],
+      "tags": [
+        "plantation",
+        "plantations",
+        "sugar",
+        "sugar plantations",
+        "pineapple",
+        "immigration",
+        "immigrants",
+        "japanese",
+        "chinese",
+        "filipino",
+        "portuguese",
+        "korean",
+        "pidgin",
+        "plate lunch",
+        "local culture",
+        "plantation village",
+        "waipahu",
+        "koloa",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Sugar plantations in Hawaiʻi",
+          "url": "https://en.wikipedia.org/wiki/Sugar_plantations_in_Hawaii"
+        },
+        {
+          "name": "to-Hawaii: Hawaiʻi Plantation Village",
+          "url": "https://www.to-hawaii.com/oahu/museums/hawaii-plantation-village/"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Hawaii's Plantation Village, Waipahu, HI",
+        "to_label": "Hawaiʻi's Plantation Village"
+      }
+    },
+    {
+      "id": "history-overthrow-annexation",
+      "type": "history",
+      "title": "The overthrow of the Hawaiian Kingdom (1893) and annexation (1898)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "On January 17, 1893, a group of mostly American businessmen, backed by U.S. Marines landed from the USS Boston, overthrew Queen Liliʻuokalani. She yielded under protest to avoid bloodshed. After a failed attempt to restore her in 1895, she was imprisoned in ʻIolani Palace and forced to abdicate. The U.S. annexed Hawaiʻi in 1898, and in 1993 Congress formally apologized.",
+      "details": [
+        "January 1893: the Committee of Safety, with U.S. troops ashore, declared a provisional government; Liliʻuokalani yielded 'to the superior force of the United States' rather than risk her people's lives.",
+        "1894 to 1895: the Republic of Hawaiʻi was declared; after a failed royalist uprising, the queen was imprisoned for months in an upstairs room of ʻIolani Palace and abdicated.",
+        "Annexation: the Newlands Resolution annexed Hawaiʻi in 1898 despite petitions signed by tens of thousands of Native Hawaiians opposing it; Hawaiʻi became a U.S. territory in 1900.",
+        "Apology: Public Law 103-150 (1993) acknowledged the U.S. role in the overthrow and apologized to Native Hawaiians.",
+        "Visit: ʻIolani Palace (tours; see the museums category), the Queen Liliʻuokalani statue between the palace and the State Capitol, and Washington Place, her former home. She also wrote the beloved song 'Aloha ʻOe.'"
+      ],
+      "tags": [
+        "overthrow",
+        "overthrow of the hawaiian kingdom",
+        "1893",
+        "liliuokalani",
+        "queen liliuokalani",
+        "annexation",
+        "1898",
+        "newlands resolution",
+        "apology resolution",
+        "public law 103-150",
+        "iolani palace",
+        "hawaiian kingdom",
+        "sovereignty",
+        "republic of hawaii",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Statutes: Apology Resolution, Public Law 103-150 (1993)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf"
+        },
+        {
+          "name": "Cultural Survival: the overthrow and annexation",
+          "url": "https://www.culturalsurvival.org/node/3736"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Iolani Palace, 364 S King St, Honolulu, HI",
+        "to_label": "ʻIolani Palace"
+      }
+    },
+    {
+      "id": "history-wwii-hawaii",
+      "type": "history",
+      "title": "World War II in Hawaiʻi: the December 7 attack, martial law and the Nisei soldiers",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The December 7, 1941 attack on Pearl Harbor pulled the U.S. into World War II and put Hawaiʻi under martial law until October 1944, with military courts, curfews and blackouts. Hawaiʻi's Japanese American (Nisei) men formed the 100th Infantry Battalion and 442nd Regimental Combat Team, among the most decorated units for their size in U.S. history.",
+      "details": [
+        "Pearl Harbor: the surprise attack killed about 2,400 Americans; the USS Arizona Memorial and other sites are part of Pearl Harbor National Memorial (see places and holidays for visits and the Dec. 7 ceremony).",
+        "Martial law: declared on December 7, 1941 and lifted in October 1944. In Duncan v. Kahanamoku (1946), the U.S. Supreme Court ruled that military trials of civilians in Hawaiʻi had been unlawful.",
+        "Nisei soldiers: the 100th Battalion (mostly Hawaiʻi Nisei) and the 442nd ('Go for Broke') fought in Italy and France; Senator Daniel Inouye earned the Medal of Honor with the 442nd.",
+        "Internment: about 2,000 people of Japanese ancestry from Hawaiʻi were detained, many at the Honouliuli camp in Central Oʻahu, now a National Historic Site.",
+        "More to see: the Battleship Missouri, Pacific Aviation Museum and USS Bowfin at Pearl Harbor, and the U.S. Army Museum of Hawaiʻi in Waikīkī."
+      ],
+      "tags": [
+        "world war ii",
+        "wwii",
+        "ww2",
+        "pearl harbor attack",
+        "december 7",
+        "martial law",
+        "442nd",
+        "100th battalion",
+        "nisei",
+        "go for broke",
+        "daniel inouye",
+        "honouliuli",
+        "internment",
+        "duncan v kahanamoku",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Duncan v. Kahanamoku",
+          "url": "https://en.wikipedia.org/wiki/Duncan_v._Kahanamoku"
+        },
+        {
+          "name": "U.S. Army: 442nd unit among the Army's most decorated",
+          "url": "https://www.army.mil/article/188231/asian_pacific_heritage_japanese_american_wwii_unit_stands_among_armys_most_decorated"
+        },
+        {
+          "name": "NPS: Honouliuli National Historic Site opens for tours",
+          "url": "https://www.nps.gov/hono/learn/news/honouliuli-national-historic-site-opens-to-the-public-for-first-time-guided-tours.htm"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Pearl Harbor National Memorial, Honolulu, HI",
+        "to_label": "Pearl Harbor National Memorial"
+      }
+    },
+    {
+      "id": "history-statehood",
+      "type": "history",
+      "title": "Statehood: Hawaiʻi becomes the 50th state (1959)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi became the 50th state on August 21, 1959, after President Eisenhower signed the Admission Act on March 18, 1959. In a June 27, 1959 vote with record turnout, about 140,000 ballots were cast and more than 93% on every major island approved. Statehood Day is the third Friday in August.",
+      "details": [
+        "Admission Act: passed the Senate 76 to 15 and the House 323 to 89 in March 1959; signed March 18, 1959.",
+        "Vote: on June 27, 1959, voters approved statehood with at least 93% yes on every major island; fewer than 8,000 voted no.",
+        "Hawaiʻi was a U.S. territory from 1900 to 1959. Some Native Hawaiians opposed statehood, and the ballot offered no option of independence, a point still debated today.",
+        "After statehood, jet travel and tourism boomed, and Hawaiʻi's economy shifted from plantations to visitors and the military.",
+        "Statehood Day (Admission Day) is a state holiday on the third Friday of August."
+      ],
+      "tags": [
+        "statehood",
+        "50th state",
+        "1959",
+        "admission act",
+        "admission day",
+        "statehood day",
+        "territory of hawaii",
+        "eisenhower",
+        "plebiscite",
+        "when did hawaii become a state",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Hawaiʻi Admission Act",
+          "url": "https://en.wikipedia.org/wiki/Hawaii_Admission_Act"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "history-hawaiian-renaissance",
+      "type": "history",
+      "title": "The Hawaiian Renaissance (1970s to today)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "In the 1970s, Native Hawaiians led a cultural revival: Hōkūleʻa's 1976 voyage, the movement to stop the Navy's bombing of Kahoʻolawe, a rebirth of hula and Hawaiian music, and the 1978 state constitutional convention, which made Hawaiian an official language and created the Office of Hawaiian Affairs. Hawaiian-language immersion schools followed, and the revival continues today.",
+      "details": [
+        "Hōkūleʻa (1976) proved ancient Polynesian navigation and became a symbol of pride.",
+        "Kahoʻolawe: activists of the Protect Kahoʻolawe ʻOhana occupied the island starting in 1976 to protest Navy bombing. Bombing ended in 1990, and the island was returned to the state in 1994.",
+        "1978 constitutional convention: made ʻōlelo Hawaiʻi an official state language (with English) and created the Office of Hawaiian Affairs.",
+        "Language: Pūnana Leo Hawaiian-immersion preschools began in the 1980s, and Hawaiian-medium schools now run through high school.",
+        "Hula and music: the Merrie Monarch Festival in Hilo became the world's premier hula competition, and slack-key, falsetto and Hawaiian music flourished (see the Hawaiian entertainers category)."
+      ],
+      "tags": [
+        "hawaiian renaissance",
+        "renaissance",
+        "kahoolawe",
+        "protect kahoolawe ohana",
+        "hawaiian language",
+        "olelo hawaii",
+        "office of hawaiian affairs",
+        "oha",
+        "1978 constitutional convention",
+        "punana leo",
+        "immersion",
+        "cultural revival",
+        "native hawaiian",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Hawaiian Renaissance",
+          "url": "https://en.wikipedia.org/wiki/Hawaiian_Renaissance"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "history-duke-surfing",
+      "type": "history",
+      "title": "Duke Kahanamoku and the history of surfing",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Surfing (heʻe nalu) is a Hawaiian invention, once enjoyed by aliʻi and commoners alike. Waikīkī's Duke Kahanamoku, an Olympic swimming champion in 1912 and 1920, introduced modern surfing to Australia and the U.S. mainland and became Hawaiʻi's ambassador of aloha. His bronze statue (1990) stands on Kūhiō Beach in Waikīkī, usually draped in lei.",
+      "details": [
+        "Ancient surfing: Hawaiians rode boards made of koa and wiliwili; aliʻi had their own surf spots and long olo boards.",
+        "Duke: born in 1890 in Honolulu; Olympic gold in the 100-meter freestyle in 1912 (Stockholm) and 1920 (Antwerp). His 1914 to 1915 demonstrations in Australia and his years in California spread surfing worldwide.",
+        "Later, he served as Sheriff of Honolulu for decades; he died in 1968.",
+        "Visit: the Duke Kahanamoku statue on Kūhiō Beach, Waikīkī (near the Moana Surfrider). Duke's birthday, August 24, is celebrated with surf and paddle events.",
+        "Waikīkī is still one of the best places to learn to surf (see tours and activities)."
+      ],
+      "tags": [
+        "duke kahanamoku",
+        "duke",
+        "surfing history",
+        "history of surfing",
+        "surfing",
+        "he e nalu",
+        "olympics",
+        "duke statue",
+        "kuhio beach",
+        "waikiki",
+        "ambassador of aloha",
+        "surf",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Duke Kahanamoku",
+          "url": "https://en.wikipedia.org/wiki/Duke_Kahanamoku"
+        },
+        {
+          "name": "GoHawaii: Duke Kahanamoku statue",
+          "url": "https://www.gohawaii.com/islands/oahu/regions/honolulu/duke-kahanamoku-statue"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Duke Kahanamoku Statue, Kuhio Beach, Honolulu, HI",
+        "to_label": "Duke Kahanamoku statue"
+      }
+    },
+    {
+      "id": "history-timeline",
+      "type": "history",
+      "title": "Hawaiʻi history timeline (quick overview)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "A quick timeline: Polynesian voyagers settle Hawaiʻi; Captain Cook arrives (1778); Kamehameha unites the islands (1795 to 1810); missionaries arrive (1820); the sugar era begins (1835); the monarchy is overthrown (1893); the U.S. annexes Hawaiʻi (1898); Pearl Harbor is attacked (1941); statehood (1959); and the Hawaiian Renaissance (1970s on).",
+      "details": [
+        "Settlement: Polynesian voyagers arrive by canoe and develop a sophisticated society of aliʻi (chiefs), kapu laws and ahupuaʻa land divisions.",
+        "1778: Captain Cook lands at Waimea, Kauaʻi; he dies at Kealakekua Bay in 1779.",
+        "1795: Battle of Nuʻuanu; 1810: all islands united under Kamehameha I.",
+        "1819 to 1820: the kapu system ends; missionaries arrive. Lahaina is the capital until 1845, then Honolulu.",
+        "1835: first sugar plantation at Kōloa; large-scale immigration follows.",
+        "1874 to 1891: King Kalākaua's reign (he built ʻIolani Palace and revived hula); 1891 to 1893: Queen Liliʻuokalani.",
+        "1893: overthrow; 1898: annexation; 1900: territory.",
+        "1941: Pearl Harbor attack and martial law; 1959: statehood.",
+        "1976: Hōkūleʻa sails to Tahiti; 1978: Hawaiian becomes an official language; 1993: U.S. apology.",
+        "2023: the Lahaina fire. Each era has its own entry in this history category."
+      ],
+      "tags": [
+        "timeline",
+        "history timeline",
+        "hawaii history",
+        "history of hawaii",
+        "overview",
+        "kalakaua",
+        "monarchy",
+        "ancient hawaii",
+        "kapu",
+        "history",
+        "hawaiian history",
+        "historic",
+        "historical"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Battle of Nuʻuanu",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Nu%CA%BBuanu"
+        },
+        {
+          "name": "Wikipedia: Hawaiʻi Admission Act",
+          "url": "https://en.wikipedia.org/wiki/Hawaii_Admission_Act"
+        },
+        {
+          "name": "U.S. Statutes: Apology Resolution (1993)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg1510.pdf"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-don-ho",
+      "type": "entertainers",
+      "title": "Don Ho (\"Tiny Bubbles\")",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Hawaiʻi's best-known entertainer of the 1960s and '70s. Born in Kakaʻako, Honolulu, in 1930, Don Ho was a U.S. Air Force pilot before turning his family's bar into a stage. His 1966 hit \"Tiny Bubbles\" and his long-running Waikīkī nightclub show made him a symbol of Hawaiʻi. He died in 2007 at 76.",
+      "details": [
+        "Born Aug. 13, 1930, in Honolulu; died April 14, 2007, in Waikīkī.",
+        "Military: joined the U.S. Air Force in 1954 and flew C-97 transports with the Military Air Transport Service; left in 1959 to help run his mother's bar, Honey's, in Kāneʻohe.",
+        "Honey's moved to Waikīkī in 1963; record executives later spotted him at Duke's, a nightclub owned by Duke Kahanamoku.",
+        "Signature songs: \"Tiny Bubbles\" (1966) and \"Pearly Shells\"; he also popularized Kui Lee's \"I'll Remember You.\"",
+        "TV: hosted The Don Ho Show on ABC (1976 to 1977) and guest-starred on Batman and The Brady Bunch.",
+        "His later Waikīkī show ran at the Waikīkī Beachcomber."
+      ],
+      "tags": [
+        "don ho",
+        "tiny bubbles",
+        "pearly shells",
+        "honeys",
+        "waikiki show",
+        "air force",
+        "veteran",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Don Ho",
+          "url": "https://en.wikipedia.org/wiki/Don_Ho"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-israel-kamakawiwoole",
+      "type": "entertainers",
+      "title": "Israel \"IZ\" Kamakawiwoʻole",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The voice behind the ʻukulele medley \"Somewhere Over the Rainbow / What a Wonderful World.\" Born in Honolulu in 1959, IZ co-founded the Makaha Sons of Niʻihau, then went solo; his 1993 album Facing Future went platinum. He died in 1997 at 38, lay in state at the State Capitol (the only non-government official ever to do so), and his ashes were scattered off Mākua Beach.",
+      "details": [
+        "Born May 20, 1959, in Honolulu; died June 26, 1997.",
+        "Founding member of the Makaha Sons of Niʻihau (1976) with his brother Skippy, a key group of the Hawaiian Renaissance.",
+        "\"Over the Rainbow / What a Wonderful World\" was recorded in 1988 in a single late-night session; it later became one of the most popular ʻukulele recordings ever.",
+        "Facing Future (1993) was certified platinum; it includes a tribute to Gabby Pahinui.",
+        "He lay in state at the Hawaiʻi State Capitol, the only person who was not a government official to receive that honor.",
+        "His ashes were scattered in the ocean off Mākua Beach on the Waiʻanae Coast."
+      ],
+      "tags": [
+        "israel kamakawiwoole",
+        "iz",
+        "bruddah iz",
+        "over the rainbow",
+        "somewhere over the rainbow",
+        "what a wonderful world",
+        "facing future",
+        "ukulele",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Ukulele Hall of Fame: Israel Kamakawiwoʻole",
+          "url": "https://ukulele.org/inductees/2025-2026/israel-kamakawiwo-ole/"
+        },
+        {
+          "name": "Wikipedia: Israel Kamakawiwoʻole",
+          "url": "https://en.wikipedia.org/wiki/Israel_Kamakawiwo%CA%BBole"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-gabby-pahinui",
+      "type": "entertainers",
+      "title": "Gabby \"Pops\" Pahinui (slack-key guitar)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The father of modern slack-key guitar (kī hōʻalu). Born in Lahaina in 1921 and raised in Honolulu, Gabby Pahinui made the first slack-key instrumental record (\"Hula Medley,\" 1947, now in the National Recording Registry). With the Sons of Hawaii and later the Gabby Pahinui Hawaiian Band, he became a central figure of the 1970s Hawaiian Renaissance. He died in 1980.",
+      "details": [
+        "Born April 22, 1921, in Lahaina, Maui; died Oct. 13, 1980, in Honolulu.",
+        "Played slack-key and steel guitar and sang; learned slack-key from Herman Keawe.",
+        "\"Hiʻilawe\" (1946) was an early slack-key vocal recording; \"Hula Medley\" (1947) was the first slack-key guitar instrumental record and was added to the National Recording Registry in 2011.",
+        "Bands: Sons of Hawaii with Eddie Kamae (early 1960s); the Gabby Pahinui Hawaiian Band (from 1972).",
+        "Classic album: Gabby (1972), known as the \"Brown Album.\"",
+        "Honors: Living Treasure of Hawaiʻi (1979); Hawaiian Music Hall of Fame (2002). His sons Cyril, Bla and Martin are also well-known musicians."
+      ],
+      "tags": [
+        "gabby pahinui",
+        "pops pahinui",
+        "slack key",
+        "slack key guitar",
+        "ki hoalu",
+        "sons of hawaii",
+        "eddie kamae",
+        "hiilawe",
+        "steel guitar",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Gabby Pahinui",
+          "url": "https://en.wikipedia.org/wiki/Gabby_Pahinui"
+        },
+        {
+          "name": "UH Mānoa Hawaiian Music Collection: Gabby Pahinui",
+          "url": "https://digital.library.manoa.hawaii.edu/music/artists/pahinui"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-genoa-keawe",
+      "type": "entertainers",
+      "title": "Aunty Genoa Keawe (falsetto)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The beloved queen of Hawaiian falsetto, famous for holding impossibly long notes in her signature song \"ʻAlika.\" Aunty Genoa sang in Waikīkī for decades, performing every Thursday at the Waikīkī Beach Marriott for more than ten years, until a month before she died in 2008 at 89.",
+      "details": [
+        "Died Feb. 25, 2008, at age 89, at her family home in Papakōlea, Honolulu.",
+        "Signature song: \"ʻAlika.\" Her technique used haʻi, the break between upper and lower voice that defines Hawaiian falsetto.",
+        "Weekly Thursday shows at the Waikīkī Beach Marriott for more than 10 years; her last performance was Jan. 31, 2008.",
+        "Honors: Nā Hōkū Hanohano Female Vocalist of the Year (1995, for Hula Hou); Hawaiian Music Hall of Fame (2001); Nā Hōkū Lifetime Achievement Award; Living Treasure (2004)."
+      ],
+      "tags": [
+        "genoa keawe",
+        "aunty genoa",
+        "falsetto",
+        "alika",
+        "hawaiian falsetto",
+        "hai",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Star-Bulletin: Genoa Keawe obituary (2008)",
+          "url": "https://archives.starbulletin.com/2008/02/26/news/story01.html"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-brothers-cazimero",
+      "type": "entertainers",
+      "title": "The Brothers Cazimero",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Robert and Roland Cazimero, one of the defining Hawaiian music duos of the Hawaiian Renaissance. Their May Day (Lei Day) concert at the Waikīkī Shell, which began in 1977, was an Honolulu tradition for 30 years. Roland died in 2017; Robert, also a respected kumu hula, held a final May Day concert at Bishop Museum in 2018 in his brother's honor.",
+      "details": [
+        "Members: Robert Cazimero (bass, piano, vocals; kumu hula) and Roland Cazimero (12-string guitar, vocals).",
+        "May Day concert at the Waikīkī Shell from 1977, for 30 years; May 1 is Lei Day in Hawaiʻi.",
+        "Roland Cazimero died in July 2017.",
+        "Robert's final May Day concert was May 1, 2018, on the Great Lawn of Bishop Museum."
+      ],
+      "tags": [
+        "brothers cazimero",
+        "cazimero",
+        "robert cazimero",
+        "roland cazimero",
+        "may day",
+        "lei day",
+        "may day concert",
+        "waikiki shell",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Honolulu Magazine: Robert Cazimero on one last May Day concert",
+          "url": "https://www.honolulumagazine.com/?p=43813"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-kealii-reichel",
+      "type": "entertainers",
+      "title": "Kealiʻi Reichel",
+      "island": "Maui",
+      "county": "Maui County",
+      "summary": "Maui-born singer, songwriter and kumu hula whose 1994 debut album, Kawaipunahele, became one of the best-selling Hawaiian albums. He sings mostly in Hawaiian, leads Hālau Keʻalaokamaile, co-founded a Hawaiian-language immersion preschool on Maui, and has won many Nā Hōkū Hanohano Awards and two Grammy nominations.",
+      "details": [
+        "Born June 26, 1962, in Lahaina, Maui.",
+        "Debut: Kawaipunahele (1994), on his own Punahele Productions label.",
+        "Founded his hālau at 18; it is now Hālau Keʻalaokamaile.",
+        "Nā Hōkū Hanohano: swept major awards in 2004 (Keʻalaokamaile) and 2015 (Kawaiokalena).",
+        "Grammy nominations for Keʻalaokamaile and Kawaiokalena.",
+        "Co-founded Pūnana Leo o Maui, a Hawaiian-language immersion preschool; has played Carnegie Hall and opened for Sting and Céline Dion."
+      ],
+      "tags": [
+        "kealii reichel",
+        "reichel",
+        "kawaipunahele",
+        "halau kealaokamaile",
+        "kumu hula",
+        "maui singer",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Kealiʻi Reichel",
+          "url": "https://en.wikipedia.org/wiki/Keali%CA%BBi_Reichel"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-jake-shimabukuro",
+      "type": "entertainers",
+      "title": "Jake Shimabukuro (ʻukulele)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The ʻukulele virtuoso who showed the world what the little instrument can do. Born in Honolulu in 1976, he first won fans with the trio Pure Heart; a 2006 YouTube video of his \"While My Guitar Gently Weeps\" went viral and launched an international career. Several of his albums have topped Billboard's world music chart.",
+      "details": [
+        "Born Nov. 3, 1976, in Honolulu.",
+        "Pure Heart (with Lopaka Colón and Jon Yamasato): the trio's debut won four Nā Hōkū Hanohano Awards.",
+        "His \"While My Guitar Gently Weeps\" video was posted in 2006 without his knowledge and drew millions of views.",
+        "Albums: Gently Weeps (2006), Peace Love Ukulele (2011, No. 1 on Billboard's world music chart), Grand Ukulele (2012), Trio (2020).",
+        "Documentary: Jake Shimabukuro: Life on Four Strings (2012). Nominated to the National Council on the Arts in 2021."
+      ],
+      "tags": [
+        "jake shimabukuro",
+        "ukulele",
+        "ukulele player",
+        "while my guitar gently weeps",
+        "pure heart",
+        "uke",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Jake Shimabukuro",
+          "url": "https://en.wikipedia.org/wiki/Jake_Shimabukuro"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-makaha-sons",
+      "type": "entertainers",
+      "title": "The Mākaha Sons",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "One of Hawaiʻi's most beloved traditional groups, known for rich harmonies and old-style Hawaiian songs. Formed on Oʻahu in 1976 as the Makaha Sons of Niʻihau, with Israel and Skippy Kamakawiwoʻole, Jerome Koko, Moon Kauakahi and Sam Gray; after IZ went solo, the group carried on as the Mākaha Sons.",
+      "details": [
+        "Formed in 1976 on Oʻahu.",
+        "Original members: Jerome Koko, Louis \"Moon\" Kauakahi, Skippy Kamakawiwoʻole, Israel Kamakawiwoʻole and Sam Gray.",
+        "Skippy Kamakawiwoʻole died in 1982; the lineup has changed several times since.",
+        "Albums include Kahea O Keale (1977), Keala (1978), Mahalo, Ke Akua (1981), Hoʻola (1986) and Ke Alaula (1994)."
+      ],
+      "tags": [
+        "makaha sons",
+        "makaha sons of niihau",
+        "moon kauakahi",
+        "jerome koko",
+        "john koko",
+        "skippy kamakawiwoole",
+        "harmony",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Mākaha Sons",
+          "url": "https://en.wikipedia.org/wiki/M%C4%81kaha_Sons"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-kalapana",
+      "type": "entertainers",
+      "title": "Kalapana (band)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Honolulu's classic 1970s soft-rock band, famous for \"Naturally,\" \"Nightbird\" and \"The Hurt.\" Their 1975 debut sold well in Hawaiʻi and Japan, three 1976 Waikīkī Shell concerts drew about 25,000 people, and they remain popular in Japan. Lifetime Achievement Award from the Hawaiʻi Academy of Recording Arts in 2011.",
+      "details": [
+        "Formed in Honolulu in 1973 to 1974; founders included Malani Bilyeu, DJ Pratt, Mackey Feary and Kirk Thompson.",
+        "Hits: \"Naturally,\" \"Nightbird,\" \"The Hurt.\"",
+        "Toured Japan regularly and released several Japan-only albums.",
+        "Won two Nani Awards (the forerunner of the Nā Hōkū Hanohano Awards).",
+        "Members who have died: Mackey Feary (1999), Malani Bilyeu (2018) and DJ Pratt (2021)."
+      ],
+      "tags": [
+        "kalapana",
+        "naturally",
+        "nightbird",
+        "the hurt",
+        "mackey feary",
+        "malani bilyeu",
+        "contemporary hawaiian",
+        "70s",
+        "rock band",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Kalapana (band)",
+          "url": "https://en.wikipedia.org/wiki/Kalapana_(band)"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-na-leo",
+      "type": "entertainers",
+      "title": "Nā Leo Pilimehana",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The trio of Nalani Jenkins, Lehua Kalima and Angela Morales, who formed as Kamehameha Schools seniors in 1984 and won a talent contest with \"Local Boys,\" then the best-selling single in Hawaiian music history. Their 1996 \"Flying With Angels\" reached mainland adult-contemporary charts. More than 20 Nā Hōkū Hanohano Awards.",
+      "details": [
+        "Members: Nalani Jenkins, Lehua Kalima and Angela Morales.",
+        "Formed in 1984 at Kamehameha Schools; won the \"Brown Bags to Stardom\" contest with their original song \"Local Boys.\"",
+        "\"Flying With Angels\" (1996) won Song of the Year at the Nā Hōkū Hanohano Awards.",
+        "In the Hawaiian Music Hall of Fame."
+      ],
+      "tags": [
+        "na leo",
+        "na leo pilimehana",
+        "local boys",
+        "flying with angels",
+        "lehua kalima",
+        "nalani jenkins",
+        "angela morales",
+        "kamehameha schools",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Na Leo Pilimehana",
+          "url": "https://en.wikipedia.org/wiki/Na_Leo_Pilimehana"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-kui-lee",
+      "type": "entertainers",
+      "title": "Kui Lee (songwriter)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "The songwriter behind \"I'll Remember You,\" made famous by Don Ho and recorded by Elvis Presley. Kui Lee wrote some of Hawaiʻi's best-loved modern songs before dying of cancer in 1966 at 34. Elvis's 1973 Aloha from Hawaii concert raised money for the Kui Lee Cancer Fund at the University of Hawaiʻi.",
+      "details": [
+        "Born July 31, 1932; died Dec. 3, 1966, at 34.",
+        "Songs: \"I'll Remember You,\" \"Ain't No Big Thing,\" \"The Days of My Youth,\" \"Lahainaluna,\" \"One Paddle, Two Paddle.\"",
+        "Elvis Presley recorded \"I'll Remember You\" in 1966 and sang it live in the 1970s.",
+        "The 1973 \"Aloha from Hawaii\" concert benefited the Kui Lee Cancer Fund, raising about $75,000 for cancer research at UH.",
+        "Hawaiian Music Hall of Fame (2009); buried at sea off Oʻahu."
+      ],
+      "tags": [
+        "kui lee",
+        "ill remember you",
+        "one paddle two paddle",
+        "lahainaluna",
+        "elvis",
+        "aloha from hawaii",
+        "songwriter",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Kui Lee",
+          "url": "https://en.wikipedia.org/wiki/Kui_Lee"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-edith-kanakaole",
+      "type": "entertainers",
+      "title": "Aunty Edith Kanakaʻole (hula and chant)",
+      "island": "Hawaiʻi Island",
+      "county": "Hawaiʻi County",
+      "summary": "Revered Hilo kumu hula, chanter and composer who helped lead the Hawaiian cultural revival. Born in Honomū in 1913, she founded Hālau O Kekuhi in 1953 and taught at UH Hilo. In 2023 she became the first Native Hawaiian woman on a U.S. quarter. Hilo's Edith Kanakaʻole Stadium hosts the Merrie Monarch Festival every year.",
+      "details": [
+        "Born Oct. 30, 1913, in Honomū on the Hāmākua Coast; died Oct. 3, 1979.",
+        "Founded Hālau O Kekuhi in 1953, named for her mother.",
+        "Taught Hawaiian language and culture at UH Hilo (1973 to 1979); a campus building bears her name.",
+        "2023 American Women quarter: the first Native Hawaiian woman on a U.S. quarter.",
+        "The Edith Kanakaʻole Foundation (1990) carries on her family's teachings.",
+        "The Edith Kanakaʻole Multi-Purpose Stadium in Hilo is home to the Merrie Monarch hula competition."
+      ],
+      "tags": [
+        "edith kanakaole",
+        "aunty edie",
+        "kumu hula",
+        "hula",
+        "chant",
+        "oli",
+        "halau o kekuhi",
+        "quarter",
+        "hilo",
+        "merrie monarch",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Edith Kanakaʻole",
+          "url": "https://en.wikipedia.org/wiki/Edith_Kanaka%CA%BBole"
+        },
+        {
+          "name": "University of Hawaiʻi News: Kanakaʻole quarter unveiled",
+          "url": "https://www.hawaii.edu/news/2022/08/30/kanakaole-quarter-unveiled/"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-royal-hawaiian-band",
+      "type": "entertainers",
+      "title": "The Royal Hawaiian Band (free concerts)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Founded in 1836 by King Kamehameha III, the Royal Hawaiian Band is older than the state itself and is now run by the City and County of Honolulu. Catch a free concert most Fridays from noon to 1 p.m. on the ʻIolani Palace grounds, where it plays \"Hawaiʻi Ponoʻi,\" the state song written by King Kalākaua with bandmaster Henri Berger.",
+      "details": [
+        "Founded 1836 by Kamehameha III.",
+        "Henri Berger, a Prussian bandmaster loaned to the kingdom in 1872, led the band for decades and is called the father of Hawaiian music.",
+        "\"Hawaiʻi Ponoʻi\" (King Kalākaua with Berger) was the kingdom's anthem and is the official state song.",
+        "Free concerts: most Fridays, noon to 1 p.m., ʻIolani Palace grounds (King and Richards streets, downtown Honolulu). The band also often plays Sunday afternoons at the Kapiʻolani Park Bandstand in Waikīkī.",
+        "No smoking or vaping on the palace grounds. Check rhb-music.com for the current schedule and cancellations."
+      ],
+      "tags": [
+        "royal hawaiian band",
+        "free concert",
+        "free concerts",
+        "iolani palace",
+        "hawaii ponoi",
+        "henri berger",
+        "band",
+        "kapiolani park bandstand",
+        "concert",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "ʻIolani Palace: Royal Hawaiian Band concerts",
+          "url": "https://www.iolanipalace.org/events/royal-hawaiian-band-concerts/"
+        },
+        {
+          "name": "Wikipedia: Royal Hawaiian Band",
+          "url": "https://en.wikipedia.org/wiki/Royal_Hawaiian_Band"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Waikiki, Honolulu, HI",
+        "from_label": "Waikīkī",
+        "to": "Iolani Palace, 364 S King St, Honolulu, HI",
+        "to_label": "ʻIolani Palace grounds"
+      }
+    },
+    {
+      "id": "ent-na-hoku-awards",
+      "type": "entertainers",
+      "title": "Nā Hōkū Hanohano Awards (Hawaiʻi’s Grammys)",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Hawaiʻi's top music awards, often called the Hawaiian Grammys. Nā Hōkū Hanohano means \"stars of distinction.\" Started in 1978 by radio personality Krash Kealoha, they are presented each year in May by the Hawaiʻi Academy of Recording Arts (HARA), and the ceremony is televised.",
+      "details": [
+        "First held in 1978; founded by Krash Kealoha of KCCN radio.",
+        "Presented by the nonprofit Hawaiʻi Academy of Recording Arts (founded 1982); its members vote.",
+        "\"Hōkū\" means star; the name translates roughly to \"stars of distinction.\"",
+        "Held each May with a televised ceremony; categories cover Hawaiian-language, slack-key, ʻukulele, reggae, contemporary and more.",
+        "Winners and finalists are listed at nahokuhanohano.org."
+      ],
+      "tags": [
+        "na hoku",
+        "na hoku hanohano",
+        "hoku awards",
+        "hawaiian grammys",
+        "music awards",
+        "hara",
+        "hawaii academy of recording arts",
+        "awards",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Nā Hōkū Hanohano Awards",
+          "url": "https://en.wikipedia.org/wiki/N%C4%81_H%C5%8Dk%C5%AB_Hanohano_Awards"
+        },
+        {
+          "name": "Nā Hōkū Hanohano (official)",
+          "url": "https://www.nahokuhanohano.org/about"
+        }
+      ],
+      "last_checked": "2026-11-01"
+    },
+    {
+      "id": "ent-where-to-hear",
+      "type": "entertainers",
+      "title": "Where to hear Hawaiian music and see hula today (Oʻahu)",
+      "island": "Oʻahu",
+      "county": "City and County of Honolulu",
+      "summary": "Free and easy ways to hear real Hawaiian music: the Royal Hawaiian Band at ʻIolani Palace most Fridays at noon; the free Kūhiō Beach Hula Show in Waikīkī (6:30 to 7:30 p.m. on scheduled evenings); sunset Hawaiian music and hula at House Without a Key at the Halekūlani (no cover); and contemporary Hawaiian bands most nights at Duke's Waikīkī. For the biggest hula event of the year, it's the Merrie Monarch Festival in Hilo.",
+      "details": [
+        "Royal Hawaiian Band: free, most Fridays noon to 1 p.m., ʻIolani Palace grounds.",
+        "Kūhiō Beach Hula Show: free, 6:30 to 7:30 p.m., at the hula mound by the Duke statue, 2453 Kalākaua Ave.; check gohawaii.com for the current dates.",
+        "House Without a Key (Halekūlani): Hawaiian trio and hula at sunset every evening; no cover; arrive early for a table.",
+        "Duke's Waikīkī (Outrigger Reef): contemporary Hawaiian music most nights.",
+        "Blue Note Hawaiʻi often books Hawaiian headliners (tickets).",
+        "Merrie Monarch Festival: Hilo, the week after Easter; tickets by mail request, and it's televised live.",
+        "Schedules change; check each venue's site before you go."
+      ],
+      "tags": [
+        "where to hear hawaiian music",
+        "hawaiian music tonight",
+        "hula show",
+        "free hula show",
+        "kuhio beach hula show",
+        "house without a key",
+        "dukes waikiki",
+        "live hawaiian music",
+        "see hula",
+        "hula",
+        "where to see hula",
+        "hawaiian music",
+        "hawaiian entertainers",
+        "hawaiian entertainer",
+        "entertainers",
+        "entertainer",
+        "musician",
+        "musicians",
+        "singer",
+        "singers",
+        "music",
+        "legend",
+        "legends"
+      ],
+      "sources": [
+        {
+          "name": "GoHawaii: Kūhiō Beach Hula Show",
+          "url": "https://www.gohawaii.com/islands/o%CA%BBahu/events/kuhio-beach-hula-show-0"
+        },
+        {
+          "name": "ʻIolani Palace: Royal Hawaiian Band concerts",
+          "url": "https://www.iolanipalace.org/events/royal-hawaiian-band-concerts/"
+        }
+      ],
+      "last_checked": "2026-11-01",
+      "directions": {
+        "from": "Daniel K. Inouye International Airport, Honolulu, HI",
+        "from_label": "Honolulu airport (HNL)",
+        "to": "Kuhio Beach Hula Mound, 2453 Kalakaua Ave, Honolulu, HI",
+        "to_label": "Kūhiō Beach hula mound"
+      }
     }
   ]
 }

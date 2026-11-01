@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.eagles2000/ask-hawaii",
+  "title": "Ask Hawaiʻi",
+  "description": "Checked Hawaiʻi facts with sources, live NWS weather and alerts, and twice-daily local headlines.",
+  "websiteUrl": "https://www.askaihawaii.com",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.askaihawaii.com/api/mcp"
+    }
+  ]
+}
