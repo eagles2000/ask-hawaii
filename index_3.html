@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ask Hawaiʻi · Checked facts for visitors and locals</title>
+<link rel="icon" href="https://images.unsplash.com/photo-1580193747522-61116809ccef?rect=525,666,907,907&amp;fit=crop&amp;auto=format&amp;q=80&amp;w=64&amp;h=64">
+<link rel="apple-touch-icon" href="https://images.unsplash.com/photo-1580193747522-61116809ccef?rect=525,666,907,907&amp;fit=crop&amp;auto=format&amp;q=80&amp;w=180&amp;h=180">
+<meta property="og:title" content="Ask Hawaiʻi">
+<meta property="og:description" content="Checked Hawaiʻi facts with official sources, plus live weather and alerts.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1580193747522-61116809ccef?rect=525,666,907,907&amp;fit=crop&amp;auto=format&amp;q=80&amp;w=512&amp;h=512">
+<meta name="description" content="Checked Hawaiʻi facts with official sources: park reservations, hikes, beaches and ocean safety, wildlife rules, culture, getting around, taxes, plus live weather and alerts. Ask by typing or by voice.">
+<script>
+  // Apply a saved light/dark choice before the page paints.
+  try { var t = localStorage.getItem("ah-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "Ask Hawaiʻi", "url": "https://www.askaihawaii.com/", "description": "Checked Hawaiʻi facts with official sources and dates, plus live weather, alerts and news headlines."}, {"@type": "Organization", "name": "ShakaSoftware LLC", "url": "https://www.askaihawaii.com/", "description": "Veteran-owned software company in Kapolei, Oʻahu.", "address": {"@type": "PostalAddress", "addressLocality": "Kapolei", "addressRegion": "HI", "addressCountry": "US"}}]}</script>
+<link rel="canonical" href="https://www.askaihawaii.com/">
+<meta property="og:url" content="https://www.askaihawaii.com/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Ask Hawaiʻi: photo hero with the ask box, live conditions, then a two-column browse area (categories left, content right). */
+:root{
+  --bg:#F7F5F1; --surface:#FFFFFF; --sunk:#F0EDE7; --ink:#15212A; --muted:#5D6870; --line:#E3DED6;
+  --accent:#0D5C6B; --accent-ink:#FFFFFF; --accent-soft:#E2EEF0; --warn:#A4401A; --warn-bg:#FBEDE5; --ok:#2F7A55;
+  --shadow:0 1px 2px rgba(20,33,42,.05),0 8px 24px rgba(20,33,42,.06);
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
+  --d-place:#0D5C6B; --d-hike:#3E7B4F; --d-safety:#2F5FA8; --d-rule:#B0562A; --d-culture:#8A4C8C; --d-history:#8A6A3F; --d-guide:#4C6B73; --d-transport:#5A5FB0; --d-tax:#8F7E2E; --d-contact:#B23A4F; --d-route:#2D6E8E; --d-event:#B5651D; --d-food:#A23E48; --d-garden:#4F7A2E; --d-animal:#6B5B95; --d-shop:#9C4F86; --d-tour:#C0392B; --d-trip:#1F7A6D; --d-golf:#2E7D32; --d-sport:#00695C; --d-museum:#6D4C41; --d-living:#00838F; --d-holiday:#B71C1C; --d-hotel:#5D4037; --d-military:#33691E; --d-camping:#558B2F; --d-nightlife:#4527A0; --d-entertainers:#AD1457;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
+  --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4; --d-living:#80DEEA; --d-holiday:#EF9A9A; --d-hotel:#D7CCC8; --d-military:#AED581; --d-camping:#C5E1A5; --d-nightlife:#B39DDB; --d-entertainers:#F48FB1;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1417; --surface:#151D21; --sunk:#1B252A; --ink:#E9EDEF; --muted:#9BA7AD; --line:#26323A;
+  --accent:#6CC0CD; --accent-ink:#06252B; --accent-soft:#16323A; --warn:#F2A07A; --warn-bg:#2C1C14; --ok:#7BC79C;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+  --d-place:#6CC0CD; --d-hike:#86C496; --d-safety:#8DB0EE; --d-rule:#EBA079; --d-culture:#CF9AD1; --d-history:#D3B585; --d-guide:#9DB8BF; --d-transport:#A6AAF0; --d-tax:#D6C473; --d-contact:#EE8EA0; --d-route:#82BFDC; --d-event:#F0B27A; --d-food:#F09AA3; --d-garden:#A9D18E; --d-animal:#B9A9E0; --d-shop:#E3A3D2; --d-tour:#F1948A; --d-trip:#7FD1C3; --d-golf:#9CCC65; --d-sport:#4DB6AC; --d-museum:#BCAAA4; --d-living:#80DEEA; --d-holiday:#EF9A9A; --d-hotel:#D7CCC8; --d-military:#AED581; --d-camping:#C5E1A5; --d-nightlife:#B39DDB; --d-entertainers:#F48FB1;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:92px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;line-height:1.15;letter-spacing:-.01em;text-wrap:balance}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Top navigation: sits on the photo, turns solid once you scroll */
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;transition:background .25s,box-shadow .25s,color .25s;color:#fff}
+.nav .row{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.nav.solid{background:var(--surface);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-family:var(--display);font-weight:600;font-size:21px;white-space:nowrap}
+.logo img{border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px rgba(255,255,255,.85)}
+.links{display:flex;align-items:center;gap:4px}
+.links a{color:inherit;text-decoration:none;font-size:14px;font-weight:500;padding:8px 12px;border-radius:8px;opacity:.92}
+.links a:hover{opacity:1;background:rgba(127,127,127,.14)}
+.links a.report{border:1px solid currentColor;opacity:1;margin-left:4px;display:inline-flex;align-items:center;gap:8px;padding:5px 12px 5px 6px}
+.links a.report img{border-radius:6px;display:block}
+footer .shlink{display:inline-flex;align-items:center;gap:8px}
+footer .shlink img{border-radius:6px}
+@media (max-width:520px){.links a.report{font-size:13px;padding:6px 9px}}
+.iconbtn{width:40px;height:40px;border-radius:10px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.08);color:inherit;display:grid;place-items:center}
+.nav.solid .iconbtn{border-color:var(--line);background:var(--surface)}
+@media (max-width:760px){.links a.hide-sm{display:none}}
+
+/* Hero slideshow */
+.hero{position:relative;min-height:min(760px,92vh);display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#0B2730}
+.slides,.slide{position:absolute;inset:0}
+.slide{background-size:cover;background-position:center;opacity:0;transform:scale(1.04);transition:opacity 1.4s ease,transform 9s ease}
+.slide.on{opacity:1;transform:scale(1.10)}
+@media (prefers-reduced-motion:reduce){.slide,.slide.on{transition:opacity .3s;transform:none}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,18,24,.55) 0%,rgba(6,18,24,.15) 35%,rgba(6,18,24,.35) 62%,rgba(6,18,24,.82) 100%);pointer-events:none}
+.hero .inner{position:relative;z-index:2;width:100%;padding-top:120px;padding-bottom:110px}
+.hero .eyebrow{color:rgba(255,255,255,.85)}
+.hero h1{font-size:clamp(40px,7vw,78px);margin:10px 0 12px;font-weight:500}
+.hero .lede{max-width:56ch;font-size:clamp(16px,1.6vw,19px);color:rgba(255,255,255,.9);margin:0 0 26px}
+.askbar{display:flex;gap:8px;background:#fff;color:#15212A;border-radius:14px;padding:8px;max-width:760px;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+.askbar input{flex:1 1 auto;min-width:0;border:0;background:transparent;padding:10px 12px;font-size:17px;outline:none;color:#15212A}
+.askbar input::placeholder{color:#7A848A}
+.askbar input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none;display:none}
+.askbar .clr{flex:0 0 auto;align-self:center;width:34px;height:34px;border:0;border-radius:999px;background:#EEF0F1;color:#3A454C;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
+.askbar .clr:hover{background:#E1E5E7;color:#15212A}
+.askbar .clr[hidden]{display:none}
+.mic,.go{flex:0 0 auto;border:0;border-radius:10px;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:600}
+.mic{width:48px;background:#EEF1F2;color:#15212A}
+.mic.listening{background:#C2410C;color:#fff;animation:pulse 1.2s ease-in-out infinite}
+.go{padding:0 22px;background:#0D5C6B;color:#fff}
+.go.ready{animation:askready 1.2s ease-in-out infinite}
+@keyframes askready{0%,100%{box-shadow:0 0 0 0 rgba(13,92,107,.55)}50%{box-shadow:0 0 0 7px rgba(13,92,107,0)}}
+@media (prefers-reduced-motion:reduce){.go.ready{animation:none;outline:3px solid #6CC0CD}}
+.go:hover{background:#0A4A57}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(194,65,12,.5)}50%{box-shadow:0 0 0 10px rgba(194,65,12,0)}}
+@media (prefers-reduced-motion:reduce){.mic.listening{animation:none}}
+.hint{margin:10px 2px 0;font-size:14px;color:rgba(255,255,255,.9);min-height:22px}
+.scope{margin:8px 2px 0;font-size:13px;color:rgba(255,255,255,.82)}
+.scope b{color:#fff;font-weight:600}
+.empty .sugg{margin-top:14px}
+.empty .sugg p{margin:0 0 8px;font-weight:600;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--sunk);color:var(--ink);border-radius:999px;padding:7px 12px;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip:hover{border-color:var(--ink)}
+.chip i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.islands{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.pill{border:1px solid rgba(255,255,255,.38);background:rgba(10,25,32,.32);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:#fff;border-radius:999px;padding:7px 15px;font-size:14px;font-weight:500;min-height:38px}
+.pill:hover{background:rgba(10,25,32,.5)}
+.pill[aria-pressed="true"]{background:#fff;color:#15212A;border-color:#fff}
+.credit{position:absolute;z-index:2;right:max(20px,env(safe-area-inset-right,0px));bottom:62px;display:flex;align-items:center;gap:12px;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.5);color:rgba(255,255,255,.88)}
+.dots{display:flex;gap:6px}
+.dots button{width:8px;height:8px;border-radius:50%;border:0;padding:0;background:rgba(255,255,255,.45)}
+.dots button[aria-current="true"]{background:#fff;width:22px;border-radius:4px}
+.playbtn{background:none;border:1px solid rgba(255,255,255,.45);color:#fff;border-radius:999px;width:28px;height:28px;display:grid;place-items:center;padding:0}
+@media (max-width:640px){.credit{left:20px;right:auto;bottom:58px}.hero .inner{padding-bottom:104px}}
+
+/* Live conditions: two cards that overlap the bottom of the photo */
+.conditions{position:relative;z-index:3;margin-top:-44px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:820px){.conditions{grid-template-columns:1fr}}
+.cond{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:var(--shadow);min-width:0}
+.cond .head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.cond .eyebrow{display:flex;align-items:center;gap:8px}
+.live-dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 25%,transparent);animation:liveblink 1.6s ease-in-out infinite}
+@keyframes liveblink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.25;transform:scale(.8)}}
+@media (prefers-reduced-motion:reduce){.live-dot{animation:none}}
+.cond.alerting{border-color:color-mix(in srgb,var(--warn) 45%,var(--line));background:linear-gradient(0deg,var(--warn-bg),var(--warn-bg)),var(--surface)}
+.cond.alerting .live-dot{background:var(--warn);box-shadow:0 0 0 3px color-mix(in srgb,var(--warn) 25%,transparent)}
+.cond.alerting b{color:var(--warn)}
+.cond select{border:1px solid var(--line);background:var(--sunk);border-radius:8px;padding:6px 8px;max-width:60%;font-size:14px}
+#wx,#alerts{font-size:15px}
+.cond.news{grid-column:1/-1}
+.newslist{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:4px 24px}
+@media (max-width:820px){.newslist{grid-template-columns:1fr}}
+.newslist li{padding:7px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.35}
+.newslist a{color:var(--ink);text-decoration:none}
+.newslist a:hover{text-decoration:underline}
+.newslist small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
+.newsnote{margin:10px 0 0;color:var(--muted);font-size:12.5px}
+.alist[hidden]{display:none}
+.alist{margin:12px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font-size:14px}
+.alist li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.alist .ar{color:var(--muted);font-size:13px}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:var(--accent);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+
+/* Browse area */
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:40px;padding-block:56px 64px}
+@media (max-width:900px){.layout{grid-template-columns:1fr;gap:28px;padding-block:40px 48px}}
+.side{position:sticky;top:88px;align-self:start}
+@media (max-width:900px){.side{position:static}}
+.side h2{font-size:22px;margin:6px 0 4px}
+.side .total{color:var(--muted);font-size:14px;margin:0 0 14px}
+.catlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.catlist button{width:100%;display:flex;align-items:center;gap:10px;border:0;background:none;padding:9px 10px;border-radius:8px;text-align:left;font-size:15px;font-weight:500;color:var(--ink)}
+.catlist button:hover{background:var(--sunk)}
+.catlist button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.catlist .d{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+.catlist .n{margin-left:auto;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+@media (max-width:900px){.catlist{flex-direction:row;flex-wrap:wrap;gap:6px}.catlist button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 12px;font-size:14px}.catlist .n{margin-left:4px}}
+
+.sechead{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px}
+.sechead h2{font-size:clamp(26px,3vw,34px)}
+.sechead p{margin:6px 0 0;color:var(--muted)}
+.voicepick{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.voicepick[hidden]{display:none}
+.voicepick select{text-transform:none;letter-spacing:0;font-weight:500;font-size:14px;color:var(--ink);border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 8px;max-width:240px}
+
+/* Photo topic cards */
+.feature{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:1000px){.feature{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.feature{grid-template-columns:1fr}}
+.pcard{position:relative;display:block;width:100%;aspect-ratio:4/3;border:0;padding:0;border-radius:14px;overflow:hidden;background:#1d2b31;color:#fff;text-align:left;box-shadow:var(--shadow)}
+.pcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.pcard:hover img{transform:scale(1.05)}
+.pcard::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.72) 100%)}
+.pcard .t{position:absolute;z-index:1;left:18px;right:18px;bottom:16px}
+.pcard .t b{display:block;font-family:var(--display);font-weight:600;font-size:22px;line-height:1.2}
+.pcard .t span{font-size:14px;opacity:.88}
+.minitopics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+@media (max-width:1000px){.minitopics{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.minitopics{grid-template-columns:1fr}}
+.mini{display:flex;align-items:center;gap:12px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;text-align:left;font-weight:600;font-size:15px}
+.mini:hover{border-color:color-mix(in srgb,var(--accent) 50%,var(--line))}
+.mini .ic{width:36px;height:36px;border-radius:9px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);flex:0 0 auto}
+.mini small{display:block;font-weight:400;color:var(--muted);font-size:13px}
+
+/* Answers */
+#answers-sec{margin-bottom:56px}
+#answers-sec[hidden]{display:none}
+.status{color:var(--muted);font-size:15px;margin:0 0 14px}
+#results{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 24px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow)}
+.meta{display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
+.tag{display:inline-flex;align-items:center;gap:7px;font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.meta .when{display:inline-flex;align-items:center;gap:5px;color:var(--d-event);font-weight:600}
+.stops{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 0;font-size:13px;color:var(--muted)}
+.stops li{display:inline-flex;align-items:center}
+.stops li+li::before{content:"→";margin:0 8px;color:var(--d-trip)}
+.tag i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.card h3{font-size:24px}
+.card p{margin:0;font-size:16px}
+.details{margin:4px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.details[hidden]{display:none}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:9px;padding:8px 14px;font-size:14px;font-weight:600;min-height:40px;display:inline-flex;align-items:center;gap:7px}
+.btn:hover{background:var(--sunk)}
+a.btn{text-decoration:none;color:var(--ink)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.primary:hover{background:var(--accent);filter:brightness(1.08)}
+.btn.speaking{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.src{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:2px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:22px}
+.aibox{margin-top:14px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--sunk)}
+.aibox p{margin:0 0 8px;font-weight:600;font-size:14px}
+.aibox small{display:block;margin-top:8px;color:var(--muted,#5D6870);font-size:12.5px;font-weight:400}
+.aibtns{display:flex;flex-wrap:wrap;gap:8px}
+.aibtns a{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-weight:600;font-size:14px;text-decoration:none}
+.aibtns a:hover{border-color:currentColor}
+.aibtns a span{font-weight:400;opacity:.7;font-size:12px}
+.aimore{margin-top:16px}
+.empty b{font-family:var(--display);font-size:20px;font-weight:600}
+.elist{list-style:none;padding:0;margin:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.elist li+li{border-top:1px solid var(--line)}
+.elist button{width:100%;text-align:left;border:0;background:none;padding:14px 18px;display:flex;gap:14px;align-items:center;justify-content:space-between;font-size:15px;font-weight:500}
+.elist button:hover{background:var(--sunk)}
+.elist .il{color:var(--muted);font-size:13px;white-space:nowrap;display:flex;align-items:center;gap:8px}
+
+/* For AI assistants band */
+.band{background:#0F2229;color:#E6EEF0}
+.band .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;padding-block:56px}
+@media (max-width:820px){.band .wrap{grid-template-columns:1fr;gap:20px;padding-block:44px}}
+.band h2{font-size:clamp(26px,3vw,34px);color:#fff}
+.band p{color:#B9C8CC;margin:12px 0 0}
+.band .eyebrow{color:#8FB3BB}
+.codebox{background:#0A181D;border:1px solid #23404A;border-radius:12px;padding:18px}
+.codebox .steps{margin:0 0 14px;padding-left:20px;color:#B9C8CC;font-size:14px}
+.copyrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.copyrow code{flex:1 1 220px;background:#06120F;border:1px solid #23404A;border-radius:8px;padding:10px 12px;font-size:14px;overflow-wrap:anywhere;user-select:all;color:#E6EEF0}
+.copybtn{border:0;border-radius:8px;background:#fff;color:#0F2229;font-weight:600;padding:10px 16px}
+#copied{font-size:13px;color:#8FB3BB}
+
+/* Explore the islands: a photo that grows to full screen as you scroll, then steps through each island */
+.show{position:relative;height:calc(100vh + 6 * 75vh)}
+.show-stick{position:sticky;top:0;height:100vh;display:grid;place-items:center;overflow:hidden}
+.show-frame{position:relative;width:100%;height:100%;overflow:hidden;background:#0B2730;color:#fff;
+  clip-path:inset(var(--ci,12%) var(--cx,10%) var(--ci,12%) var(--cx,10%) round var(--cr,24px));will-change:clip-path}
+.show-imgs div{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1.08);transition:opacity .9s ease,transform 6s ease}
+.show-imgs div.on{opacity:1;transform:scale(1)}
+.show-frame::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,18,24,.78) 0%,rgba(6,18,24,.35) 50%,rgba(6,18,24,0) 75%),linear-gradient(0deg,rgba(6,18,24,.5),rgba(6,18,24,0) 40%);pointer-events:none}
+.show-text{position:absolute;z-index:2;left:max(24px,calc((100vw - 1180px)/2 + 20px));bottom:14%;max-width:560px;padding-right:24px}
+.show-text .eyebrow{color:rgba(255,255,255,.85)}
+.show-text h2{font-size:clamp(34px,5.5vw,64px);font-weight:500;margin:8px 0 10px;color:#fff}
+.show-text p#show-line{font-size:clamp(16px,1.6vw,19px);color:rgba(255,255,255,.92);margin:0 0 18px}
+.show-text>*{transition:opacity .45s ease,transform .45s ease}
+.show-text.swap>*{opacity:0;transform:translateY(10px)}
+.show-btn{border:0;border-radius:10px;background:#fff;color:#15212A;font-weight:600;padding:12px 18px}
+.show-btn[hidden]{display:none}
+.show-steps{position:absolute;z-index:2;right:max(24px,calc((100vw - 1180px)/2 + 20px));top:50%;transform:translateY(-50%);list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:13px;font-weight:500}
+.show-steps li{display:flex;align-items:center;gap:10px;justify-content:flex-end;color:rgba(255,255,255,.6);transition:color .3s}
+.show-steps li::after{content:"";width:18px;height:2px;background:currentColor;border-radius:2px;transition:width .3s}
+.show-steps li.on{color:#fff}
+.show-steps li.on::after{width:36px}
+@media (max-width:700px){.show-steps{display:none}.show-text{bottom:10%}}
+/* Without motion: a simple stack of island panels */
+.show.static{height:auto}
+.show.static .show-stick{position:relative;height:auto;display:block}
+.show.static .show-frame{clip-path:none;height:auto;background:var(--bg);color:var(--ink)}
+.show.static .show-frame::after,.show.static .show-steps,.show.static .show-imgs{display:none}
+.show.static .show-text{position:static;max-width:none;padding:48px max(20px,calc((100vw - 1180px)/2 + 20px))}
+.show.static .show-text h2,.show.static .show-text p#show-line,.show.static .show-text .eyebrow{color:var(--ink)}
+.isle-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+@media (max-width:820px){.isle-grid{grid-template-columns:1fr}}
+
+/* Gentle slide-in as things come into view */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+
+.give{background:var(--sunk);border-top:1px solid var(--line)}
+.give .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;align-items:center;padding-block:44px}
+@media (max-width:820px){.give .wrap{grid-template-columns:1fr;gap:18px}}
+.give h2{font-size:clamp(24px,2.6vw,30px);margin:4px 0 0}
+.give p{color:var(--muted);margin:10px 0 0}
+.givebox{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+.givebtn{display:inline-flex;align-items:center;justify-content:center;width:100%;padding:14px 18px;border-radius:10px;background:#7B2D8E;color:#fff;font-weight:700;text-decoration:none;font-size:16px}
+.givebtn:hover{filter:brightness(1.1)}
+.givebtn.crypto{margin-top:10px;gap:8px;background:transparent;color:var(--ink);border:2px solid #7B2D8E;font-size:15px;padding:11px 16px}
+.give .cryptonote{font-size:12.5px;margin-top:8px}
+.give .crisis{font-size:14px;margin-top:12px}
+.memorial{margin-top:22px;padding-top:16px;border-top:1px solid var(--line);max-width:560px}
+.give .memorial p{margin:0}
+.memorial .m-name{font-family:"Dancing Script",cursive;font-size:30px;line-height:1.2;color:var(--ink)}
+.memorial .m-text{font-family:var(--display);font-style:italic;font-size:15.5px;line-height:1.5;margin-top:6px!important}
+.memorial .m-verse{font-family:var(--display);font-style:italic;font-size:13.5px;margin-top:8px!important;opacity:.85}
+.give .crisis a{color:#B45309;text-decoration:none}
+.give .crisis a b{font-size:1.15em}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .give .crisis a{color:#FBBF24}}
+:root[data-theme="dark"] .give .crisis a{color:#FBBF24}
+.n911{font-weight:800;color:var(--ink);text-decoration:none}
+footer a.n911{color:var(--ink)}
+.give .crisis a.n911{color:var(--ink)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .n911,:root:not([data-theme="light"]) .give .crisis a.n911{color:#fff}}
+:root[data-theme="dark"] .n911,:root[data-theme="dark"] .give .crisis a.n911{color:#fff}
+footer{background:var(--surface);border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;padding-block:40px 28px}
+@media (max-width:820px){footer .cols{grid-template-columns:1fr;gap:18px}}
+footer h4{margin:0 0 8px;color:var(--ink);font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+footer p{margin:0 0 6px}
+footer a{color:var(--muted)}
+footer .vet{display:inline-flex;align-items:center;gap:10px;margin-top:10px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);line-height:1.3}
+footer .vet .flags{display:inline-flex;gap:6px}
+footer .vet .flag{border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size:13px}
+@media (max-width:520px){.go span{display:none}.go{padding:0 16px}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap row">
+    <a class="logo" href="/" aria-label="Ask Hawaiʻi home"><img src="https://images.unsplash.com/photo-1580193747522-61116809ccef?rect=525,666,907,907&amp;fit=crop&amp;auto=format&amp;q=80&amp;w=96&amp;h=96" width="36" height="36" alt="" title="Hawaiian monk seal, ʻīlio holo i ka uaua">Ask Hawaiʻi</a>
+    <nav class="links" aria-label="Main">
+      <a href="#explore" class="hide-sm">Explore</a>
+      <a href="#conditions" class="hide-sm">Live conditions</a>
+      <a href="#add-ai" class="hide-sm">For AI assistants</a>
+      <a href="https://safehonolulu.com" target="_blank" rel="noopener" class="report"><img src="https://safehonolulu.com/icons/apple-touch-icon.png" width="20" height="20" alt="SafeHonolulu">Report an incident</a>
+      <button class="iconbtn" id="theme" type="button" aria-label="Switch to dark mode" title="Light or dark"></button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" aria-label="Ask a question">
+  <div class="slides" id="slides" aria-hidden="true"></div>
+  <div class="wrap inner">
+    <p class="eyebrow">Checked facts · Official sources · Live weather</p>
+    <h1>Ask about Hawaiʻi.</h1>
+    <p class="lede">Reservations, hikes, beaches and ocean safety, local laws and culture, checked against official sources and dated. Ask by typing or by voice.</p>
+    <form class="askbar" id="ask" role="search">
+      <input id="q" type="search" autocomplete="off" aria-label="Your question" placeholder="Do I need a reservation for Diamond Head?">
+      <button class="clr" id="clr" type="button" aria-label="Clear question" title="Clear" hidden>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <button class="mic" id="mic" type="button" aria-label="Ask by voice" title="Ask by voice">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+      </button>
+      <button class="go" type="submit"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span>Ask</span></button>
+    </form>
+    <p class="scope">Answers come from <b id="scopeN">257</b> checked Hawaiʻi entries, each with its source and date.</p>
+    <p class="hint" id="hint" aria-live="polite"></p>
+    <div class="islands" id="islands" role="group" aria-label="Choose an island"></div>
+  </div>
+  <div class="credit">
+    <span id="caption"></span>
+    <div class="dots" id="dots" role="group" aria-label="Photos"></div>
+    <button class="playbtn" id="play" type="button" aria-label="Pause slideshow"></button>
+  </div>
+</section>
+
+<div class="wrap conditions" id="conditions">
+  <div class="cond" id="alertbox">
+    <div class="head"><span class="eyebrow"><span class="live-dot"></span>Live alerts</span><span class="eyebrow">NWS</span></div>
+    <div id="alerts">Checking the National Weather Service...</div>
+  </div>
+  <div class="cond">
+    <div class="head"><span class="eyebrow"><span class="live-dot"></span>Live weather</span><label class="sr" for="wxplace">Place</label><select id="wxplace"></select></div>
+    <div id="wx">Loading...</div>
+  </div>
+  <div class="cond news" id="newsbox">
+    <div class="head"><span class="eyebrow"><span class="live-dot"></span>Hawaiʻi headlines</span><span class="eyebrow" id="newsed">7 a.m. and 7 p.m.</span></div>
+    <ul id="news" class="newslist"><li>Loading the latest edition...</li></ul>
+    <p class="newsnote">Headlines from Hawaii News Now, KHON2 and Civil Beat, updated twice a day. Tap a headline to read the story on their site.</p>
+  </div>
+</div>
+
+<div class="wrap layout" id="explore">
+  <aside class="side" aria-labelledby="cats-h">
+    <p class="eyebrow">Browse</p>
+    <h2 id="cats-h">Categories</h2>
+    <p class="total" id="total"></p>
+    <p class="total"><a href="/topics">See every topic as a list</a></p>
+    <ul class="catlist" id="cats"></ul>
+  </aside>
+
+  <div>
+    <section id="answers-sec" aria-labelledby="answers" hidden>
+      <div class="sechead"><div><p class="eyebrow">Results</p><h2 id="answers" tabindex="-1">Answers</h2></div><label class="voicepick" id="voicewrap" hidden><span>Read-aloud voice</span><select id="voice"></select></label></div>
+      <p class="status" id="status" aria-live="polite"></p>
+      <div id="results"></div>
+    </section>
+
+    <section aria-labelledby="pop-h">
+      <div class="sechead"><div><p class="eyebrow">Start here</p><h2 id="pop-h">Popular topics</h2><p>What visitors and locals ask about most.</p></div></div>
+      <div class="feature" id="feature"></div>
+      <div class="minitopics" id="mini"></div>
+    </section>
+  </div>
+</div>
+
+<section class="show" id="islands-show" aria-labelledby="show-h">
+  <div class="show-stick">
+    <div class="show-frame" id="showframe">
+      <div class="show-imgs" id="showimgs" aria-hidden="true"></div>
+      <div class="show-text">
+        <p class="eyebrow" id="show-eyebrow">Explore the islands</p>
+        <h2 id="show-h">Six islands, six worlds</h2>
+        <p id="show-line">Scroll to travel island by island.</p>
+        <button type="button" class="show-btn" id="show-btn" hidden>See answers</button>
+      </div>
+      <ol class="show-steps" id="showsteps" aria-label="Islands"></ol>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="add-ai" aria-labelledby="addai-h">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">For AI assistants</p>
+      <h2 id="addai-h">Use Ask Hawaiʻi inside Claude and other assistants</h2>
+      <p>Add it as a connector and your assistant checks these facts, with sources and dates, whenever you ask about Hawaiʻi. It also gets live National Weather Service forecasts and alerts, plus Hawaiʻi news headlines twice a day.</p>
+    </div>
+    <div class="codebox">
+      <ol class="steps"><li>In Claude, open Settings, then Connectors.</li><li>Choose Add custom connector.</li><li>Paste this address:</li></ol>
+      <div class="copyrow"><code id="mcpurl">https://www.askaihawaii.com/api/mcp</code><button class="copybtn" type="button" id="copy">Copy</button></div>
+      <p id="copied" aria-live="polite" style="margin:8px 0 0"></p>
+    </div>
+  </div>
+</section>
+
+<section class="give" id="give" aria-labelledby="give-h">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Give back</p>
+      <h2 id="give-h">Help prevent suicide in Hawaiʻi</h2>
+      <p>Ask Hawaiʻi is free. If it helped you, please consider a gift to Samaritan Counseling Center Hawaiʻi in Honolulu. Since 1989 it has counseled local families through grief, depression and suicidal thoughts, including faith when people want it, and its Client Assistance Fund helps those who can't afford care. Your donation goes straight to them.</p>
+      <div class="memorial">
+        <p class="m-name">In loving memory of Greg</p>
+        <p class="m-text">Christian, husband, father, grandfather, great-grandfather and brother. Ask Hawaiʻi is dedicated to him and to every family in Hawaiʻi who has lost someone they love.</p>
+        <p class="m-verse">“Blessed are they that mourn: for they shall be comforted.” Matthew 5:4</p>
+      </div>
+    </div>
+    <div class="givebox">
+      <a class="givebtn" href="https://givebutter.com/6JEg7h" target="_blank" rel="noopener">Donate to Samaritan Counseling Center Hawaiʻi</a>
+      <a class="givebtn crypto" href="https://www.every.org/samaritan-counseling-center-hawaii#/donate/crypto" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 8h4a2 2 0 0 1 0 4h-4m0 0h4.5a2 2 0 0 1 0 4H9.5m0-8v8m1.5-10v2m0 8v2"/></svg>Donate crypto (Bitcoin, Ethereum, USDC and more)</a>
+      <p class="cryptonote">Crypto gifts go through Every.org, a nonprofit that turns them into dollars for Samaritan and sends you a tax receipt.</p>
+      <p class="crisis">If you or someone you love is struggling, call or text <a href="tel:988"><b>988</b></a>, the Suicide &amp; Crisis Lifeline, any time. In an emergency, call <a class="n911" href="tel:911">911</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap cols">
+    <div>
+      <h4>Ask Hawaiʻi</h4>
+      <p>Checked Hawaiʻi facts for visitors and locals, each with its source and the date it was last checked.</p>
+      <p>Made in Kapolei, Oʻahu by ShakaSoftware LLC.</p>
+      <p class="vet"><span class="flags"><svg class="flag" viewBox="0 0 57 30" width="38" height="20" role="img" aria-label="United States flag"><rect width="57" height="30" fill="#fff"/><rect y="0.000" width="57" height="2.308" fill="#B22234"/><rect y="4.615" width="57" height="2.308" fill="#B22234"/><rect y="9.231" width="57" height="2.308" fill="#B22234"/><rect y="13.846" width="57" height="2.308" fill="#B22234"/><rect y="18.462" width="57" height="2.308" fill="#B22234"/><rect y="23.077" width="57" height="2.308" fill="#B22234"/><rect y="27.692" width="57" height="2.308" fill="#B22234"/><rect width="22.80" height="16.154" fill="#3C3B6E"/><circle cx="1.90" cy="1.62" r=".55" fill="#fff"/><circle cx="5.70" cy="1.62" r=".55" fill="#fff"/><circle cx="9.50" cy="1.62" r=".55" fill="#fff"/><circle cx="13.30" cy="1.62" r=".55" fill="#fff"/><circle cx="17.10" cy="1.62" r=".55" fill="#fff"/><circle cx="20.90" cy="1.62" r=".55" fill="#fff"/><circle cx="3.80" cy="3.23" r=".55" fill="#fff"/><circle cx="7.60" cy="3.23" r=".55" fill="#fff"/><circle cx="11.40" cy="3.23" r=".55" fill="#fff"/><circle cx="15.20" cy="3.23" r=".55" fill="#fff"/><circle cx="19.00" cy="3.23" r=".55" fill="#fff"/><circle cx="1.90" cy="4.85" r=".55" fill="#fff"/><circle cx="5.70" cy="4.85" r=".55" fill="#fff"/><circle cx="9.50" cy="4.85" r=".55" fill="#fff"/><circle cx="13.30" cy="4.85" r=".55" fill="#fff"/><circle cx="17.10" cy="4.85" r=".55" fill="#fff"/><circle cx="20.90" cy="4.85" r=".55" fill="#fff"/><circle cx="3.80" cy="6.46" r=".55" fill="#fff"/><circle cx="7.60" cy="6.46" r=".55" fill="#fff"/><circle cx="11.40" cy="6.46" r=".55" fill="#fff"/><circle cx="15.20" cy="6.46" r=".55" fill="#fff"/><circle cx="19.00" cy="6.46" r=".55" fill="#fff"/><circle cx="1.90" cy="8.08" r=".55" fill="#fff"/><circle cx="5.70" cy="8.08" r=".55" fill="#fff"/><circle cx="9.50" cy="8.08" r=".55" fill="#fff"/><circle cx="13.30" cy="8.08" r=".55" fill="#fff"/><circle cx="17.10" cy="8.08" r=".55" fill="#fff"/><circle cx="20.90" cy="8.08" r=".55" fill="#fff"/><circle cx="3.80" cy="9.69" r=".55" fill="#fff"/><circle cx="7.60" cy="9.69" r=".55" fill="#fff"/><circle cx="11.40" cy="9.69" r=".55" fill="#fff"/><circle cx="15.20" cy="9.69" r=".55" fill="#fff"/><circle cx="19.00" cy="9.69" r=".55" fill="#fff"/><circle cx="1.90" cy="11.31" r=".55" fill="#fff"/><circle cx="5.70" cy="11.31" r=".55" fill="#fff"/><circle cx="9.50" cy="11.31" r=".55" fill="#fff"/><circle cx="13.30" cy="11.31" r=".55" fill="#fff"/><circle cx="17.10" cy="11.31" r=".55" fill="#fff"/><circle cx="20.90" cy="11.31" r=".55" fill="#fff"/><circle cx="3.80" cy="12.92" r=".55" fill="#fff"/><circle cx="7.60" cy="12.92" r=".55" fill="#fff"/><circle cx="11.40" cy="12.92" r=".55" fill="#fff"/><circle cx="15.20" cy="12.92" r=".55" fill="#fff"/><circle cx="19.00" cy="12.92" r=".55" fill="#fff"/><circle cx="1.90" cy="14.54" r=".55" fill="#fff"/><circle cx="5.70" cy="14.54" r=".55" fill="#fff"/><circle cx="9.50" cy="14.54" r=".55" fill="#fff"/><circle cx="13.30" cy="14.54" r=".55" fill="#fff"/><circle cx="17.10" cy="14.54" r=".55" fill="#fff"/><circle cx="20.90" cy="14.54" r=".55" fill="#fff"/></svg><svg class="flag" viewBox="0 0 60 30" width="40" height="20" role="img" aria-label="Hawaiʻi state flag"><rect y="0.000" width="60" height="3.800" fill="#fff"/><rect y="3.750" width="60" height="3.800" fill="#CE1126"/><rect y="7.500" width="60" height="3.800" fill="#00247D"/><rect y="11.250" width="60" height="3.800" fill="#fff"/><rect y="15.000" width="60" height="3.800" fill="#CE1126"/><rect y="18.750" width="60" height="3.800" fill="#00247D"/><rect y="22.500" width="60" height="3.800" fill="#fff"/><rect y="26.250" width="60" height="3.800" fill="#CE1126"/><svg x="0" y="0" width="30" height="15" viewBox="0 0 60 30"><clipPath id="hfc"><path d="M0,0v30h60V0z"/></clipPath><g clip-path="url(#hfc)"><path d="M0,0v30h60V0z" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" stroke="#C8102E" stroke-width="2"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></g></svg></svg></span><span><b>Veteran-owned business</b><br>ShakaSoftware LLC</span></p>
+    </div>
+    <div>
+      <h4>Good to know</h4>
+      <p>Hours, fees and rules change. Confirm time-sensitive details on the official site linked on each answer.</p>
+      <p>In an emergency, call <a class="n911" href="tel:911">911</a>.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <p><a href="/topics">All topics</a></p>
+      <p><a href="/island/oahu">Oʻahu</a> · <a href="/island/maui">Maui</a> · <a href="/island/hawaii-island">Hawaiʻi Island</a> · <a href="/island/kauai">Kauaʻi</a> · <a href="/island/molokai">Molokaʻi</a> · <a href="/island/lanai">Lānaʻi</a></p>
+      <p><a href="#conditions">Live alerts, weather and headlines</a></p>
+      <p><a href="#add-ai">Use it in your AI assistant</a></p>
+      <p><a href="#give">Give to suicide prevention</a></p>
+      <p><a href="https://safehonolulu.com" target="_blank" rel="noopener" class="shlink"><img src="https://safehonolulu.com/icons/apple-touch-icon.png" width="22" height="22" alt="">Report or check incidents on SafeHonolulu</a></p>
+    </div>
+  </div>
+  <div class="wrap legal">Weather and alerts: National Weather Service. Headlines: Hawaii News Now, KHON2 and Civil Beat (titles link to their stories). Photos: Unsplash.</div>
+</footer>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var IMG = function (id, w) { return "https://images.unsplash.com/photo-" + id + "?auto=format&fit=crop&q=70&w=" + w; };
+
+  var TYPE = {
+    place: ["Place", "--d-place"], hike: ["Hike", "--d-hike"], guide: ["Guide", "--d-guide"], safety: ["Safety", "--d-safety"],
+    rule: ["Rule", "--d-rule"], culture: ["Culture", "--d-culture"], transport: ["Getting around", "--d-transport"],
+    tax: ["Tax", "--d-tax"], contact: ["Who to call", "--d-contact"], history: ["History", "--d-history"], route: ["Route", "--d-route"], event: ["Event", "--d-event"], food: ["Food", "--d-food"], garden: ["Garden", "--d-garden"], animal: ["Wildlife", "--d-animal"], shop: ["Shopping", "--d-shop"], tour: ["Tour", "--d-tour"], trip: ["Day trip", "--d-trip"], golf: ["Golf", "--d-golf"], sport: ["UH sports", "--d-sport"], museum: ["Museum", "--d-museum"], living: ["Moving here", "--d-living"], holiday: ["Holiday", "--d-holiday"], hotel: ["Hotel", "--d-hotel"], military: ["Military lodging", "--d-military"], camping: ["Camping", "--d-camping"], nightlife: ["Nightlife", "--d-nightlife"], entertainers: ["Hawaiian music", "--d-entertainers"]
+  };
+  var ICON = {
+    bag: '<path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/>',
+    museum: '<path d="M3 21h18M4 10h16M12 3l9 5H3z"/><path d="M6 10v8M10 10v8M14 10v8M18 10v8"/>',
+    home: '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>',
+    star: '<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+    bed: '<path d="M3 18V7M3 14h18v4M21 14v-2a3 3 0 0 0-3-3h-7v5"/><circle cx="7" cy="11" r="2"/>',
+    tent: '<path d="M3 20 12 4l9 16H3z"/><path d="M12 4v16M9 20l3-5 3 5"/>',
+    music: '<path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>',
+    flag: '<path d="M6 21V4M6 4l11 4-11 4"/><path d="M4 21h6"/>',
+    leaf: '<path d="M5 19c0-8 6-14 15-14 0 9-6 15-14 15"/><path d="M5 19 13 11"/>',
+    food: '<path d="M4 10h16l-1.5 9h-13z"/><path d="M8 10a4 4 0 0 1 8 0M12 3v3"/>',
+    car: '<path d="M5 16h14M6 16l1.5-5h9L18 16M6 16v3M18 16v3"/><circle cx="8" cy="16" r="1"/><circle cx="16" cy="16" r="1"/>',
+    pin: '<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+    shield: '<path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16h.01"/>',
+    calendar: '<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+    wave: '<path d="M2 15c3 0 3-3 6-3s3 3 6 3 3-3 6-3M2 20c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/>',
+    turtle: '<ellipse cx="12" cy="13" rx="6" ry="4.5"/><path d="M18 12h3M5 16l-2 2M19 16l2 2M5 10 3 8"/>',
+    bus: '<rect x="4" y="3" width="16" height="14" rx="3"/><path d="M4 11h16M8 21v-4M16 21v-4"/>',
+    receipt: '<path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/>',
+    phone: '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>',
+    plane: '<path d="M10.5 3.5 13 10l6-1.5c1.5-.4 2.5 1.6 1 2.4L14 14l-1.5 6.5-2 .5-1-6-4 1-1.5 2H3l1-4-2-3h1l2 1.5 4-1-3-5.5 1.5-.5z"/>',
+    closed: '<circle cx="12" cy="12" r="9"/><path d="m6 6 12 12"/>',
+    sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    moon: '<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>',
+    pause: '<path d="M9 6v12M15 6v12"/>', play: '<path d="M8 5v14l11-7z"/>'
+  };
+  var svg = function (k, s) { s = s || 20; return '<svg width="' + s + '" height="' + s + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICON[k] + "</svg>"; };
+  var islandText = function (e) { return Array.isArray(e.island) ? e.island.join(", ") : e.island; };
+  var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  var monthText = function (m) { if (!m || !m.length) return ""; return m.length > 2 ? MON[m[0] - 1] + " to " + MON[m[m.length - 1] - 1] : m.map(function (x) { return MON[x - 1]; }).join(" and "); };
+  var fmtDate = function (d) { try { return new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }); } catch (x) { return d; } };
+
+  // Light / dark
+  function isDark() { var t = document.documentElement.getAttribute("data-theme"); return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; }
+  function paintTheme() { var d = isDark(); $("theme").innerHTML = svg(d ? "sun" : "moon", 18); $("theme").setAttribute("aria-label", d ? "Switch to light mode" : "Switch to dark mode"); }
+  $("theme").onclick = function () { var n = isDark() ? "light" : "dark"; document.documentElement.setAttribute("data-theme", n); try { localStorage.setItem("ah-theme", n); } catch (e) {} paintTheme(); };
+  paintTheme();
+
+  // Nav turns solid after the photo
+  function navState() { $("nav").classList.toggle("solid", window.scrollY > 40); }
+  addEventListener("scroll", navState, { passive: true }); navState();
+
+  // Hero slideshow (real photos from Unsplash)
+  var SLIDES = [
+    ["1507876466758-bc54f384809c", "Waikīkī and Diamond Head, Oʻahu"],
+    ["1505852679233-d9fd70aff56d", "Nā Pali Coast, Kauaʻi"],
+    ["1475598322381-f1b499717dda", "Lava meeting the ocean, Hawaiʻi Island"],
+    ["1665287586189-f3e984344df4", "ʻIolani Palace, Honolulu"],
+    ["1542332213-9b5a5a3fad35", "On the trail"],
+    ["1507031774658-589130daf90c", "Above the clouds at sunrise"],
+    ["1761495264911-5b03064c1ef4", "A calm morning on the water"],
+    ["1767744911425-8c1329bcc517", "Waterfall and rainbow"],
+    ["1666427342335-65e2854803f9", "Molokaʻi, seen across the channel from Maui"],
+    ["1643817658836-aea661ff1e96", "Sea cliffs on Lānaʻi"]
+  ];
+  var ISLAND_PHOTO = { "Oʻahu": 0, "Kauaʻi": 1, "Hawaiʻi Island": 2, "Maui": 5, "Molokaʻi": 8, "Lānaʻi": 9 };
+  var W = innerWidth < 700 ? 1100 : 2000, cur = -1, timer = null, playing = !reduce;
+  SLIDES.forEach(function (s, i) {
+    var d = document.createElement("div"); d.className = "slide"; $("slides").appendChild(d);
+    var b = document.createElement("button"); b.type = "button"; b.setAttribute("aria-label", "Photo " + (i + 1) + ": " + s[1]); b.onclick = function () { show(i); restart(); }; $("dots").appendChild(b);
+  });
+  function load(i) { var d = $("slides").children[i]; if (!d.dataset.l) { d.style.backgroundImage = "url(" + IMG(SLIDES[i][0], W) + ")"; d.dataset.l = 1; } }
+  function show(i) {
+    if (i === cur) return;
+    load(i); load((i + 1) % SLIDES.length);
+    Array.prototype.forEach.call($("slides").children, function (d, j) { d.classList.toggle("on", j === i); });
+    Array.prototype.forEach.call($("dots").children, function (d, j) { d.setAttribute("aria-current", String(j === i)); });
+    $("caption").textContent = SLIDES[i][1]; cur = i;
+  }
+  function restart() { clearInterval(timer); if (playing) timer = setInterval(function () { show((cur + 1) % SLIDES.length); }, 7000); }
+  function paintPlay() { $("play").innerHTML = svg(playing ? "pause" : "play", 14); $("play").setAttribute("aria-label", playing ? "Pause slideshow" : "Play slideshow"); }
+  $("play").onclick = function () { playing = !playing; paintPlay(); restart(); };
+  show(0); paintPlay(); restart();
+
+  // Islands
+  var ISLANDS = ["All islands", "Oʻahu", "Maui", "Kauaʻi", "Hawaiʻi Island", "Molokaʻi", "Lānaʻi"];
+  var island = "";
+  ISLANDS.forEach(function (name, i) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "pill"; b.textContent = name; b.setAttribute("aria-pressed", i === 0 ? "true" : "false");
+    b.onclick = function () {
+      island = i === 0 ? "" : name;
+      Array.prototype.forEach.call($("islands").children, function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      if (ISLAND_PHOTO[name] !== undefined) { show(ISLAND_PHOTO[name]); playing = false; paintPlay(); restart(); }
+      else if (i === 0 && !reduce) { playing = true; paintPlay(); restart(); }
+      loadCats();
+      if (curCat) showCat(curCat); else if ($("q").value.trim()) run();
+    };
+    $("islands").appendChild(b);
+  });
+
+  // Popular topics: photo cards, then smaller text tiles
+  var FEATURE = [
+    ["Reservations", "Diamond Head, Hanauma Bay, Haleakalā and more", "which places need reservations", "1514313887299-224ccb4dd111"],
+    ["Hikes", "Oʻahu trails from easiest to hardest", "hikes easiest to hardest", "1542332213-9b5a5a3fad35"],
+    ["Beaches & ocean safety", "Lifeguards, hazards, rip currents, jellyfish", "which beaches have lifeguards", "1761495264911-5b03064c1ef4"],
+    ["The volcano", "Kīlauea and Hawaiʻi Volcanoes National Park", "volcano erupting Kilauea national park", "1475598322381-f1b499717dda"],
+    ["Museums & history", "ʻIolani Palace, Bishop Museum, Kalākaua", "Iolani Palace Bishop Museum Kalakaua history", "1665287586189-f3e984344df4"],
+    ["Culture & language", "Etiquette and Hawaiian words you will hear", "culture etiquette hawaiian words", "1527862030717-9d8ff8a7dfbf"]
+  ];
+  var MINI = [
+    ["Where to stay", "Top-rated hotels on every island", "cat:hotel", "bed"],
+    ["Hawaiʻi's animals", "Nēnē, pueo, monk seals, whales", "cat:animal", "turtle"],
+    ["Island day trips", "Planned drives with every stop", "cat:trip", "pin"],
+    ["Botanical gardens", "Every island's best gardens", "cat:garden", "leaf"],
+    ["Shopping centers", "Malls and markets, every island", "cat:shop", "bag"],
+    ["Tours & lūʻau", "Lūʻau, cruises, snorkel, surf", "cat:tour", "wave"],
+    ["Hawaiian food & lunch wagons", "Laulau, poi, saimin, food trucks", "cat:food", "food"],
+    ["Golf courses", "Every island, rates and tee times", "cat:golf", "flag"],
+    ["Museums", "Palaces, plantations, tsunami and stars", "cat:museum", "museum"],
+    ["Moving to Hawaiʻi", "License, car, pets, rent, schools", "cat:living", "home"],
+    ["Holidays & military", "Pearl Harbor Day, Veterans Day, July 4th", "cat:holiday", "star"],
+    ["Military lodging & campgrounds", "Beach cabins, cottages and camping on bases", "cat:military", "flag"],
+    ["Camping & permits", "Where to camp and how to get a permit", "cat:camping", "tent"],
+    ["Nightlife & live music", "Clubs, jazz, blues and rock on every island", "cat:nightlife", "music"],
+    ["Hawaiian music & entertainers", "IZ, Don Ho, Gabby, falsetto, hula shows", "cat:entertainers", "music"],
+    ["History", "Kamehameha to statehood, with places to visit", "cat:history", "museum"],
+    ["Driving routes", "Waikīkī to anywhere on Oʻahu", "cat:route", "car"],
+    ["Events calendar", "Festivals, surf contests, races", "cat:event", "calendar"]
+  ];
+  var FW = innerWidth < 700 ? 700 : 800;
+  $("feature").innerHTML = FEATURE.map(function (t, i) {
+    return '<button type="button" class="pcard" data-f="' + i + '"><img src="' + IMG(t[3], FW) + '" alt="" loading="lazy"><span class="t"><b>' + esc(t[0]) + "</b><span>" + esc(t[1]) + "</span></span></button>";
+  }).join("");
+  $("mini").innerHTML = MINI.map(function (t, i) {
+    return '<button type="button" class="mini" data-m="' + i + '"><span class="ic">' + svg(t[3]) + "</span><span>" + esc(t[0]) + "<small>" + esc(t[1]) + "</small></span></button>";
+  }).join("");
+  $("feature").querySelectorAll("[data-f]").forEach(function (b) { b.onclick = function () { $("q").value = FEATURE[b.dataset.f][2]; run(true); }; });
+  $("mini").querySelectorAll("[data-m]").forEach(function (b) { b.onclick = function () { var x = MINI[b.dataset.m][2]; if (x.indexOf("cat:") === 0) showCat(x.slice(4)); else { $("q").value = x; run(true); } }; });
+
+  // Explore the islands showcase
+  var ISLES = [
+    ["Oʻahu", "The Gathering Place", "Waikīkī, Pearl Harbor and the North Shore, and home to most of Hawaiʻi's people.", 0],
+    ["Maui", "The Valley Isle", "Sunrise above the clouds on Haleakalā, the Road to Hāna and winter whale season.", 5],
+    ["Kauaʻi", "The Garden Isle", "The Nā Pali Coast, Waimea Canyon and Hāʻena's reservation-only beaches.", 1],
+    ["Hawaiʻi Island", "The Big Island", "Kīlauea volcano, Mauna Kea and Hilo, home of the Merrie Monarch hula festival.", 2],
+    ["Molokaʻi", "The Friendly Isle", "Some of the tallest sea cliffs in the world, the Kalaupapa peninsula and a quiet, unhurried pace.", 8],
+    ["Lānaʻi", "The Pineapple Isle", "Puʻu Pehe (Sweetheart Rock), Hulopoʻe Bay and the red rocks of Keahiakawelo.", 9]
+  ];
+  function pickIsland(name) {
+    Array.prototype.forEach.call($("islands").children, function (b) { if (b.textContent === name) b.click(); });
+    $("explore").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+  }
+  (function () {
+    var sec = $("islands-show"), cur = -1;
+    if (reduce) {
+      sec.classList.add("static");
+      $("show-line").textContent = "Each island has its own character. Choose one to see its answers.";
+      var g = document.createElement("div"); g.className = "isle-grid";
+      g.innerHTML = ISLES.map(function (x, i) { return '<button type="button" class="pcard" data-isle="' + i + '"><img src="' + IMG(SLIDES[x[3]][0], 800) + '" alt="" loading="lazy"><span class="t"><b>' + esc(x[0]) + "</b><span>" + esc(x[1]) + "</span></span></button>"; }).join("");
+      $("show-line").after(g);
+      g.querySelectorAll("[data-isle]").forEach(function (b) { b.onclick = function () { pickIsland(ISLES[b.dataset.isle][0]); }; });
+      return;
+    }
+    $("showimgs").innerHTML = ISLES.map(function () { return "<div></div>"; }).join("");
+    $("showsteps").innerHTML = ISLES.map(function (x) { return "<li>" + esc(x[0]) + "</li>"; }).join("");
+    var imgs = $("showimgs").children, steps = $("showsteps").children, loaded = false;
+    function loadAll() { if (loaded) return; loaded = true; ISLES.forEach(function (x, i) { imgs[i].style.backgroundImage = "url(" + IMG(SLIDES[x[3]][0], W) + ")"; }); }
+    function setIsle(i) {
+      if (i === cur) return; cur = i;
+      Array.prototype.forEach.call(imgs, function (d, j) { d.classList.toggle("on", j === i); });
+      Array.prototype.forEach.call(steps, function (d, j) { d.classList.toggle("on", j === i); });
+      var t = document.querySelector(".show-text"); t.classList.add("swap");
+      setTimeout(function () {
+        var x = ISLES[i];
+        $("show-eyebrow").textContent = x[1]; $("show-h").textContent = x[0]; $("show-line").textContent = x[2];
+        $("show-btn").hidden = false; $("show-btn").textContent = "See " + x[0] + " answers";
+        t.classList.remove("swap");
+      }, 220);
+    }
+    $("show-btn").onclick = function () { if (cur >= 0) pickIsland(ISLES[cur][0]); };
+    var ticking = false;
+    function frame() {
+      ticking = false;
+      var r = sec.getBoundingClientRect(), vh = innerHeight, total = sec.offsetHeight - vh;
+      if (r.top > vh || r.bottom < 0) return;
+      loadAll();
+      var y = Math.min(Math.max(-r.top, 0), total);
+      var grow = Math.min(Math.max((vh - r.top) / vh, 0), 1);          // grows as the section scrolls into view
+      if (r.top > 0) grow = Math.min(grow, 0.999);
+      var ci = 12 * (1 - grow), cx = (innerWidth < 700 ? 4 : 10) * (1 - grow), cr = 24 * (1 - grow);
+      var f = $("showframe").style; f.setProperty("--ci", ci + "%"); f.setProperty("--cx", cx + "%"); f.setProperty("--cr", cr + "px");
+      var step = total > 0 ? Math.min(ISLES.length - 1, Math.floor(y / (total / ISLES.length))) : 0;
+      setIsle(step);
+    }
+    function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(frame); } }
+    addEventListener("scroll", onScroll, { passive: true }); addEventListener("resize", onScroll); frame();
+  })();
+
+  // Slide things in as they scroll into view
+  (function () {
+    if (reduce || !("IntersectionObserver" in window)) return;
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }); }, { rootMargin: "0px 0px -8% 0px" });
+    window.__reveal = function (root) {
+      (root || document).querySelectorAll(".sechead, .pcard, .mini, .cond, .side, .band .wrap > *, .give .wrap > *, footer .cols > *").forEach(function (el, i) {
+        if (el.classList.contains("rv")) return;
+        el.classList.add("rv"); el.style.transitionDelay = Math.min(i % 6, 5) * 60 + "ms"; io.observe(el);
+      });
+    };
+    window.__reveal();
+  })();
+
+  // Categories: every entry grouped by type, with counts
+  var CATORDER = ["hotel", "military", "camping", "nightlife", "entertainers", "trip", "tour", "event", "food", "place", "garden", "golf", "sport", "holiday", "museum", "living", "animal", "shop", "hike", "route", "safety", "rule", "culture", "history", "guide", "transport", "tax", "contact"];
+  var CATNAME = { place: "Places & parks", hike: "Hikes", safety: "Safety", rule: "Rules & laws", culture: "Culture & language", history: "History", guide: "Planning guides", transport: "Getting around", tax: "Taxes", contact: "Who to call", route: "Routes & driving", event: "Events calendar", food: "Hawaiian food & lunch wagons", garden: "Botanical gardens", animal: "Animals & wildlife", shop: "Shopping centers", tour: "Tours & activities", trip: "Island day trips", golf: "Golf courses", sport: "UH sports", museum: "Museums", living: "Moving to Hawaiʻi", holiday: "Holidays & military events", hotel: "Where to stay (hotels)", military: "Military lodging & campgrounds", camping: "Camping & permits", nightlife: "Nightlife & live music", entertainers: "Hawaiian music & entertainers" };
+  var curCat = "";
+  function markCats() { $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.cat === curCat)); }); }
+  function loadCats() {
+    fetch("/api/search?counts=1" + (island ? "&island=" + encodeURIComponent(island) : "")).then(function (r) { return r.json(); }).then(function (c) {
+      $("total").textContent = c.total + " checked entries" + (island ? " for " + island : "");
+      if (!island && c.total) $("scopeN").textContent = c.total;
+      var keys = CATORDER.filter(function (k) { return c.types[k]; }).concat(Object.keys(c.types).filter(function (k) { return CATORDER.indexOf(k) < 0; }));
+      $("cats").innerHTML = keys.map(function (k) {
+        var t = TYPE[k] || [k, "--d-guide"];
+        return '<li><button type="button" data-cat="' + esc(k) + '" aria-pressed="false"><span class="d" style="background:var(' + t[1] + ')"></span>' + esc(CATNAME[k] || t[0]) + '<span class="n">' + c.types[k] + "</span></button></li>";
+      }).join("");
+      $("cats").querySelectorAll("[data-cat]").forEach(function (b) { b.onclick = function () { showCat(b.dataset.cat); }; });
+      markCats();
+    }).catch(function () {});
+  }
+  function toAnswers(smooth) {
+    $("answers-sec").hidden = false;
+    $("answers-sec").scrollIntoView({ behavior: smooth && !reduce ? "smooth" : "auto", block: "start" });
+  }
+  function showCat(k) {
+    curCat = k; stopSpeech(); ++seq; markCats();
+    $("answers").textContent = CATNAME[k] || k;
+    $("status").textContent = "Loading...";
+    $("answers-sec").hidden = false;
+    fetch("/api/search?list=1&type=" + encodeURIComponent(k) + (island ? "&island=" + encodeURIComponent(island) : "")).then(function (r) { return r.json(); }).then(function (d) {
+      $("status").textContent = d.count + (d.count === 1 ? " entry" : " entries") + (island ? " for " + island : "") + ". Choose one to open it.";
+      var dot = "var(" + (TYPE[k] || [k, "--d-guide"])[1] + ")";
+      $("results").innerHTML = '<ul class="elist">' + d.items.map(function (e) {
+        return '<li><button type="button" data-id="' + esc(e.id) + '"><span>' + esc(e.title) + '</span><span class="il">' + (e.months ? esc(monthText(e.months)) + ' · ' : '') + esc(islandText(e)) + ' <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></span></button></li>';
+      }).join("") + "</ul>";
+      $("results").querySelectorAll("[data-id]").forEach(function (b) {
+        b.onclick = function () {
+          fetch("/api/search?id=" + encodeURIComponent(b.dataset.id)).then(function (r) { return r.json(); }).then(function (e) {
+            curCat = ""; markCats();
+            render(e.title, [e]);
+            $("status").innerHTML = '<button type="button" class="linkbtn" id="backcat">&larr; Back to ' + esc(CATNAME[k] || k) + "</button>";
+            $("backcat").onclick = function () { showCat(k); };
+            toAnswers(false);
+          });
+        };
+      });
+      toAnswers(true);
+    }).catch(function () { $("status").textContent = "Couldn't reach Ask Hawaiʻi. Check your connection and try again."; });
+  }
+  loadCats();
+
+  // Read aloud, with a working Stop, in a pleasant female voice when the device has one
+  var speakingBtn = null, VOICES = [], ALLV = [];
+  var FEMALE = ["aria", "jenny", "michelle", "ava", "emma", "samantha", "allison", "susan", "zira", "google us english", "karen", "moira", "tessa", "serena", "victoria", "joanna", "salli", "kendra", "kimberly", "libby", "sonia", "natasha", "female"];
+  function loadVoices() {
+    if (!("speechSynthesis" in window)) return;
+    ALLV = speechSynthesis.getVoices() || [];
+    VOICES = ALLV.filter(function (v) { return /^en/i.test(v.lang); });
+    var sel = $("voice"); if (!sel || !VOICES.length) return;
+    var saved = ""; try { saved = localStorage.getItem("ah-voice") || ""; } catch (e) {}
+    var auto = autoVoice();
+    sel.innerHTML = VOICES.map(function (v) { return '<option value="' + esc(v.name) + '">' + esc(v.name.replace(/^(Microsoft|Google)\s+/, "").replace(/\s*-\s*English.*$/, "").replace(/\s*Online \(Natural\)/, " (natural)")) + " · " + esc(v.lang) + "</option>"; }).join("");
+    sel.value = VOICES.some(function (v) { return v.name === saved; }) ? saved : (auto ? auto.name : VOICES[0].name);
+    $("voicewrap").hidden = false;
+  }
+  if ("speechSynthesis" in window) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+  $("voice").onchange = function () { try { localStorage.setItem("ah-voice", this.value); } catch (e) {} stopSpeech(); };
+  // Make text easier for computer voices: drop the ʻokina and kahakō marks, read a.m. and p.m. normally.
+  function speakable(t) {
+    return String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[ʻ‘]/g, "")
+      .replace(/\ba\.m\./gi, "AM").replace(/\bp\.m\./gi, "PM").replace(/\bHST\b/g, "Hawaii time")
+      .replace(/\s*·\s*/g, ", ");
+  }
+  function pickVoice() {
+    if (!VOICES.length) loadVoices();
+    var name = $("voice") && $("voice").value;
+    for (var j = 0; j < VOICES.length; j++) if (VOICES[j].name === name) return VOICES[j];
+    return autoVoice();
+  }
+  function autoVoice() {
+    var en = VOICES;
+    var best = null, score = -1;
+    en.forEach(function (v) {
+      var n = v.name.toLowerCase(), i = -1;
+      FEMALE.forEach(function (f, k) { if (i < 0 && n.indexOf(f) >= 0) i = k; });
+      if (i < 0) return;
+      var sc = 100 - i + (/natural|online|neural|premium|enhanced/.test(n) ? 50 : 0) + (/en-us/i.test(v.lang) ? 5 : 0);
+      if (sc > score) { score = sc; best = v; }
+    });
+    return best;
+  }
+  function stopSpeech() {
+    if ("speechSynthesis" in window) speechSynthesis.cancel();
+    if (speakingBtn) { speakingBtn.classList.remove("speaking"); speakingBtn.lastChild.textContent = "Read aloud"; speakingBtn = null; }
+  }
+
+  // Search
+  var seq = 0;
+  // The X in the question box: shows whenever there's text, clears it in one tap.
+  function updateClear() { $("clr").hidden = !$("q").value; }
+  $("q").addEventListener("input", updateClear);
+  $("clr").onclick = function () {
+    if (typeof stopListening === "function") { try { stopListening(); } catch (e) {} }
+    $("q").value = ""; updateClear(); $("q").focus();
+  };
+  function run(browse) {
+    updateClear();
+    var q = $("q").value.trim();
+    if (!q) { $("hint").textContent = "Type or speak a question first."; return; }
+    $("hint").textContent = "";
+    stopSpeech(); curCat = ""; markCats();
+    var my = ++seq;
+    $("answers").textContent = "Answers";
+    $("status").textContent = "Looking that up...";
+    $("answers-sec").hidden = false;
+    var url = "/api/search?full=1&limit=6&q=" + encodeURIComponent(q) + (island ? "&island=" + encodeURIComponent(island) : "") + (browse ? "&log=0" : "");
+    fetch(url).then(function (r) { return r.json(); }).then(function (d) {
+      if (my !== seq) return;
+      render(q, d.results || []);
+      toAnswers(true);
+    }).catch(function () { $("status").textContent = "Couldn't reach Ask Hawaiʻi. Check your connection and try again."; });
+  }
+  function mapsLink(from, to) { return "https://www.google.com/maps/dir/?api=1" + (from ? "&origin=" + encodeURIComponent(from) : "") + "&destination=" + encodeURIComponent(to) + "&travelmode=driving"; }
+  function tripLink(stops) {
+    var q = function (x) { return encodeURIComponent(x.q); };
+    var mid = stops.slice(1, -1).slice(0, 9).map(q).join("%7C");
+    return "https://www.google.com/maps/dir/?api=1&origin=" + q(stops[0]) + "&destination=" + q(stops[stops.length - 1]) + (mid ? "&waypoints=" + mid : "") + "&travelmode=driving";
+  }
+  function mapBtns(e) {
+    if (e.stops && e.stops.length > 1) return '<a class="btn primary" href="' + esc(tripLink(e.stops)) + '" target="_blank" rel="noopener">' + svg("pin", 16) + 'Open all stops in Google Maps</a>';
+    var d = e.directions; if (!d) return "";
+    return '<a class="btn primary" href="' + esc(mapsLink(d.from, d.to)) + '" target="_blank" rel="noopener">' + svg("pin", 16) + 'Map from ' + esc(d.from_label || "start") + '</a>' +
+      '<a class="btn" href="' + esc(mapsLink("", d.to)) + '" target="_blank" rel="noopener">' + svg("car", 16) + 'From where I am</a>';
+  }
+  // Send the visitor's question to an AI chatbot in a new tab (prefilled; Claude needs a free sign-in).
+  function aiLinks(q) {
+    var t = String(q || "").trim();
+    if (t && !/hawai|oahu|o\u02bbahu|maui|kauai|kaua\u02bbi|molokai|lanai|big island|honolulu|waikiki|waikīkī|kona|hilo/i.test(t)) t += " (in Hawaii)";
+    var e = encodeURIComponent(t);
+    return [["ChatGPT", "https://chatgpt.com/?q=" + e], ["Claude", "https://claude.ai/new?q=" + e], ["Perplexity", "https://www.perplexity.ai/search?q=" + e]];
+  }
+  function aiBox(q, lead) {
+    return '<div class="aibox' + (lead ? "" : " aimore") + '"><p>' + esc(lead || "Want to keep asking? Take your question to an AI chatbot:") + '</p><div class="aibtns">' +
+      aiLinks(q).map(function (a) { return '<a href="' + esc(a[1]) + '" target="_blank" rel="noopener">Ask ' + esc(a[0]) + ' <span>&#8599;</span></a>'; }).join("") +
+      '</div><small>Opens in a new tab with your question filled in. Claude asks you to sign in (free). AI chatbot answers are not checked by Ask Hawai\u02bbi, so confirm hours, fees and closures on the official site.</small></div>';
+  }
+  function render(q, items) {
+    var out = $("results");
+    if (!items.length) {
+      $("status").textContent = "";
+      // Guess helpful categories from the question's words, then fill in with popular ones.
+      var lq = q.toLowerCase(), guess = [];
+      var HINTS = { entertainers: /hawaiian music|entertainer|singer|musician|ukulele|slack key|falsetto|hula show|\biz\b|don ho/, history: /history|historic|king|queen|kingdom|war|statehood|overthrow/, food: /food|eat|restaurant|lunch|dinner|breakfast|poke|ramen|plate|truck|wagon/, hotel: /hotel|resort|stay|room|lodg|airbnb/, camping: /camp|tent|permit/, nightlife: /club|bar\b|bars|nightlife|dance|dancing|jazz|blues|rock|live music|drink/, hike: /hike|hiking|trail|waterfall|summit/, place: /beach|park|snorkel|swim|lookout|valley/, event: /event|festival|concert|parade|race|when is/, tour: /tour|luau|lūʻau|cruise|boat|surf lesson|snorkel tour/, safety: /safe|danger|shark|jellyfish|current|lifeguard|tsunami|flood/, route: /drive|route|traffic|bus|get to|directions|airport/, shop: /shop|mall|store|buy|souvenir/, living: /move|moving|live here|rent|job|school|license|dmv|pets?/, museum: /museum|history|palace|exhibit/, holiday: /holiday|veteran|military|pearl harbor|fireworks|july/, garden: /garden|flower|plant/, animal: /animal|turtle|seal|whale|dolphin|bird/, golf: /golf/, sport: /\buh\b|football|volleyball|basketball|baseball/ };
+      Object.keys(HINTS).forEach(function (k) { if (HINTS[k].test(lq)) guess.push(k); });
+      ["hotel", "food", "place", "tour", "event", "hike"].forEach(function (k) { if (guess.indexOf(k) < 0) guess.push(k); });
+      guess = guess.slice(0, 6);
+      var EX = ["Do I need a reservation for Diamond Head?", "Best time to visit Hawaiʻi", "Which beaches have lifeguards?", "Where to stay on Maui", "Best snorkeling on the Big Island", "Lunch wagons and plate lunch"];
+      out.innerHTML = '<div class="empty"><b>We don\'t have a checked answer for that yet.</b>' +
+        '<p style="margin:6px 0 0">Ask Hawaiʻi only answers from its own checked entries, so it can\'t answer everything the way a search engine or AI chatbot can. We saved your question and will work on adding a checked answer. You can also try fewer words or the name of a place, or pick a topic below.</p>' +
+        aiBox(q, "For now, ask an AI chatbot. Your question goes with you:") +
+        '<div class="sugg"><p>Browse a category</p><div class="chips">' + guess.map(function (k) {
+          var t = TYPE[k] || [k, "--d-guide"];
+          return '<button type="button" class="chip" data-gcat="' + esc(k) + '"><i style="background:var(' + t[1] + ')"></i>' + esc(CATNAME[k] || t[0]) + '</button>';
+        }).join("") + '</div></div>' +
+        '<div class="sugg"><p>Or try one of these</p><div class="chips">' + EX.map(function (x) { return '<button type="button" class="chip" data-gq="' + esc(x) + '">' + esc(x) + '</button>'; }).join("") + '</div></div></div>';
+      out.querySelectorAll("[data-gcat]").forEach(function (b) { b.onclick = function () { showCat(b.dataset.gcat); }; });
+      out.querySelectorAll("[data-gq]").forEach(function (b) { b.onclick = function () { $("q").value = b.dataset.gq; run(true); }; });
+      return;
+    }
+    $("status").textContent = items.length + (items.length === 1 ? " checked answer" : " checked answers") + (island ? " for " + island : "") + ".";
+    out.innerHTML = items.map(function (e, i) {
+      var t = TYPE[e.type] || [e.type, "--d-guide"];
+      return '<article class="card">' +
+        '<div class="meta"><span class="tag"><i style="background:var(' + t[1] + ')"></i>' + esc(t[0]) + '</span><span>' + esc(islandText(e)) + '</span>' + (e.months ? '<span class="when">' + svg("calendar", 14) + 'Usually ' + esc(monthText(e.months)) + '</span>' : '') + '<span>Checked ' + esc(fmtDate(e.last_checked)) + '</span></div>' +
+        '<h3>' + esc(e.title) + '</h3><p>' + esc(e.summary) + '</p>' +
+        (e.stops ? '<ol class="stops">' + e.stops.map(function (x) { return "<li>" + esc(x.name) + "</li>"; }).join("") + "</ol>" : "") +
+        '<ul class="details" id="d' + i + '" hidden>' + (e.details || []).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + '</ul>' +
+        '<div class="actions"><button class="btn" type="button" data-more="' + i + '" aria-expanded="false" aria-controls="d' + i + '">More details</button>' +
+        '<button class="btn" type="button" data-say="' + i + '">' + svg("wave", 16) + '<span>Read aloud</span></button>' + mapBtns(e) + '</div>' +
+        '<div class="src">Source: ' + (e.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>"; }).join(" · ") + ' · <a href="/a/' + esc(e.id) + '">Page link to share</a></div>' +
+        "</article>";
+    }).join("") + aiBox(q);
+    out.querySelectorAll("[data-more]").forEach(function (b) {
+      b.onclick = function () { var d = $("d" + b.dataset.more); d.hidden = !d.hidden; b.setAttribute("aria-expanded", String(!d.hidden)); b.textContent = d.hidden ? "More details" : "Fewer details"; };
+    });
+    out.querySelectorAll("[data-say]").forEach(function (b) {
+      if (!("speechSynthesis" in window)) { b.hidden = true; return; }
+      b.onclick = function () {
+        if (speakingBtn === b) { stopSpeech(); return; }
+        stopSpeech();
+        var e = items[b.dataset.say];
+        // Speak one sentence at a time (some browsers cut off long readings).
+        // If the visitor used the browser's "Translate this page", read the translated words in a matching voice.
+        var lang = (document.documentElement.lang || "en").toLowerCase().split("-")[0];
+        var translated = lang !== "en" || /translated-/.test(document.documentElement.className);
+        var text, v;
+        if (translated) {
+          var card = b.closest(".card");
+          text = [card.querySelector("h3"), card.querySelector("p")].map(function (x) { return x.textContent; }).join(". ") + " " +
+            Array.prototype.map.call(card.querySelectorAll(".details li"), function (x) { return x.textContent; }).join(" ");
+          v = (ALLV.filter(function (x) { return x.lang.toLowerCase().split(/[-_]/)[0] === lang; })[0]) || null;
+        } else { text = speakable(e.title + ". " + e.summary + " " + (e.details || []).join(" ")); v = pickVoice(); }
+        var parts = text.match(/[^.!?。！？]+[.!?。！？]*/g) || [];
+        speakingBtn = b; b.classList.add("speaking"); b.lastChild.textContent = "Stop";
+        parts.forEach(function (t, j) {
+          var u = new SpeechSynthesisUtterance(t.trim());
+          if (v) u.voice = v;
+          u.lang = v ? v.lang : (translated ? lang : "en-US"); u.rate = 1.05; u.pitch = 1;
+          if (j === parts.length - 1) u.onend = function () { if (speakingBtn === b) stopSpeech(); };
+          u.onerror = function () { if (speakingBtn === b) stopSpeech(); };
+          speechSynthesis.speak(u);
+        });
+      };
+    });
+  }
+  $("ask").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    heard = ""; // so the mic doesn't show "tap Ask" again after the question is sent
+    if (typeof stopListening === "function" && rec) { wantStop = true; try { rec.stop(); } catch (x) {} }
+    document.querySelector(".go").classList.remove("ready");
+    run(false);
+  });
+
+  // Voice
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition, rec = null;
+  if (!SR) { $("mic").title = "Voice isn't supported in this browser. Try Chrome, Edge or Safari, or your keyboard's mic."; $("mic").onclick = function () { $("hint").textContent = $("mic").title; }; }
+  else {
+    // Keeps listening through short pauses (up to about 20 seconds). It never sends by itself:
+    // the words stay in the box so people can fix them, and the Ask button lights up.
+    var heard = "", prior = "", stopAt = 0, wantStop = false, sendTimer = null;
+    var readyToAsk = function () {
+      if (!heard.trim()) return;
+      $("hint").textContent = "Got it. Fix any words if you need to, then tap Ask.";
+      document.querySelector(".go").classList.add("ready");
+    };
+    var stopListening = function () {
+      wantStop = true; clearTimeout(sendTimer);
+      if (rec) try { rec.stop(); } catch (x) {}
+      readyToAsk();
+    };
+    var startRec = function () {
+      rec = new SR(); rec.lang = "en-US"; rec.interimResults = true; rec.continuous = true; rec.maxAlternatives = 1;
+      rec.onresult = function (ev) {
+        var fin = "", interim = "";
+        for (var i = 0; i < ev.results.length; i++) { if (ev.results[i].isFinal) fin += ev.results[i][0].transcript; else interim += ev.results[i][0].transcript; }
+        heard = (prior + " " + fin + interim).trim(); $("q").value = heard; updateClear();
+        $("hint").textContent = "Listening... tap the mic when you're done, then tap Ask.";
+        clearTimeout(sendTimer);
+        // After about 4 seconds of quiet, stop listening and wait for the person to tap Ask.
+        if (fin && !interim) sendTimer = setTimeout(stopListening, 4000);
+      };
+      rec.onerror = function (ev) {
+        var m = {
+          "not-allowed": "Your browser blocked the microphone. Click the lock or mic icon in the address bar, allow the microphone for this site, then reload.",
+          "service-not-allowed": "Your browser blocked the microphone. Click the lock or mic icon in the address bar, allow the microphone for this site, then reload.",
+          "audio-capture": "No microphone was found. Check that your mic is plugged in and selected in your computer's sound settings.",
+          "network": "Voice needs an internet connection to your browser's speech service. Try again, or try Chrome."
+        }[ev.error];
+        if (m) { wantStop = true; $("hint").textContent = m; }
+      };
+      rec.onend = function () {
+        // Browsers stop listening after a few silent seconds; quietly restart until the time limit.
+        if (!wantStop && Date.now() < stopAt) { prior = heard; try { startRec(); return; } catch (x) {} }
+        $("mic").classList.remove("listening"); rec = null;
+        if (heard.trim()) readyToAsk();
+        else if ($("hint").textContent.indexOf("Listening") === 0) $("hint").textContent = "Didn't hear anything. Tap the mic and try again, or type your question.";
+      };
+      rec.start();
+    };
+    $("mic").onclick = function () {
+      if (rec) { stopListening(); return; }
+      heard = ""; prior = ""; wantStop = false; stopAt = Date.now() + 20000;
+      $("mic").classList.add("listening"); $("hint").textContent = "Listening... ask your question.";
+      try { startRec(); } catch (x) { rec = null; $("mic").classList.remove("listening"); $("hint").textContent = "Couldn't start the microphone. Reload the page and try again."; }
+    };
+  }
+
+  // Twice-daily headlines (7 a.m. and 7 p.m. HST)
+  fetch("/api/news").then(function (r) { return r.json(); }).then(function (n) {
+    if (!n.items || !n.items.length) { $("news").innerHTML = "<li>Headlines are unavailable right now.</li>"; return; }
+    $("newsed").textContent = n.edition;
+    $("news").innerHTML = n.items.map(function (i) {
+      var t = new Date(i.time).toLocaleString("en-US", { timeZone: "Pacific/Honolulu", weekday: "short", hour: "numeric", minute: "2-digit" });
+      return '<li><a href="' + esc(i.link) + '" target="_blank" rel="noopener">' + esc(i.title) + "</a><small>" + esc(i.source) + " · " + esc(t) + "</small></li>";
+    }).join("");
+  }).catch(function () { $("news").innerHTML = "<li>Headlines are unavailable right now.</li>"; });
+
+  // Live alerts
+  fetch("/api/weather?alerts=1").then(function (r) { return r.json(); }).then(function (a) {
+    if (a.error) { $("alerts").textContent = "Alerts are unavailable right now."; return; }
+    if (!a.count) { $("alerts").innerHTML = "<strong>No active weather alerts</strong> for Hawaiʻi right now."; return; }
+    var names = {}; a.alerts.forEach(function (x) { names[x.event] = 1; });
+    $("alertbox").classList.add("alerting");
+    var fmt = function (t) { try { return new Date(t).toLocaleString("en-US", { timeZone: "Pacific/Honolulu", weekday: "short", hour: "numeric", minute: "2-digit" }) + " HST"; } catch (e) { return ""; } };
+    var items = a.alerts.map(function (x) {
+      return "<li><strong>" + esc(x.event) + "</strong>" + (x.until ? " · until " + esc(fmt(x.until)) : "") +
+        '<div class="ar">' + esc(x.areas || "") + "</div>" +
+        (x.instruction ? "<div>" + esc(String(x.instruction).split("\n\n")[0].replace(/\s+/g, " ")) + "</div>" : "") + "</li>";
+    }).join("");
+    $("alerts").innerHTML = "<b>" + a.count + " active:</b> " + esc(Object.keys(names).join(", ")) +
+      ' · <button type="button" class="linkbtn" id="abtn" aria-expanded="false" aria-controls="alist">Details</button>' +
+      '<ul class="alist" id="alist" hidden>' + items + '<li class="ar">Source: <a href="' + esc(a.source.url) + '" target="_blank" rel="noopener">National Weather Service Honolulu</a></li></ul>';
+    $("abtn").onclick = function () { var l = $("alist"), open = l.hidden; l.hidden = !open; this.textContent = open ? "Hide details" : "Details"; this.setAttribute("aria-expanded", open); };
+  }).catch(function () { $("alerts").textContent = "Alerts are unavailable right now."; });
+
+  // Live weather
+  function loadWx() {
+    $("wx").textContent = "Loading...";
+    fetch("/api/weather?place=" + encodeURIComponent($("wxplace").value)).then(function (r) { return r.json(); }).then(function (w) {
+      if (w.error) { $("wx").textContent = "Weather is unavailable right now."; return; }
+      var p = w.periods.slice(0, 2);
+      $("wx").innerHTML = p.map(function (x) { return "<strong>" + esc(x.name) + ":</strong> " + esc(x.temperature) + ", " + esc(x.forecast.split(". ").slice(0, 2).join(". ")).replace(/\.?$/, "."); }).join("<br>");
+    }).catch(function () { $("wx").textContent = "Weather is unavailable right now."; });
+  }
+  fetch("/api/weather?places=1").then(function (r) { return r.json(); }).then(function (d) {
+    d.places.forEach(function (p) { var o = document.createElement("option"); o.value = p.name.split(" (")[0]; o.textContent = p.name + " · " + p.island; $("wxplace").appendChild(o); });
+    $("wxplace").onchange = loadWx; loadWx();
+  }).catch(function () { $("wx").textContent = "Weather is unavailable right now."; });
+
+  // Copy connector address
+  $("copy").onclick = function () {
+    var t = $("mcpurl").textContent;
+    (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { $("copied").textContent = "Copied."; }, function () {
+      var r = document.createRange(); r.selectNodeContents($("mcpurl")); var s = getSelection(); s.removeAllRanges(); s.addRange(r); $("copied").textContent = "Selected. Press Ctrl+C to copy.";
+    });
+  };
+
+  // Open with ?q= for shareable questions
+  var start = new URLSearchParams(location.search).get("q");
+  if (start) { $("q").value = start; run(false); }
+})();
+</script>
+</body>
+</html>
