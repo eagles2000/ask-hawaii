@@ -1,7 +1,7 @@
 {
   "name": "Ask Hawaiʻi",
-  "version": "0.32.0",
-  "last_updated": "2026-11-01",
+  "version": "0.33.0",
+  "last_updated": "2026-11-18",
   "disclaimer": "General visitor and resident information compiled from public sources. Rules, hours and fees change; always confirm with the official source listed on each entry. In an emergency, call 911.",
   "entries": [
     {
@@ -14913,6 +14913,66 @@
         }
       ],
       "last_checked": "2026-11-01"
+    },
+    {
+      "id": "guide-interisland-flights",
+      "type": "guide",
+      "title": "Flying between the islands: airlines, flight times and fares",
+      "island": "Statewide",
+      "county": "All counties",
+      "summary": "Interisland flights are short: from Honolulu, about 25 to 35 minutes to Molokaʻi or Lānaʻi, 35 to 45 minutes to Maui or Kauaʻi, about 45 to 55 minutes to Kona and about an hour to Hilo (gate to gate). Hawaiian Airlines is the main carrier; Southwest flies a smaller schedule; Mokulele and Lānaʻi Air serve Molokaʻi and Lānaʻi. Typical one-way fares run about $80 to $150; book 3+ weeks ahead for the low end.",
+      "details": [
+        "Honolulu (HNL) to: Molokaʻi (MKK) about 25 to 35 min; Lānaʻi (LNY) about 25 to 40 min; Maui (OGG) 35 to 45 min; Līhuʻe, Kauaʻi (LIH) 35 to 45 min; Kona (KOA) 45 to 55 min; Hilo (ITO) 50 to 60 min. Time in the air is often 10 to 15 minutes less.",
+        "Airlines: Hawaiian Airlines (main jet service between HNL, OGG, KOA, ITO, LIH); Southwest (smaller schedule, mostly Honolulu routes); Mokulele Airlines (9-seat planes to Molokaʻi, Lānaʻi, Kapalua, Hāna, Waimea-Kohala); Lānaʻi Air (Honolulu to Lānaʻi, and Honolulu to Molokaʻi since August 2026).",
+        "Fares (one way, before bag fees): about $80 to $130 for most jet routes booked a few weeks ahead; sales from about $50 to $70; last-minute or holiday fares $180 to $270. Molokaʻi on Mokulele roughly $90 to $150; Lānaʻi Air $169 with two bags.",
+        "Checked bags cost extra on most interisland airlines (roughly $25 to $40 for the first bag).",
+        "Ferries: the only scheduled passenger ferry runs between Maui (Māʻalaea) and Lānaʻi, about 70 minutes. There's no ferry from Oʻahu to other islands and no Molokaʻi ferry.",
+        "Schedules and fares change; check the airline's site before you book."
+      ],
+      "tags": [
+        "interisland flights",
+        "inter island flights",
+        "island hopping",
+        "fly",
+        "flying",
+        "flight",
+        "flights",
+        "flight time",
+        "how long to fly",
+        "airline",
+        "airlines",
+        "hawaiian airlines",
+        "southwest",
+        "mokulele",
+        "lanai air",
+        "plane",
+        "fly to maui",
+        "fly to molokai",
+        "fly to lanai",
+        "fly to kauai",
+        "fly to kona",
+        "fly to hilo",
+        "fly to the big island",
+        "airfare",
+        "fares",
+        "ferry",
+        "between islands"
+      ],
+      "sources": [
+        {
+          "name": "How to Live in Hawaiʻi: interisland flights and fares (Oct. 2026)",
+          "url": "https://howtoliveinhawaii.com/hawaii-interisland-flights-fares/"
+        },
+        {
+          "name": "Hawaii Vacation Guide: island hopping 2026",
+          "url": "https://thehawaiivacationguide.com/hawaii-island-hopping/"
+        },
+        {
+          "name": "Hawaii News Now: Lānaʻi Air launches Molokaʻi to Honolulu flights (Aug. 2026)",
+          "url": "https://www.hawaiinewsnow.com/2026/08/13/lanai-air-launches-daily-round-trip-flights-between-molokai-honolulu/"
+        }
+      ],
+      "last_checked": "2026-11-18"
     }
   ]
 }

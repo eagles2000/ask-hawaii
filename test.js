@@ -351,6 +351,13 @@ const search = async (query, island = "") => (await call("tools/call", { name: "
   ok(!kb.search({ query: "highest mountain on oahu", limit: 6 }).results.some((r) => r.type === "sport"), "mountain doesn't pull Mountain West");
   ok(top("mountain west conference") === "sport-uh-athletics-overview", "mountain west still works");
 
+  // Stricter matching (v0.33): unrelated questions get "no answer" (and the AI chatbot buttons)
+  ["how many stoplights are in kapolei", "who won the 1987 spelling bee", "what is the population of oahu", "how many people live on lanai", "best filipino food downtown"].forEach((q) => ok(!top(q), "no answer: " + q));
+  ok(top("how long to fly to maui") === "guide-interisland-flights", "flight time maui");
+  ok(["guide-interisland-flights", "guide-molokai-getting-there"].includes(top("how long does it take to fly from oahu to molokai")), "flight time molokai");
+  ok(top("how big is diamond head") === "place-diamond-head", "diamond head not farmers market");
+  ok(top("live music in honolulu") === "nightlife-oahu-live-music", "live music");
+
   // Headlines (twice daily)
   const news = require("./lib/news");
   const e1 = news.edition(new Date("2026-10-29T18:30:00Z")); // 8:30 a.m. HST

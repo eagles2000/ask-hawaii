@@ -215,6 +215,14 @@ a.btn{text-decoration:none;color:var(--ink)}
 .btn.speaking{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .src{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:2px}
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:22px}
+.aibox{margin-top:14px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--sunk)}
+.aibox p{margin:0 0 8px;font-weight:600;font-size:14px}
+.aibox small{display:block;margin-top:8px;color:var(--muted,#5D6870);font-size:12.5px;font-weight:400}
+.aibtns{display:flex;flex-wrap:wrap;gap:8px}
+.aibtns a{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-weight:600;font-size:14px;text-decoration:none}
+.aibtns a:hover{border-color:currentColor}
+.aibtns a span{font-weight:400;opacity:.7;font-size:12px}
+.aimore{margin-top:16px}
 .empty b{font-family:var(--display);font-size:20px;font-weight:600}
 .elist{list-style:none;padding:0;margin:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
 .elist li+li{border-top:1px solid var(--line)}
@@ -805,6 +813,18 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
     return '<a class="btn primary" href="' + esc(mapsLink(d.from, d.to)) + '" target="_blank" rel="noopener">' + svg("pin", 16) + 'Map from ' + esc(d.from_label || "start") + '</a>' +
       '<a class="btn" href="' + esc(mapsLink("", d.to)) + '" target="_blank" rel="noopener">' + svg("car", 16) + 'From where I am</a>';
   }
+  // Send the visitor's question to an AI chatbot in a new tab (prefilled; Claude needs a free sign-in).
+  function aiLinks(q) {
+    var t = String(q || "").trim();
+    if (t && !/hawai|oahu|o\u02bbahu|maui|kauai|kaua\u02bbi|molokai|lanai|big island|honolulu|waikiki|waikīkī|kona|hilo/i.test(t)) t += " (in Hawaii)";
+    var e = encodeURIComponent(t);
+    return [["ChatGPT", "https://chatgpt.com/?q=" + e], ["Claude", "https://claude.ai/new?q=" + e], ["Perplexity", "https://www.perplexity.ai/search?q=" + e]];
+  }
+  function aiBox(q, lead) {
+    return '<div class="aibox' + (lead ? "" : " aimore") + '"><p>' + esc(lead || "Want to keep asking? Take your question to an AI chatbot:") + '</p><div class="aibtns">' +
+      aiLinks(q).map(function (a) { return '<a href="' + esc(a[1]) + '" target="_blank" rel="noopener">Ask ' + esc(a[0]) + ' <span>&#8599;</span></a>'; }).join("") +
+      '</div><small>Opens in a new tab with your question filled in. Claude asks you to sign in (free). AI chatbot answers are not checked by Ask Hawai\u02bbi, so confirm hours, fees and closures on the official site.</small></div>';
+  }
   function render(q, items) {
     var out = $("results");
     if (!items.length) {
@@ -817,7 +837,8 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
       guess = guess.slice(0, 6);
       var EX = ["Do I need a reservation for Diamond Head?", "Best time to visit Hawaiʻi", "Which beaches have lifeguards?", "Where to stay on Maui", "Best snorkeling on the Big Island", "Lunch wagons and plate lunch"];
       out.innerHTML = '<div class="empty"><b>We don\'t have a checked answer for that yet.</b>' +
-        '<p style="margin:6px 0 0">Ask Hawaiʻi only answers from its own checked entries, so it can\'t answer everything the way a search engine or AI chatbot can. We saved your question so it can be added. Try fewer words or the name of a place, or pick a topic below.</p>' +
+        '<p style="margin:6px 0 0">Ask Hawaiʻi only answers from its own checked entries, so it can\'t answer everything the way a search engine or AI chatbot can. We saved your question and will work on adding a checked answer. You can also try fewer words or the name of a place, or pick a topic below.</p>' +
+        aiBox(q, "For now, ask an AI chatbot. Your question goes with you:") +
         '<div class="sugg"><p>Browse a category</p><div class="chips">' + guess.map(function (k) {
           var t = TYPE[k] || [k, "--d-guide"];
           return '<button type="button" class="chip" data-gcat="' + esc(k) + '"><i style="background:var(' + t[1] + ')"></i>' + esc(CATNAME[k] || t[0]) + '</button>';
@@ -839,7 +860,7 @@ footer .legal{border-top:1px solid var(--line);padding-block:16px 28px;font-size
         '<button class="btn" type="button" data-say="' + i + '">' + svg("wave", 16) + '<span>Read aloud</span></button>' + mapBtns(e) + '</div>' +
         '<div class="src">Source: ' + (e.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>"; }).join(" · ") + ' · <a href="/a/' + esc(e.id) + '">Page link to share</a></div>' +
         "</article>";
-    }).join("");
+    }).join("") + aiBox(q);
     out.querySelectorAll("[data-more]").forEach(function (b) {
       b.onclick = function () { var d = $("d" + b.dataset.more); d.hidden = !d.hidden; b.setAttribute("aria-expanded", String(!d.hidden)); b.textContent = d.hidden ? "More details" : "Fewer details"; };
     });
